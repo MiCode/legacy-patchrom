@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="date_format_entries">
+        <item>MM/DD/YYYY</item>
+        <item>DD/MM/YYYY</item>
+        <item>YYYY/MM/DD</item>
+    </string-array>
+    <string-array name="date_format_values">
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Nincs animáció</item>
+        <item>Bizonyos animációk</item>
+        <item>Minden animáció</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Nincs ablakanimáció</item>
+        <item>Bizonyos ablakanimációk láthatók</item>
+        <item>Minden ablakanimáció látható</item>
+    </string-array>
+    <string-array name="animations_values">
+        <item>00</item>
+        <item>01</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 másodperc</item>
+        <item>30 másodperc</item>
+        <item>1 perc</item>
+        <item>2 perc</item>
+        <item>10 perc</item>
+    </string-array>
+    <string-array name="screen_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>600000</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Nagyon lassú</item>
+        <item>Lassú</item>
+        <item>Normál</item>
+        <item>Gyors</item>
+        <item>Nagyon gyors</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Alacsony akkufeszültség</item>
+        <item>Alacsony</item>
+        <item>Normál</item>
+        <item>Max</item>
+        <item>Nagyon magas</item>
+    </string-array>
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>American English</item>
+        <item>British English</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="tts_lang_values">
+        <item>eng-USA</item>
+        <item>eng-GBR</item>
+        <item>fra-FRA</item>
+        <item>deu-DEU</item>
+        <item>ita-ITA</item>
+        <item>spa-ESP</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+    </string-array>
+    <string-array name="tts_engine_entries">
+        <item>Pico TTS</item>
+    </string-array>
+    <string-array name="tts_engine_values">
+        <item>com.svox.pico</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Ellenőrzés...</item>
+        <item>Kapcsolódás...</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése innen...</item>
+        <item>Csatlakoztatva</item>
+        <item>Felfüggesztve</item>
+        <item>Szétkapcsolás...</item>
+        <item>Szétkapcsolva</item>
+        <item>Sikertelen</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Ellenőrzés...</item>
+        <item>Kapcsolódás...</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése innen...</item>
+        <item>Csatlakoztatva</item>
+        <item>Felfüggesztve</item>
+        <item>Szétkapcsolás...</item>
+        <item>Szétkapcsolva</item>
+        <item>Sikertelen</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Nyílt</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>CCKM EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Nyílt</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>Nyílt</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Gyenge</item>
+        <item>Megfelelő</item>
+        <item>Jó</item>
+        <item>Kiváló</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>A képernyő kikapcsolásakor</item>
+        <item>Soha, hogyha a töltő csatlakoztatva van</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="apn_ently_key">
+        <item>Internet + MMS</item>
+        <item>Internet</item>
+        <item>MMS</item>
+    </string-array>
+    <string-array name="apn_type_key">
+        <item>*</item>
+        <item>default,supl</item>
+        <item>mms</item>
+    </string-array>
+    <string-array name="apn_ently_key_includeDUN">
+        <item>Internet + MMS + DUN</item>
+        <item>Internet + MMS</item>
+        <item>Internet + DUN</item>
+        <item>Internet</item>
+        <item>MMS</item>
+        <item>DUN</item>
+    </string-array>
+    <string-array name="apn_type_key_includeDUN">
+        <item>*</item>
+        <item>default,supl,mms</item>
+        <item>default,supl,dun</item>
+        <item>default,supl</item>
+        <item>mms</item>
+        <item>dun</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Használati idő</item>
+        <item>Indítások száma</item>
+        <item>Alkalmazás neve</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Nincs</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 perc</item>
+        <item>5 perc</item>
+        <item>1 óra</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Ki</item>
+        <item>Jelzés</item>
+        <item>Rezgés</item>
+    </string-array>
+    <string-array name="emergency_tone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="tv_system_entries">
+        <item>PAL</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="tv_system_values">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Nincs</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP vagy CHAP</item>
+    </string-array>
+    <string-array name="apn_auth_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Belső memória</item>
+        <item>Cserélhető SD-kártya</item>
+        <item>Alapértelmezés</item>
+    </string-array>
+    <string-array name="app_install_location_values">
+        <item>device</item>
+        <item>sdcard</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Mindig</item>
+        <item>Soha</item>
+        <item>Csak Halk üzemmódban</item>
+        <item>Csak ha nem Halk üzemmódban van</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>always</item>
+        <item>never</item>
+        <item>silent</item>
+        <item>notsilent</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Mindig</item>
+        <item>Idle screen</item>
+        <item>Soha</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 másodperc</item>
+        <item>6 másodperc</item>
+        <item>Mindig kikapcsolva</item>
+        <item>Mindig bekapcsolva</item>
+        <item>Sötétben</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10%-os töltöttség</item>
+        <item>30%-os töltöttség</item>
+        <item>50%-os töltöttség</item>
+        <item>70%-os töltöttség</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynamic</item>
+        <item>Szokásos</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Legjobb</item>
+        <item>Közepes</item>
+        <item>Lent</item>
+    </string-array>
+    <string-array name="battery_history_type_spinner">
+        <item>CPU-használat</item>
+        <item>Hálózathasználat</item>
+        <item>GPS-használat</item>
+        <item>Érzékelőhasználat</item>
+        <item>Részleges ébresztési használat</item>
+        <item>Egyéb használat</item>
+    </string-array>
+    <string-array name="wifi_phase1_entries">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tv_out_entries">
+        <item>Be</item>
+        <item>Ki</item>
+    </string-array>
+    <string-array name="tv_out_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

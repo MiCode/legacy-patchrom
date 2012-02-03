@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|left|center" android:id="@id/zoom_fit_page" android:background="@drawable/btn_browser_zoom_fit_page" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/zoom_page_overview" android:background="@drawable/btn_browser_zoom_page_overview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" />
+</merge>

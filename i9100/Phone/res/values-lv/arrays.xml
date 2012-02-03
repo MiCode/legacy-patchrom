@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Tīkla noklusējums</item>
+        <item>Slēpt numuru</item>
+        <item>Rādīt numuru</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Tikai EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>Automātisks CDMA/EVDO</item>
+        <item>Automātisks GSM/WCDMA</item>
+        <item>Tikai WCDMA</item>
+        <item>Tikai GSM</item>
+        <item>Ieteicams GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Franįais</item>
+        <item>Spāņu</item>
+        <item>Japāņu</item>
+        <item>Korejiešu</item>
+        <item>Ķīniešu</item>
+        <item>Ivrits</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automātiskais režīms)</item>
+        <item>Tikai GSM</item>
+        <item>Tikai WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (automātiskais režīms)</item>
+        <item>Tikai WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (automātiskais režīms)</item>
+        <item>Tikai GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Tikai mājas</item>
+        <item>Automātiski</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Tikai mājas tīklā</item>
+        <item>Saistītie tīkli</item>
+        <item>Jebkurš tīkls</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Tikai CDMA</item>
+        <item>Tikai EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Parasts</item>
+        <item>Garš</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Zvanu arhīvs</item>
+        <item>Balss zvans</item>
+        <item>Videozvans</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (automātiskais režīms)</item>
+        <item>Tikai GSM</item>
+        <item>Tikai WCDMA</item>
+    </string-array>
+</resources>

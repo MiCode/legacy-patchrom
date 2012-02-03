@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Nätverksstandard</item>
+        <item>Dölj nummer</item>
+        <item>Visa nummer</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Endast EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>Automatisk CDMA/EVDO</item>
+        <item>Automatisk GSM/WCDMA</item>
+        <item>Endast WCDMA</item>
+        <item>GSM endast</item>
+        <item>Prioriterad GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Franska</item>
+        <item>Spanska</item>
+        <item>Japanska</item>
+        <item>Koreanska</item>
+        <item>Kinesiska</item>
+        <item>Hebreiska</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatiskt läge)</item>
+        <item>GSM endast</item>
+        <item>Endast WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (automatiskt läge)</item>
+        <item>Endast WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (automatiskt läge)</item>
+        <item>GSM endast</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Endast hem</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Endast hemnät</item>
+        <item>Förenade nätverk</item>
+        <item>Alla nätverk</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Endast CDMA</item>
+        <item>Endast EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Lång</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Samtalslista</item>
+        <item>Röstsamtal</item>
+        <item>Videosamt.</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (automatiskt läge)</item>
+        <item>GSM endast</item>
+        <item>Endast WCDMA</item>
+    </string-array>
+</resources>

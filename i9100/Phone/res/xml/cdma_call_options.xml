@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/additional_cdma_call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.CdmaVoicePrivacyCheckBoxPreference android:persistent="false" android:title="@string/voice_privacy" android:key="button_voice_privacy_key" android:summary="@string/voice_privacy_summary" />
+</PreferenceScreen>

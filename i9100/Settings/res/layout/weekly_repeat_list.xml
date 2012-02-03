@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/repeat_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="singleChoice" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/ButtonBar">
+        <Button android:textSize="16.0dip" android:textStyle="bold" android:id="@id/ok" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@android:string/ok" android:layout_weight="1.0" />
+        <Button android:textSize="16.0dip" android:textStyle="bold" android:id="@id/cancel" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@android:string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

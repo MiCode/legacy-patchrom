@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="system_update_settings" android:summary="@string/system_update_settings_list_item_summary" />
+    <PreferenceScreen android:title="@string/additional_system_update_settings_list_item_title" android:key="additional_system_update_settings">
+        <intent android:targetPackage="@string/additional_system_update" android:action="android.intent.action.MAIN" android:targetClass="@string/additional_system_update_menu" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/device_status" android:key="status_info" android:summary="@string/device_status_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Status" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage" android:summary="@string/power_usage_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.fuelgauge.PowerUsageSummary" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/legal_information" android:key="container">
+        <PreferenceScreen android:title="@string/copyright_title" android:key="copyright">
+            <intent android:action="android.settings.COPYRIGHT" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/license_title" android:key="license">
+            <intent android:action="android.settings.LICENSE" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/license_settings" android:key="divx_license_settings">
+            <intent android:action="android.intent.action.DIVX_LICENSE_SETTINGS" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/terms_title" android:key="terms">
+            <intent android:action="android.settings.TERMS" />
+        </PreferenceScreen>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/settings_safetylegal_title" android:key="safetylegal">
+        <intent android:action="android.settings.SAFETY" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/system_tutorial_list_item_title" android:key="system_tutorial" android:summary="@string/system_tutorial_list_item_summary">
+        <intent android:action="android.intent.action.SYSTEM_TUTORIAL" />
+    </PreferenceScreen>
+    <Preference android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/firmware_version" android:key="firmware_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/kernel_version" android:key="kernel_version" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+    <Preference android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" style="?android:preferenceInformationStyle" />
+</PreferenceScreen>

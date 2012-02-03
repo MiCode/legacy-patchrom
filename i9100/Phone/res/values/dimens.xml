@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="otabase_layout_marginTop">30.0dip</dimen>
+    <dimen name="otabase_minHeight">270.0dip</dimen>
+    <dimen name="otaactivate_layout_marginTop">10.0dip</dimen>
+    <dimen name="otalistenprogress_layout_marginTop">5.0dip</dimen>
+    <dimen name="otasuccessfail_layout_marginTop">10.0dip</dimen>
+</resources>

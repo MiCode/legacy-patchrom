@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:background="@android:drawable/popup_top_dark" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:minHeight="54.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_template" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="9.0dip">
+            <com.android.internal.widget.DialogTitle android:ellipsize="end" android:id="@id/alertTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_settings" android:singleLine="true" style="?android:attr/textAppearanceLargeInverse" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:background="@android:drawable/popup_center_bright" android:layout_width="320.0dip" android:layout_height="348.0dip" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Stacjonarny</item>
+        <item>Praca</item>
+        <item>Inne</item>
+        <item>Skróty</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Praca</item>
+        <item>Inne</item>
+        <item>Skróty</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Stacjonarny</item>
+        <item>Komórkowy</item>
+        <item>Praca</item>
+        <item>Faks służbowy</item>
+        <item>Faks prywatny</item>
+        <item>Pager</item>
+        <item>Inne</item>
+        <item>Skróty</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Stacjonarny</item>
+        <item>Praca</item>
+        <item>Inne</item>
+        <item>Skróty</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Stacjonarny</item>
+        <item>Praca</item>
+        <item>Inne</item>
+        <item>Skróty</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Tłumacz z Google</item>
+        <item>Wikipedia</item>
+        <item>Słownik</item>
+    </string-array>
+</resources>

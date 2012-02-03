@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/unlock_indicator_battery_00" android:maxLevel="4" />
+    <item android:drawable="@drawable/unlock_indicator_battery_01" android:maxLevel="14" />
+    <item android:drawable="@drawable/unlock_indicator_battery_02" android:maxLevel="29" />
+    <item android:drawable="@drawable/unlock_indicator_battery_03" android:maxLevel="49" />
+    <item android:drawable="@drawable/unlock_indicator_battery_04" android:maxLevel="69" />
+    <item android:drawable="@drawable/unlock_indicator_battery_05" android:maxLevel="89" />
+    <item android:drawable="@drawable/unlock_indicator_battery_06" android:maxLevel="100" />
+</level-list>

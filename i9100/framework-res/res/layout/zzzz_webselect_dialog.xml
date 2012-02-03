@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonPanelContainer" android:background="@drawable/zzzz_webselect_bg_topbar" android:paddingLeft="3.0dip" android:paddingTop="5.0dip" android:paddingRight="3.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="45.432983dip" android:baselineAligned="true">
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/buttonPanel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textColor="@color/white" android:layout_gravity="left" android:id="@id/WebSelectPrev" android:background="@drawable/zzzz_webselect_topbar_key_bg_option_xml" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginRight="7.0dip" android:text="@string/ime_action_previous" />
+            <Button android:textColor="@color/white" android:layout_gravity="left" android:id="@id/WebSelectNext" android:background="@drawable/zzzz_webselect_topbar_key_bg_option_xml" android:layout_width="wrap_content" android:layout_height="35.0dip" android:text="@string/ime_action_next" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/buttonPanelDone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textColor="@color/white" android:layout_gravity="right" android:id="@id/WebSelectDone" android:background="@drawable/zzzz_webselect_topbar_key_bg_option_xml" android:layout_width="48.0dip" android:layout_height="35.0dip" android:text="@string/ime_action_done" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/selectContentPanelOut" android:background="@drawable/zzzz_webselect_dialog_bg" android:layout_width="fill_parent" android:layout_height="221.33398dip">
+        <LinearLayout android:id="@id/selectContentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

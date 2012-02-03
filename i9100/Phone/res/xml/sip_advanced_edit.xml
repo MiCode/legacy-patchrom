@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:key="@string/advanced_settings_container">
+        <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/auth_username_title" android:key="@string/auth_username" android:summary="@string/auth_username_summary" android:dialogTitle="@string/auth_username_title" />
+        <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/display_name_title" android:key="@string/display_name" android:summary="@string/display_name_summary" android:dialogTitle="@string/display_name_title" />
+        <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/proxy_address_title" android:key="@string/proxy_address" android:summary="@string/optional_summary" android:dialogTitle="@string/proxy_address_title" />
+        <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/port_title" android:key="@string/port" android:summary="@string/default_port" android:dialogTitle="@string/port_title" android:inputType="numberDecimal" />
+        <ListPreference android:persistent="false" android:entries="@array/transport_types" android:title="@string/transport_title" android:key="@string/transport" android:summary="@string/default_transport" android:dialogTitle="@string/transport_title" android:entryValues="@array/transport_types" />
+        <ListPreference android:persistent="false" android:entries="@array/sip_send_keepalive_options" android:title="@string/send_keepalive_title" android:key="@string/send_keepalive" android:summary="@string/sip_system_decide" android:entryValues="@array/sip_send_keepalive_options" />
+    </PreferenceCategory>
+</PreferenceScreen>

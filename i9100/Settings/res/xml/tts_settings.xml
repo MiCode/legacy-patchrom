@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/tts_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/tts_play_example_title" android:key="tts_play_example" android:summary="@string/tts_play_example_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/driving_mode_title" android:key="toggle_tts_driving" android:summary="@string/driving_mode_summary" />
+    <PreferenceScreen android:title="@string/driving_mode_settings_title" android:key="driving_mode_settings" android:summary="@string/driving_mode_settings_summary" android:dependency="toggle_tts_driving">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DrivingModeSettings" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:persistent="false" android:title="@string/use_default_tts_settings_title" android:key="toggle_use_default_tts_settings" android:summary="@string/use_default_tts_settings_summary" />
+    <PreferenceCategory android:title="@string/tts_default_settings_section">
+        <ListPreference android:persistent="false" android:entries="@array/tts_engine_entries" android:title="@string/tts_default_synth_title" android:key="tts_default_synth" android:summary="@string/tts_default_synth_summary" android:entryValues="@array/tts_engine_values" />
+        <Preference android:persistent="false" android:title="@string/tts_install_data_title" android:key="tts_install_data" android:summary="@string/tts_install_data_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/tts_rate_entries" android:title="@string/tts_default_rate_title" android:key="tts_default_rate" android:summary="@string/tts_default_rate_summary" android:entryValues="@array/tts_rate_values" />
+        <ListPreference android:persistent="false" android:entries="@array/tts_lang_entries" android:title="@string/tts_default_lang_title" android:key="tts_default_lang" android:summary="@string/tts_default_lang_summary" android:entryValues="@array/tts_lang_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/tts_engines_section" android:key="tts_engines_section" />
+</PreferenceScreen>

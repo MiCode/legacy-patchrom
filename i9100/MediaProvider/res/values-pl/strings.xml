@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Multi-media</string>
+    <string name="app_label">Pamięć multimediów</string>
+    <string name="artist_label">Wykonawca</string>
+    <string name="media_scanning_tiker_start">Uruchomiony skaner multimediów...</string>
+    <string name="media_scanning_tiker_end">Zakończono skanowanie multimediów</string>
+    <string name="media_scanning_running">Skanowanie multimediów...</string>
+    <string name="media_scanning_running_definition">Skanowanie plików multimedialnych na karcie pamięci...</string>
+    <string name="media_scanning_system">Pamięć systemowa</string>
+    <string name="media_scanning_internal_sd">Pamięć USB</string>
+    <string name="media_scanning_external_sd">Karta pamięci</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

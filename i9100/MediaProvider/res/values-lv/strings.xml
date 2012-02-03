@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Multivide</string>
+    <string name="app_label">Multivides krātuve</string>
+    <string name="artist_label">Izpildītājs</string>
+    <string name="media_scanning_tiker_start">Darbojas multivides meklētājs...</string>
+    <string name="media_scanning_tiker_end">Multivides meklēšana pabeigta</string>
+    <string name="media_scanning_running">Meklē multividi...</string>
+    <string name="media_scanning_running_definition">Meklē visus SD kartē esošos multivides failus...</string>
+    <string name="media_scanning_system">Sistēmas krātuve</string>
+    <string name="media_scanning_internal_sd">USB krātuve</string>
+    <string name="media_scanning_external_sd">Karte SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>집</item>
+        <item>회사</item>
+        <item>기타</item>
+        <item>사용자 설정</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>회사</item>
+        <item>기타</item>
+        <item>사용자 설정</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>집</item>
+        <item>휴대폰</item>
+        <item>회사</item>
+        <item>회사 팩스</item>
+        <item>집 팩스</item>
+        <item>호출기</item>
+        <item>기타</item>
+        <item>사용자 설정</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>집</item>
+        <item>회사</item>
+        <item>기타</item>
+        <item>사용자 설정</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrWeek">
+        <item>ERR</item>
+        <item>일요일</item>
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrMonth">
+        <item>ERR</item>
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>오전</item>
+        <item>오후</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>집</item>
+        <item>회사</item>
+        <item>기타</item>
+        <item>사용자 설정</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google 번역</item>
+        <item>위키피디아</item>
+        <item>사전</item>
+    </string-array>
+</resources>

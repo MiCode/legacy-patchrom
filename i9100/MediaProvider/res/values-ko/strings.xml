@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">미디어</string>
+    <string name="app_label">미디어 저장소</string>
+    <string name="artist_label">아티스트</string>
+    <string name="media_scanning_tiker_start">미디어 검색기 실행 중...</string>
+    <string name="media_scanning_tiker_end">미디어 파일 검색이 완료되었습니다</string>
+    <string name="media_scanning_running">미디어 파일 검색 중...</string>
+    <string name="media_scanning_running_definition">SD카드의 모든 미디어 파일을 검색하는 중...</string>
+    <string name="media_scanning_system">디바이스 메모리</string>
+    <string name="media_scanning_internal_sd">USB 저장소</string>
+    <string name="media_scanning_external_sd">SD카드</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

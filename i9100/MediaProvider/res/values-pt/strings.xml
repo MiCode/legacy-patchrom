@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Multi- média</string>
+    <string name="app_label">Armazenamento de multimédia</string>
+    <string name="artist_label">Artista</string>
+    <string name="media_scanning_tiker_start">Analisador de multimédia a ser executado...</string>
+    <string name="media_scanning_tiker_end">Pesquisa de multimédia concluída</string>
+    <string name="media_scanning_running">A pesquisar multimédia...</string>
+    <string name="media_scanning_running_definition">A pesquisar todos os ficheiros multimédia do cartão SD...</string>
+    <string name="media_scanning_system">Memória do sistema</string>
+    <string name="media_scanning_internal_sd">Armazenamento USB</string>
+    <string name="media_scanning_external_sd">Cartão SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

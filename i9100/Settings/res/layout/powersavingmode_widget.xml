@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="76.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/btn_left" android:background="@drawable/panel_bg_more_left" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/area_center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_wifi" android:background="@drawable/panel_bg_left" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_wifi" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_wifi" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/wifi_quick_toggle_title" />
+            <ImageView android:id="@id/ind_wifi" android:layout_width="57.5dip" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_bluetooth" android:background="@drawable/panel_bg_center" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_bluetooth" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_bluetooth" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/bluetooth" />
+            <ImageView android:id="@id/ind_bluetooth" android:layout_width="57.5dip" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_gps" android:background="@drawable/panel_bg_center" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_gps" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_gps" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/usage_type_gps" />
+            <ImageView android:id="@id/ind_gps" android:layout_width="57.5dip" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_brightness" android:background="@drawable/panel_bg_center" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_brightness" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_brightness" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/brightness" />
+            <ImageView android:id="@id/ind_brightness" android:layout_width="57.5dip" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_settings" android:background="@drawable/panel_bg_center" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_settings" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:src="@drawable/icon_setting_on" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:textColor="@color/panel_on" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_settings" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/settings_label" />
+            <ImageView android:id="@id/ind_settings" android:layout_width="57.5dip" android:layout_height="wrap_content" android:src="@drawable/panel_on_center" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_sync" android:background="@drawable/panel_bg_center" android:visibility="gone" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_sync" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_sync" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/sync" />
+            <ImageView android:id="@id/ind_sync" android:layout_width="57.5dip" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_screentimeout" android:background="@drawable/panel_bg_center" android:visibility="gone" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_screentimeout" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_screentimeout" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/screen_timeout" android:lineSpacingExtra="1.2999878sp" android:lineSpacingMultiplier="0.7" />
+            <ImageView android:id="@id/ind_screentimeout" android:layout_width="57.5dip" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/btn_powersavingtips" android:background="@drawable/panel_bg_right" android:visibility="gone" android:layout_width="57.5dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/img_powersavingtips" android:layout_width="31.299988dip" android:layout_height="31.299988dip" android:src="@drawable/icon_tips_on" android:scaleType="center" />
+            <TextView android:textSize="11.299988sp" android:typeface="sans" android:textColor="@color/panel_on" android:ellipsize="marquee" android:gravity="center" android:id="@id/text_powersavingtips" android:layout_width="wrap_content" android:layout_height="28.0dip" android:text="@string/powersavingtips" />
+            <ImageView android:id="@id/ind_powersavingtips" android:layout_width="57.5dip" android:layout_height="wrap_content" android:src="@drawable/panel_on_right" android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/btn_right" android:background="@drawable/panel_bg_more_right" android:layout_width="27.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

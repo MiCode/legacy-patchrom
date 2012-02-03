@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/tvout_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/tv_out" android:key="tv_out" />
+    <ListPreference android:title="@string/tv_system" android:key="tv_system" android:summary="@string/tv_system_summary" />
+</PreferenceScreen>

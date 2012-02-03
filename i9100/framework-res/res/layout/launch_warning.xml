@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="fill_horizontal" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/replace_app_icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitCenter" />
+        <TextView android:id="@id/replace_message" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/original_app_icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitCenter" />
+        <TextView android:id="@id/original_message" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+</LinearLayout>

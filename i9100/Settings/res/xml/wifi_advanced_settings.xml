@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_advanced_titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:persistent="false" android:title="@string/wifi_setting_num_channels_title" android:key="num_channels" android:summary="@string/wifi_setting_num_channels_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/wifi_sleep_policy_entries" android:title="@string/wifi_setting_sleep_policy_title" android:key="sleep_policy" android:summary="@string/wifi_setting_sleep_policy_summary" android:entryValues="@array/wifi_sleep_policy_values" />
+    <Preference android:title="@string/wifi_advanced_mac_address_title" android:key="mac_address" style="?android:attr/preferenceInformationStyle" />
+    <EditTextPreference android:singleLine="true" android:maxLength="1024" android:title="@string/apn_http_proxy" android:key="wifi_http_proxy" android:dialogTitle="@string/apn_http_proxy" android:inputType="textUri" />
+    <EditTextPreference android:singleLine="true" android:maxLength="5" android:title="@string/apn_http_port" android:key="wifi_http_port" android:dialogTitle="@string/apn_http_port" android:inputType="number" />
+    <Preference android:title="@string/wifi_advanced_ip_address_title" android:key="current_ip_address" style="?android:attr/preferenceInformationStyle" />
+    <PreferenceCategory android:title="@string/wifi_ip_settings_titlebar" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_use_static_ip" android:key="use_static_ip" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_ip_address" android:key="ip_address" android:dependency="use_static_ip" android:privateImeOptions="inputType=ipAddress" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_gateway" android:key="gateway" android:dependency="use_static_ip" android:privateImeOptions="inputType=ipAddress" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_netmask" android:key="netmask" android:dependency="use_static_ip" android:privateImeOptions="inputType=ipAddress" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_dns1" android:key="dns1" android:dependency="use_static_ip" android:privateImeOptions="inputType=ipAddress" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/wifi_dns2" android:key="dns2" android:dependency="use_static_ip" android:privateImeOptions="inputType=ipAddress" />
+    <PreferenceCategory android:persistent="false" android:title="@string/iwlan" android:key="iwlan_enabled_category">
+        <CheckBoxPreference android:persistent="false" android:enabled="false" android:title="@string/iwlan" android:key="iwlan_enabled" android:summary="@string/iwlan_ready" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/iwlan_network" android:key="iwlan_networks" />
+    <Preference android:persistent="false" android:title="@string/iwlan_add_network" android:key="add_other_iwlan" android:dependency="iwlan_enabled" />
+</PreferenceScreen>

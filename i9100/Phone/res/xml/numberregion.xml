@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/callsettings_allcalls_activation" android:key="number_region_activation_preference" android:defaultValue="true" android:summaryOn="@string/callsettings_allcalls_activation_on" android:summaryOff="@string/callsettings_allcalls_activation_off" />
+    <PreferenceScreen android:title="@string/callsettings_allcalls_version" android:key="number_region_version_preference" android:summary="@string/callsettings_allcalls_detail_version">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.NumberRegionVersion" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/callsettings_allcalls_help" android:key="number_region_version_preference" android:summary="@string/callsettings_allcalls_help_info">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.NumberRegionHelp" />
+    </PreferenceScreen>
+</PreferenceScreen>

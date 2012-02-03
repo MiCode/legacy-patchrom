@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/applications_settings" android:key="applications_settings" android:summary="@string/applications_settings_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/install_applications" android:key="toggle_install_applications" android:summaryOn="@string/install_unknown_applications" android:summaryOff="@string/install_unknown_applications" />
+    <ListPreference android:persistent="false" android:entries="@array/app_install_location_entries" android:title="@string/app_install_location_title" android:key="app_install_location" android:summary="@string/app_install_location_summary" android:entryValues="@array/app_install_location_values" />
+    <PreferenceScreen android:title="@string/quick_launch_title" android:key="quick_launch" android:summary="@string/quick_launch_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.quicklaunch.QuickLaunchSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/manageapplications_settings_title" android:summary="@string/manageapplications_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ManageApplications" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/runningservices_settings_title" android:summary="@string/runningservices_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.RunningServices" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/storageuse_settings_title" android:summary="@string/storageuse_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.applications.StorageUse" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/power_usage_summary_title" android:key="power_usage" android:summary="@string/power_usage_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.fuelgauge.PowerUsageSummary" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/development_settings_title" android:summary="@string/development_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DevelopmentSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/samsung_apps" android:key="key_samsung_apps" android:summary="@string/samsung_apps_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.UNASettingList" />
+    </PreferenceScreen>
+</PreferenceScreen>

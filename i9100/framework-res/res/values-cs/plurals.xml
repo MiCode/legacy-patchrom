@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">před %1$d sek</item>
+        <item quantity="one">před 1 sekundou</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">před %1$d min</item>
+        <item quantity="one">před 1 minutou</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">před %1$d hod</item>
+        <item quantity="one">před 1 hodinou</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Posledních %1$d dnů</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">před %1$d dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">za %1$d s</item>
+        <item quantity="one">za 1 sekundu</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">za %1$d min</item>
+        <item quantity="one">za 1 minutu</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">za %1$d hod</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">zbývající počet dní: %1$d</item>
+        <item quantity="one">zítra</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">před %1$d s</item>
+        <item quantity="one">před 1 s</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">před %1$d min</item>
+        <item quantity="one">před 1 min</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">před %1$d hod</item>
+        <item quantity="one">před 1 hodinou</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">před %1$d dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">za %1$d s</item>
+        <item quantity="one">za 1 s</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">za %1$d min</item>
+        <item quantity="one">za 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">za %1$d hod</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">zbývající počet dní: %1$d</item>
+        <item quantity="one">zítra</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Jsou k dispozici sítě WiFi</item>
+        <item quantity="one">K dispozici je síť WiFi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Jsou k dispozici veřejné sítě WiFi</item>
+        <item quantity="one">K dispozici je veřejná síť WiFi</item>
+    </plurals>
+</resources>

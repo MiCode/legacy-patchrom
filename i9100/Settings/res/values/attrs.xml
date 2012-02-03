@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="state_encrypted" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="text" format="string" />
+    <attr name="button" format="string" />
+</resources>

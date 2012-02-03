@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText android:textSize="36.0dip" android:textColor="#99ffffff" android:gravity="center_horizontal" android:background="#bb000000" android:padding="10.0dip" android:focusable="false" android:maxWidth="240.0dip" android:minWidth="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

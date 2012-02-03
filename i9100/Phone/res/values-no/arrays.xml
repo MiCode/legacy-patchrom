@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Nettverkstandard</item>
+        <item>Skjul nummer</item>
+        <item>Vis nummer</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Bare EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO auto</item>
+        <item>Auto GSM/WCDMA</item>
+        <item>Bare WCDMA</item>
+        <item>Bare GSM</item>
+        <item>Foretrukket GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Fransk</item>
+        <item>Spansk</item>
+        <item>Japansk</item>
+        <item>Koreansk</item>
+        <item>Kinesisk</item>
+        <item>Hebraisk</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Automodus)</item>
+        <item>Bare GSM</item>
+        <item>Bare WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (Automodus)</item>
+        <item>Bare WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (Automodus)</item>
+        <item>Bare GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Bare hjem</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Kun hjemmenettverk</item>
+        <item>Tilknyttede nettverk</item>
+        <item>Et hvilket som helst nettverk</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Bare CDMA</item>
+        <item>Bare EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Samtaleliste</item>
+        <item>Taleanrop</item>
+        <item>Videoanrop</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (Automodus)</item>
+        <item>Bare GSM</item>
+        <item>Bare WCDMA</item>
+    </string-array>
+</resources>

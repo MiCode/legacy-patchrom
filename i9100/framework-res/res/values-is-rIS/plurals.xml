@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">fyrir %d sekúndum</item>
+        <item quantity="one">Fyrir 1 sekúndu</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">fyrir %d mínútum</item>
+        <item quantity="one">fyrir 1 mínútu</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">fyrir %d klukkustundum</item>
+        <item quantity="one">fyrir 1 klukkustund</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Síðustu %d dagar</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">fyrir %d dögum</item>
+        <item quantity="one">Í gær</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">eftir %d sekúndur</item>
+        <item quantity="one">Eftir 1 sekúndu</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">eftir %d mínútur</item>
+        <item quantity="one">eftir 1 mínútu</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">eftir %d klukkustundir</item>
+        <item quantity="one">eftir 1 klukkustund</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">eftir %d daga</item>
+        <item quantity="one">Á morgun</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">fyrir %d sekúndum</item>
+        <item quantity="one">fyrir 1 sekúndu</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">fyrir %d mínútum</item>
+        <item quantity="one">fyrir 1 mínútu</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">fyrir %d klukkustundum</item>
+        <item quantity="one">fyrir 1 klukkustund</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">fyrir %d dögum</item>
+        <item quantity="one">Í gær</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">eftir %d sekúndur</item>
+        <item quantity="one">eftir 1 sekúndu</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">eftir %d mínútu</item>
+        <item quantity="one">eftir 1 mínútu</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">eftir %d klukkustundir</item>
+        <item quantity="one">eftir 1 klukkustund</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">eftir %d daga</item>
+        <item quantity="one">Á morgun</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi-net eru í boði</item>
+        <item quantity="one">Wi-Fi-net eru í boði</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Tengjast við tiltæk Wi-Fi-net</item>
+        <item quantity="one">Tengjast við tiltækt Wi-Fi-net</item>
+    </plurals>
+</resources>

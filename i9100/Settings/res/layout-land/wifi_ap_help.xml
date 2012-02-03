@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/wifiap_help_orient_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:isScrollContainer="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:isScrollContainer="false"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/mobileap_help_image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mobile_ap_introduction_h" android:scaleType="matrix" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="170.0dip"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0dip" android:id="@id/mobileap_help_text" android:paddingLeft="4.0dip" android:paddingTop="8.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mobileap_instruction_inactivate" android:layout_weight="4.0" />
+                </LinearLayout>
+            </ScrollView>
+            <View android:background="#ff555555" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <CheckBox android:textSize="16.0dip" android:id="@id/not_show_again" android:paddingLeft="40.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/do_not_show_again" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@android:drawable/bottom_bar" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/help_ok_button" android:layout_width="374.0dip" android:layout_height="wrap_content" android:text="@string/mobileap_dig_ok" />
+    </LinearLayout>
+</LinearLayout>

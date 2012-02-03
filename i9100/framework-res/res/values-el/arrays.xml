@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Σπίτι</item>
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Αγαπ.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Αγαπ.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Σπίτι</item>
+        <item>Κινητό</item>
+        <item>Εργασία</item>
+        <item>Φαξ εργασίας</item>
+        <item>Φαξ σπιτιού</item>
+        <item>Συσκευή τηλεειδοποίησης</item>
+        <item>Άλλο</item>
+        <item>Αγαπ.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Σπίτι</item>
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Αγαπ.</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Σπίτι</item>
+        <item>Εργασία</item>
+        <item>Άλλο</item>
+        <item>Αγαπ.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Μετάφραση Google</item>
+        <item>Wikipedia</item>
+        <item>Λεξικό</item>
+    </string-array>
+</resources>

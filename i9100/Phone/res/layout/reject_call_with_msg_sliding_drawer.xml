@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlidingDrawer android:id="@id/reject_call_with_msg_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:bottomOffset="0.0dip" android:topOffset="7.0dip" android:allowSingleTap="false" android:handle="@id/reject_call_with_msg_tab" android:content="@id/reject_call_with_msg_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/reject_call_with_msg_tab" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/twcolor001" android:gravity="bottom|center" android:id="@id/reject_call_with_msg_handle" android:background="@drawable/call_incoming_reject_handle" android:paddingBottom="6.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="46.659973dip" android:text="@string/reject_call_with_msg" android:singleLine="true" />
+    </LinearLayout>
+    <com.android.phone.RejectCallWithMsgLayout android:orientation="vertical" android:id="@id/reject_call_with_msg_content" android:background="@drawable/call_incoming_reject_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</SlidingDrawer>

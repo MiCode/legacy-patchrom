@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/airplane_mode" android:key="toggle_airplane" android:summary="@string/airplane_mode_summary" android:disableDependentsState="true" />
+    <PreferenceScreen android:title="@string/wifi_settings" android:key="wifi_settings" android:summary="@string/wifi_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wifi.WifiSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/wifi_direct_settings_titlebar" android:key="wifi_direct_settings" android:summary="@string/wifi_direct_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wifi.WifiDirectSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/wimax_settings" android:key="wimax_settings" android:summary="@string/wimax_settings_summary">
+        <intent android:targetPackage="com.android.settings.wimax" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wimax.WimaxSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/kies_via_wifi" android:key="kies_via_wifi" android:summary="@string/kies_via_wifi_summary">
+        <intent android:targetPackage="com.sec.android.app.kieswifi" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.kieswifi.ui.KiesLauncher" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/bluetooth_settings_title" android:key="bt_settings" android:summary="@string/bluetooth_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.bluetooth.BluetoothSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/usb_utility_title" android:key="usb_settings" android:summary="@string/usb_utility_summary" />
+    <PreferenceScreen android:title="@string/tether_settings_title_usb" android:key="tether_settings" android:summary="@string/tether_settings_summary_usb">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.TetherSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/vpn_settings_title" android:key="vpn_settings" android:summary="@string/vpn_settings_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.vpn.VpnSettings" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:persistent="false" android:title="@string/nfc_quick_toggle_title" android:key="toggle_nfc" android:summary="@string/nfc_quick_toggle_summary" />
+    <PreferenceScreen android:title="@string/network_settings_title" android:key="mobile_networks" android:summary="@string/network_settings_summary" android:dependency="toggle_airplane">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.Settings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/wireless_synchronise_title" android:key="synchronise" android:summary="@string/wireless_synchronise_summary" />
+</PreferenceScreen>

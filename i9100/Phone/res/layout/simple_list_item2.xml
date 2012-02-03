@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingBottom="5.3299866dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:mode="twoLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@touchwiz:style/TwTextAppearanceListTwoLinePrimary" android:textSize="22.669983dip" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textAppearance="@touchwiz:style/TwTextAppearanceListTwoLineSecondary" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@android:id/text1" />
+</TwoLineListItem>

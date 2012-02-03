@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/musicwidget_root" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/MaxMusicController" android:background="@drawable/unlock_music_bg_top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/MinMusicControllerHandle" android:layout_width="fill_parent" android:layout_height="26.659973dip" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/BoxInMaxMusicController" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/AlbumArtWithImage" android:background="@drawable/zzz_unlock_music_sound_bg" android:layout_width="54.659973dip" android:layout_height="54.659973dip" android:layout_marginLeft="15.329987dip" android:scaleType="fitXY" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="9.329987dip" android:layout_marginRight="9.329987dip">
+                    <TextView android:textSize="12.0sp" android:typeface="sans" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="left" android:id="@id/MusicInfoTextInMax" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:drawableLeft="@drawable/unlock_music_icon" />
+                    <ImageView android:id="@id/MusicInfoLine" android:background="@drawable/unlock_music_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/zzz_MusicBoxReword" android:background="@drawable/zzz_unlock_selector_rew" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/zzz_MusicBoxPause" android:background="@drawable/zzz_unlock_selector_pause" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageButton android:id="@id/zzz_MusicBoxForward" android:background="@drawable/zzz_unlock_selector_ff" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:typeface="sans" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="left" android:id="@id/MusicInfoTextInMin" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.329987dip" android:layout_marginTop="8.659973dip" android:layout_marginRight="9.329987dip" android:singleLine="true" android:drawableLeft="@drawable/unlock_music_icon" />
+    </FrameLayout>
+</RelativeLayout>

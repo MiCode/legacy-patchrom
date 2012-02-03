@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@android:id/icon" android:paddingTop="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:textColor="@android:color/white" android:id="@id/automatic_mode" android:paddingLeft="52.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="20.0dip" android:text="@string/automatic_brightness" />
+        <SeekBar android:id="@android:id/seekbar" android:padding="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/vpn_connect_normal_text_size" android:textColor="@android:color/white" android:id="@id/temperature_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/temperature_warning_msg" />
+    </LinearLayout>
+</ScrollView>

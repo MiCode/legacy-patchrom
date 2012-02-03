@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Azië</item>
+        <item>Australië</item>
+        <item>Stille Oceaan</item>
+        <item>Alles</item>
+    </string-array>
+    <string-array name="date_format_entries">
+        <item>MM/DD/JJJJ</item>
+        <item>DD/MM/JJJJ</item>
+        <item>JJJJ/MM/DD</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Geen animaties</item>
+        <item>Enkele animaties</item>
+        <item>Alle animaties</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Er worden geen vensteranimaties weergegeven</item>
+        <item>Er worden een paar vensteranimaties weergegeven</item>
+        <item>Alle vensteranimaties worden weergegeven</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 seconden</item>
+        <item>30 seconden</item>
+        <item>1 minuut</item>
+        <item>2 minuten</item>
+        <item>10 minuten</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Zeer langzaam</item>
+        <item>Langzaam</item>
+        <item>Normaal</item>
+        <item>Snel</item>
+        <item>Zeer snel</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Zeer laag</item>
+        <item>Laag</item>
+        <item>Normaal</item>
+        <item>Hoog</item>
+        <item>Zeer hoog</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Engels (VS)</item>
+        <item>Engels (VK)</item>
+        <item>Frans</item>
+        <item>Duits</item>
+        <item>Italiaans</item>
+        <item>Spaans</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scannen...</item>
+        <item>Verbinding maken...</item>
+        <item>Verifiëren...</item>
+        <item>IP-adres ophalen…</item>
+        <item>Verbonden</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken...</item>
+        <item>Verbinding verbroken</item>
+        <item>Mislukt</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scannen...</item>
+        <item>Verbinding maken met %1$s...</item>
+        <item>Verifiëren met %1$s…</item>
+        <item>IP-adres ophalen van %1$s…</item>
+        <item>Verbonden met %1$s</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken met %1$s…</item>
+        <item>Verbinding verbroken</item>
+        <item>Mislukt</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Open</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Open</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Slecht</item>
+        <item>Redelijk</item>
+        <item>Goed</item>
+        <item>Uitstekend</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Wanneer scherm wordt uitgeschakeld</item>
+        <item>Nooit indien aangesloten</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Gebruikstijd</item>
+        <item>Aantal keer gestart</item>
+        <item>Naam van toepassing</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Geen</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuten</item>
+        <item>5 minuten</item>
+        <item>1 uur</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Uit</item>
+        <item>Melding</item>
+        <item>Trillen</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Geen</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP of CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Interne apparaatopslag</item>
+        <item>Verwisselbare SD-kaart</item>
+        <item>Het systeem laten bepalen</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Altijd</item>
+        <item>Nooit</item>
+        <item>Alleen in de stille modus</item>
+        <item>Alleen buiten de stille modus</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Altijd</item>
+        <item>Standby-scherm</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 seconden</item>
+        <item>6 seconden</item>
+        <item>Altijd uit</item>
+        <item>Altijd aan</item>
+        <item>In het donker</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% batterijspanning</item>
+        <item>30% batterijspanning</item>
+        <item>50% batterijspanning</item>
+        <item>70% batterijspanning</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynamisch</item>
+        <item>Standaard</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Bovenaan</item>
+        <item>Midden</item>
+        <item>Onderaan</item>
+    </string-array>
+</resources>

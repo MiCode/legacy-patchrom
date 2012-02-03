@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/driving_mode_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/incoming_call" android:key="incoming_call_notification" android:summary="@string/incoming_call_notification_summary" />
+    <CheckBoxPreference android:title="@string/message" android:key="message_notification" android:summary="@string/message_notification_summary" />
+    <CheckBoxPreference android:title="@string/new_email" android:key="email_notification" android:summary="@string/new_email_notification_summary" />
+    <CheckBoxPreference android:title="@string/new_voicemail" android:key="voice_mail_notification" android:summary="@string/new_voicemail_notification_summary" />
+    <CheckBoxPreference android:title="@string/alarm" android:key="alarm_notification" android:summary="@string/alarm_notification_summary" />
+    <CheckBoxPreference android:title="@string/schedule" android:key="schedule_notification" android:summary="@string/schedule_notification_summary" />
+    <CheckBoxPreference android:title="@string/unlock_screen" android:key="unlock_screen_contents" android:summary="@string/unlock_screen_contents_summary" />
+</PreferenceScreen>

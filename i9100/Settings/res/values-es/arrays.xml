@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>América</item>
+        <item>Europa</item>
+        <item>África</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacífico</item>
+        <item>Todas</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Sin animaciones</item>
+        <item>Algunas animaciones</item>
+        <item>Todas las animaciones</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>No aparecen animaciones de ventana.</item>
+        <item>Aparecen algunas animaciones de ventana.</item>
+        <item>Aparecen todas las animaciones de ventana.</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>10 minutos</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Muy lenta</item>
+        <item>Lenta</item>
+        <item>Normal</item>
+        <item>Rápida</item>
+        <item>Muy rápida</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Muy bajo</item>
+        <item>Bajo</item>
+        <item>Normal</item>
+        <item>Alto</item>
+        <item>Muy alto</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Inglés (Estados Unidos)</item>
+        <item>Inglés (Gran Bretaña)</item>
+        <item>Francés</item>
+        <item>Alemán</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Estableciendo conexión...</item>
+        <item>Autenticando...</item>
+        <item>Obteniendo dirección IP…</item>
+        <item>Conectada</item>
+        <item>Suspendida</item>
+        <item>Desconectando...</item>
+        <item>Desconectada</item>
+        <item>Con error</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Buscando...</item>
+        <item>Estableciendo conexión con %1$s...</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obteniendo dirección IP de %1$s...</item>
+        <item>Conectada a %1$s</item>
+        <item>Suspendida</item>
+        <item>Desconectando de %1$s...</item>
+        <item>Desconectada</item>
+        <item>Con error</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Abierta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Abierta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Mala</item>
+        <item>Aceptable</item>
+        <item>Buena</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Cuando la pantalla se apague</item>
+        <item>Nunca si se está cargando la batería</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tiempo de uso</item>
+        <item>Número de inicios</item>
+        <item>Nombre de la aplicación</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>1 hora</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Desconectado</item>
+        <item>Alerta</item>
+        <item>Vibración</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Almacenamiento de dispositivo interno</item>
+        <item>Tarjeta SD extraíble</item>
+        <item>Selección del sistema</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Siempre</item>
+        <item>Nunca</item>
+        <item>Solo en modo silencio</item>
+        <item>Si no está en modo silencio</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Siempre</item>
+        <item>Idle screen</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 segundos</item>
+        <item>6 segundos</item>
+        <item>Siempre desconectado</item>
+        <item>Siempre activado</item>
+        <item>En la oscuridad</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% alimentación de la batería</item>
+        <item>30% alimentación de la batería</item>
+        <item>50% alimentación de la batería</item>
+        <item>70% alimentación de la batería</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dinámico</item>
+        <item>Estándar</item>
+        <item>Película</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Arriba</item>
+        <item>Medio</item>
+        <item>Inferior</item>
+    </string-array>
+</resources>

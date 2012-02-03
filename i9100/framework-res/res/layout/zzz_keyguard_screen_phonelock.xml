@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/topDisplayGroup" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="19.0sp" android:gravity="center" android:id="@id/headerText" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <RelativeLayout android:background="@drawable/edit_text" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip">
+            <TextView android:textAppearance="?textAppearanceLargeInverse" android:textStyle="bold" android:id="@id/pinDisplay" android:layout_width="wrap_content" android:layout_height="62.0dip" android:maxLines="1" android:layout_centerInParent="true" android:inputType="textPassword" />
+            <ImageButton android:id="@id/backspace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:src="@drawable/ic_input_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/keyPad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/topDisplayGroup">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/one" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/two" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/three" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/four" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/five" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/six" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/seven" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/eight" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/nine" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?textAppearanceMedium" android:textStyle="bold" android:id="@id/ok" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/ok" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceLarge" android:textStyle="bold" android:id="@id/zero" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <Button android:textAppearance="?textAppearanceMedium" android:textStyle="bold" android:id="@id/cancel" android:visibility="gone" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/emergencyCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="3.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/spacerBottom" android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="6.0dip" android:layout_above="@id/emergencyCall" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/callCardPersonInfo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="184.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="19.0sp" android:textColor="@color/twcolor001" android:gravity="center" android:id="@id/upperTitleLand" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="49.0dip" android:text="@string/card_title_dialing" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="123.0dip">
+                <FrameLayout android:layout_width="123.0dip" android:layout_height="123.0dip" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@id/photo" android:layout_width="123.0dip" android:layout_height="123.0dip" android:layout_centerHorizontal="true" />
+                    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/birthPanel" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="33.0dip">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_birthday_icon2" />
+                        <TextView android:textSize="20.0sp" android:textColor="@color/twcolor001" android:layout_gravity="center_vertical" android:id="@id/birthdayRemainedDays" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/BirthDay_remainedDays0" android:singleLine="true" />
+                    </LinearLayout>
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="45.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="43.0dip">
+                <ImageView android:id="@id/birthIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_birthday_icon" />
+                <TextView android:textSize="31.0sp" android:textColor="@color/twcolor001" android:gravity="center_vertical" android:id="@id/name" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="43.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <TextView android:textSize="21.0sp" android:textColor="@color/twcolor003" android:gravity="center_vertical" android:id="@id/phoneNumber" android:layout_width="wrap_content" android:layout_height="29.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

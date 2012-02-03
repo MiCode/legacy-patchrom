@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Omrežna privzeta vrednost</item>
+        <item>Skrij številko</item>
+        <item>Številka oddaje</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Samo EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO samodejno</item>
+        <item>Samodejno GSM/WCDMA</item>
+        <item>Samo WCDMA</item>
+        <item>Samo GSM</item>
+        <item>Prednostno GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>francoščina</item>
+        <item>Špansko</item>
+        <item>Japonščina</item>
+        <item>Korejščina</item>
+        <item>Kitajščina</item>
+        <item>Hebrejščina</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Samodejni način)</item>
+        <item>Samo GSM</item>
+        <item>Samo WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (Samodejni način)</item>
+        <item>Samo WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (Samodejni način)</item>
+        <item>Samo GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Samo doma</item>
+        <item>Samodejno</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Samo domače omrežje</item>
+        <item>Pridružena omrežja</item>
+        <item>Katero koli omrežje</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Samo CDMA</item>
+        <item>Samo EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Običaj.</item>
+        <item>Dolgo</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Dnevnik klicev</item>
+        <item>Glasovni klic</item>
+        <item>Videoklic</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (Samodejni način)</item>
+        <item>Samo GSM</item>
+        <item>Samo WCDMA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>EL</item>
+        <item>PL</item>
+    </string-array>
+</resources>

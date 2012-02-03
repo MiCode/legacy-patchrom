@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="date_format_entries">
+        <item>MM/DD/YYYY</item>
+        <item>DD/MM/YYYY</item>
+        <item>YYYY/MM/DD</item>
+    </string-array>
+    <string-array name="date_format_values">
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Ei animaatioita</item>
+        <item>Muutamia animaatioita</item>
+        <item>Kaikki animaatiot</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Ei ikkuna-animaatiota näkyvissä</item>
+        <item>Muutamia ikkuna-animaatioita näkyvissä</item>
+        <item>Kaikki ikkuna-animaatiot näkyvissä</item>
+    </string-array>
+    <string-array name="animations_values">
+        <item>00</item>
+        <item>01</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekuntia</item>
+        <item>30 sekuntia</item>
+        <item>1 minuutti</item>
+        <item>2 minuuttia</item>
+        <item>10 minuuttia</item>
+    </string-array>
+    <string-array name="screen_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>600000</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Erittäin hidas</item>
+        <item>Hidas</item>
+        <item>Normaali</item>
+        <item>Nopea</item>
+        <item>Erittäin nopea</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Erittäin matala</item>
+        <item>Matala</item>
+        <item>Normaali</item>
+        <item>Korkea</item>
+        <item>Erittäin suuri</item>
+    </string-array>
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>American English</item>
+        <item>British English</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="tts_lang_values">
+        <item>eng-USA</item>
+        <item>eng-GBR</item>
+        <item>fra-FRA</item>
+        <item>deu-DEU</item>
+        <item>ita-ITA</item>
+        <item>spa-ESP</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+    </string-array>
+    <string-array name="tts_engine_entries">
+        <item>Pico TTS</item>
+    </string-array>
+    <string-array name="tts_engine_values">
+        <item>com.svox.pico</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Etsitään…</item>
+        <item>Yhdistetään kohteeseen %1$s…</item>
+        <item>Varmennetaan verkon %1$skanssa…</item>
+        <item>Haetaan IP-osoitetta kohteesta %1$s…</item>
+        <item>Yhdistetty kohteeseen %1$s</item>
+        <item>Keskeytetty</item>
+        <item>Katkaistaan yhteys laitteeseen %1$s…</item>
+        <item>Yhteys katkaistu</item>
+        <item>Epäonnistui</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Avoin</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>CCKM EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Avoin</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>Avoin</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Heikko</item>
+        <item>Kohtalainen</item>
+        <item>Hyvä</item>
+        <item>Erinomainen</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Kun näyttö sammuu</item>
+        <item>Ei koskaan, kun laite on kytkettynä</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="apn_ently_key">
+        <item>Internet + MMS</item>
+        <item>Internet</item>
+        <item>MMS</item>
+    </string-array>
+    <string-array name="apn_type_key">
+        <item>*</item>
+        <item>default,supl</item>
+        <item>mms</item>
+    </string-array>
+    <string-array name="apn_ently_key_includeDUN">
+        <item>Internet + MMS + DUN</item>
+        <item>Internet + MMS</item>
+        <item>Internet + DUN</item>
+        <item>Internet</item>
+        <item>MMS</item>
+        <item>DUN</item>
+    </string-array>
+    <string-array name="apn_type_key_includeDUN">
+        <item>*</item>
+        <item>default,supl,mms</item>
+        <item>default,supl,dun</item>
+        <item>default,supl</item>
+        <item>mms</item>
+        <item>dun</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Käyttöaika</item>
+        <item>Käynnistä laskuri</item>
+        <item>Sovelluksen nimi</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ei mitään</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuuttia</item>
+        <item>5 minuuttia</item>
+        <item>1 tunti</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Pois</item>
+        <item>Hälytys</item>
+        <item>Värinä</item>
+    </string-array>
+    <string-array name="emergency_tone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="tv_system_entries">
+        <item>PAL</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="tv_system_values">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ei mitään</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP tai CHAP</item>
+    </string-array>
+    <string-array name="apn_auth_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Sisäinen muisti</item>
+        <item>Irrotettava SD-kortti</item>
+        <item>Oletus</item>
+    </string-array>
+    <string-array name="app_install_location_values">
+        <item>device</item>
+        <item>sdcard</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Aina</item>
+        <item>Ei koskaan</item>
+        <item>Vain äänettömässä tilassa</item>
+        <item>Vain silloin, kun ei ole äänett. tilassa</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>always</item>
+        <item>never</item>
+        <item>silent</item>
+        <item>notsilent</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Aina</item>
+        <item>Idle screen</item>
+        <item>Ei koskaan</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 sekuntia</item>
+        <item>6 sekuntia</item>
+        <item>Aina pois päältä</item>
+        <item>Aina päällä</item>
+        <item>Pimeässä</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% akkuvirtaa</item>
+        <item>30% akkuvirtaa</item>
+        <item>50% akkuvirtaa</item>
+        <item>70% akkuvirtaa</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynaaminen</item>
+        <item>Normaali</item>
+        <item>Elokuva</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Ylhäällä</item>
+        <item>Keskitaso</item>
+        <item>Alhaalla</item>
+    </string-array>
+    <string-array name="battery_history_type_spinner">
+        <item>Suorittimen käyttö</item>
+        <item>Verkon käyttö</item>
+        <item>GPS-käyttö</item>
+        <item>Anturin käyttö</item>
+        <item>Osittainen herätyksen käyttö</item>
+        <item>Muu käyttö</item>
+    </string-array>
+    <string-array name="wifi_phase1_entries">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tv_out_entries">
+        <item>Päällä</item>
+        <item>Pois</item>
+    </string-array>
+    <string-array name="tv_out_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

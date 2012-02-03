@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/status_info" android:layout_width="fill_parent" android:layout_height="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/signal_status" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="12.5dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/battery_status" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="12.5dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

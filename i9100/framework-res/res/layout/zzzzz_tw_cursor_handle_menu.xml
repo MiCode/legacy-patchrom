@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/zzzzz_tw_quickcontact_drop_shadow" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/zzzzz_tw_quickcontact_top_frame" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/zzzzz_tw_quickcontact_slider_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/zzzzz_tw_menu_animation" android:background="@drawable/zzzzz_tw_quickcontact_slider_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zzzzz_tw_quickcontact_slider_grip_left" />
+                <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_select" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_select" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_select_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/selectText" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/zzzzz_tw_cursor_handle_spliter_select" android:layout_width="1.3299866dip" android:layout_height="54.669983dip" android:src="@drawable/zzzzz_tw_quickcontact_frame_divider_med" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_select_all" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_select_all" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_select_all_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/selectAll" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/zzzzz_tw_cursor_handle_spliter_select_all" android:layout_width="1.3299866dip" android:layout_height="54.669983dip" android:src="@drawable/zzzzz_tw_quickcontact_frame_divider_med" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_copy" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_copy" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_copy_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/copy" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/zzzzz_tw_cursor_handle_spliter_copy" android:layout_width="1.3299866dip" android:layout_height="54.669983dip" android:src="@drawable/zzzzz_tw_quickcontact_frame_divider_med" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_cut" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_cut" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_cut_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/cut" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/zzzzz_tw_cursor_handle_spliter_cut" android:layout_width="1.3299866dip" android:layout_height="54.669983dip" android:src="@drawable/zzzzz_tw_quickcontact_frame_divider_med" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_paste" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_paste" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_paste_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/paste" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/zzzzz_tw_cursor_handle_spliter_paste" android:layout_width="1.3299866dip" android:layout_height="54.669983dip" android:src="@drawable/zzzzz_tw_quickcontact_frame_divider_med" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_search" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_search" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_search_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/zzzzz_tw_cursor_handle_popup_search" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/zzzzz_tw_cursor_handle_spliter_search" android:layout_width="1.3299866dip" android:layout_height="54.669983dip" android:src="@drawable/zzzzz_tw_quickcontact_frame_divider_med" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_share" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_share" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_share_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/zzzzz_tw_cursor_handle_choosertitle_share" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/zzzzz_tw_cursor_handle_spliter_share" android:layout_width="1.3299866dip" android:layout_height="54.669983dip" android:src="@drawable/zzzzz_tw_quickcontact_frame_divider_med" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/zzzzz_tw_cursor_handle_clip_board" android:background="@drawable/zzzzz_tw_cursor_handle_menu_btn_background" android:layout_width="70.66998dip" android:layout_height="54.669983dip">
+                        <ImageView android:layout_width="38.669983dip" android:layout_height="38.669983dip" android:src="@drawable/zzzzz_tw_quick_clip_board" />
+                        <TextView android:textSize="11.0sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/zzzzz_tw_cursor_handle_clip_board_text" android:layout_width="66.66998dip" android:layout_height="16.0dip" android:text="@string/zzzzz_tw_cursor_handle_clipboard" android:scrollHorizontally="false" android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zzzzz_tw_quickcontact_slider_grip_right" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/zzzzz_tw_quickcontact_bottom_frame" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

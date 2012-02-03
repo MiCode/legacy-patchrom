@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_available_services_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/bluetooth_device_name" android:key="bt_name" android:summary="@string/bluetooth_name_not_set" />
+    <com.android.settings.ProgressCategory android:title="@string/bluetooth_did" android:orderingFromXml="false" android:key="bt_did_list" />
+    <com.android.settings.ProgressCategory android:title="@string/bluetooth_services" android:orderingFromXml="false" android:key="bt_service_list" />
+</PreferenceScreen>

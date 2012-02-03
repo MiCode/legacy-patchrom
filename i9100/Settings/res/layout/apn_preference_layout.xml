@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@android:attr/theme" android:background="@android:drawable/menuitem_background" android:paddingLeft="16.0sp" android:paddingTop="6.0sp" android:paddingRight="6.0sp" android:paddingBottom="6.0sp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@android:id/title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@android:id/title" android:layout_alignLeft="@android:id/title" />
+    </RelativeLayout>
+    <RadioButton android:layout_gravity="center_vertical" android:id="@android:attr/label" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

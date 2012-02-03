@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:persistent="false" android:title="@string/toggle_accessibility_title" android:key="toggle_accessibility_service_checkbox" />
+    <PreferenceCategory android:title="@string/accessibility_services_category" android:key="accessibility_services_category" />
+    <PreferenceCategory android:title="@string/accessibility_power_button_category" android:key="power_button_category">
+        <CheckBoxPreference android:persistent="false" android:title="@string/accessibility_power_button_ends_call" android:key="power_button_ends_call" android:summary="@string/accessibility_power_button_ends_call_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

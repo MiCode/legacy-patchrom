@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Multimédia</string>
+    <string name="app_label">Armazenamento de multimédia</string>
+    <string name="artist_label">Artista</string>
+    <string name="media_scanning_system">Memória do dispositivo</string>
+    <string name="media_scanning_internal_sd">Armazenamento USB</string>
+    <string name="media_scanning_external_sd">Cartão SD</string>
+</resources>

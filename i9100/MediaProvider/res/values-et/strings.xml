@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Meedium</string>
+    <string name="app_label">Meediumimälu</string>
+    <string name="artist_label">Esitaja</string>
+    <string name="media_scanning_tiker_start">Meediumiskanner töötab...</string>
+    <string name="media_scanning_tiker_end">Meediumi otsimine on lõpetatud</string>
+    <string name="media_scanning_running">Meediumi otsimine...</string>
+    <string name="media_scanning_running_definition">SD-kaardi kõikidest meediumifailidest otsimine...</string>
+    <string name="media_scanning_system">Süsteemimälu</string>
+    <string name="media_scanning_internal_sd">USB-mälu</string>
+    <string name="media_scanning_external_sd">SD-kaart</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

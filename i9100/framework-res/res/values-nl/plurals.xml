@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%1$d seconden geleden</item>
+        <item quantity="one">1 seconde geleden</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%1$d minuten geleden</item>
+        <item quantity="one">1 minuut geleden</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%1$d uur geleden</item>
+        <item quantity="one">1 uur geleden</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Afgelopen %1$d dagen</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%1$d dagen geleden</item>
+        <item quantity="one">gisteren</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">over %1$d seconden</item>
+        <item quantity="one">over 1 seconde</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">over %1$d minuten</item>
+        <item quantity="one">over 1 minuut</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">over %1$d uur</item>
+        <item quantity="one">over 1 uur</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">over %1$d dagen</item>
+        <item quantity="one">morgen</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%1$d seconden geleden</item>
+        <item quantity="one">1 seconde geleden</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%1$d minuten geleden</item>
+        <item quantity="one">1 minuut geleden</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%1$d uur geleden</item>
+        <item quantity="one">1 uur geleden</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%1$d dagen geleden</item>
+        <item quantity="one">gisteren</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">over %1$d seconden</item>
+        <item quantity="one">over 1 seconde</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">over %1$d minuten</item>
+        <item quantity="one">over 1 minuut</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">over %1$d uur</item>
+        <item quantity="one">over 1 uur</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">over %1$d dagen</item>
+        <item quantity="one">morgen</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi-netwerken beschikbaar</item>
+        <item quantity="one">Wi-Fi-netwerk beschikbaar</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Open Wi-Fi-netwerken beschikbaar</item>
+        <item quantity="one">Open Wi-Fi-netwerk beschikbaar</item>
+    </plurals>
+</resources>

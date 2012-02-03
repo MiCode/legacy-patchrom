@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="@touchwiz:style/TwTextAppearanceListTwoLinePrimary" android:gravity="center_vertical" android:id="@id/toptext" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@touchwiz:style/TwTextAppearanceListTwoLineSecondary" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/bottomtext" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

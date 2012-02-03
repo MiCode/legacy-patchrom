@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">cu %1$d (de) secunde în urmă</item>
+        <item quantity="one">cu 1 secundă în urmă</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">cu %1$d (de) minute în urmă</item>
+        <item quantity="one">cu 1 minut în urmă</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">cu %1$d (de) ore în urmă</item>
+        <item quantity="one">cu 1 oră în urmă</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Ultimele %1$d de zile</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">cu %1$d (de) zile în urmă</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">în %1$d (de) secunde</item>
+        <item quantity="one">într-o secundă</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">în %1$d (de) minute</item>
+        <item quantity="one">în 1 minut</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">în %1$d (de) ore</item>
+        <item quantity="one">în 1 oră</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">în %1$d (de) zile</item>
+        <item quantity="one">mâine</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">cu %1$d (de) secunde în urmă</item>
+        <item quantity="one">cu 1 sec. în urmă</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">cu %1$d (de) min. în urmă</item>
+        <item quantity="one">cu 1 min. în urmă</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">cu %1$d (de) ore în urmă</item>
+        <item quantity="one">cu 1 oră în urmă</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">cu %1$d (de) zile în urmă</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">în %1$d (de) sec</item>
+        <item quantity="one">în 1 sec</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">în %1$d (de) min</item>
+        <item quantity="one">în 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">în %1$d (de) ore</item>
+        <item quantity="one">în 1 oră</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">în %1$d (de) zile</item>
+        <item quantity="one">mâine</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Reţele Wi-Fi disponibile</item>
+        <item quantity="one">Reţea Wi-Fi disponibilă</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Reţele Wi-Fi deschise disponibile</item>
+        <item quantity="one">Reţea Wi-Fi deschisă disponibilă</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="?android:attr/listSeparatorTextViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/title" android:background="@null" android:paddingLeft="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?android:attr/listSeparatorTextViewStyle" />
+    <ProgressBar android:id="@id/status_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="?android:scrollbarSize" android:text="@string/progress_status" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmallTitle" />
+    <TextView android:id="@id/status_text" android:background="@null" android:paddingLeft="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0sp" android:text="@string/progress_status" android:layout_toLeftOf="@id/status_progress" android:layout_centerVertical="true" style="?android:attr/listSeparatorTextViewStyle" />
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Vor %1$d Sekunden</item>
+        <item quantity="one">Vor 1 Sekunde</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Vor %1$d Minuten</item>
+        <item quantity="one">Vor 1 Minute</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Vor %1$d Stunden</item>
+        <item quantity="one">Vor 1 Stunde</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Letzte %1$d Tage</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Vor %1$d Tagen</item>
+        <item quantity="one">Gestern</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">in %1$d Sekunden</item>
+        <item quantity="one">in 1 Sekunde</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %1$d Minuten</item>
+        <item quantity="one">in 1 Minute</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">In %1$d Stunden</item>
+        <item quantity="one">in 1 Stunde</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">in %1$d Tagen</item>
+        <item quantity="one">morgen</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Vor %1$d Sekunden</item>
+        <item quantity="one">vor 1 Sekunde</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">vor %1$d Minuten</item>
+        <item quantity="one">vor 1 Minute</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Vor %1$d Stunden</item>
+        <item quantity="one">Vor 1 Stunde</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Vor %1$d Tagen</item>
+        <item quantity="one">Gestern</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">in %1$d Sekunden</item>
+        <item quantity="one">in 1 Sekunde</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %1$d Minuten</item>
+        <item quantity="one">in 1 Minute</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">In %1$d Stunden</item>
+        <item quantity="one">in 1 Stunde</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">in %1$d Tagen</item>
+        <item quantity="one">morgen</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">WLAN-Netzwerke verfügbar</item>
+        <item quantity="one">WLAN-Netzwerk verfügbar</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Verfügbare WLAN-Netzwerke öffnen</item>
+        <item quantity="one">Verfügbares WLAN-Netzwerk öffnen</item>
+    </plurals>
+</resources>

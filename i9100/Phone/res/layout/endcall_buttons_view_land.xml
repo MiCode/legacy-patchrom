@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/saveButtonFrame" android:layout_width="206.0dip" android:layout_height="wrap_content">
+        <Button android:id="@id/createContacts" android:layout_height="90.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/create_contacts" android:singleLine="false" style="@style/InCallTouchButtonNoFrame" />
+        <FrameLayout android:layout_width="1.0dip" android:layout_height="90.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/updateExisting" android:text="@string/update_existing" android:singleLine="false" style="@style/InCallTouchButton" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/voiceCallButton" android:background="@drawable/green_button" android:paddingTop="7.0dip" android:layout_height="90.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="0.0dip" android:text="@string/inCallCallButtonText" android:drawableTop="@drawable/incall_button_voice_call_icon" style="@style/InCallTouchUpperButtonNoFrame" />
+        <Button android:id="@id/videoCallButton" android:background="@drawable/green_button" android:paddingTop="7.0dip" android:layout_height="90.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="0.0dip" android:text="@string/video_call" android:drawableTop="@drawable/incall_button_video_call_icon" style="@style/InCallTouchUpperButtonNoFrame" />
+        <Button android:id="@id/sendMsgButton" android:background="@drawable/yellow_button" android:paddingTop="7.0dip" android:layout_height="90.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="0.0dip" android:text="@string/message" android:drawableTop="@drawable/incall_button_message_icon" style="@style/InCallTouchUpperButtonNoFrame" />
+    </LinearLayout>
+</LinearLayout>

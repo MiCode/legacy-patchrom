@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Avaleht</item>
+        <item>Töö</item>
+        <item>Muu</item>
+        <item>Koh.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Töö</item>
+        <item>Muu</item>
+        <item>Koh.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Avaleht</item>
+        <item>Mobiil</item>
+        <item>Töö</item>
+        <item>Tööfaks</item>
+        <item>Kodufaks</item>
+        <item>Piipar</item>
+        <item>Muu</item>
+        <item>Koh.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Avaleht</item>
+        <item>Töö</item>
+        <item>Muu</item>
+        <item>Koh.</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Avaleht</item>
+        <item>Töö</item>
+        <item>Muu</item>
+        <item>Koh.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>"Google'i tõlge"</item>
+        <item>Wikipedia</item>
+        <item>Sõnaraamat</item>
+    </string-array>
+</resources>

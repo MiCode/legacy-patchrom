@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d sekunder siden</item>
+        <item quantity="one">1 sekund siden</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d timer siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Siste %d dager</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d dager siden</item>
+        <item quantity="one">I går</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">om %d sekunder</item>
+        <item quantity="one">Om 1 sekund</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">om %d minutter</item>
+        <item quantity="one">om 1 minutt</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">om %d timer</item>
+        <item quantity="one">om 1 time</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">om %d dager</item>
+        <item quantity="one">I morgen</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d sekunder siden</item>
+        <item quantity="one">1 sek siden</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d minutter siden</item>
+        <item quantity="one">1 minutt siden</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d timer siden</item>
+        <item quantity="one">1 time siden</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d dager siden</item>
+        <item quantity="one">I går</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">om %d sek</item>
+        <item quantity="one">om 1 sek</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">om %d min</item>
+        <item quantity="one">om 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">om %d timer</item>
+        <item quantity="one">om 1 time</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">om %d dager</item>
+        <item quantity="one">I morgen</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi-nettverk tilgjengelige</item>
+        <item quantity="one">Wi-Fi-nettverk tilgjengelig</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Åpne tilgjengelige Wi-Fi-nettverk</item>
+        <item quantity="one">Åpne tilgjengelig Wi-Fi-nettverk</item>
+    </plurals>
+</resources>

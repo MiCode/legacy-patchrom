@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Pirms %1$d sekundes(-ēm)</item>
+        <item quantity="one">Pirms 1 sekundes</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Pirms %1$d minūtes(-ēm)</item>
+        <item quantity="one">Pirms 1 minūtes</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Pirms %1$d stundas(-ām)</item>
+        <item quantity="one">Pirms 1 stundas</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Pēdējās %1$d dienās</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Pirms %1$d dienas(-ām)</item>
+        <item quantity="one">vakar</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">pēc %1$d sekundes(-ēm)</item>
+        <item quantity="one">pēc 1 sekundes</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">pēc %1$d minūtes(-ēm)</item>
+        <item quantity="one">pēc 1 minūtes</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">pēc %1$d stundas(-ām)</item>
+        <item quantity="one">pēc 1 stundas</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">pēc %1$d dienas(-ām)</item>
+        <item quantity="one">rītdien</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Pirms %1$d s</item>
+        <item quantity="one">Pirms 1 sekundes</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Pirms %1$d min</item>
+        <item quantity="one">Pirms 1 min</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Pirms %1$d stundas(-ām)</item>
+        <item quantity="one">Pirms 1 stundas</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Pirms %1$d dienas(-ām)</item>
+        <item quantity="one">vakar</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">pēc %1$d s</item>
+        <item quantity="one">pēc 1 s</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">pēc %1$d minūtes(-ēm)</item>
+        <item quantity="one">pēc 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">pēc %1$d stundas(-ām)</item>
+        <item quantity="one">pēc 1 stundas</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">pēc %1$d dienas(-ām)</item>
+        <item quantity="one">rītdien</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi tīkli ir pieejami</item>
+        <item quantity="one">Wi-Fi tīkls ir pieejams</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Ir pieejami atvērti Wi-Fi tīkli</item>
+        <item quantity="one">Ir pieejams atvērts Wi-Fi tīkls</item>
+    </plurals>
+</resources>

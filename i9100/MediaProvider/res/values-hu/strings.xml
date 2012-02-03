@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Média</string>
+    <string name="app_label">Médiatár</string>
+    <string name="artist_label">Előadó</string>
+    <string name="media_scanning_tiker_start">Fut a médiakeresés...</string>
+    <string name="media_scanning_tiker_end">A médiakeresés befejeződött</string>
+    <string name="media_scanning_running">Médiakeresés...</string>
+    <string name="media_scanning_running_definition">SD-kártya összes médiafájljának keresése...</string>
+    <string name="media_scanning_system">Rendszer tárterülete</string>
+    <string name="media_scanning_internal_sd">Belső tárhely</string>
+    <string name="media_scanning_external_sd">SD-kártya</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

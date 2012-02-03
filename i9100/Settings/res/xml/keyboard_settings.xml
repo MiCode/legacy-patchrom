@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_replace" android:key="auto_replace" android:summaryOn="@string/auto_replace_summary" android:summaryOff="@string/auto_replace_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_caps" android:key="auto_caps" android:summaryOn="@string/auto_caps_summary" android:summaryOff="@string/auto_caps_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_punctuate" android:key="auto_punctuate" android:summaryOn="@string/auto_punctuate_summary" android:summaryOff="@string/auto_punctuate_summary" />
+</PreferenceScreen>

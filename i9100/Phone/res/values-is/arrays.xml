@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Valið af símkerfi</item>
+        <item>Fela númer</item>
+        <item>Birta númer</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Aðeins EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO sjálfvirkt</item>
+        <item>Sjálfvirkt á GSM/WCDMA</item>
+        <item>Aðeins WCDMA</item>
+        <item>Aðeins GSM</item>
+        <item>Forgangur á GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Franska</item>
+        <item>Spænska</item>
+        <item>Japanska</item>
+        <item>Kóreska</item>
+        <item>Kínverska</item>
+        <item>Hebreska</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (sjálfvirkt)</item>
+        <item>Aðeins GSM</item>
+        <item>Aðeins WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (sjálfvirkt)</item>
+        <item>Aðeins WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (sjálfvirkt)</item>
+        <item>Aðeins GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Aðeins heima</item>
+        <item>Sjálfvirkt</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Aðeins í heimakerfi</item>
+        <item>Tengd net</item>
+        <item>Öll símkerfi</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Aðeins CDMA</item>
+        <item>Aðeins EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Venj.</item>
+        <item>Langt</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Símtöl</item>
+        <item>Raddsímtal</item>
+        <item>Myndsímtal</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (sjálfvirkt)</item>
+        <item>Aðeins GSM</item>
+        <item>Aðeins WCDMA</item>
+    </string-array>
+</resources>

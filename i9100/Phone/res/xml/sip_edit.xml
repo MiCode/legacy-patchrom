@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="false" android:title="@string/sip_edit_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/username_title" android:key="@string/username" android:summary="@string/default_preference_summary" android:dialogTitle="@string/username_title" />
+    <EditTextPreference android:persistent="false" android:password="true" android:singleLine="true" android:title="@string/password_title" android:key="@string/password" android:summary="@string/default_preference_summary" android:dialogTitle="@string/password_title" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/domain_address_title" android:key="@string/domain_address" android:summary="@string/default_preference_summary" android:dialogTitle="@string/domain_address_title" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/set_primary_title" android:key="@string/set_primary" android:summary="@string/set_primary_summary" />
+    <PreferenceScreen android:persistent="false" android:title="@string/advanced_settings" android:key="@string/advanced_settings" android:summary="@string/advanced_settings_show" />
+</PreferenceScreen>

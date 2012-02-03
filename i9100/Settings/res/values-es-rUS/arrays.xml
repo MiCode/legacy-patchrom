@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>América</item>
+        <item>Europa</item>
+        <item>África</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacífico</item>
+        <item>Todos</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>No hay animaciones</item>
+        <item>Algunas animaciones</item>
+        <item>Todas las animaciones</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>No se muestran animaciones de ventana</item>
+        <item>Se muestran algunas animaciones de ventana</item>
+        <item>Se muestran todas las animaciones de ventana</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 segundos</item>
+        <item>30 segundos</item>
+        <item>1 minuto</item>
+        <item>2 minutos</item>
+        <item>10 minutos</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Muy lento</item>
+        <item>Lento</item>
+        <item>Normal</item>
+        <item>Rápido</item>
+        <item>Muy rápido</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Muy bajo</item>
+        <item>Bajo</item>
+        <item>Normal</item>
+        <item>Alta</item>
+        <item>Muy alto</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Inglés americano</item>
+        <item>Inglés británico</item>
+        <item>Francés</item>
+        <item>Alemán</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Explorando...</item>
+        <item>Conectando…</item>
+        <item>Autenticando…</item>
+        <item>Obteniendo la dirección IP…</item>
+        <item>Conectado</item>
+        <item>Suspendido</item>
+        <item>Desconectando…</item>
+        <item>Desconectado</item>
+        <item>Incorrecto</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Explorando...</item>
+        <item>Conectando a %1$s…</item>
+        <item>Autenticando con %1$s…</item>
+        <item>Obteniendo dirección IP de %1$s…</item>
+        <item>Conectado a %1$s</item>
+        <item>Suspendido</item>
+        <item>Desconectando de %1$s…</item>
+        <item>Desconectado</item>
+        <item>Incorrecto</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Abierta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Baja calidad</item>
+        <item>Aceptable</item>
+        <item>Bueno</item>
+        <item>Excelente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Cuando se apaga la pantalla</item>
+        <item>Nunca cuando está conectado</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Hora de uso</item>
+        <item>Lanzar recuento</item>
+        <item>Nombre de la aplicación</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>1 hora</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Apagado</item>
+        <item>Alerta</item>
+        <item>Vibrar</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ninguno</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Dispositivo de almacenamiento interno</item>
+        <item>Tarjeta SD desmontable</item>
+        <item>Dejar que el sistema decida</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Siempre</item>
+        <item>Nunca</item>
+        <item>Sólo en modo silencioso</item>
+        <item>Sólo cuando no esté en modo silencioso.</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Siempre</item>
+        <item>Pantalla de espera</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 segundos</item>
+        <item>6 segundos</item>
+        <item>Siempre desconectado</item>
+        <item>Siempre activado</item>
+        <item>En la oscuridad</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% alimentación de la batería</item>
+        <item>30% alimentación de la batería</item>
+        <item>50% alimentación de la batería</item>
+        <item>70% alimentación de la batería</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dinámico</item>
+        <item>Estándar</item>
+        <item>Película</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Superior</item>
+        <item>Media</item>
+        <item>Inferior</item>
+    </string-array>
+</resources>

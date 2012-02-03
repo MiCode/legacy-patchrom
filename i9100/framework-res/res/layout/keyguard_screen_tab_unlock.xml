@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/root" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock">
+    <RelativeLayout android:id="@id/zzz_background01" android:background="#30000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:id="@id/panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/zzz_lockscreen_wallpaper01" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.android.internal.widget.LockScreenStatusView android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="22.0sp" android:textColor="@color/black" android:ellipsize="marquee" android:gravity="bottom|right|center" android:id="@id/carrier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:marqueeRepeatLimit="marquee_forever" />
+            <TextView android:textAppearance="?textAppearanceSmall" android:textColor="@color/black" android:id="@id/emergencyCallText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginRight="8.0dip" android:text="@string/emergency_calls_only" android:layout_below="@id/carrier" android:layout_alignParentRight="true" />
+            <Button android:id="@id/emergencyCallButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true" style="@style/Widget.Button.Transparent" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/panel02" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.internal.widget.SlidingTab android:orientation="horizontal" android:id="@id/tab_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="240.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

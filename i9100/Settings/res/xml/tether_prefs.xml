@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/usb_tethering_button_text" android:key="usb_tether_settings" />
+    <PreferenceScreen android:title="@string/wifi_tether_settings_text" android:key="wifi_ap_settings" android:summary="@string/wifi_tether_settings_subtext" />
+    <PreferenceScreen android:title="@string/tethering_help_button_text" android:key="tethering_help" />
+</PreferenceScreen>

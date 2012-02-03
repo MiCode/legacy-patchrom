@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="ignore_sim_network_locked_events">false</bool>
+    <bool name="sim_network_unlock_allow_dismiss">true</bool>
+    <bool name="allow_incoming_call_touch_ui">true</bool>
+    <bool name="allow_in_call_touch_ui">true</bool>
+    <bool name="world_phone">false</bool>
+    <bool name="config_enable_dialer_key_vibration">true</bool>
+    <bool name="ddtm_enabled">true</bool>
+    <bool name="tty_enabled">false</bool>
+    <bool name="hac_enabled">false</bool>
+    <bool name="dtmf_type_enabled">false</bool>
+    <bool name="auto_retry_enabled">false</bool>
+    <bool name="allow_local_dtmf_tones">false</bool>
+    <bool name="allow_back_key_to_reject_incoming_call">false</bool>
+    <bool name="config_show_onscreen_dial_button">true</bool>
+    <bool name="send_mic_mute_to_AudioManager">false</bool>
+    <bool name="has_in_call_noise_suppression">true</bool>
+    <bool name="write_sleep_checking_file">true</bool>
+</resources>

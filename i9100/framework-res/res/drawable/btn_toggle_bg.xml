@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background" android:drawable="@drawable/btn_default_small" />
+    <item android:id="@id/toggle" android:drawable="@drawable/btn_toggle" />
+</layer-list>

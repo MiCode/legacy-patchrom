@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%1$d초 전</item>
+        <item quantity="one">1초 전</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%1$d분 전</item>
+        <item quantity="one">1분 전</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%1$d시간 전</item>
+        <item quantity="one">1시간 전</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">지난 %1$d일</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%1$d일 전</item>
+        <item quantity="one">어제</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%1$d초 후</item>
+        <item quantity="one">1초 내</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%1$d분 후</item>
+        <item quantity="one">1분 후</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%1$d시간 후</item>
+        <item quantity="one">1시간 후</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%1$d일 후</item>
+        <item quantity="one">내일</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%1$d초 전</item>
+        <item quantity="one">1초 전</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%1$d분 전</item>
+        <item quantity="one">1분 전</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%1$d시간 전</item>
+        <item quantity="one">1시간 전</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%1$d일 전</item>
+        <item quantity="one">어제</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%1$d초 후</item>
+        <item quantity="one">1초 후</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%1$d분 후</item>
+        <item quantity="one">1분 후</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%1$d시간 후</item>
+        <item quantity="one">1시간 후</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%1$d일 후</item>
+        <item quantity="one">내일</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi 네트워크 사용 가능</item>
+        <item quantity="one">Wi-Fi 네트워크 사용 가능</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">개방형 Wi-Fi 네트워크 사용 가능</item>
+        <item quantity="one">개방형 Wi-Fi 네트워크 사용 가능</item>
+    </plurals>
+</resources>

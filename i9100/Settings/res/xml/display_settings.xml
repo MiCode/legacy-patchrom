@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/screen_display" android:key="screen_display">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ScreenDisplay" />
+    </PreferenceScreen>
+    <com.android.settings.BrightnessPreference android:title="@string/brightness" android:key="brightness" android:summary="@string/brightness_summary" android:dialogTitle="@string/brightness" />
+    <PreferenceScreen android:title="@string/screen_mode_setting" android:key="mode" android:summary="@string/screen_mode_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ModePreview" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/accelerometer_title" android:key="accelerometer" android:summary="@string/accelerometer_summary_on" />
+    <ListPreference android:persistent="false" android:entries="@array/animations_entries" android:title="@string/animations_title" android:key="animations" android:entryValues="@array/animations_values" />
+    <ListPreference android:persistent="false" android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screen_timeout" android:summary="@string/screen_timeout_summary" android:entryValues="@array/screen_timeout_values" />
+    <ListPreference android:persistent="false" android:entries="@array/touch_key_light_entries" android:title="@string/touch_key_light" android:key="touch_key_light" android:entryValues="@array/touch_key_light_values" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/display_saving" android:key="power_saving_mode" android:summary="@string/display_saving_mode_summary" />
+    <PreferenceScreen android:title="@string/tvout_settings_title" android:key="tvout_settings" android:summary="@string/tv_out_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.TvOutSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/a_sensor_title" android:key="a_sensor" android:summary="@string/a_sensor_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ASensorSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/g_sensor_title" android:key="g_sensor" android:summary="@string/g_sensor_summary">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.GSensorSettings" />
+    </PreferenceScreen>
+</PreferenceScreen>

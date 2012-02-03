@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem android:paddingLeft="?expandableListPreferredItemPaddingLeft" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="?listPreferredItemHeight" android:mode="twoLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceLarge" android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    <TextView android:textAppearance="?textAppearanceSmall" android:id="@id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/text1" android:layout_alignLeft="@id/text1" />
+</TwoLineListItem>

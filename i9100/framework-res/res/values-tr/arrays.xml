@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Ev</item>
+        <item>İş</item>
+        <item>Diğer</item>
+        <item>Özel</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>İş</item>
+        <item>Diğer</item>
+        <item>Özel</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Ev</item>
+        <item>Cep Telefonu</item>
+        <item>İş</item>
+        <item>İş Faksı</item>
+        <item>Ev faksı</item>
+        <item>Çağrı cihazı</item>
+        <item>Diğer</item>
+        <item>Özel</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Ev</item>
+        <item>İş</item>
+        <item>Diğer</item>
+        <item>Özel</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Ev</item>
+        <item>İş</item>
+        <item>Diğer</item>
+        <item>Özel</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google çeviri</item>
+        <item>Wikipedia</item>
+        <item>Sözlük</item>
+    </string-array>
+</resources>

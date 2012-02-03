@@ -1,0 +1,7 @@
+version: 1.4.3
+apkFileName: Phone.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 2

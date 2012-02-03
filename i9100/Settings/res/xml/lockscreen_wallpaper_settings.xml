@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/lockscreen_wallpaper" android:key="lockscreen_wallpaper" android:summary=""
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/wallpaper_gallery" android:key="wallpaper_gallery" android:summary="" />
+    <PreferenceScreen android:title="@string/gallery" android:key="gallery" android:summary="">
+        <intent android:targetPackage="com.cooliris.media" android:targetClass="com.cooliris.media.LockScreenPhotographs" />
+    </PreferenceScreen>
+</PreferenceScreen>

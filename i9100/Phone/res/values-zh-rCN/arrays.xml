@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>网络默认设定</item>
+        <item>隐藏号码</item>
+        <item>显示号码</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>全球</item>
+        <item>仅限EVDO</item>
+        <item>CDMA，无 EvDo 功能</item>
+        <item>CDMA/EVDO自动</item>
+        <item>自动GSM/WCDMA</item>
+        <item>仅限WCDMA</item>
+        <item>仅GSM</item>
+        <item>首选GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>French</item>
+        <item>西班牙</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>中文</item>
+        <item>希伯来语</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA(自动模式)</item>
+        <item>仅GSM</item>
+        <item>仅限WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA(自动模式)</item>
+        <item>仅限WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA(自动模式)</item>
+        <item>仅GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>仅限主网络</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>仅本地网络</item>
+        <item>附属网络</item>
+        <item>任何网络</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>仅限 CDMA</item>
+        <item>仅限EVDO</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY 已停用</item>
+        <item>TTY 已满</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>普通</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>通话记录</item>
+        <item>语音通话</item>
+        <item>视频通话</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>自动模式</item>
+        <item>仅 2G</item>
+        <item>仅 3G</item>
+    </string-array>
+</resources>

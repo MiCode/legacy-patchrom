@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Baile</item>
+        <item>Obair</item>
+        <item>Eile</item>
+        <item>Saincheap</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Obair</item>
+        <item>Eile</item>
+        <item>Saincheap</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Baile</item>
+        <item>Fón Póca</item>
+        <item>Obair</item>
+        <item>Facs Oibre</item>
+        <item>Facs Baile</item>
+        <item>Glaoire</item>
+        <item>Eile</item>
+        <item>Saincheap</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Baile</item>
+        <item>Obair</item>
+        <item>Eile</item>
+        <item>Saincheap</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Baile</item>
+        <item>Obair</item>
+        <item>Eile</item>
+        <item>Saincheap</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Aistrigh le Google</item>
+        <item>Wikipedia</item>
+        <item>Foclóir</item>
+    </string-array>
+</resources>

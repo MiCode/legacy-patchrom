@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Heima</item>
+        <item>Vinna</item>
+        <item>Annað</item>
+        <item>Sérstilla</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Spjall</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Vinna</item>
+        <item>Annað</item>
+        <item>Sérstilla</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Heima</item>
+        <item>Farsími</item>
+        <item>Vinna</item>
+        <item>Vinnufax</item>
+        <item>Heimafax</item>
+        <item>Símboði</item>
+        <item>Annað</item>
+        <item>Sérstilla</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Heima</item>
+        <item>Vinna</item>
+        <item>Annað</item>
+        <item>Sérstilla</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Heima</item>
+        <item>Vinna</item>
+        <item>Annað</item>
+        <item>Sérstilla</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google þýðingar</item>
+        <item>Wikipedia</item>
+        <item>Orðabók</item>
+    </string-array>
+</resources>

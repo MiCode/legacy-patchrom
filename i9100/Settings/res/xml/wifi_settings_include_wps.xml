@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_quick_toggle_title" android:key="enable_wifi" android:summary="@string/wifi_quick_toggle_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_notify_open_networks" android:key="notify_open_networks" android:summary="@string/wifi_notify_open_networks_summary" android:dependency="enable_wifi" />
+    <Preference android:persistent="false" android:title="@string/wifi_wps_button" android:key="wps_button" android:summary="@string/wifi_wps_button_summary" android:dependency="enable_wifi" />
+    <com.android.settings.ProgressCategory android:persistent="false" android:title="@string/wifi_access_points" android:key="access_points" android:dependency="enable_wifi" />
+    <Preference android:persistent="false" android:title="@string/wifi_add_network" android:key="add_network" android:dependency="enable_wifi" />
+</PreferenceScreen>

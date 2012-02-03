@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/backup_section_title" android:key="backup_category">
+        <CheckBoxPreference android:persistent="false" android:title="@string/backup_data_title" android:key="backup_data" android:summary="@string/backup_data_summary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/auto_restore_title" android:key="auto_restore" android:summary="@string/auto_restore_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/personal_data_section_title">
+        <PreferenceScreen android:title="@string/master_clear_title" android:summary="@string/master_clear_summary">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.MasterClear" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

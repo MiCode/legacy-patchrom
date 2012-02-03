@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="176.0dip" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/dialpad_back" android:layout_height="53.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/incall_button_dialpad_back_icon" style="@style/InCallTouchButtonNoFrame" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="176.0dip" android:layout_height="wrap_content">
+        <Button android:id="@id/dialpad_hide" android:paddingTop="7.0dip" android:layout_height="90.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="0.0dip" android:text="@string/onscreenHideDialpadText" android:drawableTop="@drawable/incall_button_hide_icon" style="@style/InCallTouchUpperButtonNoFrame" />
+        <FrameLayout android:layout_width="1.0dip" android:layout_height="90.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="0.0dip" android:layout_weight="1.0">
+            <Button android:id="@id/dialpad_send" android:background="@drawable/green_button" android:paddingTop="7.0dip" android:text="@string/send_button" android:drawableTop="@drawable/incall_button_voice_call_icon" style="@style/InCallTouchUpperButton" />
+            <Button android:id="@id/dialpad_end" android:background="@drawable/red_button" android:paddingTop="7.0dip" android:visibility="gone" android:text="@string/end_call" android:drawableTop="@drawable/incall_button_end_icon" style="@style/InCallTouchUpperButton" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

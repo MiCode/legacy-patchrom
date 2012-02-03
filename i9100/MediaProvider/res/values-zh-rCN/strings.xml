@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">媒体</string>
+    <string name="app_label">媒体存储器</string>
+    <string name="artist_label">艺术家</string>
+    <string name="media_scanning_tiker_start">媒体扫描器运行中…</string>
+    <string name="media_scanning_tiker_end">媒体扫描完成</string>
+    <string name="media_scanning_running">媒体扫描中…</string>
+    <string name="media_scanning_running_definition">正在扫描SD卡上全部媒体文件…</string>
+    <string name="media_scanning_system">系统存储</string>
+    <string name="media_scanning_internal_sd">USB存储器</string>
+    <string name="media_scanning_external_sd">SD卡</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

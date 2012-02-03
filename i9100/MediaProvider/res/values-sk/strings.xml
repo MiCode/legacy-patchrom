@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Médium</string>
+    <string name="app_label">Pamäť médií</string>
+    <string name="artist_label">Interpret</string>
+    <string name="media_scanning_tiker_start">Prehľadávač médií je spustený...</string>
+    <string name="media_scanning_tiker_end">Prehľadávanie médií je dokončené</string>
+    <string name="media_scanning_running">Prehľadávajú sa médiá...</string>
+    <string name="media_scanning_running_definition">Prehľadávajú sa všetky mediálne súbory na karte SD...</string>
+    <string name="media_scanning_system">Systémový ukladací priestor</string>
+    <string name="media_scanning_internal_sd">Ukladací priestor USB</string>
+    <string name="media_scanning_external_sd">Karta SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

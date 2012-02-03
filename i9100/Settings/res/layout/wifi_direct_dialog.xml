@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300.0sp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/ssid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="4.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="?searchResultListItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon1" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/icon2" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textAppearance="?textAppearanceSearchResultSubtitle" android:gravity="top" android:id="@id/text2" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="29.0dip" android:singleLine="true" android:layout_toLeftOf="@id/icon2" android:layout_toRightOf="@id/icon1" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" style="?android:attr/dropDownItemStyle" />
+    <TextView android:textAppearance="?textAppearanceSearchResultTitle" android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/icon2" android:layout_toRightOf="@id/icon1" android:layout_above="@id/text2" android:layout_centerVertical="true" style="?android:attr/dropDownItemStyle" />
+</RelativeLayout>

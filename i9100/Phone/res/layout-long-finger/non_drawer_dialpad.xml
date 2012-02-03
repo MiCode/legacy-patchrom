@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.DTMFTwelveKeyDialerView android:id="@id/non_drawer_dtmf_dialer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/dialpad_portrait" android:paddingTop="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/dialpad_paddingTop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="61.0dip" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dtmflayout" android:paddingBottom="7.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textAppearance="?android:textAppearanceSmall" android:textSize="39.0sp" android:textStyle="normal" android:textColor="@color/dtmf_dialer_display_text" android:gravity="right|center" android:id="@id/dtmfDialerField" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="300.0dip" android:layout_height="49.0dip" android:maxLines="1" android:scrollHorizontally="true" android:freezesText="true" />
+            </LinearLayout>
+            <LinearLayout android:background="@drawable/call_dial_bg" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="10.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.phone.ButtonGridLayout android:id="@id/dialpad" android:paddingLeft="6.0dip" android:paddingTop="5.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageButton android:id="@id/one" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_1" />
+                    <ImageButton android:id="@id/two" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_2" />
+                    <ImageButton android:id="@id/three" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_3" />
+                    <ImageButton android:id="@id/four" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_4" />
+                    <ImageButton android:id="@id/five" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_5" />
+                    <ImageButton android:id="@id/six" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_6" />
+                    <ImageButton android:id="@id/seven" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_7" />
+                    <ImageButton android:id="@id/eight" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_8" />
+                    <ImageButton android:id="@id/nine" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_9" />
+                    <ImageButton android:id="@id/star" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_star" />
+                    <ImageButton android:id="@id/zero" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_0" />
+                    <ImageButton android:id="@id/pound" android:background="@drawable/btn_dial_incall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_pound" />
+                </com.android.phone.ButtonGridLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/dialpad_landscape" android:background="@drawable/call_dial_bg_h" android:paddingTop="14.0dip" android:visibility="gone" android:layout_width="533.0dip" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dtmflayout" android:clickable="true" android:layout_width="328.0dip" android:layout_height="wrap_content">
+                <EditText android:textAppearance="?android:textAppearanceSmall" android:textSize="39.0sp" android:textStyle="normal" android:textColor="@color/dtmf_dialer_display_text" android:gravity="right" android:id="@id/dtmfDialerField" android:background="@null" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="300.0dip" android:layout_height="49.0dip" android:maxLines="1" android:scrollHorizontally="true" android:freezesText="true" />
+            </LinearLayout>
+            <LinearLayout android:paddingLeft="13.0dip" android:paddingTop="3.0dip" android:paddingRight="13.0dip" android:paddingBottom="7.0dip" android:clickable="true" android:layout_width="328.0dip" android:layout_height="wrap_content">
+                <com.android.phone.ButtonGridLayout android:id="@id/dialpad" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageButton android:id="@id/one" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_1_h" />
+                    <ImageButton android:id="@id/two" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_2_h" />
+                    <ImageButton android:id="@id/three" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_3_h" />
+                    <ImageButton android:id="@id/four" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_4_h" />
+                    <ImageButton android:id="@id/five" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_5_h" />
+                    <ImageButton android:id="@id/six" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_6_h" />
+                    <ImageButton android:id="@id/seven" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_7_h" />
+                    <ImageButton android:id="@id/eight" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_8_h" />
+                    <ImageButton android:id="@id/nine" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_9_h" />
+                    <ImageButton android:id="@id/star" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_star_h" />
+                    <ImageButton android:id="@id/zero" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_0_h" />
+                    <ImageButton android:id="@id/pound" android:background="@drawable/btn_dial_incall_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_dial_num_pound_h" />
+                </com.android.phone.ButtonGridLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.android.phone.DTMFTwelveKeyDialerView>

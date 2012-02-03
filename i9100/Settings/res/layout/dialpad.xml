@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/topDisplayGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="19.0sp" android:gravity="center" android:id="@id/headerText" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/New_Password" android:lines="2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:gravity="center" android:id="@id/carrier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0sp" android:gravity="center" android:id="@id/lockinfoText" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <RelativeLayout android:background="@android:drawable/edit_text" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip">
+            <TextView android:textAppearance="?android:textAppearanceLargeInverse" android:textStyle="bold" android:id="@id/pinDisplay" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="62.0dip" android:maxLines="1" android:layout_centerInParent="true" android:inputType="textPassword">
+                <requestFocus />
+            </TextView>
+            <ImageButton android:id="@id/backspace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:src="@android:drawable/ic_input_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/keyPad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/topDisplayGroup">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/one" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/one" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/two" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/two" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/three" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/three" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/four" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/four" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/five" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/five" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/six" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/six" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/seven" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/seven" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/eight" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/eight" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/nine" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/nine" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+            <Button android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/ok" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/confirm" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/zero" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/zero" android:layout_weight="1.0" />
+            <Button android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/cancel" android:layout_width="0.0sp" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@android:string/cancel" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

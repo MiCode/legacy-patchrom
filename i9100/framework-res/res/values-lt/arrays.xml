@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Namų</item>
+        <item>Darbas</item>
+        <item>Kiti</item>
+        <item>Pasir</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>„Yahoo!“</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>„Google Talk“</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Darbas</item>
+        <item>Kiti</item>
+        <item>Pasir</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Namų</item>
+        <item>Mobilusis</item>
+        <item>Darbas</item>
+        <item>Darbo faksas</item>
+        <item>Namų faksas</item>
+        <item>Pranešimų gaviklis</item>
+        <item>Kiti</item>
+        <item>Pasir</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Namų</item>
+        <item>Darbas</item>
+        <item>Kiti</item>
+        <item>Pasir</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Namų</item>
+        <item>Darbas</item>
+        <item>Kiti</item>
+        <item>Pasir</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>„Google“</item>
+        <item>Versti naudojantis „Google“</item>
+        <item>Vikipedija</item>
+        <item>Žodynas</item>
+    </string-array>
+</resources>

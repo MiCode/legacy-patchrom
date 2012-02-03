@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.ButtonGridLayout android:layout_gravity="center_horizontal" android:id="@id/dialpad" android:paddingLeft="7.0dip" android:paddingTop="6.0dip" android:paddingRight="7.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/one" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_1" />
+    <ImageButton android:id="@id/two" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_2" />
+    <ImageButton android:id="@id/three" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_3" />
+    <ImageButton android:id="@id/four" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_4" />
+    <ImageButton android:id="@id/five" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_5" />
+    <ImageButton android:id="@id/six" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_6" />
+    <ImageButton android:id="@id/seven" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_7" />
+    <ImageButton android:id="@id/eight" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_8" />
+    <ImageButton android:id="@id/nine" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_9" />
+    <ImageButton android:id="@id/star" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_star" />
+    <ImageButton android:id="@id/zero" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_0" />
+    <ImageButton android:id="@id/pound" android:background="@drawable/btn_dial_incall" android:layout_width="92.0dip" android:layout_height="58.0dip" android:src="@drawable/call_dial_num_pound" />
+</com.android.phone.ButtonGridLayout>

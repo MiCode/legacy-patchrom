@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Мультимедиа</string>
+    <string name="app_label">Хранилище мультимедиа</string>
+    <string name="artist_label">Исполнитель</string>
+    <string name="media_scanning_tiker_start">Выполняется поиск медиафайлов...</string>
+    <string name="media_scanning_tiker_end">Поиск медиафайлов завершен</string>
+    <string name="media_scanning_running">Поиск медиафайлов...</string>
+    <string name="media_scanning_running_definition">Выполняется поиск всех медиафайлов на карте памяти SD...</string>
+    <string name="media_scanning_system">Системная память</string>
+    <string name="media_scanning_internal_sd">USB-накопитель</string>
+    <string name="media_scanning_external_sd">Карта памяти SD</string>
+    <string name="alphabet_indexlist">АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</string>
+</resources>

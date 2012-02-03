@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="panel_on">#ffffffff</color>
+    <color name="panel_off">#ffb6b1a8</color>
+    <color name="white">#ffffffff</color>
+    <color name="daily_repeat_select">#ff346ed7</color>
+</resources>

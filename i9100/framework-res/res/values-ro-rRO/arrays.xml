@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="maps_starting_lat_lng">
+        <item>45943161</item>
+        <item>24966760</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>4</item>
+    </integer-array>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>am</item>
+        <item>pm</item>
+    </string-array>
+</resources>

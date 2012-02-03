@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/manageConferencePanel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/conferenceCallList" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:background="#ff787878" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <Button android:id="@id/manage_done" android:layout_width="fill_parent" android:layout_marginLeft="11.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="12.0dip" android:text="@string/caller_manage_manage_done_text" android:layout_alignParentBottom="true" style="@style/InCallTouchButtonNoFrame" />
+</RelativeLayout>

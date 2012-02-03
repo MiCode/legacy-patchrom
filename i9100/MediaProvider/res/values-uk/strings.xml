@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Медіа</string>
+    <string name="app_label">Місце збереження медіа</string>
+    <string name="artist_label">Виконавець</string>
+    <string name="media_scanning_tiker_start">Запущено сканер медіафайлів...</string>
+    <string name="media_scanning_tiker_end">Сканування медіафайлів завершено</string>
+    <string name="media_scanning_running">Сканування медіафайлів...</string>
+    <string name="media_scanning_running_definition">Сканування усіх медіафайлів на карті пам’яті...</string>
+    <string name="media_scanning_system">Місце збереження системних даних</string>
+    <string name="media_scanning_internal_sd">USB-накопичувач</string>
+    <string name="media_scanning_external_sd">Карта пам’яті</string>
+    <string name="alphabet_indexlist">АБВГДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЮЯЬ</string>
+</resources>

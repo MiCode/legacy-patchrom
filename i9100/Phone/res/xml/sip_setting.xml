@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sip_accounts"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="true" android:title="@string/sip_receive_calls" android:key="sip_receive_calls_key" android:summary="@string/sip_receive_calls_summary" />
+    <PreferenceCategory android:title="@string/sip_account_list" android:key="sip_account_list" />
+</PreferenceScreen>

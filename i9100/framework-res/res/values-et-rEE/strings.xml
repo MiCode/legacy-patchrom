@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="month_long_standalone_january">Jaanuar</string>
+    <string name="month_long_standalone_february">Veebruar</string>
+    <string name="month_long_standalone_march">Märts</string>
+    <string name="month_long_standalone_april">Aprill</string>
+    <string name="month_long_standalone_may">Mai</string>
+    <string name="month_long_standalone_june">Juuni</string>
+    <string name="month_long_standalone_july">Juuli</string>
+    <string name="month_long_standalone_august">August</string>
+    <string name="month_long_standalone_september">September</string>
+    <string name="month_long_standalone_october">Oktoober</string>
+    <string name="month_long_standalone_november">November</string>
+    <string name="month_long_standalone_december">Detsember</string>
+    <string name="month_long_january">Jaanuar</string>
+    <string name="month_long_february">Veebruar</string>
+    <string name="month_long_march">Märts</string>
+    <string name="month_long_april">Aprill</string>
+    <string name="month_long_may">Mai</string>
+    <string name="month_long_june">Juuni</string>
+    <string name="month_long_july">Juuli</string>
+    <string name="month_long_august">August</string>
+    <string name="month_long_september">September</string>
+    <string name="month_long_october">Oktoober</string>
+    <string name="month_long_november">November</string>
+    <string name="month_long_december">Detsember</string>
+    <string name="month_medium_january">Jaa</string>
+    <string name="month_medium_february">Vee</string>
+    <string name="month_medium_march">Mär</string>
+    <string name="month_medium_april">Apr</string>
+    <string name="month_medium_may">Mai</string>
+    <string name="month_medium_june">Juu</string>
+    <string name="month_medium_july">Juu</string>
+    <string name="month_medium_august">Aug</string>
+    <string name="month_medium_september">Sep</string>
+    <string name="month_medium_october">Okt</string>
+    <string name="month_medium_november">Nov</string>
+    <string name="month_medium_december">Det</string>
+    <string name="month_shortest_january">J</string>
+    <string name="month_shortest_february">V</string>
+    <string name="month_shortest_march">M</string>
+    <string name="month_shortest_april">A</string>
+    <string name="month_shortest_may">M</string>
+    <string name="month_shortest_june">J</string>
+    <string name="month_shortest_july">J</string>
+    <string name="month_shortest_august">A</string>
+    <string name="month_shortest_september">S</string>
+    <string name="month_shortest_october">O</string>
+    <string name="month_shortest_november">N</string>
+    <string name="month_shortest_december">D</string>
+    <string name="day_of_week_long_sunday">Pühapäev</string>
+    <string name="day_of_week_long_monday">Esmaspäev</string>
+    <string name="day_of_week_long_tuesday">Teisipäev</string>
+    <string name="day_of_week_long_wednesday">Kolmapäev</string>
+    <string name="day_of_week_long_thursday">Neljapäev</string>
+    <string name="day_of_week_long_friday">Reede</string>
+    <string name="day_of_week_long_saturday">Laupäev</string>
+    <string name="day_of_week_medium_sunday">Püh</string>
+    <string name="day_of_week_medium_monday">Esm</string>
+    <string name="day_of_week_medium_tuesday">Tei</string>
+    <string name="day_of_week_medium_wednesday">Kol</string>
+    <string name="day_of_week_medium_thursday">Nel</string>
+    <string name="day_of_week_medium_friday">Ree</string>
+    <string name="day_of_week_medium_saturday">Lau</string>
+    <string name="day_of_week_short_sunday">Pü</string>
+    <string name="day_of_week_short_monday">Es</string>
+    <string name="day_of_week_short_tuesday">Te</string>
+    <string name="day_of_week_short_wednesday">Ko</string>
+    <string name="day_of_week_short_thursday">Ne</string>
+    <string name="day_of_week_short_friday">Re</string>
+    <string name="day_of_week_short_saturday">La</string>
+    <string name="day_of_week_shortest_sunday">P</string>
+    <string name="day_of_week_shortest_monday">E</string>
+    <string name="day_of_week_shortest_tuesday">T</string>
+    <string name="day_of_week_shortest_wednesday">K</string>
+    <string name="day_of_week_shortest_thursday">N</string>
+    <string name="day_of_week_shortest_friday">R</string>
+    <string name="day_of_week_shortest_saturday">L</string>
+    <string name="am">EL</string>
+    <string name="pm">PL</string>
+    <string name="yesterday">Eile</string>
+    <string name="today">Täna</string>
+    <string name="tomorrow">Homme</string>
+    <string name="hour_minute_24" formatted="false">%H:%M</string>
+    <string name="hour_minute_ampm" formatted="false">%-l:%M%p</string>
+    <string name="hour_minute_cap_ampm" formatted="false">%-l:%M%^p</string>
+    <string name="twelve_hour_time_format">h:mm a</string>
+    <string name="twenty_four_hour_time_format">HH:mm</string>
+    <string name="numeric_date" formatted="false">%-m/%-e/%Y</string>
+    <string name="numeric_date_format">M/d/yyyy</string>
+    <string name="numeric_date_template" formatted="false">%s/%s/%s</string>
+    <string name="month_day_year" formatted="false">%B %-e, %Y</string>
+    <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
+    <string name="date_and_time" formatted="false">%b %-e, %Y, %-l:%M:%S %p</string>
+    <string name="date_time">%1$s, %2$s</string>
+    <string name="time_date">%1$s, %3$s</string>
+    <string name="abbrev_month_day_year" formatted="false">%b %-e, %Y</string>
+    <string name="month_day" formatted="false">%B %-e</string>
+    <string name="month">%-B</string>
+    <string name="month_year" formatted="false">%B %Y</string>
+    <string name="abbrev_month_day" formatted="false">%b %-e</string>
+    <string name="abbrev_month">%-b</string>
+    <string name="abbrev_month_year" formatted="false">%b %Y</string>
+    <string name="time1_time2">%1$s – %2$s</string>
+    <string name="date1_date2">%2$s – %5$s</string>
+    <string name="numeric_md1_md2">%2$s/%3$s – %7$s/%8$s</string>
+    <string name="numeric_wday1_md1_wday2_md2">%1$s, %2$s/%3$s – %6$s, %7$s/%8$s</string>
+    <string name="numeric_mdy1_mdy2">%2$s/%3$s/%4$s – %7$s/%8$s/%9$s</string>
+    <string name="numeric_wday1_mdy1_wday2_mdy2">%1$s, %2$s/%3$s/%4$s – %6$s, %7$s/%8$s/%9$s</string>
+    <string name="numeric_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %2$s/%3$s/%4$s, %5$s – %6$s, %7$s/%8$s/%9$s, %10$s</string>
+    <string name="numeric_md1_time1_md2_time2">%2$s/%3$s, %5$s – %7$s/%8$s, %10$s</string>
+    <string name="numeric_wday1_md1_time1_wday2_md2_time2">%1$s, %2$s/%3$s, %5$s – %6$s, %7$s/%8$s, %10$s</string>
+    <string name="numeric_mdy1_time1_mdy2_time2">%2$s/%3$s/%4$s, %5$s – %7$s/%8$s/%9$s, %10$s</string>
+    <string name="wday1_date1_time1_wday2_date2_time2">%1$s, %2$s, %3$s – %4$s, %5$s, %6$s</string>
+    <string name="wday1_date1_wday2_date2">%1$s, %2$s – %4$s, %5$s</string>
+    <string name="date1_time1_date2_time2">%2$s, %3$s – %5$s, %6$s</string>
+    <string name="time_wday_date">%1$s, %2$s, %3$s</string>
+    <string name="wday_date">%2$s, %3$s</string>
+    <string name="time_wday">%1$s, %2$s</string>
+    <string name="same_year_md1_md2">%2$s %3$s – %7$s %8$s</string>
+    <string name="same_year_wday1_md1_wday2_md2">%1$s, %2$s %3$s – %6$s, %7$s %8$s</string>
+    <string name="same_year_md1_time1_md2_time2">%2$s %3$s, %5$s – %7$s %8$s, %10$s</string>
+    <string name="same_month_md1_time1_md2_time2">%2$s %3$s, %5$s – %7$s %8$s, %10$s</string>
+    <string name="same_year_wday1_md1_time1_wday2_md2_time2">%1$s, %2$s %3$s, %5$s – %6$s, %7$s %8$s, %10$s</string>
+    <string name="same_month_wday1_md1_time1_wday2_md2_time2">%1$s, %2$s %3$s, %5$s – %6$s, %7$s %8$s, %10$s</string>
+    <string name="same_year_mdy1_time1_mdy2_time2">%2$s %3$s, %4$s, %5$s – %7$s %8$s, %9$s, %10$s</string>
+    <string name="same_month_mdy1_time1_mdy2_time2">%2$s %3$s, %4$s, %5$s – %7$s %8$s, %9$s, %10$s</string>
+    <string name="same_year_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %2$s %3$s, %4$s, %5$s – %6$s, %7$s %8$s, %9$s, %10$s</string>
+    <string name="same_month_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %2$s %3$s, %4$s, %5$s – %6$s, %7$s %8$s, %9$s, %10$s</string>
+    <string name="same_month_wday1_mdy1_wday2_mdy2">%1$s, %2$s %3$s, %4$s – %6$s, %7$s %8$s, %9$s</string>
+    <string name="same_month_md1_md2">%2$s %3$s – %8$s</string>
+    <string name="same_month_wday1_md1_wday2_md2">%1$s, %2$s %3$s – %6$s, %7$s %8$s</string>
+    <string name="same_year_mdy1_mdy2">%2$s %3$s – %7$s %8$s, %9$s</string>
+    <string name="same_month_mdy1_mdy2">%2$s %3$s – %8$s, %9$s</string>
+    <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s, %2$s %3$s – %6$s, %7$s %8$s, %9$s</string>
+    <string name="short_format_month">%b</string>
+    <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
+    <string name="abbrev_wday_month_day_year">EEE, MMM d, yyyy</string>
+    <string name="mid_month_day_mid_wday_no_year">MMM d, E</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Acasă</item>
+        <item>Serviciu</item>
+        <item>Altul</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Serviciu</item>
+        <item>Altul</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Acasă</item>
+        <item>Mobil</item>
+        <item>Serviciu</item>
+        <item>Fax birou</item>
+        <item>Fax domiciliu</item>
+        <item>Pager</item>
+        <item>Altul</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Acasă</item>
+        <item>Serviciu</item>
+        <item>Altul</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Acasă</item>
+        <item>Serviciu</item>
+        <item>Altul</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Traducere Google</item>
+        <item>Wikipedia</item>
+        <item>Dicţionar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%1$d secondi fa</item>
+        <item quantity="one">1 secondo fa</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%1$d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%1$d ore fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Ultimi %1$d giorni</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%1$d giorni fa</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">tra %1$d secondi</item>
+        <item quantity="one">tra 1 secondo</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">tra %1$d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">tra %1$d ore</item>
+        <item quantity="one">tra 1 ora</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">tra %1$d giorni</item>
+        <item quantity="one">domani</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%1$d sec fa</item>
+        <item quantity="one">1 sec fa</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%1$d min fa</item>
+        <item quantity="one">1 min fa</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%1$d ore fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%1$d giorni fa</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">tra %1$d sec</item>
+        <item quantity="one">tra 1 sec</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">tra %1$d min</item>
+        <item quantity="one">tra 1 min</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">tra %1$d ore</item>
+        <item quantity="one">tra 1 ora</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">tra %1$d giorni</item>
+        <item quantity="one">domani</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Reti Wi-Fi disponibili</item>
+        <item quantity="one">Rete Wi-Fi disponibile</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Reti Wi-Fi aperte disponibili</item>
+        <item quantity="one">Rete Wi-Fi aperta disponibile</item>
+    </plurals>
+</resources>

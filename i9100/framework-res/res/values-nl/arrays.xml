@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Thuis</item>
+        <item>Zakelijk</item>
+        <item>Overige</item>
+        <item>Eigen</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Zakelijk</item>
+        <item>Overige</item>
+        <item>Eigen</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Thuis</item>
+        <item>Mobiel</item>
+        <item>Zakelijk</item>
+        <item>Fax werk</item>
+        <item>Fax privé</item>
+        <item>Pieper</item>
+        <item>Overige</item>
+        <item>Eigen</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Thuis</item>
+        <item>Zakelijk</item>
+        <item>Overige</item>
+        <item>Eigen</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Thuis</item>
+        <item>Zakelijk</item>
+        <item>Overige</item>
+        <item>Eigen</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Vertalen via Google</item>
+        <item>Wikipedia</item>
+        <item>"Woorden-
+boek"</item>
+    </string-array>
+</resources>

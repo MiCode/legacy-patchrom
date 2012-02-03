@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Pessoal</item>
+        <item>Empresa</item>
+        <item>Outro</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Empresa</item>
+        <item>Outro</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Pessoal</item>
+        <item>Telemóvel</item>
+        <item>Empresa</item>
+        <item>Fax do trabalho</item>
+        <item>Fax de casa</item>
+        <item>Pager</item>
+        <item>Outro</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Pessoal</item>
+        <item>Empresa</item>
+        <item>Outro</item>
+        <item>Pers.</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>38707163</item>
+        <item>-9135517</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>4</item>
+    </integer-array>
+    <string-array name="imAddressTypes">
+        <item>Pessoal</item>
+        <item>Empresa</item>
+        <item>Outro</item>
+        <item>Pers.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google Tradutor</item>
+        <item>Wikipedia</item>
+        <item>Dicionário</item>
+    </string-array>
+</resources>

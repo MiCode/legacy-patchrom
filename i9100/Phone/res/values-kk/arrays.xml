@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Желінің әдепкі мәні</item>
+        <item>Нөмірді жасыру</item>
+        <item>Нөмірді көру</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Тек EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO автоматты</item>
+        <item>Автоматты GSM/WCDMA</item>
+        <item>Тек WCDMA</item>
+        <item>Тек GSM</item>
+        <item>Қажетті GSM/WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (автоматты режим)</item>
+        <item>Тек GSM</item>
+        <item>Тек WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (автоматты режим)</item>
+        <item>Тек WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (автоматты режим)</item>
+        <item>Тек GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Тек бастапқы</item>
+        <item>Автоматты түрде</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Тек үй желісі</item>
+        <item>Еншілес желілер</item>
+        <item>Кез келген желі</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>CDMA ғана</item>
+        <item>Тек EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Қлп.</item>
+        <item>Ұзын</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Қоңыраулар журналы</item>
+        <item>Дауыс қоңырауы</item>
+        <item>Бейне қоңыр.</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (автоматты режим)</item>
+        <item>Тек GSM</item>
+        <item>Тек WCDMA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Inicio</item>
+        <item>Profesional</item>
+        <item>Otros</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Profesional</item>
+        <item>Otros</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Inicio</item>
+        <item>Móvil</item>
+        <item>Profesional</item>
+        <item>Fax del trabajo</item>
+        <item>Fax de casa</item>
+        <item>Buscapersonas</item>
+        <item>Otros</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Inicio</item>
+        <item>Profesional</item>
+        <item>Otros</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Inicio</item>
+        <item>Profesional</item>
+        <item>Otros</item>
+        <item>Personalizar</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Traductor de Google</item>
+        <item>Wikipedia</item>
+        <item>Diccionario</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_direct_settings_titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_direct_title" android:key="enable_direct" />
+    <Preference android:persistent="false" android:singleLine="true" android:title="@string/wifi_direct_device_name" android:key="direct_ssid" />
+    <Preference android:persistent="false" android:title="@string/wifi_status" android:key="direct_status" android:dependency="enable_direct" />
+    <Preference android:persistent="false" android:title="@string/wifi_direct_disconnect_all" android:key="direct_disconnect" android:dependency="enable_direct" />
+    <com.android.settings.ProgressCategory android:persistent="false" android:title="@string/wifi_direct_access_points" android:key="access_points" />
+</PreferenceScreen>

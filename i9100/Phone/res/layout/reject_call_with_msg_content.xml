@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:id="@id/reject_call_with_msg_create" android:background="@drawable/linearlayout_select_all_item_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="67.619995dip">
+            <ImageView android:layout_gravity="center" android:layout_width="38.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/btn_create_ss" android:scaleType="fitXY" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/twcolor001" android:layout_gravity="center" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/reject_call_with_msg_create" android:shadowColor="@color/twcolor002" android:shadowDx="-1.0" android:shadowDy="-1.0" android:shadowRadius="0.3" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/reject_call_with_msg_item1" style="@style/RejectWithMsgItem">
+            <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMsgItemText" />
+            <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMsgItemBtn" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/reject_call_with_msg_item2" style="@style/RejectWithMsgItem">
+            <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMsgItemText" />
+            <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMsgItemBtn" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/reject_call_with_msg_item3" style="@style/RejectWithMsgItem">
+            <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMsgItemText" />
+            <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMsgItemBtn" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/reject_call_with_msg_item4" style="@style/RejectWithMsgItem">
+            <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMsgItemText" />
+            <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMsgItemBtn" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/reject_call_with_msg_item5" style="@style/RejectWithMsgItem">
+            <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMsgItemText" />
+            <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMsgItemBtn" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/reject_call_with_msg_item6" style="@style/RejectWithMsgItem">
+            <TextView android:id="@id/reject_call_with_msg_item_text" style="@style/RejectWithMsgItemText" />
+            <Button android:id="@id/reject_call_with_msg_item_button" style="@style/RejectWithMsgItemBtn" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

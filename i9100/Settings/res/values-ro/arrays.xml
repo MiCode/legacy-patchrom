@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europe</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacific</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="date_format_entries">
+        <item>MM/DD/YYYY</item>
+        <item>DD/MM/YYYY</item>
+        <item>YYYY/MM/DD</item>
+    </string-array>
+    <string-array name="date_format_values">
+        <item>MM-dd-yyyy</item>
+        <item>dd-MM-yyyy</item>
+        <item>yyyy-MM-dd</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Fără animaţie</item>
+        <item>Unele animaţii</item>
+        <item>Toate animaţiile</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Nu se afişează nicio animaţie în fereastră</item>
+        <item>Sunt afişate câteva animaţii în fereastră</item>
+        <item>Toate animaţiile de fereastră sunt afişate</item>
+    </string-array>
+    <string-array name="animations_values">
+        <item>00</item>
+        <item>01</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 secunde</item>
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>2 minute</item>
+        <item>10 minute</item>
+    </string-array>
+    <string-array name="screen_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>600000</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Foarte încet</item>
+        <item>Încet</item>
+        <item>Normal</item>
+        <item>Rapid</item>
+        <item>Foarte rapid</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Foarte scăzută</item>
+        <item>Scăzută</item>
+        <item>Normal</item>
+        <item>Înalt</item>
+        <item>Foarte mare</item>
+    </string-array>
+    <string-array name="tts_pitch_values">
+        <item>50</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>American English</item>
+        <item>British English</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Italiano</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="tts_lang_values">
+        <item>eng-USA</item>
+        <item>eng-GBR</item>
+        <item>fra-FRA</item>
+        <item>deu-DEU</item>
+        <item>ita-ITA</item>
+        <item>spa-ESP</item>
+    </string-array>
+    <string-array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+    </string-array>
+    <string-array name="tts_engine_entries">
+        <item>Pico TTS</item>
+    </string-array>
+    <string-array name="tts_engine_values">
+        <item>com.svox.pico</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanare...</item>
+        <item>Conectare</item>
+        <item>În curs de autentificare...</item>
+        <item>Se obţine adresa IP de la...</item>
+        <item>Conectat</item>
+        <item>Suspendat</item>
+        <item>Deconectare</item>
+        <item>Deconectat</item>
+        <item>Eşuat</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanare...</item>
+        <item>Conectare cu %1$s</item>
+        <item>Se autentifică %1$s...</item>
+        <item>Se obţine adresa IP pentru %1$s...</item>
+        <item>Conectat la %1$s</item>
+        <item>Suspendat</item>
+        <item>Se deconectează de la %1$s...</item>
+        <item>Deconectat</item>
+        <item>Eşuat</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Deschisă</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>CCKM EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Deschisă</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_ap_security">
+        <item>Deschisă</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Slab</item>
+        <item>Mediu</item>
+        <item>Bun</item>
+        <item>Excelent</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Când ecranul se stinge</item>
+        <item>Niciodată când este conectat</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="apn_ently_key">
+        <item>Internet + MMS</item>
+        <item>Internet</item>
+        <item>MMS</item>
+    </string-array>
+    <string-array name="apn_type_key">
+        <item>*</item>
+        <item>default,supl</item>
+        <item>mms</item>
+    </string-array>
+    <string-array name="apn_ently_key_includeDUN">
+        <item>Internet + MMS + DUN</item>
+        <item>Internet + MMS</item>
+        <item>Internet + DUN</item>
+        <item>Internet</item>
+        <item>MMS</item>
+        <item>DUN</item>
+    </string-array>
+    <string-array name="apn_type_key_includeDUN">
+        <item>*</item>
+        <item>default,supl,mms</item>
+        <item>default,supl,dun</item>
+        <item>default,supl</item>
+        <item>mms</item>
+        <item>dun</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Timp de utilizare</item>
+        <item>Contor lansări</item>
+        <item>Nume aplicaţie</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>FAST</item>
+        <item>LEAP</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Niciuna</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minute</item>
+        <item>5 minute</item>
+        <item>1 oră</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Oprit</item>
+        <item>Avertizare</item>
+        <item>Vibrare</item>
+    </string-array>
+    <string-array name="emergency_tone_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="special_locale_codes">
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <string-array name="tv_system_entries">
+        <item>PAL</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="tv_system_values">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Niciuna</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP sau CHAP</item>
+    </string-array>
+    <string-array name="apn_auth_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Memorie internă</item>
+        <item>Cartelă SD detaşabilă</item>
+        <item>Implicită</item>
+    </string-array>
+    <string-array name="app_install_location_values">
+        <item>device</item>
+        <item>sdcard</item>
+        <item>auto</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Întotdeauna</item>
+        <item>Niciodată</item>
+        <item>Numai în modul Silenţios</item>
+        <item>Numai când nu este în modul Silenţios</item>
+    </string-array>
+    <string-array name="vibrate_values">
+        <item>always</item>
+        <item>never</item>
+        <item>silent</item>
+        <item>notsilent</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Întotdeauna</item>
+        <item>Idle screen</item>
+        <item>Niciodată</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 secunde</item>
+        <item>6 secunde</item>
+        <item>Întotdeauna dezactivat</item>
+        <item>Întotdeauna pornit</item>
+        <item>În întuneric</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>Alimentare pe baterie 10%</item>
+        <item>Alimentare pe baterie 30%</item>
+        <item>Alimentare pe baterie 50%</item>
+        <item>Alimentare pe baterie 70%</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dinamic</item>
+        <item>Standard</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Sus</item>
+        <item>Mijloc</item>
+        <item>Jos</item>
+    </string-array>
+    <string-array name="battery_history_type_spinner">
+        <item>Utilizare CPU</item>
+        <item>Utilizare reţea</item>
+        <item>Utilizare GPS</item>
+        <item>Utilizare senzor</item>
+        <item>Utilizare parţial activă</item>
+        <item>Altă utilizare</item>
+    </string-array>
+    <string-array name="wifi_phase1_entries">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="tv_out_entries">
+        <item>Pornit</item>
+        <item>Oprit</item>
+    </string-array>
+    <string-array name="tv_out_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pinc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="73.32999dip">
+            <TextView android:textSize="17.329987dip" android:textColor="@color/twcolor001" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name" />
+            <EditText android:textSize="18.669983dip" android:id="@id/fdn_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/name" android:singleLine="true" android:capitalize="words" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="73.32999dip">
+            <TextView android:textSize="17.329987dip" android:textColor="@color/twcolor001" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/number" />
+            <EditText android:textSize="18.669983dip" android:id="@id/fdn_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/number" android:singleLine="true" android:inputType="phone" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="73.32999dip">
+            <TextView android:textSize="17.329987dip" android:textColor="@color/twcolor001" android:id="@id/calldivertingtotext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enter_pin2_text" />
+            <EditText android:textSize="18.669983dip" android:id="@id/fdn_pin2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/enter_pin2_text" android:password="true" android:singleLine="true" android:maxLength="8" android:capitalize="none" android:autoText="false" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <Button android:gravity="center" android:layout_gravity="center" android:id="@id/fdn_save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/save" android:layout_weight="0.5" />
+            <Button android:gravity="center" android:layout_gravity="center" android:id="@id/fdn_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

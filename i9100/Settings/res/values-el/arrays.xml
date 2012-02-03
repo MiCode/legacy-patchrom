@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Αμερική</item>
+        <item>Ευρώπη</item>
+        <item>Αφρική</item>
+        <item>Ασία</item>
+        <item>Αυστραλία</item>
+        <item>Ειρηνικός</item>
+        <item>Όλα</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Χωρίς κινούμενες εικόνες</item>
+        <item>Ορισμένες κινούμενες εικόνες</item>
+        <item>Όλες οι κινούμενες εικόνες</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Δεν εμφανίζονται εφέ κίνησης παραθύρων</item>
+        <item>Εμφάνιση ορισμένων εφέ κίνησης παραθύρων</item>
+        <item>Εμφανίζονται όλα τα εφέ κίνησης παραθύρων</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 δευτερόλεπτα</item>
+        <item>30 δευτερόλεπτα</item>
+        <item>1 λεπτό</item>
+        <item>2 λεπτά</item>
+        <item>10 λεπτά</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Πολύ αργός</item>
+        <item>Αργός</item>
+        <item>Κανονική</item>
+        <item>Γρήγορη</item>
+        <item>Πολύ γρήγορος</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Πολύ χαμηλός</item>
+        <item>Χαμηλή</item>
+        <item>Κανονική</item>
+        <item>Υψηλή</item>
+        <item>Πολύ υψηλός</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Αγγλικά Αμερικής</item>
+        <item>Αγγλικά Βρετανίας</item>
+        <item>Γαλλικά</item>
+        <item>Γερμανικά</item>
+        <item>Ιταλικά</item>
+        <item>Ισπανικά</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Σάρωση...</item>
+        <item>Σύνδεση...</item>
+        <item>Έλεγχος ταυτότητας...</item>
+        <item>Λήψη διεύθυνσης IP…</item>
+        <item>Συνδεδεμένο</item>
+        <item>Σε αναστολή</item>
+        <item>Αποσύνδεση...</item>
+        <item>Αποσυνδέθηκε</item>
+        <item>Ανεπιτυχής</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Σάρωση...</item>
+        <item>Σύνδεση σε %1$s...</item>
+        <item>Έλεγχος ταυτότητας με %1$s…</item>
+        <item>Λήψη διεύθυνσης IP από %1$s...</item>
+        <item>Συνδεδεμένο σε %1$s</item>
+        <item>Σε αναστολή</item>
+        <item>Αποσύνδεση από %1$s…</item>
+        <item>Αποσυνδέθηκε</item>
+        <item>Ανεπιτυχής</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Άνοιγμα</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Άνοιγμα</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Κακό</item>
+        <item>Μέτριο</item>
+        <item>Καλό</item>
+        <item>Εξαιρετικό</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Όταν η οθόνη απενεργοποιείται</item>
+        <item>Ποτέ όταν είναι συνδεδεμένο</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Χρόνος χρήσης</item>
+        <item>Εκκίνηση καταμέτρησης</item>
+        <item>Όνομα εφαρμογής</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Κανένα</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 λεπτά</item>
+        <item>5 λεπτά</item>
+        <item>1 ώρα</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Απενεργοποιημένο</item>
+        <item>Προειδοποίηση</item>
+        <item>Δόνηση</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Κανένας</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ή CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Εσωτερικός χώρος αποθήκευσης της συσκευής</item>
+        <item>Αφαιρούμενη κάρτα SD</item>
+        <item>Να αποφασίζει το σύστημα</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Πάντα</item>
+        <item>Ποτέ</item>
+        <item>Μόνο στην αθόρυβη λειτουργία</item>
+        <item>Μόνο όταν δεν είναι ενεργή η αθόρυβη λειτουργία</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Πάντα</item>
+        <item>Idle screen</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 δευτερόλεπτα</item>
+        <item>6 δευτερόλεπτα</item>
+        <item>Πάντα απενεργ/μένο</item>
+        <item>Πάντα ενεργό</item>
+        <item>Στο σκοτάδι</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>Ισχύς μπαταρίας 10%</item>
+        <item>Ισχύς μπαταρίας 30%</item>
+        <item>Ισχύς μπαταρίας 50%</item>
+        <item>Ισχύς μπαταρίας 70%</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Δυναμικό</item>
+        <item>Τυπική</item>
+        <item>Ταινία</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Πάνω</item>
+        <item>Μέση</item>
+        <item>Κάτω</item>
+    </string-array>
+</resources>

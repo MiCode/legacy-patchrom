@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amérique</item>
+        <item>Europe</item>
+        <item>Afrique</item>
+        <item>Asie</item>
+        <item>Australie</item>
+        <item>Pacifique</item>
+        <item>Tous</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Aucune animation</item>
+        <item>Quelques animations</item>
+        <item>Toutes les animations</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>"Aucune animation n'est affichée."</item>
+        <item>Certaines animations sont affichées.</item>
+        <item>Toutes les animations sont affichées</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 secondes</item>
+        <item>30 secondes</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Très lente</item>
+        <item>Lente</item>
+        <item>Normale</item>
+        <item>Rapide</item>
+        <item>Très rapide</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Très grave</item>
+        <item>Grave</item>
+        <item>Normale</item>
+        <item>Aigu</item>
+        <item>Très aigu</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Anglais (États-Unis)</item>
+        <item>Anglais (Royaume-Uni)</item>
+        <item>Français</item>
+        <item>Allemand</item>
+        <item>Italien</item>
+        <item>Espagnol</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Recherche…</item>
+        <item>Connexion…</item>
+        <item>Authentification...</item>
+        <item>"Récupération de l'adresse IP…"</item>
+        <item>Connecté</item>
+        <item>Interrompu</item>
+        <item>Déconnexion…</item>
+        <item>Déconnecté</item>
+        <item>Échec</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Recherche…</item>
+        <item>Connexion à %1$s…</item>
+        <item>Authentification avec %1$s…</item>
+        <item>"Récupération de l'adresse IP à partir de %1$s…"</item>
+        <item>Connecté à %1$s</item>
+        <item>Interrompu</item>
+        <item>Déconnexion de %1$s…</item>
+        <item>Déconnecté</item>
+        <item>Échec</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Ouvert</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Ouvert</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Médiocre</item>
+        <item>Satisfaisante</item>
+        <item>Bonne</item>
+        <item>Excellente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>"Lorsque l'écran s'éteint"</item>
+        <item>Jamais si branché</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>"Temps d'utilisation"</item>
+        <item>Nombre de lancements</item>
+        <item>"Nom de l'application"</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Aucun</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>1 heure</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Désactivé</item>
+        <item>Alerte</item>
+        <item>Vibreur</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Aucune</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ou CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Mémoire interne du mobile</item>
+        <item>Carte SD amovible</item>
+        <item>Laisser le système décider</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Toujours</item>
+        <item>Jamais</item>
+        <item>En mode silencieux</item>
+        <item>Hors mode silencieux</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Toujours</item>
+        <item>Idle screen</item>
+        <item>Jamais</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 secondes</item>
+        <item>6 secondes</item>
+        <item>Toujours désactivé</item>
+        <item>Toujours activé</item>
+        <item>Dans le noir</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>Alimentation batterie 10%</item>
+        <item>Alimentation batterie 30%</item>
+        <item>Alimentation batterie 50%</item>
+        <item>Alimentation batterie 70%</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynamique</item>
+        <item>Standard</item>
+        <item>Vidéo</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Haut</item>
+        <item>Standard</item>
+        <item>Bas</item>
+    </string-array>
+</resources>

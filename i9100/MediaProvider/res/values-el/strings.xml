@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Πολυμέσα</string>
+    <string name="app_label">Συστήματα αποθήκευσης μέσων</string>
+    <string name="artist_label">Καλλιτέχνης</string>
+    <string name="media_scanning_tiker_start">Εκτελείται σάρωση πολυμέσων...</string>
+    <string name="media_scanning_tiker_end">Η σάρωση πολυμέσων ολοκληρώθηκε</string>
+    <string name="media_scanning_running">Σάρωση πολυμέσων...</string>
+    <string name="media_scanning_running_definition">Σάρωση όλων των αρχείων πολυμέσων στην κάρτα SD...</string>
+    <string name="media_scanning_system">Χώρος αποθήκευσης συστήματος</string>
+    <string name="media_scanning_internal_sd">Συσκευή αποθήκευσης USB</string>
+    <string name="media_scanning_external_sd">Κάρτα SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

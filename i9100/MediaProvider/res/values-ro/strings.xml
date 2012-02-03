@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Conţinut media</string>
+    <string name="app_label">Stocare media</string>
+    <string name="artist_label">Artist</string>
+    <string name="media_scanning_tiker_start">Scanerul media funcţionează...</string>
+    <string name="media_scanning_tiker_end">Scanarea media a fost finalizată</string>
+    <string name="media_scanning_running">Scanare media...</string>
+    <string name="media_scanning_running_definition">Se scanează toate fişierele media de pe cartela SD...</string>
+    <string name="media_scanning_system">Spaţiu de stocare a sistemului</string>
+    <string name="media_scanning_internal_sd">Spaţiu de stocare USB</string>
+    <string name="media_scanning_external_sd">Cartelă SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

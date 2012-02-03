@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="14">
+        <animation-list android:oneshot="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:duration="2000" android:drawable="@drawable/unlock_indicator_battery_con" />
+        </animation-list>
+    </item>
+    <item android:maxLevel="29">
+        <animation-list android:oneshot="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:duration="2000" android:drawable="@drawable/unlock_indicator_battery_con" />
+        </animation-list>
+    </item>
+    <item android:maxLevel="49">
+        <animation-list android:oneshot="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:duration="2000" android:drawable="@drawable/unlock_indicator_battery_con" />
+        </animation-list>
+    </item>
+    <item android:maxLevel="69">
+        <animation-list android:oneshot="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:duration="2000" android:drawable="@drawable/unlock_indicator_battery_con" />
+        </animation-list>
+    </item>
+    <item android:maxLevel="89">
+        <animation-list android:oneshot="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:duration="2000" android:drawable="@drawable/unlock_indicator_battery_con" />
+        </animation-list>
+    </item>
+    <item android:drawable="@drawable/unlock_indicator_battery_con" android:maxLevel="101" />
+</level-list>

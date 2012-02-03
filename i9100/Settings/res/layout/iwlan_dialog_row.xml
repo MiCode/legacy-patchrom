@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textStyle="bold" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

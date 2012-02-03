@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Asien</item>
+        <item>Australien</item>
+        <item>Stilla havet</item>
+        <item>Alla</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Inga animeringar</item>
+        <item>Vissa animeringar</item>
+        <item>Alla animeringar</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Inga fönsteranimeringar visas</item>
+        <item>Vissa fönsteranimeringar visas</item>
+        <item>Alla fönsteranimeringar visas</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minut</item>
+        <item>2 minuter</item>
+        <item>10 minuter</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Mycket långsam</item>
+        <item>Långsam</item>
+        <item>Normal</item>
+        <item>Snabb</item>
+        <item>Mycket snabb</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Mycket låg</item>
+        <item>Låg</item>
+        <item>Normal</item>
+        <item>Hög</item>
+        <item>Mycket hög</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Amerikansk engelska</item>
+        <item>Brittisk engelska</item>
+        <item>Franska</item>
+        <item>Tyska</item>
+        <item>Italienska</item>
+        <item>Spanska</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skannar…</item>
+        <item>Ansluter…</item>
+        <item>Autentiserar…</item>
+        <item>Erhåller IP-adress…</item>
+        <item>Ansluten</item>
+        <item>Pausad</item>
+        <item>Kopplar ifrån…</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skannar…</item>
+        <item>Ansluter till %1$s…</item>
+        <item>Autentiserar med %1$s…</item>
+        <item>Hämtar IP-adress från %1$s…</item>
+        <item>Ansluten till: %1$s</item>
+        <item>Pausad</item>
+        <item>Kopplar ifrån %1$s…</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Öppna</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Öppna</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Dålig</item>
+        <item>Ganska bra</item>
+        <item>Bra</item>
+        <item>Utmärkt</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>När skärmen är avstängd</item>
+        <item>Aldrig när den är inkopplad</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Användningstid</item>
+        <item>Starta räkneverk</item>
+        <item>Namn på program</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Inga</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuter</item>
+        <item>5 minuter</item>
+        <item>1 timme</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Av</item>
+        <item>Varning</item>
+        <item>Vibrera</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Inga</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP eller CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Lagring på intern enhet</item>
+        <item>Flyttbart SD-kort</item>
+        <item>Låt systemet bestämma</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Alltid</item>
+        <item>Aldrig</item>
+        <item>Endast i Tyst läge</item>
+        <item>Först när inte i tyst läge</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Alltid</item>
+        <item>Idle screen</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 sekunder</item>
+        <item>6 sekunder</item>
+        <item>Alltid av</item>
+        <item>Alltid på</item>
+        <item>I mörker</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% batteriström</item>
+        <item>30% batteriström</item>
+        <item>50% batteriström</item>
+        <item>70% batteriström</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynamisk</item>
+        <item>Standard</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Topp</item>
+        <item>Centrerad</item>
+        <item>Nederst</item>
+    </string-array>
+</resources>

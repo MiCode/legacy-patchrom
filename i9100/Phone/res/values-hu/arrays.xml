@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Hálózati alapértelmezés</item>
+        <item>Szám elrejtése</item>
+        <item>Szám megjelenítése</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Csak EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO automatikus</item>
+        <item>Automatikus GSM/WCDMA</item>
+        <item>Csak WCDMA</item>
+        <item>Csak GSM</item>
+        <item>Preferált GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Francia</item>
+        <item>Spanyol</item>
+        <item>Japán</item>
+        <item>Koreai</item>
+        <item>Kínai</item>
+        <item>Héber</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Automatikus üzemmód)</item>
+        <item>Csak GSM</item>
+        <item>Csak WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (Automatikus üzemmód)</item>
+        <item>Csak WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (Automatikus üzemmód)</item>
+        <item>Csak GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Csak hazai</item>
+        <item>Automatikus</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Csak hazai hálózat</item>
+        <item>Kapcsolt hálózatok</item>
+        <item>Bármely hálózat</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Csak CDMA</item>
+        <item>Csak EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normál</item>
+        <item>Hosszú</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Hívásnapló</item>
+        <item>Hanghívás</item>
+        <item>Videohívás</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (Automatikus üzemmód)</item>
+        <item>Csak GSM</item>
+        <item>Csak WCDMA</item>
+    </string-array>
+</resources>

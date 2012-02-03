@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_size">48.0dip</dimen>
+    <dimen name="thumbnail_height">0.0dip</dimen>
+    <dimen name="thumbnail_width">0.0dip</dimen>
+    <dimen name="toast_y_offset">64.0dip</dimen>
+    <dimen name="status_bar_height">25.0dip</dimen>
+    <dimen name="status_bar_icon_size">25.0dip</dimen>
+    <dimen name="status_bar_edge_ignore">5.0dip</dimen>
+    <dimen name="fastscroll_overlay_size">104.0dip</dimen>
+    <dimen name="fastscroll_thumb_width">64.0dip</dimen>
+    <dimen name="fastscroll_thumb_height">52.0dip</dimen>
+    <dimen name="password_keyboard_key_height">56.0dip</dimen>
+    <dimen name="password_keyboard_spacebar_vertical_correction">4.0dip</dimen>
+    <dimen name="webselect_port_content_height">221.33398dip</dimen>
+    <dimen name="webselect_land_content_height">192.0dip</dimen>
+    <dimen name="webmagnifier_width">133.29999dip</dimen>
+    <dimen name="webmagnifier_height">66.599976dip</dimen>
+    <dimen name="webmagnifier_tail_width">20.0dip</dimen>
+    <dimen name="webmagnifier_tail_height">13.299988dip</dimen>
+</resources>

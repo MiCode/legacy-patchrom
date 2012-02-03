@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/lock_settings_picker_title" android:key="security_picker_category">
+        <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_none_title" android:key="unlock_set_none" android:summary="@string/unlock_set_unlock_none_summary" />
+        <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_pattern_title" android:key="unlock_set_pattern" android:summary="@string/unlock_set_unlock_pattern_summary" />
+        <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_pin_title" android:key="unlock_set_pin" android:summary="@string/unlock_set_unlock_pin_summary" />
+        <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_password_title" android:key="unlock_set_password" android:summary="@string/unlock_set_unlock_password_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

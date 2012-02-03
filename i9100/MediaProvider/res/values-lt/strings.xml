@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Medija</string>
+    <string name="app_label">Medijos laikmena</string>
+    <string name="artist_label">Atlikėjas</string>
+    <string name="media_scanning_tiker_start">Vykdomas medijos nuskaitymas...</string>
+    <string name="media_scanning_tiker_end">Medijos nuskaitymas baigtas</string>
+    <string name="media_scanning_running">Medijos nuskaitymas...</string>
+    <string name="media_scanning_running_definition">Nuskaitomi visi SD kortelėje esantys medijos failai...</string>
+    <string name="media_scanning_system">Sistemos saugykla</string>
+    <string name="media_scanning_internal_sd">USB laikmena</string>
+    <string name="media_scanning_external_sd">SD kortelė</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

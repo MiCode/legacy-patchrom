@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Mediji</string>
+    <string name="app_label">Skladištenje medija</string>
+    <string name="artist_label">Umetnik</string>
+    <string name="media_scanning_tiker_start">Skeniranje medija u toku...</string>
+    <string name="media_scanning_tiker_end">Skeniranje medija završeno</string>
+    <string name="media_scanning_running">Skeniranje medija...</string>
+    <string name="media_scanning_running_definition">Skeniranje svih medijskih fajlova na SD kartici...</string>
+    <string name="media_scanning_system">Memorija sistema</string>
+    <string name="media_scanning_internal_sd">USB memorija</string>
+    <string name="media_scanning_external_sd">SD kartica</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

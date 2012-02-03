@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.ButtonGridLayout android:layout_gravity="center_horizontal" android:id="@id/emergency_dialpad" android:paddingLeft="2.6999817dip" android:paddingTop="2.5dip" android:paddingRight="2.5dip" android:paddingBottom="2.399994dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/one" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_1_h" />
+    <ImageButton android:id="@id/two" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_2_h" />
+    <ImageButton android:id="@id/three" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_3_h" />
+    <ImageButton android:id="@id/four" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_4_h" />
+    <ImageButton android:id="@id/five" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_5_h" />
+    <ImageButton android:id="@id/six" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_6_h" />
+    <ImageButton android:id="@id/seven" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_7_h" />
+    <ImageButton android:id="@id/eight" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_8_h" />
+    <ImageButton android:id="@id/nine" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_9_h" />
+    <ImageButton android:id="@id/star" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_star_h" />
+    <ImageButton android:id="@id/zero" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_0_h" />
+    <ImageButton android:id="@id/pound" android:background="@drawable/emergency_btn_number_bg_h" android:layout_width="83.94998dip" android:layout_height="50.669983dip" android:src="@drawable/emergency_call_dial_num_pound_h" />
+</com.android.phone.ButtonGridLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/charset_help_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:isScrollContainer="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/charset_instruction_title" android:paddingLeft="8.0px" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="38.0px" style="?android:attr/listSeparatorTextViewStyle" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@android:attr/name" android:paddingLeft="24.0px" android:paddingTop="20.0px" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/charset_instruction" />
+</LinearLayout>

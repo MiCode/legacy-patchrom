@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Προεπιλογές δικτύου</item>
+        <item>Απόκρυψη αριθμού</item>
+        <item>Εμφάνιση αριθμού</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Μόνο EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>Αυτόματο CDMA/EVDO</item>
+        <item>Αυτόματο GSM/WCDMA</item>
+        <item>Μόνο WCDMA</item>
+        <item>Μόνο GSM</item>
+        <item>Προτιμώμενο GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Γαλλικά</item>
+        <item>Ισπανικά</item>
+        <item>Ιαπωνικά</item>
+        <item>Κορεατικά</item>
+        <item>Κινεζικά</item>
+        <item>Εβραϊκά</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Αυτόματη λειτουργία)</item>
+        <item>Μόνο GSM</item>
+        <item>Μόνο WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (Αυτόματη λειτουργία)</item>
+        <item>Μόνο WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (Αυτόματη λειτουργία)</item>
+        <item>Μόνο GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Μόνο οικείο δίκτυο</item>
+        <item>Αυτόματα</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Μόνο οικείο δίκτυο</item>
+        <item>Θυγατρικά δίκτυα</item>
+        <item>Οποιοδήποτε δίκτυο</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Μόνο CDMA</item>
+        <item>Μόνο EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Κανον</item>
+        <item>Διαρκής</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Αρχείο κλήσεων</item>
+        <item>Φωνητική κλήση</item>
+        <item>Κλήση βίντεο</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (Αυτόματη λειτουργία)</item>
+        <item>Μόνο GSM</item>
+        <item>Μόνο WCDMA</item>
+    </string-array>
+</resources>

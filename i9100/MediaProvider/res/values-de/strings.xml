@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Medien</string>
+    <string name="app_label">Medienspeicher</string>
+    <string name="artist_label">Künstler</string>
+    <string name="media_scanning_tiker_start">Medienscanner wird ausgeführt...</string>
+    <string name="media_scanning_tiker_end">Medienscanning abgeschlossen</string>
+    <string name="media_scanning_running">Medien werden gescannt...</string>
+    <string name="media_scanning_running_definition">Alle Mediendateien auf der SD-Karte werden gescannt...</string>
+    <string name="media_scanning_system">Systemspeicher</string>
+    <string name="media_scanning_internal_sd">USB-Speicher</string>
+    <string name="media_scanning_external_sd">SD-Karte</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

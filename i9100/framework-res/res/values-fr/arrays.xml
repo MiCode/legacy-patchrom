@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Domicile</item>
+        <item>Pro.</item>
+        <item>Autre</item>
+        <item>Mon Menu</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Pro.</item>
+        <item>Autre</item>
+        <item>Mon Menu</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Domicile</item>
+        <item>Mobile</item>
+        <item>Pro.</item>
+        <item>Fax pro.</item>
+        <item>Fax perso</item>
+        <item>Pager</item>
+        <item>Autre</item>
+        <item>Mon Menu</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Domicile</item>
+        <item>Pro.</item>
+        <item>Autre</item>
+        <item>Mon Menu</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Domicile</item>
+        <item>Pro.</item>
+        <item>Autre</item>
+        <item>Mon Menu</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google traduction</item>
+        <item>Wikipédia</item>
+        <item>Dictionnaire</item>
+    </string-array>
+</resources>

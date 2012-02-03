@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_display"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.flipfont.FontListPreference android:title="@string/monotype_preference_title" android:key="MONOTYPE" android:summary="@string/monotype_preference_summary" />
+    <PreferenceCategory android:title="@string/home_screen" />
+    <PreferenceScreen android:title="@string/wallpaper" android:key="homescreen_wallpaper" android:summary="" />
+    <PreferenceCategory android:title="@string/lock_screen" />
+    <PreferenceScreen android:title="@string/wallpaper" android:key="lockscreen_wallpaper" android:summary="">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.LockScreenWallpaper" />
+    </PreferenceScreen>
+    <ListPreference android:persistent="false" android:entries="@array/clock_position_entries" android:title="@string/clock_position" android:key="clock_position" android:entryValues="@array/clock_position_values" />
+</PreferenceScreen>

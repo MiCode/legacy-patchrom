@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_label" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.IconPreferenceScreen android:title="@string/radio_controls_title" settings:icon="@drawable/ic_settings_wireless">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.WirelessSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/call_settings_title" android:key="call_settings" settings:icon="@drawable/ic_settings_call">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/sound_settings_title" settings:icon="@drawable/ic_settings_sound">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SoundSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/display_settings_title" settings:icon="@drawable/ic_settings_display">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DisplaySettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/power_saving_mode" settings:icon="@drawable/ic_settings_powersaving">
+        <intent android:targetPackage="com.android.settings" android:action="android:intent.action.MAIN" android:targetClass="com.android.settings.powersavingmode.PowerSavingModeSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/security_settings_title" android:key="security_settings" settings:icon="@drawable/ic_settings_security">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.SecuritySettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/applications_settings" android:key="applications_settings" settings:icon="@drawable/ic_settings_applications">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ApplicationSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/sync_settings" android:key="sync_settings" settings:icon="@drawable/ic_settings_sync">
+        <intent android:action="android.settings.SYNC_SETTINGS" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/motions_title" settings:icon="@drawable/ic_settings_motion">
+        <intent android:targetPackage="com.sec.android.motions.settings" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.motions.settings.MotionsSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/privacy_settings" android:key="privacy_settings" settings:icon="@drawable/ic_settings_privacy">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.PrivacySettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/storage_settings" settings:icon="@drawable/ic_settings_storage">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.deviceinfo.Memory" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/language_settings" settings:icon="@drawable/ic_settings_language">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.LanguageSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/voice_input_output_settings" settings:icon="@drawable/ic_settings_speech">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.VoiceInputOutputSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/accessibility_settings" settings:icon="@drawable/ic_settings_accessibility">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.AccessibilitySettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/dock_settings_title" android:key="dock_settings" settings:icon="@drawable/ic_settings_dock">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DockSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/date_and_time_settings_title" settings:icon="@drawable/ic_settings_date_time">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DateTimeSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/about_settings" settings:icon="@drawable/ic_settings_about">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.DeviceInfoSettings" />
+    </com.android.settings.IconPreferenceScreen>
+    <com.android.settings.IconPreferenceScreen android:title="@string/system_update_settings_list_item_title" android:key="software_update" settings:icon="@drawable/ic_settings_softupdate">
+        <intent android:action="android.intent.action.SOFTWARE_UPDATE_SETTING" />
+    </com.android.settings.IconPreferenceScreen>
+</PreferenceScreen>

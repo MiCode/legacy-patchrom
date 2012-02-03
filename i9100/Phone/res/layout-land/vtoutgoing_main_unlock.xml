@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/surfacelayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="16.0dip" android:typeface="normal" android:gravity="center" android:id="@id/state" android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_marginTop="19.0dip" android:text="@string/state" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+            <ImageView android:id="@id/outgoing_contact_image" android:layout_width="123.0dip" android:layout_height="123.0dip" android:src="@drawable/call_img_unknown" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/mBirthdayLayoutForOutgoing" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="33.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/birthday_icon_outgoing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_birthday_icon" />
+                <TextView android:textSize="20.0sp" android:textColor="@color/twcolor001" android:layout_gravity="center_vertical" android:id="@id/birthday_remained_days_outgoing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="18.0dip" android:typeface="normal" android:textColor="@color/twcolor001" android:id="@id/caller_name" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="5.0dip" />
+        <TextView android:textSize="16.0dip" android:typeface="normal" android:textColor="@color/twcolor003" android:id="@id/caller_num" android:layout_width="wrap_content" android:layout_height="22.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/RelativeLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip">
+            <ImageView android:id="@id/facebook_icon" android:visibility="invisible" android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/call_flickr_icon" />
+            <TextView android:textSize="17.0dip" android:typeface="normal" android:textColor="@color/twcolor001" android:gravity="center" android:id="@id/facebook_status" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/surfacelayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <SurfaceView android:id="@id/near_end" android:visibility="visible" android:layout_width="242.0dip" android:layout_height="181.0dip" />
+            <ImageView android:id="@id/near_end_image" android:visibility="invisible" android:layout_width="242.0dip" android:layout_height="181.0dip" android:src="@drawable/call_videocall_defaultcaller_ls_m" />
+            <ImageView android:id="@id/image_white_switch_camera_animation" android:background="@android:color/white" android:visibility="invisible" android:layout_width="242.0dip" android:layout_height="181.0dip" />
+        </FrameLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/RelativeLayout04" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+            <FrameLayout android:layout_width="76.0dip" android:layout_height="91.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+                <Button android:textSize="13.0dip" android:textColor="@drawable/minimize_subtext_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/switch_camera" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/switch_cam" android:singleLine="true" android:drawableTop="@drawable/switch_camera_button" style="@style/InCallTouchButton" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="76.0dip" android:layout_height="91.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+                <Button android:textSize="16.0dip" android:textColor="@drawable/minimize_subtext_color" android:ellipsize="marquee" android:id="@id/hide" android:background="@drawable/incall_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hide" android:singleLine="true" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="76.0dip" android:layout_height="91.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="2.0dip" android:layout_weight="1.0">
+                <Button android:textSize="16.0dip" android:textColor="@color/twcolor001" android:ellipsize="marquee" android:id="@id/endcall" android:background="@drawable/red_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/end_call" android:singleLine="true" android:drawableTop="@drawable/call_end_outgoing" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

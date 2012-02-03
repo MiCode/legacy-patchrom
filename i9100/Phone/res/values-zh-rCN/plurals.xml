@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">持续 %s 分钟没有数据连接</item>
+        <item quantity="one">持续 %s 分钟没有数据连接</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">手机将持续 %s 分钟处于紧急回拨模式。在此模式下，无法使用正在进行数据连接的应用程序。要立即退出吗？</item>
+        <item quantity="one">手机将持续 %s 分钟处于紧急回拨模式。在此模式下，无法使用正在进行数据连接的应用程序。要立即退出吗？</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">无法在紧急回拨模式下执行所选操作。手机会在此模式下持续 %s 分钟。要立即退出吗？</item>
+        <item quantity="one">无法在紧急回拨模式下执行所选操作。手机会在此模式下持续 %s 分钟。要立即退出吗？</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/inCallTouchUiView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/non_drawer_dialpad" />
+    <com.android.phone.InCallButtonsView android:id="@id/inCallButtons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.phone.IncomingSlidingWidget android:id="@id/incomingSlidingWidget" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.phone.EndCallButtonsView android:id="@id/endCallButtons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.phone.DialpadButtonsView android:id="@id/dialpadButtons" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

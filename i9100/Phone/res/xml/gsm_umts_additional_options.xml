@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/additional_gsm_call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.CLIRListPreference android:persistent="false" android:entries="@array/clir_display_values" android:title="@string/labelCallerId" android:key="button_clir_key" android:defaultValue="DEFAULT" android:dialogTitle="@string/labelCallerId" android:entryValues="@array/clir_values" />
+    <PreferenceScreen android:title="@string/callsettings_voicecall_barring" android:key="voicecall_barring_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallTypeSelect">
+            <extra android:name="SS_Type" android:value="barring" />
+        </intent>
+    </PreferenceScreen>
+    <com.android.phone.CallWaitingCheckBoxPreference android:persistent="false" android:title="@string/labelCW" android:key="button_cw_key" android:summaryOn="@string/sum_cw_enabled" android:summaryOff="@string/sum_cw_disabled" />
+    <CheckBoxPreference android:title="@string/callsettings_voicecall_autoredial" android:key="button_autoredial_key" android:summary="@string/callsettings_auto_redial_sub" />
+    <PreferenceScreen android:persistent="false" android:title="@string/fdn" android:key="button_fdn_key" android:summary="@string/sum_fdn">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.FdnSetting" />
+    </PreferenceScreen>
+</PreferenceScreen>

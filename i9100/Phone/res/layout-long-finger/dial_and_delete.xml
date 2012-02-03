@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/dialAndDelete" android:paddingTop="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:state_enabled="false" android:layout_gravity="top" android:id="@id/dialButton" android:background="@drawable/emergency_btn_dial_bg" android:layout_width="144.0dip" android:layout_height="67.95999dip" android:src="@drawable/emergency_btn_dial" />
+    <View android:layout_width="12.0dip" android:layout_height="67.95999dip" />
+    <ImageButton android:state_enabled="false" android:layout_gravity="top" android:id="@id/deleteButton" android:background="@drawable/emergency_btn_delete_bg" android:layout_width="144.0dip" android:layout_height="67.95999dip" android:src="@drawable/emergency_btn_delete" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@drawable/divider_vertical_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ListView android:id="@id/help_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@drawable/divider_vertical_dark" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

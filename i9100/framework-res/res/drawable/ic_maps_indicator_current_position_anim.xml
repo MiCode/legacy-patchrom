@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_maps_indicator_current_position" android:maxLevel="2500" />
+    <item android:drawable="@drawable/ic_maps_indicator_current_position_anim1" android:maxLevel="5000" />
+    <item android:drawable="@drawable/ic_maps_indicator_current_position_anim2" android:maxLevel="7500" />
+    <item android:drawable="@drawable/ic_maps_indicator_current_position_anim3" android:maxLevel="10000" />
+</level-list>

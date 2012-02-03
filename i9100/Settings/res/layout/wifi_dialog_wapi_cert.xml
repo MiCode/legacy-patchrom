@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/password_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/please_select_wapi_certificates" style="?android:attr/textAppearanceSmallInverse" />
+    <TextView android:id="@id/select_wapi_as_cert_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/please_select_wapi_as_certificate" style="?android:attr/textAppearanceSmallInverse" />
+    <Spinner android:id="@id/wapi_as_cert_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/select_wapi_user_cert_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/please_select_wapi_user_certificate" style="?android:attr/textAppearanceSmallInverse" />
+    <Spinner android:id="@id/wapi_user_cert_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

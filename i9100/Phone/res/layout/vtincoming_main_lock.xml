@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/surfacelayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip" android:textColor="@color/twcolor001" android:gravity="center" android:id="@id/state" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="46.0dip" android:text="@string/videocall" />
+        <FrameLayout android:layout_width="123.0dip" android:layout_height="123.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/incoming_contact_image" android:visibility="visible" android:layout_width="123.0dip" android:layout_height="123.0dip" android:src="@drawable/call_videocall_defaultcaller_ls_m" android:layout_below="@id/state" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/mBirthdayLayout" android:background="#77000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="33.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/birthday_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_birthday_icon2" />
+                <TextView android:textSize="20.0sp" android:textColor="@color/twcolor001" android:layout_gravity="center_vertical" android:id="@id/birthday_remained_days" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </FrameLayout>
+        <Button android:textSize="16.0dip" android:textColor="@color/twcolor001" android:ellipsize="marquee" android:id="@id/hide_button" android:visibility="gone" android:layout_width="123.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:text="@string/hide" android:singleLine="false" style="@style/InCallTouchButton" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/Blanklinearlayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ImageView android:gravity="center" android:id="@id/birthday_icon" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/call_birthday_icon" />
+            <TextView android:textSize="30.0dip" android:textColor="@color/twcolor001" android:gravity="center" android:id="@id/caller_name" android:layout_width="wrap_content" android:layout_height="42.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="21.0dip" android:typeface="normal" android:textColor="@color/twcolor003" android:gravity="center" android:id="@id/caller_num" android:layout_width="wrap_content" android:layout_height="29.0dip" />
+        <TextView android:textSize="20.0dip" android:typeface="normal" android:textColor="@color/twcolor003" android:id="@id/cdnipNumber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unknown" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/facebook_staus_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+            <ImageView android:gravity="center" android:id="@id/facebook_icon" android:visibility="invisible" android:layout_width="33.0dip" android:layout_height="33.0dip" android:src="@drawable/call_flickr_icon" />
+            <TextView android:textSize="17.0dip" android:textColor="@color/twcolor001" android:gravity="center" android:id="@id/facebook_status" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="14.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.android.phone.IncomingSlidingWidget android:id="@id/incomingSlidingWidgetForVT" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

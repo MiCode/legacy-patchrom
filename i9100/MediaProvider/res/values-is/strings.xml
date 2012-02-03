@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Miðill</string>
+    <string name="app_label">Efnisgeymsla</string>
+    <string name="artist_label">Listamaður</string>
+    <string name="media_scanning_tiker_start">Skanni leitar að efnisskrám...</string>
+    <string name="media_scanning_tiker_end">Leit að efnisskrám er lokið</string>
+    <string name="media_scanning_running">Leita að efnisskrám...</string>
+    <string name="media_scanning_running_definition">Leita að öllum efnisskrám á SD-korti...</string>
+    <string name="media_scanning_system">Kerfisgeymsla</string>
+    <string name="media_scanning_internal_sd">USB-geymsla</string>
+    <string name="media_scanning_external_sd">SD-kort</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Avrupa</item>
+        <item>Afrika</item>
+        <item>Asya</item>
+        <item>Avustralya</item>
+        <item>Pasifik</item>
+        <item>Tümü</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Canlandırma yok</item>
+        <item>Bazı canlandırmalar</item>
+        <item>Tüm canlandırmalar</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Hiçbir pencere animasyonu gösterilmiyor</item>
+        <item>Bazı pencere animasyonları gösterilir</item>
+        <item>Tüm pencere animasyonları gösterilir</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 saniye</item>
+        <item>30 saniye</item>
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>10 dakika</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Çok yavaş</item>
+        <item>Yavaş</item>
+        <item>Normal</item>
+        <item>Hızlı</item>
+        <item>Çok hızlı</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Çok düşük</item>
+        <item>Düşük</item>
+        <item>Normal</item>
+        <item>Yüksek</item>
+        <item>Çok yüksek</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Amerikan İngilizcesi</item>
+        <item>İngiliz İngilizcesi</item>
+        <item>Fransızca</item>
+        <item>Almanca</item>
+        <item>İtalyanca</item>
+        <item>İspanyolca</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Taranıyor…</item>
+        <item>Bağlanıyor…</item>
+        <item>Kimlik doğrulanıyor…</item>
+        <item>IP adresi alınıyor...</item>
+        <item>Bağlandı</item>
+        <item>Askıya alındı</item>
+        <item>Bağlantı kesiliyor…</item>
+        <item>Bağlantı kesildi</item>
+        <item>Başarısız</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Taranıyor…</item>
+        <item>%1$s ağına bağlanılıyor…</item>
+        <item>%1$s üzerinde kimlik doğrulanıyor…</item>
+        <item>%1$s ağından IP adresi alınıyor…</item>
+        <item>%1$s ağına bağlandı</item>
+        <item>Askıya alındı</item>
+        <item>%1$s bağlantısı kesiliyor…</item>
+        <item>Bağlantı kesildi</item>
+        <item>Başarısız</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Aç</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Aç</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Yetersiz</item>
+        <item>Yeterli</item>
+        <item>İyi</item>
+        <item>Mükemmel</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Ekran kapandığında</item>
+        <item>Takılı olduğunda hiçbir zaman</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Kullanım Süresi</item>
+        <item>Sayımı Başlat</item>
+        <item>Uygulama Adı</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Yok</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 dakika</item>
+        <item>5 dakika</item>
+        <item>1 saat</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Kapalı</item>
+        <item>Uyarı</item>
+        <item>Titret</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Yok</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP veya CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Dahili cihaz depolaması</item>
+        <item>Çıkarılabilir SD kart</item>
+        <item>Sistem karar versin</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Her zaman</item>
+        <item>Hiçbir zaman</item>
+        <item>Yalnızca Sessiz modda</item>
+        <item>Yalnızca Sessiz modda değilken</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Her zaman</item>
+        <item>Idle screen</item>
+        <item>Hiçbir zaman</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 saniye</item>
+        <item>6 saniye</item>
+        <item>Her zaman kapalı</item>
+        <item>Her zaman açık</item>
+        <item>Karanlıkta</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% pil gücü</item>
+        <item>30% pil gücü</item>
+        <item>50% pil gücü</item>
+        <item>70% pil gücü</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dinamik</item>
+        <item>Standart</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Favori</item>
+        <item>Orta</item>
+        <item>Alt</item>
+    </string-array>
+</resources>

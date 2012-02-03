@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/preview_image" android:background="@drawable/previewmode_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0" />
+    <ListView android:id="@id/mode_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:choiceMode="singleChoice" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/ButtonBar">
+        <Button android:id="@id/button_ok" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@android:string/ok" android:layout_weight="1.0" />
+        <Button android:id="@id/button_cancel" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@android:string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Үй парағы</item>
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Таңд.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Таңд.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Үй парағы</item>
+        <item>Ұялы телефон</item>
+        <item>Жұмыс</item>
+        <item>Жұмыс факсы</item>
+        <item>Үй факсы</item>
+        <item>Пейджер</item>
+        <item>Басқа</item>
+        <item>Таңд.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Үй парағы</item>
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Таңд.</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Үй парағы</item>
+        <item>Жұмыс</item>
+        <item>Басқа</item>
+        <item>Таңд.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google аудару</item>
+        <item>Wikipedia</item>
+        <item>Сөздік</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Станд. мрежа</item>
+        <item>Скрий номер</item>
+        <item>Покажи номера</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Само EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO автоматично</item>
+        <item>Автоматично GSM/WCDMA</item>
+        <item>Само WCDMA</item>
+        <item>GSM само</item>
+        <item>Предпочитание GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Френски</item>
+        <item>Испански</item>
+        <item>Японски</item>
+        <item>Корейски</item>
+        <item>Китайски</item>
+        <item>Иврит</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (автоматичен режим)</item>
+        <item>GSM само</item>
+        <item>Само WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (автоматичен режим)</item>
+        <item>Само WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (автоматичен режим)</item>
+        <item>GSM само</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Само домашната</item>
+        <item>Автоматично</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Само домашна мрежа</item>
+        <item>Дъщерни мрежи</item>
+        <item>Произволна мрежа</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Само CDMA</item>
+        <item>Само EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Нормл</item>
+        <item>Дълъг</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Разговори</item>
+        <item>Гласово повикване</item>
+        <item>Видео пов.</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (автоматичен режим)</item>
+        <item>GSM само</item>
+        <item>Само WCDMA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Asien</item>
+        <item>Australien</item>
+        <item>Pacific</item>
+        <item>Alle</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Ingen animationer</item>
+        <item>Nogle animationer</item>
+        <item>Alle animationer</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Der vises ingen vinduesanimationer</item>
+        <item>Der vises nogle vinduesanimationer</item>
+        <item>Alle vinduesanimationer vises</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minut</item>
+        <item>2 minutter</item>
+        <item>10 minutter</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Meget langsom</item>
+        <item>Langsom</item>
+        <item>Normal</item>
+        <item>Hurtig</item>
+        <item>Meget hurtig</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Meget lav</item>
+        <item>Lav</item>
+        <item>Normal</item>
+        <item>Høj</item>
+        <item>Meget høj</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Amerikansk engelsk</item>
+        <item>Britisk engelsk</item>
+        <item>Fransk</item>
+        <item>Tysk</item>
+        <item>Italiensk</item>
+        <item>Spansk</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanner ...</item>
+        <item>Opretter forbindelse ...</item>
+        <item>Godkender ...</item>
+        <item>Henter IP-adresse …</item>
+        <item>Tilsluttet</item>
+        <item>Midlertidigt standset</item>
+        <item>Afbryder ...</item>
+        <item>Afbrudt</item>
+        <item>Mislykkedes</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanner ...</item>
+        <item>Opretter forbindelse til %1$s ...</item>
+        <item>Godkender med %1$s ...</item>
+        <item>Henter IP-adresse fra %1$s ...</item>
+        <item>Forbundet til %1$s</item>
+        <item>Midlertidigt standset</item>
+        <item>Afbryder fra %1$s ...</item>
+        <item>Afbrudt</item>
+        <item>Mislykkedes</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Åbent</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Åbent</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Dårlig</item>
+        <item>Rimelig</item>
+        <item>God</item>
+        <item>Fremragende</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Når skærmen slukker</item>
+        <item>Aldrig når tilsluttet</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Brugstid</item>
+        <item>Start optælling</item>
+        <item>Programnavn</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ingen</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 Minutter</item>
+        <item>5 Minutter</item>
+        <item>1 time</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Fra</item>
+        <item>Underretning</item>
+        <item>Vibration</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ingen</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP eller CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Intern lagring på enheden</item>
+        <item>SD-kort, der kan fjernes</item>
+        <item>Lad systemet vælge</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Altid</item>
+        <item>Aldrig</item>
+        <item>Kun, når lydløs er slået til</item>
+        <item>Kun, når lydløs er slået fra</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Altid</item>
+        <item>Idle screen</item>
+        <item>Aldrig</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 sekunder</item>
+        <item>6 sekunder</item>
+        <item>Altid fra</item>
+        <item>Altid tændt</item>
+        <item>I mørket</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% batteristrøm</item>
+        <item>30% batteristrøm</item>
+        <item>50% batteristrøm</item>
+        <item>70% batteristrøm</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynamisk</item>
+        <item>Standard</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Top</item>
+        <item>Midterste</item>
+        <item>Bund</item>
+    </string-array>
+</resources>

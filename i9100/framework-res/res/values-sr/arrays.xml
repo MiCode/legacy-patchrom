@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Kuća</item>
+        <item>Posao</item>
+        <item>Drugi</item>
+        <item>Pril.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Posao</item>
+        <item>Drugi</item>
+        <item>Pril.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Kuća</item>
+        <item>Mobilni</item>
+        <item>Posao</item>
+        <item>Faks na poslu</item>
+        <item>Faks kod kuće</item>
+        <item>Pejdžer</item>
+        <item>Drugi</item>
+        <item>Pril.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Kuća</item>
+        <item>Posao</item>
+        <item>Drugi</item>
+        <item>Pril.</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Kuća</item>
+        <item>Posao</item>
+        <item>Drugi</item>
+        <item>Pril.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google Translate</item>
+        <item>Wikipedia</item>
+        <item>Rečnik</item>
+    </string-array>
+</resources>

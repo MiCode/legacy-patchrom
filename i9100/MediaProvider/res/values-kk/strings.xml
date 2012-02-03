@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Мультимедиа</string>
+    <string name="app_label">Мультимедиа сақтау</string>
+    <string name="artist_label">Орындаушы</string>
+    <string name="media_scanning_tiker_start">Медиа сканнер іске қосылуда...</string>
+    <string name="media_scanning_tiker_end">Мудьтимедиалық тексеру аяқталды</string>
+    <string name="media_scanning_running">Медиа тексерілуде...</string>
+    <string name="media_scanning_running_definition">SD картасындағы барлық медиа файлдар тексерілуде...</string>
+    <string name="media_scanning_system">Жүйелік сақтау құралы</string>
+    <string name="media_scanning_internal_sd">USB сақтау құралы</string>
+    <string name="media_scanning_external_sd">SD картасы</string>
+    <string name="alphabet_indexlist">АӘБВГҒДЕЁЖЗИЙКҚЛМНҢОӨПРСТУҰҮФХҺЦЧШЩЪЫІЬЭЮЯ</string>
+</resources>

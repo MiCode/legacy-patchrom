@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Medio</string>
+    <string name="app_label">Almacenamiento de contenido multimedia</string>
+    <string name="artist_label">Artista</string>
+    <string name="media_scanning_tiker_start">Escáner de medios en funcionamiento...</string>
+    <string name="media_scanning_tiker_end">Búsqueda de contenido multimedia completada</string>
+    <string name="media_scanning_running">Buscando contenido multimedia...</string>
+    <string name="media_scanning_running_definition">Buscando todos los archivos multimedia de la tarjeta SD...</string>
+    <string name="media_scanning_system">Almacenamiento del sistema</string>
+    <string name="media_scanning_internal_sd">Almacenamiento USB</string>
+    <string name="media_scanning_external_sd">Tarjeta SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

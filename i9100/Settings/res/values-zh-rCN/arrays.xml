@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>美洲</item>
+        <item>欧洲</item>
+        <item>非洲</item>
+        <item>亚洲</item>
+        <item>澳大利亚</item>
+        <item>太平洋</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="date_format_entries">
+        <item>月/日/年</item>
+        <item>日/月/年</item>
+        <item>年/月/日</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>无动画</item>
+        <item>部分动画</item>
+        <item>所有动画</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>不显示窗口动画</item>
+        <item>显示部分窗口动画</item>
+        <item>显示所有窗口动画</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>10 分钟</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>很慢</item>
+        <item>慢</item>
+        <item>正常</item>
+        <item>快</item>
+        <item>很快</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>很低</item>
+        <item>低</item>
+        <item>正常</item>
+        <item>高</item>
+        <item>很高</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>美国英语</item>
+        <item>英国英语</item>
+        <item>法语</item>
+        <item>德语</item>
+        <item>意大利语</item>
+        <item>西班牙语</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>正在进行身份验证...</item>
+        <item>正在获取 IP 地址...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>正在扫描...</item>
+        <item>正在连接到 %1$s...</item>
+        <item>正在通过 %1$s 进行身份验证...</item>
+        <item>正在从 %1$s 获取 IP 地址...</item>
+        <item>已连接到 %1$s</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>开放</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+        <item>WAPI PSK</item>
+        <item>WAPI CERT</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>弱</item>
+        <item>一般</item>
+        <item>较强</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>屏幕关闭时休眠</item>
+        <item>充电时永不休眠</item>
+        <item>永不休眠</item>
+    </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>WAPI PSK ASCII</item>
+        <item>WAPI PSK Hexadecimal</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>使用时间</item>
+        <item>启动次数</item>
+        <item>应用程序名称</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>无</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2分钟</item>
+        <item>5分钟</item>
+        <item>1小时</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>关</item>
+        <item>警报</item>
+        <item>振动</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>无</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP 或 CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>设备内部存储</item>
+        <item>可卸载的 SD 卡</item>
+        <item>由系统确定</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>始终</item>
+        <item>一律不</item>
+        <item>仅在静音模式下来电振动</item>
+        <item>仅在非静音模式下来电振动</item>
+    </string-array>
+    <string-array name="repeat_lists">
+        <item>一次性活动</item>
+        <item>每天</item>
+        <item>每个工作日（周一至周五）</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>总是</item>
+        <item>Idle显示</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5秒</item>
+        <item>6秒</item>
+        <item>始终关闭</item>
+        <item>始终打开</item>
+        <item>在黑暗中</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10%电池电量</item>
+        <item>30%电池电量</item>
+        <item>50%电池电量</item>
+        <item>70%电池电量</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>动态</item>
+        <item>标准</item>
+        <item>电影</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>顶部</item>
+        <item>中间</item>
+        <item>底部</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_entries">
+        <item>HeadSet</item>
+        <item>PC</item>
+        <item>Phone</item>
+        <item>HID(keyboard, mouse, etc.)</item>
+        <item>All Device</item>
+    </string-array>
+    <string-array name="bluetooth_class_of_device_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

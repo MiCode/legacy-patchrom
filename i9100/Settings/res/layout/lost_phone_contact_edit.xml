@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/lost_contact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.329987dip" android:layout_marginRight="9.329987dip" android:singleLine="true" android:maxLength="17" android:inputType="number" android:imeOptions="actionDone" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:gravity="center" android:id="@id/button_ok" android:layout_width="134.0dip" android:layout_height="wrap_content" android:text="@android:string/ok" />
+        <Button android:textSize="16.0sp" android:gravity="center" android:id="@id/button_cancel" android:layout_width="134.0dip" android:layout_height="wrap_content" android:text="@android:string/cancel" />
+    </LinearLayout>
+</LinearLayout>

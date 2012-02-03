@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background" android:drawable="@drawable/rate_star_small_off" />
+    <item android:id="@id/secondaryProgress" android:drawable="@drawable/rate_star_small_half" />
+    <item android:id="@id/progress" android:drawable="@drawable/rate_star_small_on" />
+</layer-list>

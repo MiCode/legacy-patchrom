@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:drawable/status_bar_item_app_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <ImageView android:layout_gravity="center" android:id="@id/appIcon" android:layout_width="40.0dip" android:layout_height="fill_parent" android:src="@android:drawable/sym_def_app_icon" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="middle" android:id="@id/title" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/description" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="40.0dip" android:layout_height="fill_parent">
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="right|center" android:id="@id/progress_text" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+            <ProgressBar android:id="@id/progress_bar" android:paddingRight="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_bright" />
+</LinearLayout>

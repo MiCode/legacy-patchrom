@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/auto_silent_mode" android:key="auto_silent_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_silent_mode" android:key="toggle_auto_silent_mode" />
+    <com.android.settings.ButtonPreference android:key="time_from" android:dependency="toggle_auto_silent_mode" settings:text="@string/from" settings:button="12 : 00" />
+    <com.android.settings.ButtonPreference android:key="time_to" android:dependency="toggle_auto_silent_mode" settings:text="@string/to" settings:button="12 : 00" />
+    <com.android.settings.WeeklyRepeatPreference android:key="weekly_repeat" android:dependency="toggle_auto_silent_mode" />
+</PreferenceScreen>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Hjem</item>
+        <item>Arbeid</item>
+        <item>Annet</item>
+        <item>Tilp.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Arbeid</item>
+        <item>Annet</item>
+        <item>Tilp.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Hjem</item>
+        <item>Mobil</item>
+        <item>Arbeid</item>
+        <item>Faks arbeid</item>
+        <item>Faks privat</item>
+        <item>Personsøker</item>
+        <item>Annet</item>
+        <item>Tilp.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Hjem</item>
+        <item>Arbeid</item>
+        <item>Annet</item>
+        <item>Tilp.</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Hjem</item>
+        <item>Arbeid</item>
+        <item>Annet</item>
+        <item>Tilp.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google Oversetter</item>
+        <item>Wikipedia</item>
+        <item>Ordbok</item>
+    </string-array>
+</resources>

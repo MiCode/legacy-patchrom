@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Medij</string>
+    <string name="app_label">Pomnilnik za medije</string>
+    <string name="artist_label">Izvajalec</string>
+    <string name="media_scanning_tiker_start">Bralnik medijev se izvaja ...</string>
+    <string name="media_scanning_tiker_end">Branje medijev je končano</string>
+    <string name="media_scanning_running">Branje medijev ...</string>
+    <string name="media_scanning_running_definition">Branje vseh predstavnostnih datotek na kartici SD ...</string>
+    <string name="media_scanning_system">Sistemski pomnilnik</string>
+    <string name="media_scanning_internal_sd">Pomnilnik USB</string>
+    <string name="media_scanning_external_sd">Kartica SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

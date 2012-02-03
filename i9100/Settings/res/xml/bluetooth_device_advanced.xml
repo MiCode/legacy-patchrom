@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="title" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/bluetooth_device_advanced_online_mode_title" android:key="online_mode" />
+    <PreferenceCategory android:title="@string/bluetooth_device_advanced_profile_header_title" android:key="profile_container" />
+</PreferenceScreen>

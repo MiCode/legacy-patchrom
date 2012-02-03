@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/primaryCallInfo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/upperTitle" android:layout_width="wrap_content" android:layout_height="47.0dip">
+                <ImageView android:id="@id/call_als_icon" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="5.0dip" />
+                <TextView android:textSize="19.0sp" android:gravity="center_horizontal" android:id="@id/upperTitleText" android:layout_width="wrap_content" android:layout_height="25.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/recInfo" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="35.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_rec" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/callInfoPortrait" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/call_card_person_info" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="left" android:orientation="horizontal" android:id="@id/snsInfo" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="220.0dip" android:layout_marginRight="11.0dip">
+                <ImageView android:id="@id/snsIcon" android:layout_width="33.0dip" android:layout_height="33.0dip" />
+                <TextView android:gravity="center_vertical" android:id="@id/snsStatus" android:singleLine="true" style="@style/InCallRoundButtonLabel" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/noiseReductionIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85.0dip" android:layout_marginTop="238.0dip" android:src="@drawable/call_noise_reduction_icon" />
+            <TextView android:textSize="21.0sp" android:textStyle="normal" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/elapsedTime" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginTop="218.0dip" android:layout_marginRight="11.0dip" android:singleLine="true" />
+        </FrameLayout>
+        <com.android.phone.CallCardLand android:id="@id/callInfoLandscape" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.phone.CallCardLandIncoming android:id="@id/callInfoLandscapeIncoming" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.android.phone.MultiCallView android:id="@id/multiCallView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

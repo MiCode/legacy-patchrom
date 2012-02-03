@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/voice_input_output_settings" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/voice_input_category" android:key="voice_input_category" />
+    <ListPreference android:title="@string/recognizer_title" android:key="recognizer" android:dialogTitle="@string/recognizer_title" />
+    <PreferenceScreen android:title="@string/recognizer_settings_title" android:key="recognizer_settings" />
+    <PreferenceCategory android:title="@string/voice_output_category" android:key="voice_output_category" />
+    <PreferenceScreen android:title="@string/tts_settings_title" android:key="tts_settings">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.TextToSpeechSettings" />
+    </PreferenceScreen>
+</PreferenceScreen>

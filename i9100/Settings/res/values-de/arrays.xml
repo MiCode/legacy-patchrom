@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Asien</item>
+        <item>Australien</item>
+        <item>Pazifik</item>
+        <item>Alle</item>
+    </string-array>
+    <string-array name="date_format_entries">
+        <item>MM/DD/JJJJ</item>
+        <item>DD/MM/JJJJ</item>
+        <item>JJJJ/MM/DD</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Keine Animationen</item>
+        <item>Einige Animationen</item>
+        <item>Alle Animationen</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Es werden keine Fensteranimationen angezeigt.</item>
+        <item>Einige Fensteranimationen werden angezeigt.</item>
+        <item>Alle Fensteranimationen werden angezeigt.</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 Sekunden</item>
+        <item>30 Sekunden</item>
+        <item>1 Minute</item>
+        <item>2 Minuten</item>
+        <item>10 Minuten</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Sehr langsam</item>
+        <item>Langsam</item>
+        <item>Normal</item>
+        <item>Schnell</item>
+        <item>Sehr schnell</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Sehr niedrig</item>
+        <item>Niedrig</item>
+        <item>Normal</item>
+        <item>Hoch</item>
+        <item>Sehr hoch</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Englisch (USA)</item>
+        <item>Englisch (UK)</item>
+        <item>Französisch</item>
+        <item>Deutsch</item>
+        <item>Italienisch</item>
+        <item>Spanisch</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scan…</item>
+        <item>Verbindung wird hergestellt...</item>
+        <item>Authentifizierung...</item>
+        <item>IP-Adresse wird abgerufen...</item>
+        <item>Verbunden</item>
+        <item>Angehalten</item>
+        <item>Verbindung wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scan…</item>
+        <item>Verbindung mit %1$s wird hergestellt...</item>
+        <item>Authentifizierung mit %1$s...</item>
+        <item>IP-Adresse wird von %1$s abgerufen...</item>
+        <item>Verbunden mit %1$s</item>
+        <item>Angehalten</item>
+        <item>Verbindung mit %1$s wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Offen</item>
+        <item>WEP</item>
+        <item>WPA/WPA2-PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Offen</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Schwach</item>
+        <item>Gut</item>
+        <item>OK</item>
+        <item>Ausgezeichnet</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Wenn Bildschirm sich abschaltet</item>
+        <item>Niemals, wenn im Netzbetrieb</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Nutzungszeit</item>
+        <item>Startzähler</item>
+        <item>Name der Anwendung</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Keine</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 Minuten</item>
+        <item>5 Minuten</item>
+        <item>1 Stunde</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Aus</item>
+        <item>Benachrichtigung</item>
+        <item>Vibration</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Keine</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP oder CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Interner Gerätespeicher</item>
+        <item>Austauschbare SD-Karte</item>
+        <item>Auswahl durch das System</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Immer</item>
+        <item>Nie</item>
+        <item>Nur im Lautlosmodus</item>
+        <item>Außer im Lautlosmodus</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Immer</item>
+        <item>Idle screen</item>
+        <item>Niemals</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 Sekunden</item>
+        <item>6 Sekunden</item>
+        <item>Immer deaktiviert</item>
+        <item>Immer ein</item>
+        <item>Im Dunkeln</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>10% Akkuleistung</item>
+        <item>30% Akkuleistung</item>
+        <item>50% Akkuleistung</item>
+        <item>70% Akkuleistung</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dynamisch</item>
+        <item>Standard</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Oben</item>
+        <item>Mittel</item>
+        <item>Unten</item>
+    </string-array>
+</resources>

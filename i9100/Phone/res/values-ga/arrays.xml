@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Réamhshocrú líonra</item>
+        <item>Folaigh uimhir</item>
+        <item>Taispeáin uimhir</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>EVDO amháin</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO uathoibríoch</item>
+        <item>Uath GSM/WCDMA</item>
+        <item>WCDMA amháin</item>
+        <item>GSM amháin</item>
+        <item>GSM/WCDMA sainroghnaithe</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Fraincis</item>
+        <item>Spáinnis</item>
+        <item>Seapáinis</item>
+        <item>Cóiréis</item>
+        <item>Sínis</item>
+        <item>Eabhrais</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Uathmhód)</item>
+        <item>GSM amháin</item>
+        <item>WCDMA amháin</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (Uathmhód)</item>
+        <item>WCDMA amháin</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (Uathmhód)</item>
+        <item>GSM amháin</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Baile amháin</item>
+        <item>Uathoibríoch</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Líonra baile amháin</item>
+        <item>Líonraí cleamhnaithe</item>
+        <item>Aon líonra</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>CDMA amháin</item>
+        <item>EVDO amháin</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Norm</item>
+        <item>Fada</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Loga glaonna</item>
+        <item>Glao gutha</item>
+        <item>Glao físe</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (Uathmhód)</item>
+        <item>GSM amháin</item>
+        <item>WCDMA amháin</item>
+    </string-array>
+</resources>

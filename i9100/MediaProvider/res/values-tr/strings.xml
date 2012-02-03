@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Ortam</string>
+    <string name="app_label">Ortam Saklama</string>
+    <string name="artist_label">Sanatçı</string>
+    <string name="media_scanning_tiker_start">Ortam tarayıcı çalışıyor...</string>
+    <string name="media_scanning_tiker_end">Ortam tarama tamamlandı</string>
+    <string name="media_scanning_running">Ortam taranıyor...</string>
+    <string name="media_scanning_running_definition">SD karttaki tüm ortam dosyaları taranıyor...</string>
+    <string name="media_scanning_system">Sistem belleği</string>
+    <string name="media_scanning_internal_sd">USB bellek</string>
+    <string name="media_scanning_external_sd">SD kart</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timezone_filters">
+        <item>America</item>
+        <item>Europa</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Pacifico</item>
+        <item>Tutte</item>
+    </string-array>
+    <string-array name="animations_entries">
+        <item>Nessuna animazione</item>
+        <item>Alcune animazioni</item>
+        <item>Tutte le animazioni</item>
+    </string-array>
+    <string-array name="animations_summaries">
+        <item>Non viene visualizzata alcuna animazione delle finestre</item>
+        <item>Vengono visualizzate alcune animazioni delle finestre</item>
+        <item>Vengono visualizzate tutte le animazioni delle finestre</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 secondi</item>
+        <item>30 secondi</item>
+        <item>1 minuto</item>
+        <item>2 minuti</item>
+        <item>10 minuti</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Molto lenta</item>
+        <item>Lenta</item>
+        <item>Normale</item>
+        <item>Veloce</item>
+        <item>Molto veloce</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Molto basso</item>
+        <item>Basso</item>
+        <item>Normale</item>
+        <item>Alto</item>
+        <item>Molto alto</item>
+    </string-array>
+    <string-array name="tts_lang_entries">
+        <item>Inglese americano</item>
+        <item>Inglese britannico</item>
+        <item>Francese</item>
+        <item>Tedesco</item>
+        <item>Italiano</item>
+        <item>Spagnolo</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Ricerca in corso...</item>
+        <item>Connessione in corso...</item>
+        <item>Autenticazione in corso...</item>
+        <item>Acquisizione indirizzo IP in corso...</item>
+        <item>Connessa</item>
+        <item>Sospesa</item>
+        <item>Disconnessione in corso...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Ricerca in corso...</item>
+        <item>Connessione a %1$s in corso...</item>
+        <item>Autenticazione con %1$s in corso...</item>
+        <item>Acquisizione indirizzo IP da %1$s in corso...</item>
+        <item>Connessa a %1$s</item>
+        <item>Sospesa</item>
+        <item>Disconnessione da %1$s in corso...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Aperta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_security_dwep">
+        <item>Aperta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x Enterprise</item>
+        <item>802.1x Dynamic WEP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Scadente</item>
+        <item>Discreta</item>
+        <item>Buona</item>
+        <item>Eccellente</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Quando lo schermo si disattiva</item>
+        <item>Mai quando collegato</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Tempo di utilizzo</item>
+        <item>Conteggio avvii</item>
+        <item>Nome applicazione</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Nessuna</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minuti</item>
+        <item>5 minuti</item>
+        <item>1 ora</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Disattiva</item>
+        <item>Avviso</item>
+        <item>Vibrazione</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Nessuno</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP o CHAP</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Memorizzazione su dispositivo interno</item>
+        <item>Scheda SD rimovibile</item>
+        <item>Impostazione di sistema</item>
+    </string-array>
+    <string-array name="vibrate_entries">
+        <item>Sempre</item>
+        <item>Mai</item>
+        <item>Solo in mod. silenziosa</item>
+        <item>Solo se mod. silenziosa non attiva</item>
+    </string-array>
+    <string-array name="auto_launch_entries">
+        <item>Sempre</item>
+        <item>Idle screen</item>
+        <item>Mai</item>
+    </string-array>
+    <string-array name="touch_key_light_entries">
+        <item>1.5 secondi</item>
+        <item>6 secondi</item>
+        <item>Sempre disattivato</item>
+        <item>Sempre attivo</item>
+        <item>Al buio</item>
+    </string-array>
+    <string-array name="psm_entries">
+        <item>Alimentazione batteria 10%</item>
+        <item>Alimentazione batteria 30%</item>
+        <item>Alimentazione batteria 50%</item>
+        <item>Alimentazione batteria 70%</item>
+    </string-array>
+    <string-array name="mode_entries">
+        <item>Dinamico</item>
+        <item>Standard</item>
+        <item>Filmato</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Top</item>
+        <item>Media</item>
+        <item>In basso</item>
+    </string-array>
+</resources>

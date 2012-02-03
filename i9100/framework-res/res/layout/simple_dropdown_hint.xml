@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?dropDownHintAppearance" android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

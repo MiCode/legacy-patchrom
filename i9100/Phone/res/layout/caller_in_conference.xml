@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/conferenceCallerDisconnect" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_button_conference_end" android:scaleType="center" android:contentDescription="@string/onscreenEndCallText" style="?android:attr/buttonStyleSmall" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="22.0sp" android:id="@id/conferenceCallerName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:id="@id/conferenceCallerNumberType" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/conferenceCallerNumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton android:id="@id/conferenceCallerSeparate" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ic_button_conference_private" android:scaleType="center" android:contentDescription="@string/goPrivate" style="?android:attr/buttonStyleSmall" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+</LinearLayout>

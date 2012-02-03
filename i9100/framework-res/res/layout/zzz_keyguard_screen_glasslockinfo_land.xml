@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/glasslock_info_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="124.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="left" android:layout_gravity="left" android:id="@id/glasslock_info_weather" android:paddingLeft="12.0dip" android:layout_width="293.29688dip" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0dip" android:typeface="sans" android:textColor="#ffebebeb" android:ellipsize="marquee" android:id="@id/weather_city" android:layout_width="126.0dip" android:layout_height="27.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:singleLine="true" android:shadowColor="@color/darker_gray" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.25" android:layout_weight="1.5" android:marqueeRepeatLimit="1" />
+        <TextView android:textSize="16.0dip" android:typeface="sans" android:textColor="#ffebebeb" android:id="@id/weather_temp" android:layout_width="126.0dip" android:layout_height="22.0dip" android:layout_marginLeft="15.0dip" android:shadowColor="@color/darker_gray" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.25" android:layout_weight="1.5" android:layout_below="@id/weather_city" />
+        <ImageView android:id="@id/weather_icon" android:layout_width="70.0dip" android:layout_height="48.0dip" android:layout_marginTop="10.0dip" android:layout_weight="0.7" android:layout_toRightOf="@id/weather_city" />
+        <ImageView android:id="@id/accucompany_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:src="@drawable/unlock_accuweather_logo" android:layout_weight="0.4" android:layout_below="@id/weather_temp" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="right" android:layout_gravity="right" android:id="@id/glasslock_info_charging" android:layout_width="218.66998dip" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:typeface="sans" android:textColor="#ffebebeb" android:gravity="right" android:id="@id/charging_text" android:layout_width="wrap_content" android:layout_height="19.329987dip" android:layout_marginRight="54.0dip" android:singleLine="true" android:shadowColor="@color/darker_gray" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.25" android:drawablePadding="3.1999817dip" android:layout_weight="1.5" />
+        <LinearLayout android:id="@id/temp_clockspace_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/charging_text" />
+        <LinearLayout android:id="@id/temp_clockspace_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/temp_clockspace_01" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>네트워크 기본설정</item>
+        <item>발신번호 표시 제한</item>
+        <item>발신번호 표시</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>글로벌</item>
+        <item>EVDO 전용</item>
+        <item>CDMA w/o EVDO</item>
+        <item>자동 CDMA/EVDO</item>
+        <item>자동 GSM/WCDMA</item>
+        <item>WCDMA 전용</item>
+        <item>GSM 전용</item>
+        <item>선호 GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>프랑스어</item>
+        <item>스페인어</item>
+        <item>일본어</item>
+        <item>한국어</item>
+        <item>중국어</item>
+        <item>히브리어</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>자동 모드</item>
+        <item>2G 전용</item>
+        <item>3G 전용</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA(자동 모드)</item>
+        <item>WCDMA 전용</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA(자동 모드)</item>
+        <item>GSM 전용</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>집 네트워크</item>
+        <item>자동</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>홈 네트워크만 사용</item>
+        <item>협력 네트워크</item>
+        <item>모든 네트워크</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>CDMA 전용</item>
+        <item>EVDO 전용</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY Off</item>
+        <item>TTY Full</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>보통</item>
+        <item>길게</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>통화기록</item>
+        <item>음성통화</item>
+        <item>영상통화</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>자동 모드</item>
+        <item>2G 전용</item>
+        <item>3G 전용</item>
+    </string-array>
+</resources>

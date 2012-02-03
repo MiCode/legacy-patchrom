@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/screen_progress_frame" />
+    <item>
+        <scale scaleWidth="100%" scaleGravity="0x3" drawable="@android:drawable/screen_progress_inner" />
+    </item>
+</layer-list>

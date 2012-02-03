@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>家</item>
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>雅虎</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>家</item>
+        <item>手机</item>
+        <item>工作</item>
+        <item>工作传真</item>
+        <item>家庭传真</item>
+        <item>寻呼机</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>家</item>
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>39937795</item>
+        <item>116387224</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>2</item>
+    </integer-array>
+    <string-array name="zzz_UnlockClock_strArrWeek">
+        <item>ERR</item>
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrMonth">
+        <item>ERR</item>
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>上午</item>
+        <item>下午</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>家</item>
+        <item>工作</item>
+        <item>其他</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Google翻译</item>
+        <item>维基百科</item>
+        <item>词典</item>
+    </string-array>
+</resources>

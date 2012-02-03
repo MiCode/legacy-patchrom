@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="maps_starting_lat_lng">
+        <item>44016521</item>
+        <item>21005859</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>4</item>
+    </integer-array>
+    <string-array name="zzz_UnlockClock_strArrWeek">
+        <item>ERR</item>
+        <item>Ned</item>
+        <item>Pon</item>
+        <item>Uto</item>
+        <item>Sre</item>
+        <item>Čet</item>
+        <item>Pet</item>
+        <item>Sub</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrMonth">
+        <item>ERR</item>
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>Maj</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="zzz_UnlockClock_strArrAMPM">
+        <item>ERR</item>
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>

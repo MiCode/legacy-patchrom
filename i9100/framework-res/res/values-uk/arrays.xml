@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Домашній</item>
+        <item>Робота</item>
+        <item>нше</item>
+        <item>Зазн.</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo!</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Робота</item>
+        <item>нше</item>
+        <item>Зазн.</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Домашній</item>
+        <item>Мобільний</item>
+        <item>Робота</item>
+        <item>Робочий факс</item>
+        <item>Домашній факс</item>
+        <item>Пейджер</item>
+        <item>нше</item>
+        <item>Зазн.</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Домашній</item>
+        <item>Робота</item>
+        <item>нше</item>
+        <item>Зазн.</item>
+    </string-array>
+    <string-array name="imAddressTypes">
+        <item>Домашній</item>
+        <item>Робота</item>
+        <item>нше</item>
+        <item>Зазн.</item>
+    </string-array>
+    <string-array name="zzzzz_tw_cursor_handle_search_list">
+        <item>Google</item>
+        <item>Переклад Google</item>
+        <item>Wikipedia</item>
+        <item>Словник</item>
+    </string-array>
+</resources>

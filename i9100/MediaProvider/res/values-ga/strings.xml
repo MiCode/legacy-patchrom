@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Meáin</string>
+    <string name="app_label">Stóráil Meán</string>
+    <string name="artist_label">Ceoltóir</string>
+    <string name="media_scanning_tiker_start">Scanóir meán ar rith...</string>
+    <string name="media_scanning_tiker_end">Meáin scanta</string>
+    <string name="media_scanning_running">Meáin á scanadh...</string>
+    <string name="media_scanning_running_definition">Gach comhad meán ar chárta SD á scanadh...</string>
+    <string name="media_scanning_system">Stóras an chórais</string>
+    <string name="media_scanning_internal_sd">Stóras USB</string>
+    <string name="media_scanning_external_sd">Cárta SD</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

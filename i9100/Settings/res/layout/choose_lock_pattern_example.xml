@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lock_example_title" style="?android:attr/textAppearanceLarge" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/lock_anim" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" />
+            <TextView android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/lock_example_message" style="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/ButtonBar">
+        <Button android:ellipsize="marquee" android:id="@id/skip_button" android:layout_width="140.0dip" android:layout_height="wrap_content" android:text="@string/skip_button_label" android:singleLine="true" />
+        <View android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:ellipsize="marquee" android:id="@id/next_button" android:layout_width="140.0dip" android:layout_height="wrap_content" android:text="@string/next_button_label" android:singleLine="true" android:drawableRight="@drawable/ic_btn_next" android:drawablePadding="3.0dip" />
+    </LinearLayout>
+</LinearLayout>

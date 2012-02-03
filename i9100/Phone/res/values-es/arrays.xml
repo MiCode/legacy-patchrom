@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Valores predeterminados de red</item>
+        <item>Ocultar número</item>
+        <item>Mostrar número</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Sólo EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO automático</item>
+        <item>GSM/WCDMA automático</item>
+        <item>Sólo WCDMA</item>
+        <item>Sólo GSM</item>
+        <item>GSM/WCDMA preferido</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Francés</item>
+        <item>Espaņol</item>
+        <item>Japonés</item>
+        <item>Coreano</item>
+        <item>Chino</item>
+        <item>Hebreo</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (modo automático)</item>
+        <item>Sólo GSM</item>
+        <item>Sólo WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (modo automático)</item>
+        <item>Sólo WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (modo automático)</item>
+        <item>Sólo GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Sólo doméstica</item>
+        <item>Automático</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Sólo red nacional</item>
+        <item>Redes relacionadas</item>
+        <item>Cualquier red</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Sólo CDMA</item>
+        <item>Sólo EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Largo</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Registro de llamadas</item>
+        <item>Llamada de voz</item>
+        <item>Videollamada</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (modo automático)</item>
+        <item>Sólo GSM</item>
+        <item>Sólo WCDMA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="13.0dip" android:textColor="@color/primary_text_dark_focused" android:ellipsize="marquee" android:gravity="top|center" android:id="@id/label" android:background="@drawable/btn_application_selector" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:fadingEdge="horizontal" android:layout_width="87.0dip" android:layout_height="88.0dip" android:layout_margin="3.0dip" android:maxLines="2" android:drawablePadding="0.0dip" style="?android:attr/buttonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/incomingButtonsLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.phone.PhoneSlidingTab android:id="@id/incomingCallWidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/twcolor003" android:ellipsize="marquee" android:id="@id/voip_in_use_msg_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="29.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <include layout="@layout/reject_call_with_msg_sliding_drawer" />
+</RelativeLayout>

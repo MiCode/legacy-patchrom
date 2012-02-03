@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/reject_call_with_msg_create" android:background="@drawable/linearlayout_select_all_item_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="65.32999dip">
+        <ImageView android:layout_gravity="center" android:layout_width="38.0dip" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/btn_create_ss" android:scaleType="fitXY" />
+        <TextView android:textAppearance="@touchwiz:style/TwTextAppearanceListOneLine" android:gravity="center_vertical" android:paddingLeft="12.0dip" android:focusable="false" android:focusableInTouchMode="false" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/reject_call_with_msg_create" android:layout_weight="0.9" />
+    </LinearLayout>
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <ListView android:id="@id/reject_call_with_msg_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+</LinearLayout>

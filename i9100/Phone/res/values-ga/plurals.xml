@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">No data connection for %s minutes</item>
+        <item quantity="one">No data connection for %s minute</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">The phone will be in emergency callback mode for %s minutes. While in this mode no applications using a data connection can be used. Would you like to exit now?</item>
+        <item quantity="one">The phone will be in emergency callback mode for %s minute. While in this mode no applications using a data connection can be used. Would you like to exit now?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">The selected action is not available while in the emergency callback mode. The phone will be in this mode for %s minutes. Would you like to exit now?</item>
+        <item quantity="one">The selected action is not available while in the emergency callback mode. The phone will be in this mode for %s minute. Would you like to exit now?</item>
+    </plurals>
+</resources>

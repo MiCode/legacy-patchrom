@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Netværksstandard</item>
+        <item>Skjul nummer</item>
+        <item>Vis nummer</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Kun EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>Automatisk CDMA/EVDO</item>
+        <item>Automatisk GSM/WCDMA</item>
+        <item>Kun WCDMA</item>
+        <item>Kun GSM</item>
+        <item>Foretrukken GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Fransk</item>
+        <item>Spansk</item>
+        <item>Japansk</item>
+        <item>Koreansk</item>
+        <item>Kinesisk</item>
+        <item>Hebræisk</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatisk tilstand)</item>
+        <item>Kun GSM</item>
+        <item>Kun WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (automatisk tilstand)</item>
+        <item>Kun WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (automatisk tilstand)</item>
+        <item>Kun GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Kun hjemmenetværk</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Kun hjemme netværk</item>
+        <item>Associerede netværk</item>
+        <item>Et hvilket som helst netværk</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Kun CDMA</item>
+        <item>Kun EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normal</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Opkaldsfunktioner</item>
+        <item>Stemmeopkald</item>
+        <item>Videoopkald</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (automatisk tilstand)</item>
+        <item>Kun GSM</item>
+        <item>Kun WCDMA</item>
+    </string-array>
+</resources>

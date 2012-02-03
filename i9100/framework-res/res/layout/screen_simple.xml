@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content" android:fitsSystemWindows="true" android:foreground="?windowContentOverlay" android:foregroundGravity="fill_horizontal|top|center" android:foregroundInsidePadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

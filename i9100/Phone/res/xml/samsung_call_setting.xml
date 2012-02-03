@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:title="@string/menu_setRejectCall" android:key="set_reject_call_preference" android:summary="@string/summary_setRejectCall">
+        <intent android:targetPackage="com.sec.android.app.callsetting" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.callsetting.allcalls.AutoReject" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/menu_rejectMessages" android:key="reject_message_preference" android:summary="@string/summary_editRejectMessages">
+        <intent android:targetPackage="com.sec.android.app.callsetting" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.callsetting.allcalls.RejectCallWithMsg" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/bluetooth_call" android:key="button_bluetooth_call_settings_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.BluetoothCallSettings" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/toggle_internationalcall_title" android:key="toggle_internationalcall" android:summaryOn="@string/internationalcall_on" android:summaryOff="@string/internationalcall_off" />
+    <PreferenceScreen android:title="@string/menu_callAlert" android:key="call_alert_preference" android:summary="@string/summary_callAlert">
+        <intent android:targetPackage="com.sec.android.app.callsetting" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.callsetting.allcalls.CallAlertList" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/menu_answeringEndCall" android:key="call_answer_preference" android:summary="@string/summary_answeringEndCall">
+        <intent android:targetPackage="com.sec.android.app.callsetting" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.callsetting.allcalls.AnsweringCall" />
+    </PreferenceScreen>
+    <CheckBoxPreference android:title="@string/menu_activateProximitySensor" android:key="proximity_sensor_preference" android:summary="@string/summary_activateProximitySensor" />
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCF" android:key="button_callType_select_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallTypeSelect">
+            <extra android:name="SS_Type" android:value="forwarding" />
+        </intent>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/callsettings_allcalls_number_region" android:key="numberregion_list_preference" android:summary="@string/callsettings_allcalls_number_region_sub_text">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.NumberRegionDetail" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/additional_gsm_call_settings" android:key="button_more_expand_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.GsmUmtsAdditionalCallOptions" />
+    </PreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/category_videoCallSettings" android:key="button_videocall_category_key">
+        <PreferenceScreen android:enabled="true" android:title="@string/menu_videocallImage" android:key="preset_image" android:summary="@string/summary_videocallImage">
+            <intent android:targetPackage="com.sec.android.app.callsetting" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.callsetting.videocall.PresetImage" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:title="@string/menu_ownVideoInReceivedCall" android:key="showme_preference" android:summary="@string/summary_ownVideoInReceivedCall" />
+        <CheckBoxPreference android:title="@string/menu_useCallFailOption" android:key="failoption_preference" android:summary="@string/summary_useCallFailOption" />
+        <CheckBoxPreference android:title="@string/toggle_videocall_title" android:key="toggle_videocall" android:summary="@string/videocall_summary" />
+        <CheckBoxPreference android:title="@string/toggle_videocall_mode_title" android:key="toggle_videocall_mode" android:summaryOn="@string/videocall_mode_on" android:summaryOff="@string/videocall_mode_off" />
+        <PreferenceScreen android:enabled="true" android:title="@string/menu_captureImageViewer" android:key="capture_imageviwer_preference" android:summary="@string/summary_captureImageViewer">
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CaptureImageViewer" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/ipcallsetting" android:key="button_ipcall_category_key">
+        <PreferenceScreen android:title="@string/ipcalllist" android:key="call_ipcall_preference" android:summary="@string/sum_ipcalllist">
+            <intent android:targetPackage="com.sec.android.app.callsetting" android:action="android.intent.action.MAIN" android:targetClass="com.sec.android.app.callsetting.ipcall.IpCallList" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

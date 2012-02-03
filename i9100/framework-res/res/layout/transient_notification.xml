@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/toast_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Small" android:textColor="@color/bright_foreground_dark" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#bb000000" android:shadowRadius="2.75" android:layout_weight="1.0" />
+</LinearLayout>

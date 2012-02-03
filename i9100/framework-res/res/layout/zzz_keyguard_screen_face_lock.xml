@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/glasslock_glass" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.android.internal.widget.DigitalClock android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="8.0dip">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="72.0sp" android:ellipsize="none" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="22.0sp" android:ellipsize="none" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_toRightOf="@id/timeDisplay" android:layout_alignBaseline="@id/timeDisplay" />
+        </com.android.internal.widget.DigitalClock>
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_below="@id/time" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="480.0px" android:layout_height="480.0px" android:layout_marginTop="10.0dip">
+        <FrameLayout android:layout_gravity="center" android:id="@id/FaceDetectionView" android:layout_width="480.0px" android:layout_height="640.0px" />
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip">
+        <Button android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="155.0dip" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" style="@style/Widget.Button.Transparent" />
+        <Button android:id="@id/AlternativeButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" style="@style/Widget.Button.Transparent" />
+    </LinearLayout>
+</LinearLayout>

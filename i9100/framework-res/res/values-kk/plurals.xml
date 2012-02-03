@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%1$d секунд бұрын</item>
+        <item quantity="one">1 секунд бұрын</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%1$d минут бұрын</item>
+        <item quantity="one">1 минут бұрын</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%1$d сағат бұрын</item>
+        <item quantity="one">1 сағат бұрын</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Соңғы %1$d күн</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%1$d күн бұрын</item>
+        <item quantity="one">Кеше</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%1$d секунд кейін</item>
+        <item quantity="one">1 секундтан кейін</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%1$d минуттан кейін</item>
+        <item quantity="one">1 минуттан кейін</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%1$d сағаттан кейін</item>
+        <item quantity="one">1 сағаттан кейін</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%1$d күннен кейін</item>
+        <item quantity="one">Ертең</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%1$d секунд бұрын</item>
+        <item quantity="one">1 секун бұрын</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%1$d минут бұрын</item>
+        <item quantity="one">1 минут бұрын</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%1$d сағат бұрын</item>
+        <item quantity="one">1 сағат бұрын</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%1$d күн бұрын</item>
+        <item quantity="one">Кеше</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%1$d секундтан кейін</item>
+        <item quantity="one">1 секундтан кейін</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%1$d минуттан кейін</item>
+        <item quantity="one">1 минуттан кейін</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%1$d сағаттан кейін</item>
+        <item quantity="one">1 сағаттан кейін</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%1$d күннен кейін</item>
+        <item quantity="one">Ертең</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Қол жетімді Wi-Fi желілері</item>
+        <item quantity="one">Wi-Fi желісі қол жетімді</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Қол жетімді Wi-Fi желілерін ашу</item>
+        <item quantity="one">Қол жетімді Wi-Fi желісін ашу</item>
+    </plurals>
+</resources>

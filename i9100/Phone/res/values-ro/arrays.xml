@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Valoare implicită reţea</item>
+        <item>Ascundere număr</item>
+        <item>Afişare număr</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Numai EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>Reţea CDMA/EVDO automată</item>
+        <item>Reţea GSM/WCDMA automată</item>
+        <item>Numai WCDMA</item>
+        <item>Numai GSM</item>
+        <item>Reţea GSM/WCDMA preferată</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Franceză</item>
+        <item>Spaniolă</item>
+        <item>Japoneză</item>
+        <item>Coreeană</item>
+        <item>Chineză</item>
+        <item>Ebraică</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Mod automat)</item>
+        <item>Numai GSM</item>
+        <item>Numai WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (Mod automat)</item>
+        <item>Numai WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (Mod automat)</item>
+        <item>Numai GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Numai Domiciliu</item>
+        <item>Automat</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Numai reţea reşedinţă</item>
+        <item>Reţele afiliate</item>
+        <item>Orice reţea</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Numai CDMA</item>
+        <item>Numai EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Norm.</item>
+        <item>Lung</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Jurnal apeluri</item>
+        <item>Apel</item>
+        <item>Apel video</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (Mod automat)</item>
+        <item>Numai GSM</item>
+        <item>Numai WCDMA</item>
+    </string-array>
+</resources>

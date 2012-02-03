@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>Numatytasis tinklas</item>
+        <item>Nerodyti numerio</item>
+        <item>Rodyti numerį</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>Global</item>
+        <item>Tik EVDO</item>
+        <item>CDMA w/o EVDO</item>
+        <item>CDMA/EVDO, automatinis</item>
+        <item>Automatinis GSM/WCDMA</item>
+        <item>Tik WCDMA</item>
+        <item>Tik GSM</item>
+        <item>Pageidautina GSM/WCDMA</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>English</item>
+        <item>Prancūzų</item>
+        <item>Ispanų</item>
+        <item>Japonų</item>
+        <item>Korėjiečių</item>
+        <item>Kinų</item>
+        <item>Hebrajų</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatinis režimas)</item>
+        <item>Tik GSM</item>
+        <item>Tik WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nogsm">
+        <item>GSM/WCDMA (automatinis režimas)</item>
+        <item>Tik WCDMA</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices_nowcdma">
+        <item>GSM/WCDMA (automatinis režimas)</item>
+        <item>Tik GSM</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Tik namai</item>
+        <item>Automatinis</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>Tik vietos tinklas</item>
+        <item>Susiję tinklai</item>
+        <item>Bet koks tinklas</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EVDO</item>
+        <item>Tik CDMA</item>
+        <item>Tik EVDO</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Įprastas</item>
+        <item>Ilgas</item>
+    </string-array>
+    <string-array name="bluetooth_call_settings">
+        <item>Skambučių žurnalas</item>
+        <item>Balso skambutis</item>
+        <item>Vaizdo skam.</item>
+    </string-array>
+    <string-array name="network_mode_list">
+        <item>GSM/WCDMA (automatinis režimas)</item>
+        <item>Tik GSM</item>
+        <item>Tik WCDMA</item>
+    </string-array>
+</resources>

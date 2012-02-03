@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Media</string>
+    <string name="app_label">Medielagring</string>
+    <string name="artist_label">Artist</string>
+    <string name="media_scanning_tiker_start">Medieskanner kjører...</string>
+    <string name="media_scanning_tiker_end">Medieskanning er fullført</string>
+    <string name="media_scanning_running">Medieskanning...</string>
+    <string name="media_scanning_running_definition">Skanner alle mediefiler på SD-kort...</string>
+    <string name="media_scanning_system">Systemlagringsplass</string>
+    <string name="media_scanning_internal_sd">USB-lagring</string>
+    <string name="media_scanning_external_sd">SD-kort</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/mobile_networks"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <CheckBoxPreference android:persistent="false" android:title="@string/data_enabled" android:key="button_data_enabled_key" android:summary="@string/data_enable_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/roaming" android:key="button_roaming_key" android:summaryOn="@string/roaming_enable" android:summaryOff="@string/roaming_disable" />
+    <PreferenceScreen android:persistent="false" android:title="@string/throttle_data_usage" android:key="button_data_usage_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.DataUsage" />
+    </PreferenceScreen>
+    <ListPreference android:entries="@array/preferred_network_mode_choices" android:title="@string/preferred_network_mode_title" android:key="preferred_network_mode_key" android:summary="@string/preferred_network_mode_summary" android:dialogTitle="@string/preferred_network_mode_dialogtitle" android:entryValues="@array/preferred_network_mode_values" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="uid_label">Media</string>
+    <string name="app_label">Mediasäilö</string>
+    <string name="artist_label">Esittäjä</string>
+    <string name="media_scanning_tiker_start">Mediaskanneri käytössä...</string>
+    <string name="media_scanning_tiker_end">Median tarkistus on suoritettu</string>
+    <string name="media_scanning_running">Mediaa tarkistetaan...</string>
+    <string name="media_scanning_running_definition">Tarkistetaan kaikkia SD-kortilla olevia mediatiedostoja...</string>
+    <string name="media_scanning_system">Järjestelmän muisti</string>
+    <string name="media_scanning_internal_sd">USB-muisti</string>
+    <string name="media_scanning_external_sd">SD-kortti</string>
+    <string name="alphabet_indexlist">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+</resources>

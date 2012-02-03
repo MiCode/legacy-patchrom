@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_container" android:layout_width="fill_parent" android:layout_height="?windowTitleSize" style="?android:attr/windowTitleBackgroundStyle">
+        <ProgressBar android:id="@id/progress_circular" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:max="10000" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleSmallTitle" />
+        <ProgressBar android:id="@id/progress_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:max="10000" android:layout_toLeftOf="@id/progress_circular" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:gravity="center_vertical" android:id="@id/title" android:background="@null" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollHorizontally="true" android:layout_toLeftOf="@id/progress_circular" android:layout_alignParentLeft="true" style="?android:attr/windowTitleStyle" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:foreground="?windowContentOverlay" android:layout_weight="1.0" android:foregroundGravity="fill_horizontal|top|center" />
+</LinearLayout>

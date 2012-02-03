@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_device_info_alias" />
+        <TextView android:id="@id/deviceAlias" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_device_info_no_alias" />
+        <Button android:id="@id/connectButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_device_info_connectButton_text" />
+        <Button android:id="@id/deleteButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_device_info_delete" />
+        <Button android:id="@id/querySDP" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_device_info_sdp" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_device_info" />
+        <TextView android:id="@id/deviceInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/bluetooth_device_info_deviceInfo_text" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/power_saving_mode" android:key="battery_saving_mode"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/use_power_saving_mode_title" android:key="use_power_saving_mode" android:summary="@string/use_power_saving_mode_summary" />
+    <ListPreference android:entries="@array/psm_entries" android:title="@string/power_saving_mode_on_title" android:key="on_battery_level" android:summary="@string/power_saving_mode_on_summary" android:defaultValue="50" android:entryValues="@array/psm_values" />
+    <PreferenceCategory android:title="@string/power_saving_mode_setting" />
+    <CheckBoxPreference android:title="@string/nonuse_wifi_title" android:key="disable_wifi" android:summary="@string/nonuse_wifi_summary" />
+    <CheckBoxPreference android:title="@string/nonuse_bluetooth_title" android:key="disable_bluetooth" android:summary="@string/nonuse_bluetooth_summary" />
+    <CheckBoxPreference android:title="@string/nonuse_gps_title" android:key="disable_gps" android:summary="@string/nonuse_gps_summary" />
+    <CheckBoxPreference android:title="@string/nonuse_sync_title" android:key="disable_sync" android:summary="@string/nonuse_sync_summary" />
+    <CheckBoxPreference android:title="@string/brightness" android:key="disable_brightness" android:summary="@string/nonuse_brightness_summary" />
+    <ListPreference android:entries="@array/psm_brightness_entries" android:title="@string/brightness" android:key="brightness_setting" android:summary="@string/adjust_brightness_summary" android:defaultValue="10" android:entryValues="@array/psm_brightness_values" />
+    <ListPreference android:entries="@array/screen_timeout_entries" android:title="@string/screen_timeout" android:key="screentimeout_setting" android:summary="@string/screentimeout_summary" android:defaultValue="15000" android:entryValues="@array/screen_timeout_values" />
+    <PreferenceScreen android:title="@string/power_saving_tips" android:key="power_saving_tips">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.powersavingmode.PowerSavingModeTips" />
+    </PreferenceScreen>
+</PreferenceScreen>

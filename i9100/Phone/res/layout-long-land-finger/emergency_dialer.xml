@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/emergency_call_keypad_bg_h" android:layout_width="fill_parent" android:layout_height="230.66998dip">
+        <LinearLayout android:layout_width="270.5dip" android:layout_height="fill_parent">
+            <include layout="@layout/emergency_dialpad" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="262.5dip" android:layout_height="fill_parent">
+            <EditText android:textSize="47.0sp" android:textColor="@color/dialer_button_text" android:gravity="center" android:id="@id/digits" android:background="#ff000000" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="113.0dip" android:maxLines="1" android:scrollHorizontally="true" android:freezesText="true" android:layout_weight="0.0" />
+            <include layout="@layout/dial_and_delete" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

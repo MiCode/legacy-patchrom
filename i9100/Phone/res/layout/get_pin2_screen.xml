@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pinc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enter_pin2_text" />
+        <EditText android:id="@id/pin" android:layout_width="200.0dip" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:password="true" android:maxLength="8" android:capitalize="none" android:autoText="false" android:inputType="number" />
+        <Button android:id="@id/button_fdnsave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/ok" />
+    </LinearLayout>
+</RelativeLayout>

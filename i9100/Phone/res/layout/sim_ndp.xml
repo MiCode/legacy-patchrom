@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/entry_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_ndp" />
+        <EditText android:id="@id/pin_entry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:scrollHorizontally="true" android:inputType="textPassword" android:imeOptions="actionDone" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/ndp_unlock" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim_ndp_unlock_text" android:layout_centerHorizontal="true" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/ndp_dismiss" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sim_ndp_dismiss_text" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <LinearLayout android:colorBackground="#80808080" android:panelColorBackground="#ffffffff" android:orientation="vertical" android:id="@id/status_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:colorBackground="#80808080" android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/requesting_unlock" />
+    </LinearLayout>
+</RelativeLayout>

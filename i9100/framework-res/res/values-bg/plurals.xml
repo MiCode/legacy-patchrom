@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Преди %1$d секунди</item>
+        <item quantity="one">Преди 1 секунда</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Преди %1$d минути</item>
+        <item quantity="one">Преди 1 минута</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Преди %1$d часа</item>
+        <item quantity="one">Преди 1 час</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Последните %1$d дни</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">вчера</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">след %1$d секунди</item>
+        <item quantity="one">след 1 секунда</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">след %1$d минути</item>
+        <item quantity="one">след 1 минута</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">след %1$d часа</item>
+        <item quantity="one">след 1 час</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">след %1$d дни</item>
+        <item quantity="one">утре</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">Преди %1$d сек</item>
+        <item quantity="one">Преди 1 сек</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">Преди %1$d мин</item>
+        <item quantity="one">Преди 1 мин</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Преди %1$d часа</item>
+        <item quantity="one">Преди 1 час</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">вчера</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">след %1$d сек</item>
+        <item quantity="one">след 1 сек</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">след %1$d мин</item>
+        <item quantity="one">след 1 мин</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">след %1$d часа</item>
+        <item quantity="one">след 1 час</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">след %1$d дни</item>
+        <item quantity="one">утре</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Има достъпни Wi-Fi мрежи</item>
+        <item quantity="one">Има достъпна Wi-Fi мрежа</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Има достъпни отворени Wi-Fi мрежи</item>
+        <item quantity="one">Има достъпна отворена Wi-Fi мрежа</item>
+    </plurals>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="alert_dark_frame">@drawable/popup_full_dark</drawable>
+    <drawable name="alert_light_frame">@drawable/popup_full_bright</drawable>
+    <drawable name="dialog_frame">@drawable/panel_background</drawable>
+    <drawable name="editbox_dropdown_dark_frame">@drawable/editbox_dropdown_background_dark</drawable>
+    <drawable name="editbox_dropdown_light_frame">@drawable/editbox_dropdown_background</drawable>
+    <drawable name="menu_frame">@drawable/menu_background</drawable>
+    <drawable name="menu_full_frame">@drawable/menu_background_fill_parent_width</drawable>
+    <drawable name="stat_notify_sync_noanim">@drawable/stat_notify_sync_anim0</drawable>
+    <drawable name="stat_sys_download_done">@drawable/stat_sys_download_anim0</drawable>
+    <drawable name="stat_sys_upload_done">@drawable/stat_sys_upload_anim0</drawable>
+    <drawable name="screen_background_dark">@color/screen_background_dark</drawable>
+    <drawable name="screen_background_light">@color/screen_background_light</drawable>
+    <drawable name="screen_background_dark_transparent">@color/screen_background_dark_transparent</drawable>
+    <drawable name="screen_background_light_transparent">@color/screen_background_light_transparent</drawable>
+    <drawable name="status_bar_closed_default_background">@color/status_bar_closed_default_background</drawable>
+    <drawable name="status_bar_opened_default_background">@color/status_bar_opened_default_background</drawable>
+    <drawable name="search_bar_default_color">@color/search_bar_default_color</drawable>
+    <drawable name="safe_mode_background">@color/safe_mode_background</drawable>
+    <item type="drawable" name="input_method_fullscreen_background">#fff9f9f9</item>
+    <item type="drawable" name="selected_day_background">#ff0092f4</item>
+    <item type="drawable" name="APKTOOL_DUMMY_01a1">false</item>
+</resources>

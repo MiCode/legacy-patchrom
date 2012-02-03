@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">Il y a %1$d secondes</item>
+        <item quantity="one">Il y a 1 seconde</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">Il y a %1$d minutes</item>
+        <item quantity="one">Il y a 1 minute</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">Il y a %1$d heures</item>
+        <item quantity="one">il y a 1 heure</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Les %1$d derniers jours</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">Il y a %1$d jours</item>
+        <item quantity="one">hier</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">dans %1$d secondes</item>
+        <item quantity="one">dans 1 seconde</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">dans %1$d minutes</item>
+        <item quantity="one">dans 1 minute</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">dans %1$d heures</item>
+        <item quantity="one">dans 1 heure</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">dans %1$d jours</item>
+        <item quantity="one">demain</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">il y a %1$d secondes</item>
+        <item quantity="one">il y a 1 seconde</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">il y a %1$d minutes</item>
+        <item quantity="one">il y a 1 minute</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">Il y a %1$d heures</item>
+        <item quantity="one">il y a 1 heure</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">Il y a %1$d jours</item>
+        <item quantity="one">hier</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">dans %1$d secondes</item>
+        <item quantity="one">dans 1 seconde</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">dans %1$d minutes</item>
+        <item quantity="one">dans 1 minute</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">dans %1$d heures</item>
+        <item quantity="one">dans 1 heure</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">dans %1$d jours</item>
+        <item quantity="one">demain</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Réseaux Wi-Fi disponibles</item>
+        <item quantity="one">Réseau Wi-Fi disponible</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Réseaux Wi-Fi ouverts disponibles</item>
+        <item quantity="one">Réseau Wi-Fi ouvert disponible</item>
+    </plurals>
+</resources>

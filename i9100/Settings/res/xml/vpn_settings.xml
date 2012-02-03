@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vpn_settings_activity_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/vpn_add_new_vpn" android:key="add_new_vpn" />
+    <PreferenceCategory android:title="@string/vpns" android:key="vpn_list" />
+</PreferenceScreen>

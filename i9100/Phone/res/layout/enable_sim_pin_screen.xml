@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/pinc" android:layout_centerInParent="true" style="@style/entry_layout">
+        <TextView android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enter_pin_text" />
+        <EditText android:id="@id/pin" android:layout_width="200.0dip" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:password="true" android:capitalize="none" android:autoText="false" />
+    </LinearLayout>
+    <TextView android:textColor="#ff000000" android:id="@id/status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

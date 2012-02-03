@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%1$d sekuntia sitten</item>
+        <item quantity="one">1 sekunti sitten</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%1$d minuuttia sitten</item>
+        <item quantity="one">1 minuutti sitten</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%1$d tuntia sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Viimeisen %1$d päivän aikana</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%1$d päivää sitten</item>
+        <item quantity="one">eilen</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%1$d sekunnin kuluttua</item>
+        <item quantity="one">1 sekunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%1$d minuutin kuluttua</item>
+        <item quantity="one">1 minuutin kuluttua</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%1$d tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%1$d päivän kuluttua</item>
+        <item quantity="one">huomenna</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%1$d s sitten</item>
+        <item quantity="one">1 s sitten</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%1$d min sitten</item>
+        <item quantity="one">1 min sitten</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%1$d tuntia sitten</item>
+        <item quantity="one">1 tunti sitten</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%1$d päivää sitten</item>
+        <item quantity="one">eilen</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%1$d sekunnin kuluttua</item>
+        <item quantity="one">1 s kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%1$d min kuluttua</item>
+        <item quantity="one">1 min kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%1$d tunnin kuluttua</item>
+        <item quantity="one">1 tunnin kuluttua</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%1$d päivän kuluttua</item>
+        <item quantity="one">huomenna</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wifi-verkkoja käytettävissä</item>
+        <item quantity="one">Wifi-verkko käytettävissä</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Avoimia wifi-verkkoja käytettävissä</item>
+        <item quantity="one">Avoin wifi-verkko käytettävissä</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/sd_memory_sd" android:key="memory_sd">
+        <Preference android:title="@string/memory_size" android:key="memory_sd_size" android:summary="00" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:title="@string/memory_available" android:key="memory_sd_avail" android:summary="00" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:title="@string/sd_eject_sd" android:key="memory_sd_mount_toggle" android:summary="@string/sd_eject_summary_sd" />
+        <Preference android:title="@string/sd_format_sd" android:key="memory_sd_format" android:summary="@string/sd_format_summary_sd" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sd_memory" android:key="memory_sd_internal">
+        <Preference android:title="@string/memory_size" android:key="memory_sd_internal_size" android:summary="00" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:title="@string/memory_available" android:key="memory_sd_internal_avail" android:summary="00" style="?android:attr/preferenceInformationStyle" />
+        <Preference android:title="@string/sd_format" android:key="memory_sd_internal_format" android:summary="@string/sd_format_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/internal_memory">
+        <Preference android:title="@string/memory_available" android:key="memory_internal_avail" android:summary="00" style="?android:attr/preferenceInformationStyle" />
+    </PreferenceCategory>
+</PreferenceScreen>

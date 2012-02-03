@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left" android:id="@id/message1" android:padding="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/checkbox1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/autoaccept_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/authdlg_auto_reply" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/call_card_person_info_land_incoming" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/snsInfo" android:layout_width="284.0dip" android:layout_height="28.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="55.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/snsIcon" android:layout_width="28.0dip" android:layout_height="28.0dip" />
+            <TextView android:textSize="17.0sp" android:gravity="center_vertical" android:id="@id/snsStatus" android:layout_height="24.0dip" android:singleLine="true" style="@style/InCallRoundButtonLabel" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/recInfo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginTop="260.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_rec_icon" />
+        <TextView android:textSize="21.0sp" android:textColor="@color/twcolor030" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rec_text" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/noiseReductionIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="85.0dip" android:layout_marginTop="260.0dip" android:src="@drawable/call_noise_reduction_icon" />
+    <TextView android:textSize="21.0sp" android:textStyle="normal" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/elapsedTime" android:layout_width="wrap_content" android:layout_height="43.0dip" android:layout_marginTop="260.0dip" android:layout_marginRight="11.0dip" android:singleLine="true" />
+</FrameLayout>

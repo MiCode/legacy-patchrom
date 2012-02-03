@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%1$d soicind ó shin</item>
+        <item quantity="one">1 shoicind ó shin</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%1$d nóiméad ó shin</item>
+        <item quantity="one">1 nóiméad ó shin</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%1$d uair an chloig ó shin</item>
+        <item quantity="one">1 uair an chloig ó shin</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Le %1$d lá anuas</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%1$d lá ó shin</item>
+        <item quantity="one">Inné</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">i gceann %1$d soicind</item>
+        <item quantity="one">I gcionn 1 soicind</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">i gceann %1$d nóiméad</item>
+        <item quantity="one">i gceann 1 nóiméad</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">i gceann %1$d uair an chloig</item>
+        <item quantity="one">i gceann 1 uair an chloig</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">i gceann %1$d lá</item>
+        <item quantity="one">Amárach</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%1$d soic ó shin</item>
+        <item quantity="one">1 soic ó shin</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%1$d nóim ó shin</item>
+        <item quantity="one">1 nóim ó shin</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%1$d uair an chloig ó shin</item>
+        <item quantity="one">1 uair an chloig ó shin</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%1$d lá ó shin</item>
+        <item quantity="one">Inné</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">i gceann %1$d soic</item>
+        <item quantity="one">i gceann 1 soic</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">i gceann %1$d nóim</item>
+        <item quantity="one">i gceann 1 nóim</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">i gceann %1$d uair an chloig</item>
+        <item quantity="one">i gceann 1 uair an chloig</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">i gceann %1$d lá</item>
+        <item quantity="one">Amárach</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Líonraí Wi-Fi ar fáil</item>
+        <item quantity="one">Líonra Wi-Fi ar fáil</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Oscail líonraí Wi-Fi atá ar fáil</item>
+        <item quantity="one">Oscail líonra Wi-Fi atá ar fáil</item>
+    </plurals>
+</resources>
