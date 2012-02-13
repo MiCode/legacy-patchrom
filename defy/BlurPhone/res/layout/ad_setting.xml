@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <CheckBoxPreference android:persistent="false" android:title="@string/ad_assisted_dialing_status" android:key="button_ads_key" android:summary="@string/ad_assisted_dialing_status_summary" />
+    <PreferenceScreen android:persistent="false" android:title="@string/ad_current_country" android:key="button_cc_key" />
+    <PreferenceScreen android:persistent="false" android:title="@string/ad_reference_country" android:key="button_rc_key" />
+</PreferenceScreen>

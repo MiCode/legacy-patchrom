@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="left" android:id="@id/username_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px" android:text="@string/dialog_web_upload" />
+    <MultiAutoCompleteTextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondaryInverse" android:gravity="fill_horizontal" android:id="@id/username_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="10.0px" android:layout_marginRight="10.0px" android:layout_marginBottom="10.0px" android:hint="@string/enter_email" android:scrollHorizontally="true" android:capitalize="none" android:autoText="false" />
+    <LinearLayout android:orientation="vertical" android:background="#ffa9a9a9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:id="@id/web_add_addr_dlg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="80.0px" android:layout_marginTop="10.0px" android:layout_marginRight="80.0px" android:layout_marginBottom="10.0px" android:text="@string/alert_dialog_ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

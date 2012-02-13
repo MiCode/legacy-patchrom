@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:id="@id/callerNumberType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="@style/Contacts.TxtListItemB.SingleLine" />
+        <TextView android:id="@id/callerNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="@style/Contacts.TxtListItemB.SingleLine" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="0.5">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/speedDialSpinner" style="@style/Contacts.TxtListItemB.SingleLine" />
+        <com.android.phone.SpeedDialSpinner android:id="@id/speed_dial_spinner" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:prompt="@string/speedDialSpinner" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.2">
+        <Button android:id="@id/addSpeedDialButton" android:layout_marginLeft="5.0dip" android:text="@string/speedDial_add" style="@blur.res:style/Blur.TxtBtnActionBar" />
+        <Button android:id="@id/cancelSpeedDialButton" android:text="@string/cancelButton" style="@blur.res:style/Blur.TxtBtnActionBar" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:orientation="horizontal" android:background="#70000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="17.0sp" android:ellipsize="marquee" android:gravity="bottom|right|center" android:id="@id/carrier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:singleLine="true" android:drawablePadding="4.0dip" />
+        <com.android.internal.widget.DigitalClock android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="72.0sp" android:ellipsize="none" android:gravity="bottom" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="22.0sp" android:ellipsize="none" android:gravity="bottom" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+        </com.android.internal.widget.DigitalClock>
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/time" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="17.0sp" android:id="@id/statusSep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="17.0sp" android:id="@id/status2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:layout_alignParentTop="true" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+            <RelativeLayout android:gravity="left" android:id="@id/footerNormal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/emergencyCallAlone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" style="@style/Widget.Button.Transparent" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/footerForgotPattern" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/forgotPattern" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Button.Transparent" />
+                <Button android:id="@id/emergencyCallTogether" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" style="@style/Widget.Button.Transparent" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.android.internal.widget.LockPatternView android:id="@id/lockPattern" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>

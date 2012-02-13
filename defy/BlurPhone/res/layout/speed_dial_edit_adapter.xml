@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/speedDialEditAdapterHandle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/pickerPosition" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/pickerImage" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="155.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+        <TextView android:id="@id/pickerName" android:layout_marginTop="3.0dip" style="@style/Contacts.SpeedDialNameEditSingleLine" />
+        <TextView android:id="@id/pickerNumber" style="@style/Contacts.SpeedDialNumberEditSingleLine" />
+    </LinearLayout>
+    <ImageView android:gravity="center_vertical" android:id="@id/statusImage" android:background="@drawable/speed_dial_delete_icon_selector" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_control_remove" android:scaleType="centerInside" android:layout_centerVertical="true" />
+</LinearLayout>

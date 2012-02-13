@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter android:accountType="com.google" android:contentAuthority="calendar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

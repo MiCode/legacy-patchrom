@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="gadget_more_events">
+        <item quantity="other">还有 %1$d 个活动</item>
+        <item quantity="one">还有 1 个活动</item>
+    </plurals>
+</resources>

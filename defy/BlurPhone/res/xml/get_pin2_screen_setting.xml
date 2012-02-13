@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.phone.EditPinPreference android:persistent="false" android:key="button_get_pin2_screen_key" />
+</PreferenceScreen>

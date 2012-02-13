@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/sv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <com.motorola.android.widget.ShuffleList android:orientation="vertical" android:id="@id/shuffleList" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/doneActionBar" android:visibility="gone" style="@blur.res:style/Blur.ActionBar">
+        <Button android:id="@id/doneButton" android:text="@string/speedDial_done" style="@blur.res:style/Blur.TxtBtnActionBar3" />
+    </LinearLayout>
+</LinearLayout>

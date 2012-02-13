@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.phone" android:versionCode="10" android:versionName="2.3.4" package="com.android.providers.telephony"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application android:label="@string/app_label" android:icon="@drawable/ic_launcher_phone" android:allowClearUserData="false" android:process="com.android.phone">
+        <provider android:name="TelephonyProvider" android:multiprocess="true" android:authorities="telephony" />
+        <provider android:name="SmsProvider" android:readPermission="android.permission.READ_SMS" android:writePermission="android.permission.WRITE_SMS" android:multiprocess="true" android:authorities="sms" />
+        <provider android:name="MmsProvider" android:readPermission="android.permission.READ_SMS" android:writePermission="android.permission.WRITE_SMS" android:multiprocess="true" android:authorities="mms">
+            <grant-uri-permission android:pathPrefix="/part/" />
+            <grant-uri-permission android:pathPrefix="/drm/" />
+        </provider>
+        <provider android:name="MmsSmsProvider" android:readPermission="android.permission.READ_SMS" android:writePermission="android.permission.WRITE_SMS" android:multiprocess="true" android:authorities="mms-sms" />
+        <provider android:name="DlutProvider" android:multiprocess="true" android:authorities="dlut" />
+    </application>
+</manifest>

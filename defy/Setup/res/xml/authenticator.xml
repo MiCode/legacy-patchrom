@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/sign_up_or_log_in_intro" android:icon="@drawable/blur" android:accountType="com.blur"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

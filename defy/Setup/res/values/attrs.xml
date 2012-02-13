@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="position" format="integer" />
+    <attr name="num_positions" format="integer" />
+    <attr name="forward_text" format="string" />
+    <attr name="back_text" format="string" />
+    <attr name="back_visible" format="boolean" />
+    <attr name="step" format="integer" />
+    <attr name="text" format="string" />
+</resources>

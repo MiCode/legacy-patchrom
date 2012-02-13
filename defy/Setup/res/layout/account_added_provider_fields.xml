@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/account_added_settings_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <TextView android:id="@id/account_added_services_title" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings" />
+    <LinearLayout android:orientation="vertical" android:id="@id/account_added_services_group" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

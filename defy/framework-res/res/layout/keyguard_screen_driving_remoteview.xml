@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/topbtn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/remoteunlock" android:layout_width="fill_parent" android:layout_height="324.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TableLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TableRow android:layout_gravity="center">
+                <Button android:id="@id/overridelock" android:layout_width="100.0dip" android:layout_height="50.0dip" android:drawablePadding="8.0dip" />
+                <View android:id="@id/spacerMiddle" android:layout_width="100.0dip" android:layout_height="1.0dip" />
+                <Button android:id="@id/emergencyCall" android:layout_width="100.0dip" android:layout_height="50.0dip" android:drawablePadding="8.0dip" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

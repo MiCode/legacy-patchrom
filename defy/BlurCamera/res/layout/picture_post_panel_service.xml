@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/actionmenu_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/takenewphoto" android:text="@string/retake" android:drawableTop="@drawable/ic_menu_service_retake_pic" style="@style/OnScreenActionIcon" />
+    <ImageView android:id="@id/postCaptureVerticalDivider10" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <Button android:id="@id/selectphoto" android:text="@string/done" android:drawableTop="@drawable/ic_menu_service_done" style="@style/OnScreenActionIcon" />
+    <ImageView android:id="@id/postCaptureVerticalDivider11" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <Button android:id="@id/cancelphoto" android:text="@string/cancel" android:drawableTop="@drawable/ic_menu_service_cancel" style="@style/OnScreenActionIcon" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/menu_cam_popup_bg" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/pictureModeTitle" style="@style/OnScreenControllerModesTitle"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ImageView android:background="@drawable/divider_horizontal_actionmenu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center_horizontal" android:id="@id/singleShotBtn" android:layout_width="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:text="@string/singleshot" android:singleLine="true" android:drawableTop="@drawable/ic_menu_cam_single_shot" style="@style/OnScreenControllerModesButton" />
+        <ImageView android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/panoramicBtn" android:layout_width="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:text="@string/panoramic" android:singleLine="true" android:drawableTop="@drawable/ic_menu_cam_panaramic" style="@style/OnScreenControllerModesButton" />
+        <ImageView android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="1.0dip" />
+        <Button android:layout_gravity="center_horizontal" android:id="@id/multiShotBtn" android:layout_width="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:text="@string/multishot" android:drawableTop="@drawable/ic_menu_cam_multi" style="@style/OnScreenControllerModesButton" />
+    </LinearLayout>
+</LinearLayout>

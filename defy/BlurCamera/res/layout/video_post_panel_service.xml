@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/panel" android:background="@drawable/actionmenu_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/retake" android:text="@string/retake" android:drawableTop="@drawable/ic_menu_service_retake_video" style="@style/OnScreenVideoActionIcon" />
+        <ImageView android:id="@id/postCaptureVerticalDivider30" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <Button android:id="@id/attach" android:text="@string/done" android:drawableTop="@drawable/ic_menu_service_done" style="@style/OnScreenVideoActionIcon" />
+        <ImageView android:id="@id/postCaptureVerticalDivider31" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <Button android:id="@id/cancel" android:text="@string/cancel" android:drawableTop="@drawable/ic_menu_service_cancel" style="@style/OnScreenVideoActionIcon" />
+    </LinearLayout>
+    <Button android:id="@id/play" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:drawableTop="@drawable/ic_menu_post_play" android:layout_above="@id/panel" android:layout_centerHorizontal="true" />
+</merge>

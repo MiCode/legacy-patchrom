@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:moto.res="http://schemas.android.com/apk/res/com.motorola.android.widget">
+    <com.motorola.android.widget.SlideButton android:id="@id/callAnswerSlider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" moto.res:sliderAlign="left_and_right" moto.res:buttonImageLeft="@drawable/zz_moto_answer_tab_bar_left_begin" moto.res:buttonImageRight="@drawable/zz_moto_ignore_tab_bar_right_begin" moto.res:backgroundImageLeft="@drawable/zz_moto_answer_tab_bar_left_end" moto.res:backgroundImageRight="@drawable/zz_moto_ignore_tab_bar_right_end" />
+</LinearLayout>

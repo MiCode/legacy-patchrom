@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="def_airplane_mode_radios">cell,bluetooth,wifi</string>
+    <string name="airplane_mode_toggleable_radios">bluetooth,wifi</string>
+    <string name="def_location_providers_allowed">network</string>
+    <string name="def_backup_transport">com.google.android.backup/.BackupTransportService</string>
+    <string name="def_low_battery_sound">/system/media/audio/ui/LowBattery.ogg</string>
+    <string name="def_desk_dock_sound">/system/media/audio/ui/Dock.ogg</string>
+    <string name="def_desk_undock_sound">/system/media/audio/ui/Undock.ogg</string>
+    <string name="def_car_dock_sound">/system/media/audio/ui/Dock.ogg</string>
+    <string name="def_car_undock_sound">/system/media/audio/ui/Undock.ogg</string>
+    <string name="def_lock_sound">/system/media/audio/ui/Lock.ogg</string>
+    <string name="def_unlock_sound">/system/media/audio/ui/Unlock.ogg</string>
+    <string name="app_label">Settings Storage</string>
+</resources>

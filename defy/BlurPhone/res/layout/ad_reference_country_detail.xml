@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:singleLine="true" android:maxLength="10" android:digits="0123456789" android:title="@string/ad_country_code_text" android:key="country_code" android:dialogTitle="@string/ad_country_code_text" android:inputType="phone" />
+    <EditTextPreference android:singleLine="true" android:maxLength="10" android:digits="0123456789" android:title="@string/ad_country_idd_text" android:key="country_idd" android:dialogTitle="@string/ad_country_idd_text" android:inputType="phone" />
+    <EditTextPreference android:singleLine="true" android:maxLength="10" android:digits="0123456789" android:title="@string/ad_country_ndd_text" android:key="country_ndd" android:dialogTitle="@string/ad_country_ndd_text" android:inputType="phone" />
+    <EditTextPreference android:singleLine="true" android:maxLength="10" android:digits="0123456789" android:title="@string/ad_area_city_code_text" android:key="area_city_code" android:dialogTitle="@string/ad_area_city_code_text" android:inputType="phone" />
+    <EditTextPreference android:singleLine="true" android:maxLength="10" android:digits="0123456789" android:title="@string/ad_num_len_text" android:key="num_len" android:dialogTitle="@string/ad_num_len_text" android:inputType="phone" />
+</PreferenceScreen>

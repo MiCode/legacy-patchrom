@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/multiPartyCallPanel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/subchrome" android:paddingLeft="3.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.9">
+            <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/multiPartyCallTitle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.1">
+            <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/multiPartyCallElapsedTime" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/multiparty_call_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

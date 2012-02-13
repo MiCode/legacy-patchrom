@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingRight="6.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/callerDetail" android:background="@android:drawable/list_selector_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.9">
+        <LinearLayout android:layout_weight="0.2" style="@blur.res:style/Blur.ListItemCol2">
+            <ImageView android:id="@id/caller" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginLeft="@blur.res:dimen/listitem_photo_hspacing" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="10.0dip" android:layout_weight="0.55">
+            <TextView android:id="@id/line1" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" style="@style/Contacts.TxtListItemA.SingleLine" />
+            <TextView android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" style="@style/Contacts.TxtListItemB.SingleLine" />
+            <TextView android:id="@id/date" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Contacts.TxtListItemB.SingleLine" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip">
+            <TextView android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Contacts.TxtListItemB.SingleLine" />
+            <ImageView android:id="@id/call_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_list_outgoing" style="@blur.res:style/Blur.ListItemIcon" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="0.30000007dip" android:layout_height="55.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:id="@id/callContact" android:background="@android:drawable/list_selector_background" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:gravity="center_vertical" android:id="@id/call_icon" android:paddingLeft="10.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_dial_action_call" />
+    </LinearLayout>
+</LinearLayout>

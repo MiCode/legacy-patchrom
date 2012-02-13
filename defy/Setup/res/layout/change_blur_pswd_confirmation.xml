@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/edit_account_scrollview" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_gravity="top|left|center" android:id="@id/motoblur_password_txt" android:paddingBottom="@dimen/h2_spacing" android:text="@string/motoblur_password_conf_txt" style="@style/ListItemTxtB" />
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/AccSet_vspacing" android:layout_alignParentBottom="true" />
+</LinearLayout>

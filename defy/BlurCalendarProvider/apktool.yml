@@ -1,0 +1,7 @@
+version: 1.4.3
+apkFileName: BlurCalendarProvider.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  - 3

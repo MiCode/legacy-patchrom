@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/pin_keypad"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+            <include android:id="@id/one" layout="@layout/zz_moto_button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/two" layout="@layout/zz_moto_button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/three" layout="@layout/zz_moto_button_keypad_1" />
+        </LinearLayout>
+        <View style="@style/hDivSpaceDialPad" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+            <include android:id="@id/four" layout="@layout/zz_moto_button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/five" layout="@layout/zz_moto_button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/six" layout="@layout/zz_moto_button_keypad_1" />
+        </LinearLayout>
+        <View style="@style/hDivSpaceDialPad" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+            <include android:id="@id/seven" layout="@layout/zz_moto_button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/eight" layout="@layout/zz_moto_button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/nine" layout="@layout/zz_moto_button_keypad_1" />
+        </LinearLayout>
+        <View style="@style/hDivSpaceDialPad" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+            <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/ok" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/zz_moto_ic_control_enter" android:layout_weight="1.0" style="@style/PinKeyPadBtn" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/zero" layout="@layout/zz_moto_button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/cancel" android:visibility="invisible" android:layout_width="0.0px" android:layout_height="fill_parent" android:src="@drawable/zz_moto_ic_control_clear" android:layout_weight="1.0" style="@style/PinKeyPadBtn" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0px" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View style="@style/vDividerDialPad" />
+        <View android:layout_width="0.0px" android:layout_height="1.0px" android:layout_weight="1.0" />
+        <View style="@style/vDividerDialPad" />
+        <View android:layout_width="0.0px" android:layout_height="1.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="1.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <View style="@style/hDividerDialPad" />
+        <View android:layout_width="1.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <View style="@style/hDividerDialPad" />
+        <View android:layout_width="1.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <View style="@style/hDividerDialPad" />
+        <View android:layout_width="1.0px" android:layout_height="0.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

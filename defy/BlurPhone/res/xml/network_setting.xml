@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/mobile_networks"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <ListPreference android:entries="@array/preferred_network_mode_choices" android:title="@string/preferred_network_mode_title" android:key="preferred_network_mode_key" android:summary="@string/preferred_network_mode_summary" android:dialogTitle="@string/preferred_network_mode_dialogtitle" android:entryValues="@array/preferred_network_mode_values" />
+    <ListPreference android:persistent="false" android:entries="@array/select_network_display_values" android:title="@string/select_network" android:key="button_select_network_key" android:dialogTitle="@string/label_select_network_dlg" android:entryValues="@array/select_network_values" />
+    <PreferenceScreen android:persistent="false" android:title="@string/networks" android:key="button_carrier_sel_key" android:summary="@string/sum_carrier_select">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.NetworkSettingENS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/apn_settings" android:key="button_apn_key">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.ApnSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/preferred_networks" android:key="button_preferrednetworks_key" android:summary="@string/sum_preferred_networks">
+        <intent android:targetPackage="com.motorola.PreferredNetwork" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.PreferredNetwork.PreferredNetworks" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/smsc_settings" android:key="button_smsc_key" android:summary="@string/sum_smsc_settings" />
+</PreferenceScreen>

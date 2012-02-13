@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/color" android:layout_width="10.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:ellipsize="end" android:gravity="left|center" android:id="@id/calendar" android:paddingLeft="10.0sp" android:paddingTop="3.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/color" android:layout_alignBaseline="@id/color" style="?android:attr/textAppearanceLarge" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:gravity="left|center" android:id="@id/account" android:paddingLeft="10.0sp" android:paddingTop="3.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/calendar" android:layout_alignLeft="@id/calendar" />
+    <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0sp" android:layout_alignBaseline="@id/color" android:layout_alignParentRight="true" />
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AccSet" parent="@blur.res:style/Blur">
+        <item name="android:paddingLeft">@dimen/AccSet_hspacing</item>
+        <item name="android:paddingTop">@dimen/AccSet_topSpacing</item>
+        <item name="android:paddingRight">@dimen/AccSet_hspacing</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="AccSetTextView" parent="@blur.res:style/Blur">
+        <item name="android:textSize">@dimen/AccSet_textViewSize</item>
+        <item name="android:textColor">@blur.res:color/black</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="AccSetTextViewMedium" parent="@blur.res:style/Blur.TxtListItemA.Small">
+        <item name="android:textColor">@blur.res:color/black</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="AccSetTextView.Title" parent="@style/AccSetTextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TxtListItemABlack" parent="@blur.res:style/Blur.TxtListItemA">
+        <item name="android:textColor">@blur.res:color/black</item>
+    </style>
+    <style name="TxtListItemBBlack" parent="@blur.res:style/Blur.TxtListItemB">
+        <item name="android:textColor">@blur.res:color/black</item>
+    </style>
+    <style name="AccSetTextViewCheckCaption">
+        <item name="android:textSize">@dimen/AccSet_textViewSizeSm</item>
+        <item name="android:textColor">@blur.res:color/black</item>
+    </style>
+    <style name="Theme.Dialog.NoTitleBar" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Transparent" parent="@android:style/Theme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="ListItemTxtA" parent="@blur.res:style/Blur.TxtListItemB.SingleLine">
+        <item name="android:textSize">@dimen/txtSizeA</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ListItemTxtB">
+        <item name="android:textSize">@dimen/txtSizeB</item>
+        <item name="android:textColor">@blur.res:color/black</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="FormItemTxt.A" parent="@blur.res:style/Blur.FormItemTxt.A">
+        <item name="android:textColor">@blur.res:color/black</item>
+    </style>
+    <style name="FormItemTxt.B" parent="@blur.res:style/Blur.FormItemTxt.B">
+        <item name="android:textColor">@blur.res:color/black</item>
+    </style>
+    <style name="TxtInstructional" parent="@blur.res:style/Blur.TxtInstructional">
+        <item name="android:textColor">@blur.res:color/black</item>
+    </style>
+    <style name="TxtGridItem" parent="@blur.res:style/Blur.TxtGridItem">
+        <item name="android:textColor">@blur.res:color/black</item>
+    </style>
+    <style name="TxtTerms">
+        <item name="android:textSize">@dimen/tos_termsSize</item>
+        <item name="android:textColor">@blur.res:color/black</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

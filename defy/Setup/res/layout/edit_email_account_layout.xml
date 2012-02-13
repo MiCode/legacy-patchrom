@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <LinearLayout android:orientation="horizontal" style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/edit_email_title" android:layout_weight="1.0" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_preference_selection_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:id="@id/edit_preference_selection_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_accounts_id_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/edit_accounts_account_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_name_colon" />
+                    <EditText android:id="@id/edit_accounts_account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+                    <TextView android:id="@id/edit_accounts_real_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/real_name_colon" />
+                    <EditText android:id="@id/edit_accounts_real_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+                    <TextView android:id="@id/edit_accounts_email_address_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_colon" />
+                    <EditText android:id="@id/edit_accounts_email_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_accounts_incoming_server_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Spinner android:textColor="#ffffffff" android:id="@id/edit_accounts_incoming_server_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/edit_accounts_incoming_server_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/server" />
+                    <EditText android:id="@id/edit_accounts_incoming_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+                    <TextView android:id="@id/edit_accounts_incoming_username_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/username_colon" />
+                    <EditText android:id="@id/edit_accounts_incoming_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+                    <TextView android:id="@id/edit_accounts_incoming_password_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/password_colon" />
+                    <EditText android:id="@id/edit_accounts_incoming_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" />
+                    <Button android:id="@id/edit_accounts_incoming_advanced_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/advanced_settings" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_accounts_incoming_advanced_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/edit_accounts_incoming_port_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/port" />
+                    <EditText android:id="@id/edit_accounts_incoming_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+                    <CheckBox android:id="@id/edit_accounts_incoming_secure_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/use_secure" />
+                    <TextView android:id="@id/incoming_tls_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" />
+                    <Spinner android:textColor="#ffffffff" android:id="@id/edit_accounts_incoming_tls_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/incoming_auth_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" android:text="@string/authentication" />
+                    <Spinner android:textColor="#ffffffff" android:id="@id/edit_accounts_incoming_auth_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/edit_accounts_incoming_verify_ca_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verify_certificate" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_accounts_outgoing_server_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/edit_accounts_outgoing_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/smtp_server" />
+                    <EditText android:id="@id/edit_accounts_outgoing_server" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+                    <TextView android:id="@id/edit_accounts_outgoing_username_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/username_colon" />
+                    <EditText android:id="@id/edit_accounts_outgoing_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+                    <TextView android:id="@id/edit_accounts_outgoing_password_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/password_colon" />
+                    <EditText android:id="@id/edit_accounts_outgoing_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" />
+                    <Button android:id="@id/edit_accounts_outgoing_advanced_settings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/advanced_settings" />
+                    <View android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_accounts_outgoing_advanced_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/edit_accounts_outgoing_port_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/port" />
+                    <EditText android:id="@id/edit_accounts_outgoing_port" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+                    <CheckBox android:id="@id/edit_accounts_outgoing_secure_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/use_secure" />
+                    <TextView android:id="@id/outgoing_tls_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" android:text="@string/use_secure_password" />
+                    <Spinner android:textColor="#ffffffff" android:id="@id/edit_accounts_outgoing_tls_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/outgoing_auth_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" />
+                    <Spinner android:textColor="#ffffffff" android:id="@id/edit_accounts_outgoing_auth_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/edit_accounts_outgoing_verify_ca_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verify_certificate" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_accounts_other_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:id="@id/other_layout" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/other_spinner_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" />
+                    <Spinner android:id="@id/other_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <CheckBox android:id="@id/other_del_server_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/del_server" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

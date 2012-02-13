@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/post_capture_panel" android:background="@drawable/actionmenu_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/take" android:text="@string/perfecttouch" android:lines="2" android:drawableTop="@drawable/ic_menu_cam_perfect_touch" style="@style/OnScreenActionIcon" />
+    <ImageView android:id="@id/postCaptureVerticalDivider1" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <Button android:id="@id/share" android:layout_width="75.0dip" android:text="@string/share" android:drawableTop="@drawable/ic_menu_post_share" style="@style/OnScreenActionIcon" />
+    <ImageView android:id="@id/postCaptureVerticalDivider2" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <Button android:id="@id/setas" android:layout_width="75.0dip" android:text="@string/setas" android:drawableTop="@drawable/ic_menu_post_set_as" style="@style/OnScreenActionIcon" />
+    <ImageView android:id="@id/postCaptureVerticalDivider3" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <Button android:id="@id/webupload" android:layout_width="75.0dip" android:text="@string/online_album_upload" android:drawableTop="@drawable/ic_menu_post_upload" style="@style/OnScreenActionIcon" />
+    <ImageView android:id="@id/postCaptureVerticalDivider4" android:background="@drawable/divider_vertical_actionmenu" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+    <Button android:id="@id/delete" android:layout_width="75.0dip" android:text="@string/delete" android:drawableTop="@drawable/ic_menu_post_delete" style="@style/OnScreenActionIcon" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="android.uid.calendar" android:versionCode="10" android:versionName="2.3.4" package="com.android.providers.calendar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.cl" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <application android:theme="@android:style/Theme.Light" android:label="@string/app_name" android:icon="@blur.res:drawable/ic_launcher_calendar" android:name="com.motorola.blur.util.BlurApp" android:process="com.android.calendar">
+        <uses-library android:name="com.motorola.blur.library.utilities" />
+        <uses-library android:name="com.motorola.blur.library.home" />
+        <uses-library android:name="com.motorola.blur.library.messaging" />
+        <uses-library android:name="guava" />
+        <provider android:label="@string/provider_label" android:name="CalendarProvider2" android:readPermission="android.permission.READ_CALENDAR" android:writePermission="android.permission.WRITE_CALENDAR" android:process="com.android.calendar" android:multiprocess="false" android:authorities="com.android.calendar" />
+        <service android:name=".EmptyService" />
+        <receiver android:name="CalendarReceiver" android:process="com.android.calendar">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".CalendarWidgetProvider$WidgetService" android:process="com.android.calendar">
+            <intent-filter>
+                <action android:name="com.motorola.blur.home.ACTION_WIDGET_SERVICE" />
+                <data android:scheme="widget" />
+                <data android:host="com.android.providers.calendar.CalendarWidgetProvider" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".TimeChangeReceiver" android:enabled="false" android:process="com.android.calendar">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".CalendarAppWidgetService" android:process="com.android.calendar" />
+        <service android:name=".CalendarService" android:process="com.android.calendar" />
+        <activity android:label="@string/calendar_widget_label" android:name="CalendarSettingsActivity" android:process="com.android.calendar" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="widget" />
+                <data android:host="com.android.providers.calendar" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="CalendarDebugReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+                <data android:scheme="android_secret_code" android:host="225" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@android:style/Theme.Dialog.Alert" android:label="@string/calendar_widget_label" android:name=".CalendarEmptyClickActivity">
+            <intent-filter>
+                <action android:name="com.motorola.blur.home.ACTION_EMPTY_CLICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="widget" />
+                <data android:host="com.android.providers.calendar.CalendarWidgetProvider" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

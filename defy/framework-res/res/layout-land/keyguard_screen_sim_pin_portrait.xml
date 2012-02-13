@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/leftDisplayGroup" android:layout_width="0.0sp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceLarge" android:gravity="center" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:ellipsize="marquee" android:gravity="center" android:id="@id/carrier" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:singleLine="true" />
+        <View android:id="@id/separator" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/emergencyCall" android:background="@drawable/zz_moto_lockscreen_btn1" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/emergCallIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_emergency" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/emergCallText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rightDisplayGroup" android:layout_width="0.0sp" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rightTopDisplayGroup" android:background="@drawable/edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="?textAppearanceLargeInverse" android:textStyle="bold" android:id="@id/pinDisplay" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:inputType="textPassword" />
+            <ImageButton android:id="@id/backspace" android:layout_width="50.0dip" android:layout_height="40.0dip" android:layout_marginLeft="-15.0dip" android:layout_marginTop="-15.0dip" android:layout_marginRight="-5.0dip" android:layout_marginBottom="-15.0dip" android:src="@drawable/ic_input_delete" />
+        </LinearLayout>
+        <include android:id="@id/keyPad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/rightTopDisplayGroup" android:layout_alignParentBottom="true" layout="@android:layout/twelve_key_entry" />
+    </LinearLayout>
+</LinearLayout>

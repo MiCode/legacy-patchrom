@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:layout_gravity="center_horizontal" android:id="@id/scenes_title" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scenes" android:layout_centerHorizontal="true" style="?android:attr/windowTitleStyle" />
+    <com.motorola.CameraF.View.IndicatorView android:id="@id/scenes_indicator" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/scenes_title" android:layout_centerHorizontal="true" />
+    <com.motorola.CameraF.View.TextChangeView android:id="@id/scenes_desc" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</merge>

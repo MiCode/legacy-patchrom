@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background">#ff191919</color>
+    <color name="grid_dark_background">#eb191919</color>
+    <color name="bubble_dark_background">#b2191919</color>
+    <color name="delete_color_filter">#a5ff0000</color>
+    <color name="dark_background">#91191919</color>
+    <color name="setting_background">#66191919</color>
+    <color name="warning_red">#ffff0000</color>
+    <color name="btpressed_background">#ff800000</color>
+    <color name="red_btn_press">#ffff0000</color>
+    <color name="white_list_item">#ffffffff</color>
+</resources>

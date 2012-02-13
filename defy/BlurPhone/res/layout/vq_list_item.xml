@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.phone.VoiceQualityListItem android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorSingle" android:minHeight="?android:listPreferredItemHeight" android:mode="twoLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="@android:color/black" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@android:color/black" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@android:id/text1" android:layout_alignLeft="@android:id/text1" />
+</com.android.phone.VoiceQualityListItem>

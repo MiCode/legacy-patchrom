@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="MOTOCAMSETTING_EXIT_TIMEOUT_VALUE">6</integer>
+    <integer name="MOTOCAMSETTING_INACTIVITY_TIMEOUT_VALUE">120000</integer>
+    <integer name="MOTOCAMSETTING_MMS_VIDEO_RES_WIDTH">320</integer>
+    <integer name="MOTOCAMSETTING_MMS_VIDEO_RES_HEIGHT">240</integer>
+    <integer name="MOTOCAMSETTING_MMS_VIDEO_DURATION">30</integer>
+    <integer name="MOTOCAMSETTING_NUMBER_OF_FACES">6</integer>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/entry_icon" android:layout_width="30.0px" android:layout_height="30.0px" android:layout_marginLeft="12.0px" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimaryInverse" android:id="@id/entry_text" android:paddingTop="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:layout_marginTop="2.0px" android:layout_marginRight="10.0px" android:checkMark="@android:drawable/btn_radio" android:singleLine="true" />
+        <TextView android:textSize="15.0sp" android:textColor="?android:textColorPrimaryInverse" android:id="@id/summary_text" android:paddingBottom="2.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0px" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

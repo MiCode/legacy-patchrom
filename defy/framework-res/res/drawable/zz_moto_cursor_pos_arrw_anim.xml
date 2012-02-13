@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="40" android:drawable="@drawable/zz_moto_cursor_pos_arrw" />
+    <item android:duration="40" android:drawable="@drawable/zz_moto_cursor_pos_arrw" />
+</animation-list>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/zz_moto_gradient_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?textAppearanceMedium" android:ellipsize="marquee" android:gravity="bottom|right|center" android:id="@id/carrier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_toRightOf="@id/time" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <com.android.internal.widget.DigitalClock android:id="@id/time" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="56.0sp" android:ellipsize="none" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="18.0sp" android:ellipsize="none" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" android:layout_toRightOf="@id/timeDisplay" android:layout_alignBaseline="@id/timeDisplay" />
+        </com.android.internal.widget.DigitalClock>
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_below="@id/time" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="0.0dip">
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="18.0sp" android:id="@id/status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="18.0sp" android:id="@id/statusSep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:textSize="18.0sp" android:id="@id/status2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:layout_alignParentTop="true" />
+    </LinearLayout>
+    <com.android.internal.widget.LockPatternView android:id="@id/lockPattern" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="2.0dip" android:layout_weight="1.0" android:aspect="@string/lock_pattern_view_aspect" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/footerNormal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/emergencyCallAlone" android:background="@drawable/zz_moto_lockscreen_btn1" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/emergCallIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_emergency" />
+                <TextView android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/emergCallText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" />
+            </LinearLayout>
+            <Button android:gravity="center" android:id="@id/ice_emergency" android:background="@drawable/zz_moto_lockscreen_btn2r" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/lockscreen_ice_button" android:layout_weight="1.0" style="@style/Widget.Button.Transparent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/footerForgotPattern" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/emergencyCallTogether" android:background="@drawable/zz_moto_lockscreen_btn2l" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/emergCallIconTogether" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/ic_emergency" />
+                    <TextView android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/emergCallTextTogether" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_emergency_call" />
+                </LinearLayout>
+                <Button android:textColor="#ffffffff" android:id="@id/forgotPattern" android:background="@drawable/zz_moto_lockscreen_btn2r" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <Button android:id="@id/ice_emergency_option2" android:background="@drawable/zz_moto_lockscreen_btn2r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_ice_button" android:layout_centerInParent="true" style="@style/Widget.Button.Transparent" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</com.android.internal.widget.LinearLayoutWithDefaultTouchRecepient>

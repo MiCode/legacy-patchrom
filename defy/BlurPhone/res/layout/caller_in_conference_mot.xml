@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/caller_photo" android:layout_width="57.0dip" android:layout_height="57.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="2.0dip" android:scaleType="fitStart" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="22.0sp" android:id="@id/conferenceCallerName" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:text="@string/InCallName" android:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:id="@id/conferenceCallerNumberType" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" android:text="@string/InCallDetail" android:singleLine="true" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/conferenceCallerNumber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton android:gravity="center" android:id="@id/callDisconnectButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_cancel" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+</LinearLayout>

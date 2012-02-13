@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/endCallAndAnswerButtonHolder" android:background="@drawable/blackBg" style="@blur.res:style/Blur.ActionBar">
+        <Button android:id="@id/endCallAndAnswer" android:background="@drawable/btn_action_dial_ans" android:text="@string/InCallEndCallAndAnswer" style="@style/Calling.TxtBtnActionBar" />
+    </LinearLayout>
+    <include android:id="@id/IncomingCallCtrlLocked" layout="@layout/incoming_call_control_area_locked" />
+    <LinearLayout android:id="@id/IncomingCallCtrlNormal" android:background="@drawable/blackBg" style="@blur.res:style/Blur.ActionBar">
+        <Button android:id="@id/callAnswerButton" android:background="@drawable/btn_action_dial_ans" android:text="@string/InCallAnswerButtonLabel" style="@style/Calling.TxtBtnActionBar" />
+        <Button android:ellipsize="end" android:id="@id/callEndActiveAnswerIncomingButton" android:background="@drawable/btn_action_dial_ans" android:visibility="gone" android:text="@string/InCallEndActiveAnswerIncomingButtonLabel" style="@style/Calling.TxtBtnActionBar" />
+        <Button android:ellipsize="end" android:id="@id/callEndHoldAnswerIncomingButton" android:background="@drawable/btn_action_dial_ans" android:text="@string/InCallEndHoldAnswerIncomingButtonLabel" style="@style/Calling.TxtBtnActionBar" />
+        <Button android:ellipsize="end" android:id="@id/callIgnoreButton" android:background="@drawable/btn_action_end_ignr" android:layout_height="fill_parent" android:text="@string/InCallIgnoreButtonLabel" style="@style/Calling.TxtBtnActionBar" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/answerOnSpkrButtonHolder" style="@blur.res:style/Blur.ActionBar">
+        <Button android:id="@id/callAnswerOnSpkrButton" android:background="@drawable/btn_action_dial_ans" android:text="@string/InCallAnswerOnSpkrButtonLabel" style="@style/Calling.TxtBtnActionBar" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/emptyMarginLayout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</LinearLayout>

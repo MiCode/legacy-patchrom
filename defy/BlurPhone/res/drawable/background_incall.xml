@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/bg_in_call"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

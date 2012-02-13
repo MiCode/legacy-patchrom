@@ -1,0 +1,108 @@
+.class Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog$MyTextWatcher;
+.super Ljava/lang/Object;
+.source "SimPinUnlockPanel.java"
+
+# interfaces
+.implements Landroid/text/TextWatcher;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x2
+    name = "MyTextWatcher"
+.end annotation
+
+
+# instance fields
+.field mContext:Landroid/content/Context;
+
+.field final synthetic this$0:Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;
+
+
+# direct methods
+.method public constructor <init>(Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;Landroid/content/Context;)V
+    .locals 0
+    .parameter
+    .parameter "context"
+
+    .prologue
+    .line 127
+    iput-object p1, p0, Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog$MyTextWatcher;->this$0:Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 128
+    iput-object p2, p0, Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog$MyTextWatcher;->mContext:Landroid/content/Context;
+
+    .line 129
+    return-void
+.end method
+
+
+# virtual methods
+.method public afterTextChanged(Landroid/text/Editable;)V
+    .locals 3
+    .parameter "buffer"
+
+    .prologue
+    .line 140
+    iget-object v0, p0, Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog$MyTextWatcher;->mContext:Landroid/content/Context;
+
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    invoke-static {v0, v1, v2}, Lcom/android/phone/SpecialCharSequenceMgr;->handleChars(Landroid/content/Context;Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 142
+    iget-object v0, p0, Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog$MyTextWatcher;->this$0:Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;
+
+    #getter for: Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;->mEntry:Landroid/widget/EditText;
+    invoke-static {v0}, Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;->access$000(Lcom/android/phone/SimPinUnlockPanel$SimPinUnlockPanelDialog;)Landroid/widget/EditText;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Landroid/text/Editable;->clear()V
+
+    .line 144
+    :cond_0
+    return-void
+.end method
+
+.method public beforeTextChanged(Ljava/lang/CharSequence;III)V
+    .locals 0
+    .parameter "buffer"
+    .parameter "start"
+    .parameter "olen"
+    .parameter "nlen"
+
+    .prologue
+    .line 133
+    return-void
+.end method
+
+.method public onTextChanged(Ljava/lang/CharSequence;III)V
+    .locals 0
+    .parameter "buffer"
+    .parameter "start"
+    .parameter "olen"
+    .parameter "nlen"
+
+    .prologue
+    .line 137
+    return-void
+.end method

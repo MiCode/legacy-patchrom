@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dtmfContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SlidingDrawer android:id="@id/dialer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" androidprv:allowSingleTap="false" androidprv:handle="@id/dialer_tab" androidprv:content="@id/dtmf_dialer"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+        <Button android:id="@id/dialer_tab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <include android:id="@id/dtmf_dialer" layout="@layout/sg_popup_dialer" />
+    </SlidingDrawer>
+</RelativeLayout>

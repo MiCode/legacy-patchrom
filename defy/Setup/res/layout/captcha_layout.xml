@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/captcha_layout" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/captcha_text_view" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/AccSet_indentSpacing" android:layout_marginTop="@dimen/AccSet_topSpacing" android:layout_marginRight="@dimen/AccSet_indentSpacing" android:text="@string/captcha_text" android:singleLine="false" style="@style/AccSetTextViewMedium" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/captcha_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/AccSet_v2spacing" android:layout_marginBottom="@dimen/AccSet_v2spacing" />
+    <EditText android:id="@id/captcha_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/AccSet_indentSpacing" android:layout_marginRight="@dimen/AccSet_indentSpacing" android:singleLine="true" android:inputType="textNoSuggestions" />
+    <View android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

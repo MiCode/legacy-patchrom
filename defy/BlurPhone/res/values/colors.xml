@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialer_matchHighlight">#ffeecf6a</color>
+    <color name="incall_textConnected">#ff99ce3f</color>
+    <color name="incall_textConnectedBluetooth">#ff54c1ff</color>
+    <color name="incall_textEnded">#ffff6072</color>
+    <color name="incall_textOnHold">#ffff9524</color>
+    <color name="incall_endButtonLabel">#ffff6072</color>
+    <color name="dtmf_dialer_background">#ff333333</color>
+    <color name="dtmf_dialer_display_text">#ffffffff</color>
+    <color name="EndCallTextColor">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="IncomingCallTextColor">#ffffffff</color>
+    <color name="green">#ff00ff00</color>
+    <color name="black">#ff000000</color>
+    <color name="dimcolor">#50ffffff</color>
+    <color name="grey">#ff555555</color>
+</resources>

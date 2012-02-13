@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/congrats_screen_group" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.motorola.blur.setup.ProgressBadge android:id="@id/progress_badge" android:layout_width="fill_parent" android:layout_height="wrap_content" app:step="2" app:text="@string/wrap_up" />
+            <TextView android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/congrats_title_view" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@dimen/AccSet_topSpacing" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/congrats_title_signup" style="@style/AccSetTextView" />
+            <TextView android:ellipsize="none" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/congrats_text_view" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@dimen/AccSet_vspacing" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/AccSetTextViewMedium" />
+            <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/congrats_text_view_carrier" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@dimen/AccSet_vspacing" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AccSetTextViewMedium" />
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

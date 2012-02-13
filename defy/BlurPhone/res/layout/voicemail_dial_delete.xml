@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/voicemailAndDialAndDelete" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:state_enabled="false" android:layout_gravity="top" android:id="@id/voicemailButton" android:background="@drawable/btn_dial_action_left_disable" android:layout_width="87.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_dial_action_voice_mail" android:tint="#ff555555" />
+    <ImageButton android:state_enabled="false" android:layout_gravity="top" android:id="@id/dialButton" android:background="@drawable/btn_dial_action" android:layout_width="116.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_dial_action_call" />
+    <ImageButton android:state_enabled="false" android:layout_gravity="top" android:id="@id/deleteButton" android:background="@drawable/btn_dial_delete" android:layout_width="87.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_dial_action_delete" />
+</LinearLayout>

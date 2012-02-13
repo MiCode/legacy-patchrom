@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/dummyForFocusFix" android:focusable="true" android:layout_width="1.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:id="@id/parentMainFrame" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:id="@id/dtmfParent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:layout_width="35.0dip" android:layout_height="fill_parent" android:layout_weight="0.4">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:id="@id/mainFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/otaCallCardStub" android:layout="@layout/otacall_card" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/manageConferencePanelStub" android:layout="@layout/manage_conference_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/multiPartyCallPanelStub" android:layout="@layout/multi_party_call_activity" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/dtmf_dialer_display" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/touchLockOverlay" android:background="#88000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/touchLockIcon" android:background="@drawable/dialpad_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:text="@string/touchLockText" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <FrameLayout android:layout_gravity="top" android:id="@id/inCallProviderOverlay" android:background="@drawable/dialog_bg_calling_via" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="88.0dip" android:layout_marginTop="8.0dip">
+                <ImageView android:gravity="center" android:layout_gravity="left" android:id="@id/inCallProviderIcon" android:clipChildren="true" android:layout_width="64.0dip" android:layout_height="fill_parent" />
+                <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:gravity="center" android:layout_gravity="center" android:id="@id/callingVia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calling_via_template" android:lines="2" />
+            </FrameLayout>
+        </LinearLayout>
+        <include layout="@layout/dtmf_twelve_key_dialer" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/callControlHolder" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_weight="0.42">
+        <LinearLayout android:gravity="center" android:id="@id/dtmfEditBox" android:background="@drawable/transparentBg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <EditText android:id="@id/dtmfDialerField" style="@style/textPopupDialPad" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.5">
+            <include android:id="@id/callCardFooterActive" layout="@layout/call_control_area" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/callCardFooterIncoming" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+            <include android:id="@id/IncomingCallCtrlLocked" layout="@layout/incoming_call_control_area_locked" />
+            <include layout="@layout/incoming_call_control_area" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

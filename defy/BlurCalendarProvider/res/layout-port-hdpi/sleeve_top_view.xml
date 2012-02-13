@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/day_of_month" style="@style/DayOfMonthText.TopView.hdpi" />
+    <TextView android:id="@id/day_of_week" android:layout_toRightOf="@id/day_of_month" android:layout_alignTop="@id/day_of_month" style="@style/DayOfWeekText.TopView.hdpi" />
+    <TextView android:id="@id/day_of_week_abbrev" android:visibility="gone" android:layout_toRightOf="@id/day_of_month" android:layout_alignTop="@id/day_of_month" style="@style/DayOfWeekText.TopView.hdpi" />
+    <TextView android:id="@id/month" android:layout_marginTop="-13.0px" android:layout_toRightOf="@id/day_of_month" android:layout_below="@id/day_of_week" style="@style/MonthText.TopView.hdpi" />
+    <TextView android:id="@id/month_abbrev" android:visibility="gone" android:layout_marginTop="-13.0px" android:layout_toRightOf="@id/day_of_month" android:layout_below="@id/day_of_week_abbrev" style="@style/MonthText.TopView.hdpi" />
+    <TextView android:id="@id/lunar_month" android:layout_toRightOf="@id/day_of_month" android:layout_below="@id/month" style="@style/MonthText.TopView.hdpi" />
+</RelativeLayout>

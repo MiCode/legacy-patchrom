@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/welcome_group" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <LinearLayout android:id="@id/list_header" style="@blur.res:style/Blur.TitleBar">
+        <TextView android:id="@id/welcome_title_text" android:text="@string/blur_phone" style="@blur.res:style/Blur.TxtTitleBar" />
+    </LinearLayout>
+    <TextView android:id="@id/welcome_explanation_text" android:layout_marginTop="10.0dip" android:text="@string/welcome_text" style="@style/TxtInstructional" />
+    <View android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <TextView android:id="@id/welcome_emergency_text" android:layout_marginBottom="10.0dip" android:text="@string/make_emergency_call_by_pressing_menu" style="@style/TxtInstructional" />
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/secondaryCallInfo" android:layout_width="160.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:id="@id/secondaryCallStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/onHold" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="14.0sp" android:id="@id/secondaryCallName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:singleLine="true" />
+        <ImageView android:id="@id/secondaryCallPhoto" android:background="@drawable/incall_photo_border_med" android:layout_width="106.0dip" android:layout_height="101.0dip" android:layout_marginTop="-6.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/primaryCallInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="28.0sp" android:id="@id/upperTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" />
+        <include layout="@layout/call_card_person_info" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="18.0sp" android:textColor="?android:textColorSecondary" android:id="@id/menuButtonHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/menuButtonHint" android:layout_below="@id/primaryCallInfo" android:layout_centerHorizontal="true" />
+</RelativeLayout>

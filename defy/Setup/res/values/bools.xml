@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="carrier_setup_enabled">true</bool>
+    <bool name="carrier_setup_handled_tos">false</bool>
+    <bool name="setup_single_list">false</bool>
+    <bool name="support_qzone">true</bool>
+    <bool name="sort_account_list">false</bool>
+</resources>

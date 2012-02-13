@@ -1,0 +1,18 @@
+1.How to build zip?
+  A.Cd defy directory.
+  B.Use "make -f makefile_red" to build defy red vision,
+    use "make -f makefile_green" to build defy green vision.
+2.How to clean project?
+  use "make -f makefile_red clean" to clean defy red vision,similarly green vision.
+3.why the camera default position is wrong?
+  Because there are different intent name between red and green camera,we need modify "Launcher2/res/xml/default_workspace.xml" as follow:
+  read camera use:
+    <favorite launcher:className="com.motorola.Camera.Camera" launcher:packageName="com.motorola.Camera" launcher:screen="2" launcher:x="1" launcher:y="2" />
+  green camera use:
+    <favorite launcher:className="com.motorola.CameraF.Camera" launcher:packageName="com.motorola.CameraF" launcher:screen="2" launcher:x="1" launcher:y="2" />
+4.why we have two usb controller,one is moto usb controller,the other is miui usb controller?
+  Because miui usb controller isn't disable.we have two way to fix this bug:
+  A.Use apktool unpack the framework-miui-res.apk,then modify  "res/values/bools.xml" file of "config_enableUsbModeSelection" section to false;
+  B.Use other/framework-miui-res.apk to replace your phone framework-miui-res.apk.
+5.How to adjust the key light brightness?
+  Please refences http://bbs.mfunz.com/thread-276075-1-1.html, the zip file has under "other/"

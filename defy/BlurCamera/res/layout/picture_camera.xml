@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.CameraF.View.CameraContentView android:orientation="horizontal" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.CameraF.View.CameraView android:id="@id/camera_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/process_indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center" android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/capture_processing" android:shadowColor="#ff888888" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="1.5" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/save_image_indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:layout_gravity="center" android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/saving_image" android:shadowColor="#ff888888" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="1.5" />
+    </LinearLayout>
+    <com.motorola.CameraF.View.PanoramaIndicatorView android:id="@id/panorama_indicator" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.motorola.CameraF.View.FaceTrackingView android:id="@id/face_tracker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/blackout" android:background="#ff000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.motorola.CameraF.View.FocusView android:id="@id/draw_focus_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/focusView" android:layout_width="150.0px" android:layout_height="150.0px" android:layout_centerInParent="true" />
+    <TextView android:textSize="20.0sp" android:id="@id/hint_toast" android:background="@drawable/popup_camera_toast" android:visibility="gone" android:layout_width="200.0px" android:layout_height="wrap_content" android:layout_marginLeft="220.0px" android:layout_marginRight="120.0px" android:text="@string/camera_button_hint" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <TextView android:textSize="18.0dip" android:textStyle="bold" android:gravity="center" android:id="@id/post_toast" android:background="#88000000" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/postTouch" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ProgressBar android:id="@id/progress_bar_stitching" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyleLarge" />
+    <TextView android:textSize="20.0dip" android:gravity="center" android:id="@id/stitching_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/stitching_msg" android:layout_below="@id/progress_bar_stitching" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/post_picture_panel" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0px" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/multishot_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0px" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/multishot1" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/multishot2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/multishot3" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/multishot4" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/multishot5" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/multishot6" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.motorola.CameraF.View.CameraContentView>

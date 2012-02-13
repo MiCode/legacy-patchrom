@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_height="wrap_content" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/email_setting" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" style="@blur.res:style/Blur.TxtListItemA" />
+</LinearLayout>

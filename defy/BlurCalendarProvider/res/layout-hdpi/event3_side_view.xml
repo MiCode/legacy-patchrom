@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="84.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/backgroundImage_3" style="@style/BackgroundImage.SideView" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/statusImage_3" android:layout_alignTop="@id/backgroundImage_3" android:layout_alignBottom="@id/backgroundImage_3" style="@style/StatusImage" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="-10.0px" android:layout_toLeftOf="@id/statusImage_3" android:layout_centerVertical="true">
+            <TextView android:id="@id/when_3" style="@style/WhenText" />
+            <TextView android:id="@id/title_3" android:layout_marginTop="-3.0dip" android:layout_below="@id/when_3" style="@style/TitleText" />
+            <TextView android:id="@id/where_3" android:layout_marginTop="-3.0dip" android:layout_below="@id/title_3" style="@style/WhereText" />
+            <TextView android:id="@id/conflict_3" android:layout_toRightOf="@id/when_3" android:layout_alignTop="@id/when_3" style="@style/ConflictText" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

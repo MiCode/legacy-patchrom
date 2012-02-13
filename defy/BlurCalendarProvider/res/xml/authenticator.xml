@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/account_type_name" android:icon="@drawable/local_account" android:accountType="com.motorola.blur.calendar.LOCAL_ACCOUNT"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

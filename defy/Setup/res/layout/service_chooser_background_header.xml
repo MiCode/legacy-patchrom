@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="5.0dip" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <TextView android:gravity="left" android:layout_gravity="left" android:id="@id/service_chooser_title" android:focusable="false" android:text="@string/service_chooser_background_intro_title" style="@style/AccSetTextView" />
+    <TextView android:textSize="@dimen/AccSet_textViewSizeMd" android:textStyle="normal" android:gravity="left" android:layout_gravity="left" android:focusable="false" android:text="@string/service_chooser_background_intro_text" style="@style/AccSetTextView" />
+</LinearLayout>

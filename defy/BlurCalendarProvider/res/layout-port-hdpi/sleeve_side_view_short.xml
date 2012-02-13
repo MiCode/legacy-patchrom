@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/navyblue_sleeve_horiz" android:scaleType="fitXY" />
+    <TextView android:gravity="left" android:id="@id/day_of_month" android:layout_marginLeft="15.0px" android:layout_centerVertical="true" style="@style/DayOfMonthText.SideView.hdpi" />
+    <TextView android:gravity="left" android:id="@id/day_of_week" android:visibility="gone" android:layout_marginLeft="6.0px" android:layout_marginTop="38.0px" android:layout_toRightOf="@id/day_of_month" android:layout_alignParentTop="true" style="@style/DayOfWeekText.SideView.hdpi" />
+    <TextView android:gravity="left" android:id="@id/day_of_week_abbrev" android:layout_marginLeft="6.0px" android:layout_marginTop="38.0px" android:maxLength="5" android:layout_toRightOf="@id/day_of_month" android:layout_alignParentTop="true" style="@style/DayOfWeekText.SideView.hdpi" />
+    <TextView android:gravity="left" android:id="@id/month" android:visibility="gone" android:layout_marginLeft="1.0px" android:layout_marginTop="-12.0px" android:layout_below="@id/day_of_week" android:layout_alignLeft="@id/day_of_week" style="@style/MonthText.SideView.hdpi" />
+    <TextView android:gravity="left" android:id="@id/month_abbrev" android:layout_marginLeft="1.0px" android:layout_marginTop="-12.0px" android:maxLength="5" android:layout_below="@id/day_of_week_abbrev" android:layout_alignLeft="@id/day_of_week_abbrev" style="@style/MonthText.SideView.hdpi" />
+    <TextView android:id="@id/lunar_month_abbrev" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/day_of_month" android:layout_below="@id/month_abbrev" style="@style/MonthText.TopView.hdpi" />
+    <TextView android:id="@id/lunar_month" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/day_of_month" android:layout_below="@id/month" style="@style/MonthText.TopView.hdpi" />
+</RelativeLayout>

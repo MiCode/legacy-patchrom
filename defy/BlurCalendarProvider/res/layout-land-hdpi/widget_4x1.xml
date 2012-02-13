@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/agenda_appwidget" android:background="@blur.res:drawable/base_4x1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_event_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-7.0px" android:layout_marginTop="8.0px" android:layout_marginRight="-6.0px" android:layout_toRightOf="@id/top_widget">
+        <FrameLayout android:id="@id/layout_1_event" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="94.0px" layout="@layout/event1_side_view" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/info_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/top_widget">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0px">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <TextView android:id="@id/info_page_text" android:paddingTop="10.0px" android:paddingRight="40.0px" android:paddingBottom="0.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_agenda" style="@style/AddCalendarText" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="bottom|right|center" android:id="@id/plus_sign" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0px" android:src="@blur.res:drawable/widget_add_medium" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <FrameLayout android:id="@id/progress_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0px" android:layout_marginBottom="4.0px" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="10000" style="?android:attr/progressBarStyleSmall" />
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:id="@id/top_widget" android:background="@drawable/sleeve_4x1_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <include layout="@layout/sleeve_side_view_short" />
+    </RelativeLayout>
+</RelativeLayout>

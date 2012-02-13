@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.phone.TitleBar android:id="@id/recent_call_titlebar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Spinner android:id="@id/recent_calls_filter_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:drawSelectorOnTop="true" android:prompt="@string/recent_calls_filter_prompt" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/recent_calls_mot" />
+    </FrameLayout>
+</LinearLayout>

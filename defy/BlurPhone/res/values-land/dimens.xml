@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeTxtKeyPadBtnA">22.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB">14.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB.Symbol">16.0sp</dimen>
+    <dimen name="sizeEditTextDialPad">22.0sp</dimen>
+    <dimen name="EndCallSliderMovableWidth">300.0dip</dimen>
+    <dimen name="AnswerSlideButtonWidth">210.0dip</dimen>
+    <dimen name="EndCallSliderMovableWidth_2">150.0dip</dimen>
+    <dimen name="EndCallSliderMovableHeight_2">40.0dip</dimen>
+    <dimen name="EndCallSliderMovablePaddingTop_2">5.0dip</dimen>
+    <dimen name="EndCallSliderMovablePaddingLeft_2">5.0dip</dimen>
+    <dimen name="EndCallSliderMovablePaddingRight_2">5.0dip</dimen>
+    <dimen name="EndCallSliderHeight_2">50.0dip</dimen>
+    <dimen name="EndCallTextSize_2">18.0sp</dimen>
+</resources>

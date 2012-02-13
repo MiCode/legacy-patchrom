@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="card_radio_stream_full" id="0x7f020000" />
+    <public type="drawable" name="ic_genre" id="0x7f020001" />
+    <public type="drawable" name="ic_launcher_gallery1" id="0x7f020002" />
+    <public type="drawable" name="ic_playlist" id="0x7f020004" />
+    <public type="drawable" name="ic_podcast_unknown_stream_full" id="0x7f020005" />
+    <public type="drawable" name="ic_search_category_default" id="0x7f020006" />
+    <public type="drawable" name="ic_menu_music_store" id="0x7f020003" />
+    <public type="drawable" name="ic_search_category_music_album" id="0x7f020007" />
+    <public type="drawable" name="ic_search_category_music_artist" id="0x7f020008" />
+    <public type="drawable" name="ic_search_category_music_song" id="0x7f020009" />
+    <public type="drawable" name="ic_single_list_generic_artist" id="0x7f02000a" />
+    <public type="drawable" name="ic_single_list_generic_genre" id="0x7f02000b" />
+    <public type="drawable" name="ic_single_list_generic_internet_radio" id="0x7f02000c" />
+    <public type="drawable" name="ic_single_list_generic_music" id="0x7f02000d" />
+    <public type="drawable" name="ic_single_list_generic_playlist" id="0x7f02000e" />
+    <public type="drawable" name="ic_single_list_generic_podcast" id="0x7f02000f" />
+    <public type="string" name="uid_label" id="0x7f030000" />
+    <public type="string" name="app_label" id="0x7f030001" />
+    <public type="string" name="artist_label" id="0x7f030002" />
+</resources>

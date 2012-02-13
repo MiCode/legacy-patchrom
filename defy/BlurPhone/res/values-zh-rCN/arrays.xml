@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="voice_quality_ui_values">
+        <item>正常</item>
+        <item>清除</item>
+        <item>清晰</item>
+        <item>响亮</item>
+    </string-array>
+    <string-array name="recent_call_types">
+        <item>全部呼叫</item>
+        <item>未接来电</item>
+        <item>已接来电</item>
+        <item>呼出电话</item>
+    </string-array>
+    <string-array name="vq_list_items">
+        <item>标准</item>
+        <item>平衡</item>
+        <item>明亮</item>
+        <item>高亮</item>
+    </string-array>
+    <string-array name="vq_list_substrings">
+        <item>温暖且饱含低音.传统音调</item>
+        <item>清脆且明晰.常用</item>
+        <item>语音渐大</item>
+        <item>语音跳跃.不常用</item>
+    </string-array>
+    <string-array name="caller_id_display_values">
+        <item>仅铃声</item>
+        <item>来电显示后响铃</item>
+        <item>来电显示重复</item>
+    </string-array>
+    <string-array name="caller_id_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="equal_Service_Number">
+        <item>*86</item>
+        <item>611</item>
+        <item>*611</item>
+        <item>\#611</item>
+        <item>411</item>
+        <item>*411</item>
+        <item>\#411</item>
+    </string-array>
+    <string-array name="startwith_Service_Number">
+        <item>800</item>
+        <item>888</item>
+        <item>866</item>
+        <item>877</item>
+        <item>900</item>
+        <item>1800</item>
+        <item>1888</item>
+        <item>1866</item>
+        <item>1877</item>
+        <item>1900</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>网络默认值</item>
+        <item>隐藏号码</item>
+        <item>显示号码</item>
+    </string-array>
+    <string-array name="clir_values">
+        <item>默认</item>
+        <item>隐藏</item>
+        <item>显示</item>
+    </string-array>
+    <string-array name="tty_display_values">
+        <item>TTY已满</item>
+        <item>TTY+说(VCO)</item>
+        <item>TTY+听(HCO)</item>
+        <item>TTY关闭(默认)</item>
+    </string-array>
+    <string-array name="tty_values">
+        <item>&lt;g>0&lt;/g></item>
+        <item>&lt;g>1&lt;/g></item>
+        <item>&lt;g>2&lt;/g></item>
+        <item>&lt;g>3&lt;/g></item>
+    </string-array>
+    <string-array name="select_network_display_values">
+        <item>"仅2G
+省电"</item>
+        <item>"仅3G
+更佳性能"</item>
+        <item>"自动
+默认"</item>
+    </string-array>
+    <string-array name="select_network_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>全球</item>
+        <item>仅EvDo</item>
+        <item>CDMA,无EvDo功能</item>
+        <item>CDMA/EvDo自动选择</item>
+        <item>GSM/WCDMA自动选择</item>
+        <item>仅WCDMA</item>
+        <item>仅GSM</item>
+        <item>首选GSM/WCDMA</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values">
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices_d2we_34387">
+        <item>Global</item>
+        <item>CDMA</item>
+        <item>GSM/UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_d2we_34387">
+        <item>7</item>
+        <item>4</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="select_network_display_values_34387">
+        <item>"仅GSM
+省电"</item>
+        <item>"仅UMTS
+更佳性能"</item>
+        <item>"自动
+默认"</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>英语</item>
+        <item>法语</item>
+        <item>西班牙语</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>中文</item>
+        <item>希伯来语</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA(自动模式)</item>
+        <item>仅WCDMA</item>
+        <item>仅GSM</item>
+        <item>GSM/WCDA(首选 WCDMA）</item>
+    </string-array>
+    <string-array name="gsm_umts_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>仅本地网络</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="cdma_rm_system_select_choices">
+        <item>仅本网</item>
+        <item>自动A</item>
+        <item>自动B</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_choices">
+        <item>仅本地网络</item>
+        <item>附属网络</item>
+        <item>任何网络</item>
+    </string-array>
+    <string-array name="cdma_roaming_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_choices">
+        <item>CDMA/EvDo</item>
+        <item>仅CDMA</item>
+        <item>仅EvDo</item>
+    </string-array>
+    <string-array name="cdma_network_preferences_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY已停用</item>
+        <item>TTY已满</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>正常</item>
+        <item>长度</item>
+    </string-array>
+    <string-array name="entries_voicemail_choose_vmvvm">
+        <item>语音信箱</item>
+        <item>可视语音信箱</item>
+        <item>总是选择</item>
+    </string-array>
+    <string-array name="entry_values_voicemail_choose_vmvvm">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_vvm_roaming_prompt">
+        <item>语音信箱</item>
+        <item>可视语音信箱</item>
+        <item>总是选择</item>
+    </string-array>
+    <string-array name="entry_values_vvm_roaming_prompt">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="outgoing_cb_display_values">
+        <item>关闭</item>
+        <item>国际长途</item>
+        <item>仅本国呼叫</item>
+        <item>所有</item>
+    </string-array>
+    <string-array name="incoming_cb_display_values">
+        <item>关闭</item>
+        <item>漫游</item>
+        <item>所有</item>
+    </string-array>
+</resources>

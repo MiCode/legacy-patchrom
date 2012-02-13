@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:sharedUserId="com.motorola.blur.uid.setup" android:versionCode="10" android:versionName="2.3.4" package="com.motorola.blur.setup"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10" />
+    <uses-permission android:name="com.motorola.blur.setupprovider.Permissions.ACCESS_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
+    <uses-permission android:name="com.motorola.blur.service.blur.Permissions.INTERACT_BLUR_SERVICE" />
+    <uses-permission android:name="com.motorola.blur.service.email.Permissions.ACTION_SEND" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="com.motorola.blur.contacts.permission.SOCIAL_CONTACT_WRITE" />
+    <uses-permission android:name="com.motorola.blur.contacts.permission.SOCIAL_CONTACT_READ" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS" />
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.SET_ANIMATION_SCALE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.motorola.blur.service.email.Permissions.INTERACT" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.PERFORM_CDMA_PROVISIONING" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application android:theme="@blur.res:style/Theme.Blur.Light" android:label="@string/accounts" android:icon="@blur.res:drawable/ic_launcher_account" android:name="com.motorola.blur.util.BlurApp" android:allowClearUserData="false">
+        <uses-library android:name="com.motorola.blur.library.utilities" />
+        <uses-library android:name="com.motorola.blur.library.service" />
+        <uses-library android:name="com.motorola.blur.library.messaging" />
+        <activity android:theme="@style/Theme.Transparent" android:label="Set-Up" android:name=".HomeActivity" android:excludeFromRecents="true" android:configChanges="locale|keyboardHidden|orientation">
+            <intent-filter android:priority="0">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LocaleSelect" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="mcc|mnc|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.LOCALE_SELECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BlurCredentialsConfirmationActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name=".AccountAuthActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".GoogleLoginOptionActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".NewBlurNameActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".NewBlurEmailActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".NewBlurPasswordActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".BOTAInfoActivity" />
+        <activity android:label="@string/motoblur" android:name="com.motorola.blur.setup.SignUpOrLogInActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.SETUP_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QASilentLogin" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name=".CreateBackgroundBlurAccountActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name=".ServiceSetupIntroActivity" />
+        <activity android:name=".LocationConsentActivity">
+            <intent-filter>
+                <action android:name="com.motorola.blur.locationconsent" />
+                <action android:name="com.motorola.blur.setup.LOCATION_CONSENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CongratsActivity" />
+        <activity android:name=".ServiceChooserActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.service.account" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="10">
+                <action android:name="android.settings.ADD_ACCOUNT_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".EDMServiceCredentialsReceiver" android:permission="com.motorola.blur.setupprovider.Permissions.ACCESS_ACCOUNTS">
+            <intent-filter>
+                <action android:name="com.motorola.email.activity.setup.DPM_ACCOUNT_ADDITION" />
+                <action android:name="com.motorola.email.activity.setup.DPM_REMOVE_ACCOUNT" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".EDMServiceCredentialsService" android:permission="com.motorola.blur.setupprovider.Permissions.ACCESS_ACCOUNTS">
+            <intent-filter>
+                <action android:name="com.motorola.email.activity.setup.DPM_ACCOUNT_ADDITION" />
+                <action android:name="com.motorola.email.activity.setup.DPM_REMOVE_ACCOUNT" />
+            </intent-filter>
+        </service>
+        <activity android:name=".LegalReaderActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name=".ServiceCredentialsActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.INSERT_ACCOUNT" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.service.account" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".LegalReaderActivity$LegalService">
+            <intent-filter>
+                <action android:name="com.motorola.blur.service.blur.devicesetup.getlegaltext.resp" />
+            </intent-filter>
+        </service>
+        <service android:name=".CreateBackgroundBlurAccountService">
+            <intent-filter android:label="this.is.my.test.service">
+                <action android:name="com.motorola.blur.service.blur.devicesetup.slient.registration" />
+            </intent-filter>
+        </service>
+        <receiver android:name=".CreateBackgroundBlurAccountReceiver" />
+        <activity android:theme="@android:style/Theme.Light" android:label="@string/accounts" android:icon="@blur.res:drawable/ic_launcher_account" android:name="com.motorola.blur.settings.AccountsAndServicesPreferenceActivity" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.ACTION_MANAGE" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.service.account" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:mimeType="vnd.android.cursor.dir/vnd.service.account" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.motorola.blur.settings.EditAccountActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.service.account" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme" android:label="@string/unverified_motoblur_account" android:name="com.motorola.blur.settings.UnverifiedBlurNotification" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.BLUR_ACCOUNT_UNVERIFIED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme" android:label="@string/motoblur" android:name="com.motorola.blur.settings.EditBlurAccountActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.MANAGE_BLUR_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Dialog.NoTitleBar" android:name="com.motorola.blur.settings.VerifyBlurPasswordActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@android:style/Theme" android:label="@string/change_motoblur_password" android:name="com.motorola.blur.settings.ChangeBlurPasswordActivity" android:launchMode="singleInstance" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.MANAGE_BLUR_PASSWORD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme" android:label="@string/change_motoblur_password" android:name="com.motorola.blur.settings.ChangeBlurPswdConfirmation" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@android:style/Theme" android:label="@string/change_motoblur_id" android:name="com.motorola.blur.settings.ChangeBlurEmailActivity" android:launchMode="singleInstance" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:theme="@android:style/Theme" android:label="@string/change_motoblur_id" android:name="com.motorola.blur.settings.ChangeBlurIdConfirmation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.motorola.blur.settings.EditEmailAccountActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.service.account.email" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountSuccessActivity" android:configChanges="locale|keyboardHidden|orientation" />
+        <activity android:name=".CaptchaActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".TosActivity">
+            <intent-filter>
+                <action android:name="com.motorola.blur.ACTION_LAUNCH_MOTO_SERVICE_AGREEMENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SkipSetupActivity" />
+        <activity android:name=".ConnectionChooserActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.motorola.blur.setup.ConnectionFailed" />
+        <activity android:name="com.motorola.blur.setup.AccountCreationTimeout" />
+        <activity android:name=".DataSaverActivity" />
+        <activity android:name=".WiFiSettingsActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name=".EmailAccountsListSyncActivity" />
+        <activity android:theme="@android:style/Theme.NoDisplay" android:name=".BlurNeededActivity" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="locale|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.SETUP_BLUR_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SimSwapAuthActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="nosensor" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BlurSilentSetupActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="nosensor" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/setup" android:icon="@drawable/ic_blur_setup" android:name=".SetupInfoActivity" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeScreenChooserActivity" />
+        <activity android:name=".DataPlanSettingActivity">
+            <intent-filter>
+                <action android:name="com.motorola.blur.setup.DATA_PLAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NeedConnectionActivity" />
+        <activity android:theme="@android:style/Theme.NoDisplay" android:label="@string/quick_upload_pictures" android:name="com.motorola.blur.quickupload.OnlineAlbumSettings" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="com.motorola.blur.socialshare.QUICK_UPLOAD_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.Camera.ONLINE_ALBUM_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.NoDisplay" android:label="@string/quick_upload" android:name="com.motorola.blur.quickupload.OnlineAlbumUpload" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="com.motorola.blur.socialshare.QUICK_UPLOAD" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.motorola.Camera.ONLINE_ALBUM_UPLOAD" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@android:style/Theme.Dialog" android:label="@string/online_album_email_addr_title" android:name="com.motorola.blur.quickupload.OnlineAlbumEmailAddr" android:configChanges="keyboardHidden|orientation" />
+    </application>
+</manifest>

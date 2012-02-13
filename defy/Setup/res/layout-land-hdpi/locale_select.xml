@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/locale_select_group" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/motoblur_graphic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_pane_motoblur" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:layout_toRightOf="@id/motoblur_graphic">
+            <TextView android:layout_gravity="left" android:id="@id/locale_select_translated_welcome_text" android:layout_marginTop="16.0dip" android:layout_marginBottom="20.0dip" android:text="@string/welcome_to_motoblur" style="@style/AccSetTextView" />
+            <TextView android:id="@id/locale_select_please_choose_language_text" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" android:text="@string/please_choose_a_language" style="@style/FormItemTxt.A" />
+            <Spinner android:id="@id/locale_select_spinner" android:layout_width="230.0dip" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+            <TextView android:id="@id/locale_select_press_menu_text" android:layout_marginBottom="5.0dip" android:text="@string/make_emergency_call_by_pressing_menu" style="@style/TxtInstructional" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

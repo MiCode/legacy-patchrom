@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="MOTOCAMSETTING_REVIEW_TIME_0_SEC">true</bool>
+    <bool name="MOTOCAMSETTING_REVIEW_TIME_2_SEC">true</bool>
+    <bool name="MOTOCAMSETTING_REVIEW_TIME_4_SEC">true</bool>
+    <bool name="MOTOCAMSETTING_REVIEW_TIME_6_SEC">true</bool>
+    <bool name="MOTOCAMSETTING_IMAGE_STABILIZATION">true</bool>
+    <bool name="MOTOCAMSETTING_PANORAMA">true</bool>
+    <bool name="MOTOCAMSETTING_MMS_MODE_SUPPORT">true</bool>
+    <bool name="MOTOCAMSETTING_PAUSE_RESUME">false</bool>
+    <bool name="MOTOCAMSETTING_AUDIO_SCENES">true</bool>
+    <bool name="MOTOCAMSETTING_SHOW_AUDIO_ZOOM_SETTING">false</bool>
+    <bool name="MOTOCAMSETTING_MUTE_AUDIO">false</bool>
+    <bool name="MOTOCAMSETTING_REMAINING_REC_TIME">false</bool>
+    <bool name="MOTOCAMSETTING_XENON_FLASH">true</bool>
+    <bool name="MOTOCAMSETTING_FACE_TRACKING">true</bool>
+    <bool name="MOTOCAMSETTING_SELF_PORTRAIT">true</bool>
+    <bool name="MOTOCAMSETTING_MULTI_SHOT">true</bool>
+    <bool name="MOTOCAMSETTING_FASTMOTION_REC">true</bool>
+    <bool name="MOTOCAMSETTING_SLOWMOTION_REC">true</bool>
+    <bool name="MOTOCAMSETTING_VIDEO_CAM_DELTA">true</bool>
+    <bool name="MOTOCAMSETTING_ZOOMKEY_ONSCREEN">true</bool>
+    <bool name="MOTOCAMSETTING_CAPTUREKEY_ONSCREEN">true</bool>
+    <bool name="MOTOCAMSETTING_ISO_SETTING">false</bool>
+    <bool name="MOTOCAMSETTING_EXP_SETTING">true</bool>
+    <bool name="MOTOCAMSETTING_DYNAMIC_REGION_FOCUS">true</bool>
+</resources>

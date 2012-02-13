@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/account_success" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="left" android:layout_gravity="left" android:paddingLeft="@blur.res:dimen/formitem_hspacing" android:paddingRight="@blur.res:dimen/formitem_hspacing" android:layout_marginTop="@dimen/AccSet_topSpacing" android:layout_marginBottom="@dimen/AccSet_topSpacing" android:text="@string/success" style="@style/AccSetTextView" />
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingRight="@blur.res:dimen/listitem_vspacing" android:paddingBottom="@dimen/AccSet_bottomSpacing" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:paddingRight="@blur.res:dimen/listitem_vspacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/provider_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:ellipsize="none" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/provider_label" android:lines="2" android:singleLine="false" style="@style/FormItemTxt.A" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/ic_next" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/capability1_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:ellipsize="none" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/capability1_label" android:lines="2" android:singleLine="false" style="@style/FormItemTxt.A" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/plus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-10.0dip" android:layout_marginRight="-10.0dip" android:src="@drawable/ic_add" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/capability2_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/capability2_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:ellipsize="none" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/capability2_label" android:lines="2" android:singleLine="false" style="@style/FormItemTxt.A" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@id/generic_text" android:paddingLeft="@blur.res:dimen/listitem_vspacing" android:singleLine="false" style="@style/FormItemTxt.A" />
+            <TextView android:id="@id/capability1_text" android:paddingLeft="@blur.res:dimen/listitem_vspacing" android:singleLine="false" style="@style/FormItemTxt.A" />
+            <TextView android:id="@id/capability2_text" android:paddingLeft="@blur.res:dimen/listitem_vspacing" android:singleLine="false" style="@style/FormItemTxt.A" />
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

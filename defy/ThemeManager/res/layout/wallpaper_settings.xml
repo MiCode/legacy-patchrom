@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wallpaper_settings" android:key="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.thememanager">
+    <com.android.thememanager.WallpaperPreference android:title="@string/desktop_wallpaper" android:key="desktop_wallpaper" settings:wallpaperType="desktop" />
+    <com.android.thememanager.WallpaperPreference android:title="@string/lockscreen_wallpaper" android:key="lockscreen_wallpaper" settings:wallpaperType="lockscreen" />
+
+</PreferenceScreen>

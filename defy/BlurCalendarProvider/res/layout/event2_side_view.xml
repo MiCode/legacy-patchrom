@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/backgroundImage_2" style="@style/BackgroundImage.SideView" />
+    <RelativeLayout android:paddingLeft="5.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/when_2" style="@style/WhenText" />
+        <TextView android:id="@id/title_2" android:layout_below="@id/when_2" style="@style/TitleText" />
+        <TextView android:id="@id/where_2" android:layout_below="@id/title_2" style="@style/WhereText" />
+        <ImageView android:id="@id/statusImage_2" android:layout_alignTop="@id/backgroundImage_2" android:layout_alignBottom="@id/backgroundImage_2" style="@style/StatusImage" />
+        <TextView android:id="@id/conflict_2" android:layout_toLeftOf="@id/statusImage_2" android:layout_toRightOf="@id/when_2" android:layout_alignTop="@id/when_2" style="@style/ConflictText" />
+    </RelativeLayout>
+</FrameLayout>

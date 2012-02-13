@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="gadget_more_events">
+        <item quantity="other">%1$d more events</item>
+        <item quantity="one">1 more event</item>
+    </plurals>
+</resources>

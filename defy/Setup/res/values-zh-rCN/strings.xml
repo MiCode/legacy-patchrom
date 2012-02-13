@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_choose_a_language">请选择一种语言</string>
+    <string name="welcome_to_motoblur">欢迎使用MOTOBLUR</string>
+    <string name="next">下一步</string>
+    <string name="back">返回</string>
+    <string name="confirm">确认</string>
+    <string name="make_emergency_call_by_pressing_menu">在设置过程中如需拨打紧急呼叫,按\"菜单\" 键.</string>
+    <string name="sign_up_or_login_main_text">您需要先创建一个MOTOBLUR帐户,这样才能使用手机的基本服务以及访问MOTOBLUR网络门户.</string>
+    <string name="login_to_your_motoblur_account">登录MOTOBLUR帐户</string>
+    <string name="motoblur_id_colon">MOTOBLUR 用户名:</string>
+    <string name="password_colon">密码：</string>
+    <string name="forgot_password">忘记密码?</string>
+    <string name="forgot_password_title">忘记密码</string>
+    <string name="enter_email_address">输入电子邮件地址</string>
+    <string name="enter_password">输入密码</string>
+    <string name="new_blur_name_title">新帐户</string>
+    <string name="new_blur_name_text">"创建新帐户:
+
+请输入您的全名."</string>
+    <string name="new_blur_name_text2">您的姓名将保存在设备通信录的联系人信息中.</string>
+    <string name="new_blur_name_hint">输入姓名</string>
+    <string name="new_blur_email_title">电子邮件地址</string>
+    <string name="new_blur_email_text1">输入一个现有电子邮件地址.该地址将成为您的MOTOBLUR帐户ID.</string>
+    <string name="new_blur_email_text2">MOTOBLUR将通过该电子邮件地址向您发送重要的服务信息.摩托罗拉将不会共享此地址或发送垃圾邮件.</string>
+    <string name="new_blur_password_title">密码</string>
+    <string name="new_blur_password_text1">为新MOTOBLUR帐户创建密码.</string>
+    <string name="new_blur_password_text2">只要登录MOTOBLUR帐户,就需要该密码及电子邮件地址.</string>
+    <string name="new_blur_repeat_password_hint">确认密码</string>
+    <string name="your_name_colon">您的姓名:</string>
+    <string name="write_blur_id_password">请写下您的MOTOBLUR ID和密码,并将其保存在安全位置,以备今后参考.</string>
+    <string name="motoblur_agreement">MOTOBLUR协议</string>
+    <string name="motoblur_review_the_above">请点按上面的链接,阅读MOTOBLUR条款和条件.如果同意MOTOBLUR软件许可协议,服务条款和隐私声明,请选中我同意复选框.若想使用此项服务,必须同意这些条款.</string>
+    <string name="motorola_mobile_service">您即将连接MOTOBLUR.此项服务允许您访问和管理多项内容.</string>
+    <string name="motoblur_terms_of_service">MOTOBLUR服务条款</string>
+    <string name="end_user_license_agreement">MOTOBLUR最终用户许可协议</string>
+    <string name="moto_service_review_the_above">请点按上面的链接,阅读摩托罗拉移动服务条款和条件.如果同意摩托罗拉移动服务软件许可协议,服务条款和隐私声明,请选中我同意复选框.若想使用此项服务,必须同意这些条款.</string>
+    <string name="moto_service_terms_of_service">查看条款和条件</string>
+    <string name="terms_and_conditions">条款和条件</string>
+    <string name="moto_service_license_agreement">摩托罗拉服务最终用户许可协议</string>
+    <string name="moto_service_intro">"您即将连接摩托罗拉移动服务.此项服务允许您访问和管理多项在线服务.
+"</string>
+    <string name="moto_service_agreement">摩托罗拉服务协议</string>
+    <string name="terms_of_service_check_caption">我同意</string>
+    <string name="downloading_terms">下载条款…</string>
+    <string name="done_reading">已阅读</string>
+    <string name="confirm_motoblur_account">确认MOTOBLUR帐户</string>
+    <string name="creating_your_blur_account">正在创建您的Blur帐户…</string>
+    <string name="service_setup_intro_title">MOTOBLUR帐户已创建成功</string>
+    <string name="service_setup_intro_text">"您的帐户已创建.
+
+接下来,您可将电子邮件,联系人,照片以及社交网络服务添加到手机中."</string>
+    <string name="service_chooser_intro_title">设置现有帐户</string>
+    <string name="service_chooser_background_intro_title">设置帐户</string>
+    <string name="service_chooser_intro_text">若要使用以下服务,请点按图标进行设置或按住图标以获取更多详情</string>
+    <string name="service_chooser_background_intro_text">如果使用以下任意一项服务,请点按图标进行设置.</string>
+    <string name="service_credentials_header_text">输入您已存在的{0}帐户:</string>
+    <string name="max_accounts_delete_option">您一次只能有一个激活的{0}帐户.想要移除现有帐户?</string>
+    <string name="delete_option">想要移除{0}帐户?</string>
+    <string name="max_accounts_no_delete_option">只能添加一个{0}帐户</string>
+    <string name="max_accounts_no_del_single_acc">您一次只能激活一个{0}服务帐户.</string>
+    <string name="google_login_title">添加Google帐户</string>
+    <string name="google_login_txt">为了使用Gmail收发电子邮件,同步您的Google联系人或从Android电子市场下载应用程序,请返回登录您的Google帐户.</string>
+    <string name="skip">跳过</string>
+    <string name="blur_password_verifier_title">请输入MOTOBLUR帐户密码</string>
+    <string name="blur_password_verifier_text">要更改您的MOTOBLUR ID,请输入密码.</string>
+    <string name="generic_carrier_contact_text">请呼叫客服,以找回密码.</string>
+    <string name="change_blur_email_text">"请确认您的新MOTOBLUR ID是一个可以访问的电子邮件帐户.
+
+MOTOBLUR将使用该地址发送确认电子邮件,您需要通过该电子邮件验证您的帐户.
+摩托罗拉不会共享该地址或向该地址发送垃圾邮件."</string>
+    <string name="updating_blur_account">正在更新MOTOBLUR帐户</string>
+    <string name="motoblur">MOTOBLUR</string>
+    <string name="change_motoblur_password">更改MOTOBLUR密码</string>
+    <string name="change_motoblur_id">更改MOTOBLUR ID</string>
+    <string name="account_mismatch">帐户不匹配</string>
+    <string name="account_mismatch_text">"MOTOBLUR ID与当前密码不匹配.如果您在MOTOBLUR门户上更改了密码,将会发生这种情况.
+请使用您在MOTOBLUR门户上输入的新密码更新您的手机."</string>
+    <string name="motoblur_email_conf_txt1">您的MOTOBLUR ID已成功更改为:</string>
+    <string name="motoblur_email_conf_txt2">"您的密码未更改.
+
+MOTOBLUR服务已将确认电子邮件发送至上述地址.
+"</string>
+    <string name="motoblur_email_conf_txt3">"
+请在24小时内打开电子邮件并根据说明确认您的MOTOBLUR帐户."</string>
+    <string name="motoblur_password_conf_txt">"您的MOTOBLUR密码已成功更新.
+
+请确认已记录下您的新密码并将其与MOTOBLUR ID一起保存在安全的地方."</string>
+    <string name="dummy_password">********</string>
+    <string name="conf_email_sent">确认电子邮件已发送</string>
+    <string name="email_resent_conf_dialog_text">"MOTOBLUR服务已将确认电子邮件发送至:
+
+{0}
+
+请在24小时内打开电子邮件并根据说明确认您的MOTOBLUR帐户."</string>
+    <string name="unverified_motoblur_account">尚未验证的MOTOBLUR帐户</string>
+    <string name="unverified_account_verify_txt1">创建MOTOBLUR帐户后,MOTOBLUR服务向您的帐户地址发送了一份确认电子邮件:</string>
+    <string name="unverified_account_verify_txt2">"此电子邮件包含一个链接,您需要点击此链接验证您的帐户.请打开电子邮件并根据说明完成帐户确认. 
+
+如果您无法访问上述电子邮件地址,请点击\"更改MOTOBLUR ID\",输入一个您可以访问的电子邮件地址作为新的帐户名称."</string>
+    <string name="unverified_account_resend_txt">如果地址正确,但您没有收到确认电子邮件,请点击\"重新发送电子邮件\".</string>
+    <string name="resend_email">重新发送电子邮件</string>
+    <string name="success">成功!</string>
+    <string name="friendfeed_capabilities_text">"现在您可以从社交网络应用程序中获取所有好友的{0}更新.
+
+社交网络应用程序将所有主要网络中的更新,已上传照片,好友请求和其他信息整合到单一应用程序中!
+
+在主屏幕上添加一个社交网络小部件,可查看所有好友的{0}更新,或仅仅查看现在的好友.
+"</string>
+    <string name="social_messaging_capabilities_text">"您还可以通过社交信息应用程序访问您的{0}收件箱,新的信息将会自动出现在收件箱中.
+"</string>
+    <string name="messaging_capabilities_text">"在通用信息应用程序中访问您的{0}收件箱。新信息将自动出现在您的收件箱中。
+
+摩托罗拉信息小部件还可一起显示所有最新的未读文本信息、电子邮件和社交网络信息，或者您也可以挑选帐户。"</string>
+    <string name="pictures_capabilities_text">"现在您可以使用{0}帐户与亲朋好友轻松共享照片.
+
+无论是用相机拍摄的新照片还是在照片图库中欣赏的照片,将照片上传至{0}都是一件轻而易举的事."</string>
+    <string name="active_sync_capabilities_text">"通过一个{0}帐号,您的联系人、日历以及邮件将与手机保持无线同步,您可以选择同步所有这三种数据或者任何组合.
+
+您还可以通过社交信息应用程序访问您的{0}收件箱,新的邮件将会自动出现在收件箱中.
+"</string>
+    <string name="cancel">取消</string>
+    <string name="signin">登录</string>
+    <string name="remove">删除</string>
+    <string name="open_account">打开帐户</string>
+    <string name="add_account">添加账户</string>
+    <string name="delete_account">删除帐户</string>
+    <string name="deleting_account">正在删除帐户…</string>
+    <string name="checking_for_updates">正在检查更新…</string>
+    <string name="downloading_updates">"正在下载更新 
+ 
+请等待…"</string>
+    <string name="error_deleting_account">删除帐户错误</string>
+    <string name="congrats_title_login">登录成功</string>
+    <string name="congrats_text_login">"现在您可以开始使用您的设备,您的帐户信息包括联系人、日历事件、状态记录等信息将会在大约30分钟内下载到您的设备. 
+ 
+如果您从 Android Market™下载并安装过任何应用程序,请重新下载并安装 .您可以使用您之前购买时使用过的用户名和密码 ,这样您的帐户就不必再付费."</string>
+    <string name="congrats_title_signup">设置完成</string>
+    <string name="congrats_text_signup">"现在您可以开始使用您的设备,您的帐户信息包括联系人、日历事件、状态记录等信息将会在大约30分钟内下载到您的设备.
+ 
+我们推荐您到安全设置中给设备设置安全锁."</string>
+    <string name="service_credentials_google_text">您可以通过设置/关于手机/法律信息找到关于Android服务的隐私协议.</string>
+    <string name="delete_account_prompt">确定删除帐户? (%1$s-%2$s)</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="done">完成</string>
+    <string name="welcome_text">"创建新帐户来注册手机.
+您将收到关于如何完成注册的邮件信息."</string>
+    <string name="emergency_call">紧急电话</string>
+    <string name="username_colon">用户名：</string>
+    <string name="email_colon">电子邮件地址:</string>
+    <string name="password_failed">用户名和密码组合无效时,请检查您的帐户信息.</string>
+    <string name="location_consent_string">同意定位</string>
+    <string name="location_consent_description">"无需使用GPS即可通过定位服务确定大概位置.
+您可在手机中禁用这些功能:选择设置>位置和安全."</string>
+    <string name="use_location_service">允许定位服务收集匿名定位数据.即使所有应用程序都不运行,也会进行收集.</string>
+    <string name="use_location_service_for_google">将我的位置用于搜索结果和其他服务.</string>
+    <string name="summary_prompt">%1$s：%2$s</string>
+    <string name="blur_phone">欢迎</string>
+    <string name="signup">注册新帐户</string>
+    <string name="login_button_tag">登录></string>
+    <string name="login">使用现有帐户</string>
+    <string name="setup_account_later">稍后设置帐户</string>
+    <string name="sign_up_or_log_in_intro">Blur帐户</string>
+    <string name="name">名称</string>
+    <string name="email">电子邮件</string>
+    <string name="password">密码</string>
+    <string name="change_password">更改密码</string>
+    <string name="new_password">新密码:</string>
+    <string name="ok">确定</string>
+    <string name="close">关闭</string>
+    <string name="change">更改</string>
+    <string name="enter_new_email">输入新的电子邮件</string>
+    <string name="added_picture_source">已将{0}设为联系人图片源文件.</string>
+    <string name="change_picture_source">{0}是联系人图片的源文件.您想将{1}设为联系人图片的新源文件吗?</string>
+    <string name="username_cannot_be_blank">用户名不能为空</string>
+    <string name="activesync_server_cannot_be_blank">ActiveSync服务器不能为空</string>
+    <string name="activesync_name_cannot_be_blank">帐户名不可为空</string>
+    <string name="realname_cannot_be_blank">实名不能为空</string>
+    <string name="email_address_error">"电子邮件地址格式必须正确.
+请提供您的电子邮件地址.
+"<i>例如,</i>"user@domain.com
+"</string>
+    <string name="your_email_address">输入电子邮件地址</string>
+    <string name="downloading_accounts">登录到MOTOBLUR…</string>
+    <string name="retrieving_password">正在检索密码…</string>
+    <string name="error_creating_account_title">创建帐户出错</string>
+    <string name="error_adding_account_title">添加帐户出错</string>
+    <string name="error">错误</string>
+    <string name="confirm_password_colon">确认新密码:</string>
+    <string name="error_signing_in_account_title">登录帐户出错</string>
+    <string name="account_already_added">您已添加了该帐户</string>
+    <string name="account_already_exists">帐户已存在</string>
+    <string name="unspecified_service_error">使用服务创建帐户时出错.请重试.</string>
+    <string name="password_emailed">密码重置链接已发送到您的电子邮件地址</string>
+    <string name="pref_accounts_title">帐户参数</string>
+    <string name="pref_sync_accounts">同步帐户</string>
+    <string name="pref_automatically_sync_accounts">自动同步帐户</string>
+    <string name="imap_server">IMAP邮件服务器</string>
+    <string name="smtp_server">SMTP 服务器</string>
+    <string name="pop_server">POP邮件服务器</string>
+    <string name="settings">设置</string>
+    <string name="server">服务器:</string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="port">端口:</string>
+    <string name="use_secure">使用安全连接</string>
+    <string name="verify_certificate">验证证书</string>
+    <string name="use_secure_password">使用安全密码(TLS):</string>
+    <string name="authentication">验证:</string>
+    <string name="contacts">联系人</string>
+    <string name="calendar">日历</string>
+    <string name="accounts">帐户</string>
+    <string name="auto_download_settings">自动配置帐户</string>
+    <string name="account_name_colon">帐户名称:</string>
+    <string name="real_name_colon">真实姓名:</string>
+    <string name="please_wait">请稍候</string>
+    <string name="setting_up_x_services">正在添加{0}帐户</string>
+    <string name="updating_x_services">正在更新%s服务…</string>
+    <string name="getting_oauth_url">正在设置{0}服务</string>
+    <string name="done_adding_accounts">完成添加帐户</string>
+    <string name="incoming_username_non_null">传入的用户名不能为空</string>
+    <string name="incoming_password_non_null">传入的密码不能为空</string>
+    <string name="incoming_server_non_null">传入服务器不能为空</string>
+    <string name="outgoing_server_non_null">SMTP服务器不能为空</string>
+    <string name="outgoing_port_non_null">SMTP 端口不能为空 (SMTP 通常是 25)</string>
+    <string name="incoming_port_non_null">传入端口不能为空(POP通常是110,IMAP通常是143)</string>
+    <string name="incoming">接收服务器</string>
+    <string name="outgoing">发送服务器</string>
+    <string name="other">其他设置</string>
+    <string name="general">常规设置</string>
+    <string name="number_of_messages_to_sync">信息同步数量:</string>
+    <string name="delete_messages_older_than">删除以下时间之前的信息:</string>
+    <string name="sync_messages_for">同步信息:</string>
+    <string name="one_week">1 周</string>
+    <string name="two_weeks">2周</string>
+    <string name="one_month">1个月</string>
+    <string name="two_months">2个月</string>
+    <string name="never_delete">从不删除信息</string>
+    <string name="twenty_five">25</string>
+    <string name="fifty">50</string>
+    <string name="one_hundred">100</string>
+    <string name="one_day">1 天</string>
+    <string name="three_days">3天</string>
+    <string name="all">全部</string>
+    <string name="del_server">从服务器中移除已手动删除的电子邮件</string>
+    <string name="auto">自动</string>
+    <string name="always">总是</string>
+    <string name="never">从不</string>
+    <string name="apop">已验证的POP</string>
+    <string name="md5">MD5</string>
+    <string name="none">无</string>
+    <string name="captcha_text">请在以下文字输入区输入文字进行登录验证</string>
+    <string name="set_up_apn">设置APN</string>
+    <string name="set_up_cloud">设置cloud</string>
+    <string name="set_up_wifi">设置WLAN</string>
+    <string name="show_IMEI">IMEI</string>
+    <string name="msg_IMEI">IMEI码是%1$s</string>
+    <string name="show_MEID">MEID</string>
+    <string name="msg_MEID">MEID码是%1$s</string>
+    <string name="account_name_must_be_unique">帐户名称重复,请重新输入</string>
+    <string name="error_not_saved_to_db">在保存帐户信息时出错,请重试</string>
+    <string name="error_certificate_mismatch_choice">服务器证书无效.是否想对此帐户禁用有效证书?(不推荐)</string>
+    <string name="error_certificate_mismatch_no_choice">服务器证书无效.</string>
+    <string name="error_connection_failed">无法连接至服务器.</string>
+    <string name="error_login_failed">登录帐户失败.</string>
+    <string name="error_not_provisionable">无法在此服务器上配置手机。请联系服务器管理员。</string>
+    <string name="error_not_supported">该设备不支持服务器版本.请联系服务器管理员.</string>
+    <string name="error_account_disabled">该帐户在Blur服务中已禁用</string>
+    <string name="error_account_not_found">Blur帐户中不存在该帐户</string>
+    <string name="error_already_exists">Blur帐户中已存在该帐户.请选择不同的帐户ID.</string>
+    <string name="error_already_initialized">此设备已配置了一个帐户.</string>
+    <string name="error_connect_timeout">该连接超时,请重试.</string>
+    <string name="error_try_again">出现错误.请重试.</string>
+    <string name="error_invalid_credentials">用户名或密码错误.请检查后重试.</string>
+    <string name="error_invalid_params">您的请求不正确.请重试.</string>
+    <string name="error_internal_server">内部服务器发生错误.请重试.</string>
+    <string name="error_no_server_response">该服务器没有响应.请检查以确保该服务已启用并重试.</string>
+    <string name="error_not_allowed">请求被拒绝，请重试。</string>
+    <string name="error_not_found">该请求没有找到.</string>
+    <string name="error_not_initialized">该请求需要用户证书,但是他们在该请求中没有提供.</string>
+    <string name="error_password_mismatch">密码错误,请重试.</string>
+    <string name="error_current_password_mismatch">密码错误,请重试.</string>
+    <string name="error_radio_down">该设备的手机信号无法连接到网络.确保手机信号已打开或如果已打开,将其移至信号覆盖率好的位置并重试.</string>
+    <string name="error_service_busy">该Blur服务指示其正忙.</string>
+    <string name="error_service_down">该Blur服务指示其出现了故障.</string>
+    <string name="error_socket_timeout">等待响应的请求超时.该帐户可能未完全创建完成</string>
+    <string name="error_too_many">今天您尝试重置密码的次数太多.请稍后重试.</string>
+    <string name="error_unauthorized">Blur服务指示您的请求未经验证.请检查以确保Blur服务正在正常工作.</string>
+    <string name="error_unknown">发生未知错误,请重试</string>
+    <string name="error_wrong_device">另一设备正在使用该帐户.使用此帐户之前必须清除该设备.</string>
+    <string name="error_wrong_password">"您的ID和/或密码无法识别.请检查并重试.如果您忘记了密码,请单击'忘记密码'按钮,密码将发至您的电子邮箱."</string>
+    <string name="error_captcha_invalid">验证码字符串错误.请重试.</string>
+    <string name="error_captcha_expired">验证码到期.请重试.</string>
+    <string name="error_ssl_error">设备上时钟出错,请与客服联系.</string>
+    <string name="error_retreiving_information">检索信息时出错.</string>
+    <string name="error_unknown_host">主机未知.</string>
+    <string name="service_data_error">从Blur服务获取数据存在错误</string>
+    <string name="retry">重试</string>
+    <string name="background_terms_of_service_text">摩托罗拉服务条件和条款内容文本</string>
+    <string name="terms_of_service_text">MOTOBLUR服务条款及保密内容文本</string>
+    <string name="privacy_policy_text">隐私政策内容文本</string>
+    <string name="end_user_license_agreement_text">软件许可协议内容</string>
+    <string name="disable_verification_warning">如果取消选择复选框,我们将不会验证该帐户服务器的证书.确定取消选择?</string>
+    <string name="reminder">提醒</string>
+    <string name="yahoo_reminder">请再次输入密码进行验证</string>
+    <string name="dont_verify">禁用验证</string>
+    <string name="bad_phone_format">"您的手机号码必须只包含数字,'-'或'+'"</string>
+    <string name="bad_password_format">密码不能包含空格.</string>
+    <string name="bad_server_format">服务器地址格式不正确.</string>
+    <string name="must_be_at_least">{0} 必须至少包含 {1}个字符.</string>
+    <string name="must_not_be_more_than">{0} 最多包含{1} 个字符.</string>
+    <string name="values_must_match">密码不匹配.</string>
+    <string name="deleted_all_services_delete_account">您已删除该帐户的所有服务,这将删除此帐户,继续?</string>
+    <string name="activesync_server_hint">输入Microsoft Exchange Server</string>
+    <string name="current_password">旧密码:</string>
+    <string name="need_to_log_back_in">{0}用户名或密码有误.如果您已经更改密码,请重新输入新密码.</string>
+    <string name="start">开始</string>
+    <string name="settings_not_found">MOTOBLUR无法为您自动创建帐户</string>
+    <string name="error_getting_settings">自动设置帐户出错.请重试.</string>
+    <string name="set_up_manually">手动设置</string>
+    <string name="error_need_email_for_password_reset">请输入电子邮件地址以重设密码</string>
+    <string name="set_up_cancel">跳过设置</string>
+    <string name="waiting_for_connection">正在检查数据连接</string>
+    <string name="setup_blur_device_title">设置Blur设备</string>
+    <string name="connection_failed_text">连接失败</string>
+    <string name="connection_chooser_select">"请选择连接类型
+以完成设置"</string>
+    <string name="connection_chooser_type">连接类型</string>
+    <string name="skip_setup_title">跳过设置</string>
+    <string name="skip_setup_text">"MOTOBLUR是一项免费服务,通过向手机提供社交网络更新,新闻,信息及其他内容,使您的手机更智能.
+ 
+它还允许您访问MOTOBLUR门户,获得如下功能:
+ 
+ - 定位您的手机
+ - 手机被盗或丢失时清除手机中的内容
+ 
+跳过MOTOBLUR设置将无法使用这些功能."</string>
+    <string name="sn_acc_required">需要社交帐户</string>
+    <string name="sn_acc_required_info">无社交帐户不可用.请点击设置,创建新帐户.</string>
+    <string name="blur_required">需要Blur帐户</string>
+    <string name="blur_required_info">必须登录Blur帐户才能使用.单击设置,创建一个新帐户或登录现有帐户.</string>
+    <string name="setup">设置</string>
+    <string name="connection_wifi">设置WLAN</string>
+    <string name="connection_retry">重试蜂窝网络连接</string>
+    <string name="connection_skip">现在跳过</string>
+    <string name="connection_cell_retry_text">"连接失败!
+为了完成设置,您需要进行数据连接.
+
+有网络覆盖时请按\"重试\"按钮."</string>
+    <string name="error_saving_credentials">保存证书出错</string>
+    <string name="vzw_backup_assistant">备份助理</string>
+    <string name="header_blur_accounts">MOTOBLUR帐户</string>
+    <string name="header_other_accounts">其他帐户</string>
+    <string name="email_account_list_sync_over_wifi_title">通过WLAN同步</string>
+    <string name="email_account_list_sync_over_wifi_text">您可以通过设置电子邮件帐户选择保存更多数据,仅在连接到WLAN网络时进行同步</string>
+    <string name="simswap_signin_instruction">"SIM卡已移除或更改.
+请登录MOTOBLUR帐户解锁."</string>
+    <string name="checking_progress_text">正在检查…</string>
+    <string name="reset_password">重置密码</string>
+    <string name="error_need_email_and_password_to_signin">请输入MOTOBLUR帐户和密码登录</string>
+    <string name="error_reset_password">重置密码失败!</string>
+    <string name="snaccount_info_text">为了完全整合{0}的移动体验,请单击添加帐户.</string>
+    <string name="asaccount_info_text">使用此帐户类型可在MOTOBLUR中设置您的工作电子邮件,联系人和日历.</string>
+    <string name="emailaccount_info_text">使用此帐户类型可在公共收件箱中包含Hotmail,Gmail,Yahoo!,POP3,IMAP或其他电子邮件帐户.</string>
+    <string name="photoaccount_info_text">如果您经常上传照片到{0},并且想轻松便捷地上传,请单击添加帐户.</string>
+    <string name="yahooaccount_info_text">为了完全整合{0}的移动体验,请单击添加帐户.</string>
+    <string name="googleacount_info_text">使用您的证书登录,可访问邮件,联系人,日历,可信任源, 网络相册和其他服务.</string>
+    <string name="email_pref_title">电子邮件\"{0}\"</string>
+    <string name="email_pref_title_general">电子邮箱\"{0}\":常规设置</string>
+    <string name="email_pref_title_incoming">电子邮箱\"{0}\":接收服务器</string>
+    <string name="email_pref_title_incoming_advanced">接收服务器:高级设置</string>
+    <string name="email_pref_title_outgoing">电子邮箱\"{0}\":外发服务器</string>
+    <string name="email_pref_title_other">电子邮箱\"{0}\":其他设置</string>
+    <string name="email_pref_title_outgoing_advanced">外发服务器:高级设置</string>
+    <string name="yahoo_name">Yahoo!</string>
+    <string name="setup_info_text">"MOTOBLUR是一项免费服务,通过连接您和您在社交网络上的好友,向您发送最新新闻及更新您的联系人列表,使您的手机更智能.
+ 
+它还允许您访问MOTOBLUR门户,获得如下功能:
+ 
+ - 定位您的手机
+ - 手机被盗或丢失时远程清除手机中的内容
+ 
+点按\"设置\"开始设置您的MOTOBLUR帐户.
+"</string>
+    <string name="do_not_forget_to_note">请勿忘记记录您的摩托罗拉服务ID!</string>
+    <string name="you_need_this_info">您不小心锁定手机时将需要此信息.</string>
+    <string name="delete_email_accounts_msg">加载一个现有MOTOBLUR帐户将删除手机内的所有电子邮件帐户并用MOTOBLUR配置文件中存储的帐户替换他们.</string>
+    <string name="delete_email_accounts_continue_btn">继续</string>
+    <string name="moto_required">需要摩托罗拉帐户</string>
+    <string name="moto_required_info">"无摩托罗拉服务帐户,\"系统更新\"不可用.
+
+是否立即设置一个帐户?"</string>
+    <string name="sn_required">需要社交网络帐户</string>
+    <string name="blur_sn_required_info">"无社交网络帐户,\"{0}\"不可用.
+请点击\"设置\" 按钮,创建一个新帐户或登录一个现有帐户."</string>
+    <string name="sn_required_info">"无社交网络帐户,\"{0}\"不可用.
+请点击\"设置\" 按钮,创建一个新帐户."</string>
+    <string name="connection_failed_textinfo">"为完成设置,您需要进行数据连接
+
+您有以下选择:"</string>
+    <string name="setup_wifi">设置WLAN连接</string>
+    <string name="retry_cellular">重试当前连接</string>
+    <string name="skip_for_now">跳过当前设置</string>
+    <string name="account_creation_timeout_title">超过预期时间</string>
+    <string name="account_creation_timeout_content">我们将继续在后台进行尝试.</string>
+    <string name="communicating_with_server">"正在与服务器通信.
+请稍候"</string>
+    <string name="notification_title">帐户设置</string>
+    <string name="notification_text">请输入验证码</string>
+    <string name="vvm">可视语音信箱</string>
+    <string name="domain_colon">域:</string>
+    <string name="domain_optional">域:(可选)</string>
+    <string name="error_no_autodiscover">请手动输入服务器名称.</string>
+    <string name="error_no_autodiscover_title">无法自动检测服务器</string>
+    <string name="username_optional">用户名(可选)</string>
+    <string name="blur_account_setup">创建Blur帐户</string>
+    <string name="unsupported_account_type">不支持的帐户类型</string>
+    <string name="no_authenticators">%s 无法被认证</string>
+    <string name="add_accounts">添加帐户</string>
+    <string name="wrap_up">完成</string>
+    <string name="loading">正在载入...</string>
+    <string name="quick_upload">快速上传</string>
+    <string name="quick_upload_pictures">快速上传图片</string>
+    <string name="quick_upload_videos">快速上传视频</string>
+    <string name="uploading_pictures">上传图片到 %s</string>
+    <string name="uploading_videos">上传视频到 %s</string>
+    <string name="uploading_pictures_and_videos">上传图片和视频到 %s</string>
+    <string name="quick_upload_pics_not_setup_text">默认的图片上传帐号未创建,现在是否创建该默认账号并继续更新？</string>
+    <string name="quick_upload_videos_not_setup_text">默认的视频上传帐号未创建,现在是否创建该默认账号并继续更新？</string>
+    <string name="web_setting">是</string>
+    <string name="web_cancel_upload">取消</string>
+    <string name="web_cancel">否</string>
+    <string name="useEmailAddress">使用电子邮件地址</string>
+    <string name="toast_BlurFailed">Blur未安装！</string>
+    <string name="online_album_email_addr_title">输入电子邮件地址</string>
+    <string name="online_album_caption">通过MOTOBLUR上传</string>
+    <string name="enter_email">输入电子邮件</string>
+    <string name="saveEmailAddr">保存</string>
+    <string name="add_account_dot">添加帐户...</string>
+    <string name="btn_ok">确定</string>
+    <string name="data_saver_enabled">允许数据保护</string>
+    <string name="data_saver_text">一旦无线网络可用，将开始上传.请到设置禁用数据保护.</string>
+    <string name="delayed_toast">当无线网络可用,%s就开始上传,请在通知栏查看进度.</string>
+    <string name="n_items">%d 个</string>
+    <string name="choose_a_service">选择服务</string>
+    <string name="formatted_pretty_name">%1$s 表示 %2$s</string>
+    <string name="large_upload">大文件上传</string>
+    <string name="large_upload_text">通过互联网上传比通过无线网络上传需要更长时间.</string>
+    <string name="upload_via_wifi">通过无线网络上传</string>
+    <string name="upload_now">立即上传</string>
+    <string name="factory_data_reset">恢复出厂设置</string>
+    <string name="having_problems_logging">登录时遇到问题？</string>
+    <string name="me">我</string>
+    <string name="alert_title">"尊敬的用户，
+欢迎您使用摩托罗拉%1$s。"</string>
+    <string name="warning_message">"\u0009\u0009%1$s是一款智能手机，它将把您带入奇妙的移动互联网世界。
+\u0009\u0009%1$s类似一台电脑，许多功能都会产生数据流量费用。因此，在使用%1$s时，建议您申请数据流量套餐。如果无数据套餐，请关闭数据服务或仅用WLAN，以免产生不必要的流量费用。
+
+\u0009\u0009最后，请您仔细阅读包装盒内的摩托罗拉服务协议。"</string>
+    <string name="home_screen_chooser_title">主屏幕</string>
+    <string name="home_screen_chooser_text">MOTOBLUR可以使用窗口小部件和应用程序快捷方式配置主屏幕.这将清除当前您已对主屏幕进行的所有自定义设置.</string>
+    <string name="home_screen_chooser_home_radio_text">保持当前主屏幕</string>
+    <string name="home_screen_chooser_blur_radio_text">使用MOTOBLUR主屏幕</string>
+    <string name="picture_source_title">图片资源</string>
+    <string name="image_instruction">当显示您的联系人照片时,照片选自:</string>
+    <string name="my_accounts">我的帐户</string>
+    <string name="moto_service_terms">MOTOBLUR 服务条款</string>
+    <string name="agree">同意</string>
+    <string name="header_manage_accounts">管理帐户</string>
+    <string name="header_general_sync_settings">常规同步设置</string>
+    <string name="background_data">背景数据</string>
+    <string name="background_data_summary">应用程序随时可以同步、发送和接收数据</string>
+    <string name="background_data_dialog_title">注意</string>
+    <string name="background_data_dialog_message">停用背景数据可延长电池使用时间并减少数据使用量,但某些应用程序可能仍会使用背景数据连接.</string>
+    <string name="sync_automatically">自动同步</string>
+    <string name="sync_automatically_summary">应用程序自动同步数据</string>
+</resources>

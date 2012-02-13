@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" style="@style/pin_layout">
+        <include layout="@layout/zz_moto_pin_input" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0">
+            <include layout="@layout/zz_moto_keypad" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

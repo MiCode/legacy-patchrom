@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="def_screen_off_timeout">60000</integer>
+    <integer name="def_screen_brightness">102</integer>
+    <integer name="def_network_preference">1</integer>
+    <integer name="def_wifi_sleep_policy">1</integer>
+    <integer name="def_power_sounds_enabled">1</integer>
+    <integer name="def_dock_sounds_enabled">0</integer>
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
+    <integer name="def_datause_polling_period_sec">600</integer>
+    <integer name="def_datause_threshold_bytes">0</integer>
+    <integer name="def_datause_throttle_kbitsps">300</integer>
+    <integer name="def_datause_notification_type">2</integer>
+    <integer name="sys_storage_full_threshold_bytes">1048576</integer>
+</resources>

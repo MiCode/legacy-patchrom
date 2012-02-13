@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/CallInfoArea"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/other_photo" style="@style/CallingImgCntSmall" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/other_name" style="@style/TxtCallIdSmall" />
+        <View style="@style/Calling_V1" />
+        <TextView android:id="@id/other_number" style="@style/TxtNumTypeSmall" />
+        <View style="@style/Calling_V1" />
+        <TextView android:id="@id/other_cityid" android:visibility="gone" android:singleLine="true" style="@style/TxtNumTypeSmall" />
+        <View style="@style/Calling_V1" />
+    </LinearLayout>
+</LinearLayout>

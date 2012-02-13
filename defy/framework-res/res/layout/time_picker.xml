@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <NumberPicker android:id="@id/hour" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+    <NumberPicker android:id="@id/minute" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+    <Button android:textColor="@color/zz_moto_timepicker_ampm_textcolor" android:id="@id/amPm" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="43.0dip" style="?android:attr/textAppearanceLarge" />
+</LinearLayout>

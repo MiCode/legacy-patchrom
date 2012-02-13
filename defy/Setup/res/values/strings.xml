@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IS_SIGNUP_LOGIN_UI_SCROLLABLE">false</string>
+    <string name="please_choose_a_language">Please choose a language</string>
+    <string name="welcome_to_motoblur">Welcome to MOTOBLUR</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+    <string name="make_emergency_call_by_pressing_menu">To make an emergency call during setup, press the \"Menu\" key.</string>
+    <string name="sign_up_or_login_main_text">You will need a MOTOBLUR account to use essential services on your phone as well as the MOTOBLUR Internet portal.</string>
+    <string name="login_to_your_motoblur_account">Login to your MOTOBLUR account</string>
+    <string name="motoblur_id_colon">MOTOBLUR ID:</string>
+    <string name="password_colon">Password:</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_password">Enter password</string>
+    <string name="new_blur_name_title">New account</string>
+    <string name="new_blur_name_text">"Let's create your new account:
+
+Please enter your full name."</string>
+    <string name="new_blur_name_text2">Your name is used to store your contact information in the device phonebook.</string>
+    <string name="new_blur_name_hint">Enter first and last name</string>
+    <string name="new_blur_email_title">Email address</string>
+    <string name="new_blur_email_text1">Enter the address of one of your existing email accounts. This will become your MOTOBLUR accountID.</string>
+    <string name="new_blur_email_text2">MOTOBLUR uses this address to send you important service information. Motorola will not share this address or send spam email.</string>
+    <string name="new_blur_password_title">Password</string>
+    <string name="new_blur_password_text1">Create a password for your new MOTOBLUR account.</string>
+    <string name="new_blur_password_text2">You will use the password along with the email address whenever you need to log into your MOTOBLUR account.</string>
+    <string name="new_blur_repeat_password_hint">Confirm password</string>
+    <string name="your_name_colon">Your name:</string>
+    <string name="write_blur_id_password">Please write down your MOTOBLUR ID and your password and keep it in a safe place for future reference.</string>
+    <string name="motoblur_agreement">MOTOBLUR agreement</string>
+    <string name="motoblur_review_the_above">Please review the MOTOBLUR Terms and Conditions by tapping the link above. By selecting I agree checkbox, you agree to the terms of the MOTOBLUR Software License Agreement, Terms of Service and Privacy Statement. You must agree to these terms in order to use this service.</string>
+    <string name="motorola_mobile_service">You are about to connect to MOTOBLUR. This service allows you to access and manage a variety of content.</string>
+    <string name="motoblur_terms_of_service">MOTOBLUR Terms of Service</string>
+    <string name="end_user_license_agreement">MOTOBLUR End User License Agreement</string>
+    <string name="moto_service_review_the_above">Please review the Motorola Mobile Services Terms and Conditions by tapping the link above. By selecting the \"I agree\" checkbox, you agree to the terms of the Motorola Mobile Services Software License Agreement, Terms of Service and Privacy Statement. You must agree to these terms in order to use this service.</string>
+    <string name="moto_service_terms_of_service">View Terms and Conditions</string>
+    <string name="terms_and_conditions">Terms and conditions</string>
+    <string name="moto_service_license_agreement">Motorola Service End User License Agreement</string>
+    <string name="moto_service_intro">"You are about to connect to Motorola Mobile Services. This service allows you to access and manage a variety of online services.
+"</string>
+    <string name="moto_service_agreement">Motorola Service Agreement</string>
+    <string name="terms_of_service_check_caption">I agree</string>
+    <string name="downloading_terms">Downloading terms…</string>
+    <string name="done_reading">Done reading</string>
+    <string name="confirm_motoblur_account">Confirm MOTOBLUR account:</string>
+    <string name="creating_your_blur_account">Creating your MOTOBLUR account</string>
+    <string name="service_setup_intro_title">Your MOTOBLUR account has been created successfully</string>
+    <string name="service_setup_intro_text">"Now let's set up your new phone to access your email, contacts, photo and social networking sites."</string>
+    <string name="service_chooser_intro_title">Set up existing accounts</string>
+    <string name="service_chooser_background_intro_title">Setup accounts</string>
+    <string name="service_chooser_intro_text">If you use any of the services below, tap the icon to set it up or long press the icon for more details</string>
+    <string name="service_chooser_background_intro_text">If you use any of the services below, tap the icon to set it up.</string>
+    <string name="service_credentials_header_text">Enter your existing {0} account:</string>
+    <string name="max_accounts_delete_option">You can only have one active {0} account at a time. Would you like to remove the existing account?</string>
+    <string name="delete_option">Would you like to remove the {0} account?</string>
+    <string name="max_accounts_no_delete_option">Only one account for {0} can be added.</string>
+    <string name="max_accounts_no_del_single_acc">You can only have one active {0} service account at a time.</string>
+    <string name="google_login_title">Add a Google account</string>
+    <string name="google_login_txt">In order to send and receive emails with Gmail, synchronize your Google Contacts or download applications from Android Market, please sign back into your Google account.</string>
+    <string name="google_login_txt_german_region">In order to send and receive emails with Google Mail, synchronize your Google Contacts or download applications from Android Market, please sign backinto your Google account.</string>
+    <string name="skip">Skip</string>
+    <string name="blur_password_verifier_title">Enter password</string>
+    <string name="blur_password_verifier_text">To change your MOTOBLUR ID, please enter your password.</string>
+    <string name="generic_carrier_contact_text">Please call customer service to retrieve your password.</string>
+    <string name="change_blur_email_text">"Please make sure that your new MOTOBLUR ID is an email account that you have access to. 
+
+MOTOBLUR uses this address to send you a confirmation email which you will need to verify your account. 
+Motorola will not share this address or send spam emails."</string>
+    <string name="updating_blur_account">Updating your MOTOBLUR account</string>
+    <string name="motoblur">MOTOBLUR</string>
+    <string name="change_motoblur_password">Change MOTOBLUR password</string>
+    <string name="change_motoblur_id">Change MOTOBLUR ID</string>
+    <string name="account_mismatch">AccountMismatch</string>
+    <string name="account_mismatch_text">"Your MOTOBLUR ID does not match your current password. This happens if you change your password on the MOTOBLUR portal, but not the device. 
+Please update your phone with the new password you entered in the MOTOBLUR portal."</string>
+    <string name="motoblur_email_conf_txt1">Your MOTOBLUR ID was successfully changed to:</string>
+    <string name="motoblur_email_conf_txt2">"Your password has not changed.
+
+The MOTOBLUR service sent a confirmation email to above address.
+"</string>
+    <string name="motoblur_email_conf_txt3">"
+Within the next 24 hours, please open the email and follow the instructions to confirm your MOTOBLUR account."</string>
+    <string name="motoblur_password_conf_txt">"Your MOTOBLUR password was successfully updated. 
+
+Please make sure to write down your new password and keep it in a safe place along with your MOTOBLUR ID for future reference."</string>
+    <string name="dummy_password">********</string>
+    <string name="conf_email_sent">Confirmation email sent</string>
+    <string name="email_resent_conf_dialog_text">"The MOTOBLUR service sent a confirmation email to:
+
+{0}
+
+Within the next 24 hours, please open the email and follow the instructions to confirm your MOTOBLUR account."</string>
+    <string name="unverified_motoblur_account">Unverified MOTOBLUR account</string>
+    <string name="unverified_account_verify_txt1">After you created your MOTOBLUR account the service sent you a confirmation email to your account address:</string>
+    <string name="unverified_account_verify_txt2">"This email contains a link that you need to click in order to verify your account. Please open the email and follow the instructions to complete the account verification. 
+
+If you cannot access the above email address, please click \"Change MOTOBLUR ID\" to enter a new account name with an email address that you have access to."</string>
+    <string name="unverified_account_resend_txt">If the address is correct but you have not received the email, please click \"Resend email\".</string>
+    <string name="resend_email">Resend email</string>
+    <string name="success">Success!</string>
+    <string name="friendfeed_capabilities_text">"Now you can catch all of your friends' {0} updates in the Social Networking app. 
+
+The Social Networking app brings together updates, uploaded photos, friend requests, and more from all of the major networks into a single app! 
+
+Add a Social Networking widget to the Home Screen to see {0} updates from all of your friends -- or just the inner circle.
+"</string>
+    <string name="social_messaging_capabilities_text">"Access your {0} Inbox in the universal Messaging app. New messages appear in your inbox automatically. 
+
+The Motorola Messaging widget also shows the latest unread text messages, emails, and social networking messages all together in a single stream - or you can pick and choose accounts."</string>
+    <string name="messaging_capabilities_text">"Access your {0} Inbox in the universal Messaging app. New emails appear in your inbox automatically. 
+
+The Motorola Messaging widget also shows the latest unread text messages, emails, and social networking messages all together in a single stream - or you can pick and choose accounts."</string>
+    <string name="pictures_capabilities_text">"Now you can easily share photos with family and friends using your {0} account. 
+
+Whether you're snapping new pictures with the Camera or enjoying them in the Picture Gallery, uploading photos to {0} is a breeze."</string>
+    <string name="active_sync_capabilities_text">"With a {0} account, your contacts, calendar and emails are wirelessly synchronized with this device. You can choose to sync all three types of data or any combination. 
+
+Access your {0} Inbox in the universal Messaging app. New emails appear in your inbox automatically. 
+
+ The Motorola Messaging widget also shows the latest unread text messages, emails, and social networking messages all together in a single stream - or you can pick and choose accounts."</string>
+    <string name="cancel">Cancel</string>
+    <string name="signin">Sign-in</string>
+    <string name="remove">Remove</string>
+    <string name="open_account">Open account</string>
+    <string name="add_account">Add account</string>
+    <string name="delete_account">Remove account</string>
+    <string name="deleting_account">Removing account…</string>
+    <string name="checking_for_updates">Checking for Updates…</string>
+    <string name="downloading_updates">"Downloading update 
+ 
+Please wait…"</string>
+    <string name="error_deleting_account">Error Removing Account</string>
+    <string name="congrats_title_login">You successfully logged in</string>
+    <string name="congrats_text_login">"You can start using your device right away. It may take up to 30 minutes to download all of your account data, which may include contacts, calendar events, status updates, and more. 
+ 
+ If you installed any applications from Android Market™, please re-install them from there. Please use the same username password you used to purchase them and there will be no charge to your account."</string>
+    <string name="congrats_title_signup">Your setup is complete</string>
+    <string name="congrats_text_signup">"You can start using your device right away. It may take up to 30 minutes to download all of your account data, which may include contacts, calendar events, status updates, and more. 
+ 
+ We recommend that you go to Location &amp; security and set a security lock for this phone."</string>
+    <string name="service_credentials_google_text">Privacy policies for use of Google and Android services can be found under Settings/About Phone/Legal Information/Google legal.</string>
+    <string name="delete_account_prompt">Are you sure you want to remove this account? (%1$s-%2$s)</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="done">Done</string>
+    <string name="welcome_text">Your Blur account will automatically feed your friends latest profile pictures and status into every call, message and contact.</string>
+    <string name="emergency_call">Emergency call</string>
+    <string name="username_colon">Username:</string>
+    <string name="email_colon">Email address:</string>
+    <string name="password_failed">Oops. The username and password you entered is not working.</string>
+    <string name="location_consent_string">Location consent</string>
+    <string name="location_consent_description">"Google's location service provides applications with your approximate location without using GPS.
+You can disable these features in Settings, under Location &amp; Security."</string>
+    <string name="use_location_service">"Allow Google's location service to collect anonymous location data. Collection will occur even when no applications are running."</string>
+    <string name="use_location_service_for_google">Use My Location for Google search results and other Google services.</string>
+    <string name="summary_prompt">%1$s: %2$s</string>
+    <string name="blur_phone">Setup Blur Device</string>
+    <string name="signup">Register a new account</string>
+    <string name="login_button_tag">LOG IN ></string>
+    <string name="login">Use an existing account</string>
+    <string name="setup_account_later">Setup account later</string>
+    <string name="sign_up_or_log_in_intro">Blur account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="change_password">Change password</string>
+    <string name="new_password">New password:</string>
+    <string name="ok">OK</string>
+    <string name="close">Close</string>
+    <string name="change">Change</string>
+    <string name="enter_new_email">Enter new email</string>
+    <string name="added_picture_source">{0} has been set as the source of your contact pictures.</string>
+    <string name="change_picture_source">{0} is the source of your contact pictures. Would you like {1} to be the new source of your contact pictures?</string>
+    <string name="username_cannot_be_blank">Username must not be blank.</string>
+    <string name="activesync_server_cannot_be_blank">Server cannot be blank.</string>
+    <string name="activesync_name_cannot_be_blank">Account Name cannot be blank.</string>
+    <string name="realname_cannot_be_blank">Real Name cannot be blank.</string>
+    <string name="email_address_error">"Email address must be properly formed.
+Please provide an email address where we can reach you.
+"<i>For example, </i>"user@domain.com
+"</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="downloading_accounts">Logging into MOTOBLUR</string>
+    <string name="retrieving_password">Retrieving Password…</string>
+    <string name="error_creating_account_title">Error creating account</string>
+    <string name="error_adding_account_title">Error adding account</string>
+    <string name="error">Error</string>
+    <string name="confirm_password_colon">Confirm new password:</string>
+    <string name="error_signing_in_account_title">Error signing into account</string>
+    <string name="account_already_added">This account has already been added.</string>
+    <string name="account_already_exists">Account already exists</string>
+    <string name="unspecified_service_error">There was an error creating your account. Please try again.</string>
+    <string name="password_emailed">A password reset link has been sent to your email address</string>
+    <string name="pref_accounts_title">Account preferences</string>
+    <string name="pref_sync_accounts">Sync accounts</string>
+    <string name="pref_automatically_sync_accounts">Automatically sync accounts</string>
+    <string name="imap_server">IMAP mail server</string>
+    <string name="smtp_server">SMTP server</string>
+    <string name="pop_server">POP mail server</string>
+    <string name="settings">Settings</string>
+    <string name="server">Server:</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="port">Port:</string>
+    <string name="use_secure">Use secure connection</string>
+    <string name="verify_certificate">Verify Certificate</string>
+    <string name="use_secure_password">Use secure password (TLS):</string>
+    <string name="authentication">Authentication:</string>
+    <string name="contacts">Contacts</string>
+    <string name="calendar">Calendar</string>
+    <string name="accounts">Accounts</string>
+    <string name="auto_download_settings">Automatically configure account</string>
+    <string name="account_name_colon">Account name:</string>
+    <string name="real_name_colon">Real name:</string>
+    <string name="please_wait">Please wait</string>
+    <string name="setting_up_x_services">Adding your {0} account</string>
+    <string name="updating_x_services">Updating %1$s services…</string>
+    <string name="getting_oauth_url">Setting up {0} services</string>
+    <string name="done_adding_accounts">Done adding accounts</string>
+    <string name="incoming_username_non_null">Incoming username cannot be blank</string>
+    <string name="incoming_password_non_null">Incoming password cannot be blank</string>
+    <string name="incoming_server_non_null">Incoming server cannot be blank</string>
+    <string name="outgoing_server_non_null">SMTP server cannot be blank</string>
+    <string name="outgoing_port_non_null">SMTP port cannot be blank (SMTP is usually 25)</string>
+    <string name="incoming_port_non_null">Incoming port cannot be blank (POP is usually 110 and IMAP is usually 143)</string>
+    <string name="incoming">Incoming Server</string>
+    <string name="outgoing">Outgoing Server</string>
+    <string name="other">Other Settings</string>
+    <string name="general">General Settings</string>
+    <string name="number_of_messages_to_sync">Number of messages to sync:</string>
+    <string name="delete_messages_older_than">Delete messages older than:</string>
+    <string name="sync_messages_for">Sync messages for:</string>
+    <string name="one_week">1 week</string>
+    <string name="two_weeks">2 weeks</string>
+    <string name="one_month">1 month</string>
+    <string name="two_months">2 months</string>
+    <string name="never_delete">Never delete messages</string>
+    <string name="twenty_five">25</string>
+    <string name="fifty">50</string>
+    <string name="one_hundred">100</string>
+    <string name="one_day">1 day</string>
+    <string name="three_days">3 days</string>
+    <string name="all">All</string>
+    <string name="del_server">Remove manually deleted emails from the server</string>
+    <string name="auto">Auto</string>
+    <string name="always">Always</string>
+    <string name="never">Never</string>
+    <string name="apop">Authenticated POP</string>
+    <string name="md5">MD5</string>
+    <string name="none">None</string>
+    <string name="captcha_text">To verify your log-in please enter the text into the field below</string>
+    <string name="set_up_apn">Set up APN</string>
+    <string name="set_up_cloud">Set up cloud</string>
+    <string name="set_up_wifi">Set up WLAN</string>
+    <string name="show_IMEI">IMEI</string>
+    <string name="msg_IMEI">IMEI number is %1$s</string>
+    <string name="show_MEID">MEID</string>
+    <string name="msg_MEID">MEID number is %1$s</string>
+    <string name="account_name_must_be_unique">The account name must be unique, please try another name.</string>
+    <string name="error_not_saved_to_db">There was an error saving your account information, please try again.</string>
+    <string name="error_certificate_mismatch_choice">The certificate from the server is not validated. Do you want to disable verifying certificates for this account? (Not Recommended).</string>
+    <string name="error_certificate_mismatch_no_choice">The certificate from the server is not validated.</string>
+    <string name="error_connection_failed">Could not connect to the server.</string>
+    <string name="error_login_failed">Login to the account failed, please try again.</string>
+    <string name="error_not_provisionable">"The device cannot be provisioned on this server. Please contact the server's admin."</string>
+    <string name="error_not_supported">"The device does not support this server version. Please contact the server's admin."</string>
+    <string name="error_account_disabled">The account was disabled on the Blur service</string>
+    <string name="error_account_not_found">The account does not exist on the Blur service</string>
+    <string name="error_already_exists">The account already exists on the Blur service. Please choose a different account id.</string>
+    <string name="error_already_initialized">Your phone already has an account associated with it.</string>
+    <string name="error_connect_timeout">The connection timed out, please try again.</string>
+    <string name="error_try_again">An error has occurred. Please try again.</string>
+    <string name="error_invalid_credentials">Your username or password is incorrect. Please check them and try again.</string>
+    <string name="error_invalid_params">Your entry is invalid, please try again.</string>
+    <string name="error_internal_server">An internal server error occurred. Please try again</string>
+    <string name="error_no_server_response">The server had no response. Check to make sure the service is working and try again.</string>
+    <string name="error_not_allowed">Your request was denied, please try again.</string>
+    <string name="error_not_found">The request was not found.</string>
+    <string name="error_not_initialized">The request required user credentials, but they were not provided in the request.</string>
+    <string name="error_password_mismatch">Incorrect password. Please try again.</string>
+    <string name="error_current_password_mismatch">Incorrect current password. Please try again.</string>
+    <string name="error_radio_down">The phone radio is unable to connect to the network. Make sure the radio is on or if it is on, move into better coverage area and try again.</string>
+    <string name="error_service_busy">Unable to connect at this time, try again later.</string>
+    <string name="error_service_down">The MOTOBLUR is temporarily unavailable.</string>
+    <string name="error_socket_timeout">The request timed out waiting for a response. The account may have been incorrectly created</string>
+    <string name="error_too_many">You have tried to reset your password too many times today. Please try again later.</string>
+    <string name="error_unauthorized">The Blur service indicated your request was unauthorized. Check to make sure the Blur service is working.</string>
+    <string name="error_unknown">An unknown error occurred, please try again.</string>
+    <string name="error_wrong_device">This account is being used by another device. This device must be erased before this account can be used.</string>
+    <string name="error_wrong_password">"Your ID and/or Password were not recognized. Please verify and try again. If you forgot your password click the 'Forgot Password' button to have it sent to you by email."</string>
+    <string name="error_captcha_invalid">Please enter the information again.</string>
+    <string name="error_captcha_expired">The authentication has expired. Please try again.</string>
+    <string name="error_ssl_error">There is a problem with the clock on the device. Please contact customer service.</string>
+    <string name="error_retreiving_information">There was an error retrieving information.</string>
+    <string name="error_unknown_host">The host is unknown.</string>
+    <string name="service_data_error">There were errors getting data from the Blur service.</string>
+    <string name="retry">Retry</string>
+    <string name="background_terms_of_service_text">Motorola Service TERMS AND CONDITIONS content text</string>
+    <string name="terms_of_service_text">Internet data connection needed to view Terms and Conditions</string>
+    <string name="privacy_policy_text">PRIVACY POLICY content text</string>
+    <string name="end_user_license_agreement_text">SOFTWARE LICENSE AGREEMENT content text</string>
+    <string name="disable_verification_warning">If you uncheck this checkbox, we will not verify the certificate from the server for this account. Are you sure you want to do this?</string>
+    <string name="reminder">Reminder</string>
+    <string name="yahoo_reminder">Please enter your password again for verification</string>
+    <string name="dont_verify">Disable Verification</string>
+    <string name="bad_phone_format">"Your phone number must only contain digits, '-' or '+'"</string>
+    <string name="bad_password_format">Your password cannot contain spaces.</string>
+    <string name="bad_server_format">The server address should be correctly formatted.</string>
+    <string name="must_be_at_least">{0} must be at least {1} characters.</string>
+    <string name="must_not_be_more_than">{0} must not be more than {1} characters.</string>
+    <string name="values_must_match">Passwords must match.</string>
+    <string name="deleted_all_services_delete_account">You have removed all the services for this account, this will remove the account, do you want to continue?</string>
+    <string name="activesync_server_hint">Enter server address</string>
+    <string name="current_password">Old password:</string>
+    <string name="need_to_log_back_in">{0} username or password incorrect. If you recently changed your password please re-enter the new password now.</string>
+    <string name="start">Start</string>
+    <string name="settings_not_found">The service is unable to automatically set up this account</string>
+    <string name="error_getting_settings">Automatic set up is not available for your email provider. Please manually set up email account.</string>
+    <string name="set_up_manually">Set up manually</string>
+    <string name="error_need_email_for_password_reset">Please enter your email address to reset your password</string>
+    <string name="set_up_cancel">Skip setup</string>
+    <string name="waiting_for_connection">Checking for data connectivity</string>
+    <string name="setup_blur_device_title">Setup Blur device</string>
+    <string name="connection_failed_text">Connection failed</string>
+    <string name="connection_chooser_select">"Please select a connection type
+ to finish setup"</string>
+    <string name="connection_chooser_type">Connection type</string>
+    <string name="skip_setup_title">Skip setup</string>
+    <string name="skip_setup_text">" MOTOBLUR is a FREE service that makes your device come alive by delivering social network updates, news, messages and more to your phone.
+ 
+ It also gives you access to the MOTOBLUR portal where you can:
+ 
+ - Locate your phone
+ - Erase the content on your phone when it is lost or stolen
+ 
+ Skipping MOTOBLUR setup will disable these features."</string>
+    <string name="sn_acc_required">Social account required</string>
+    <string name="sn_acc_required_info">is not available without a social account. To create a new account, click Setup</string>
+    <string name="blur_required">Blur account required</string>
+    <string name="blur_required_info">is not available without a Blur account. To create a new account or log into an existing one, click Setup</string>
+    <string name="setup">Setup</string>
+    <string name="connection_wifi">Setup Wi-Fi</string>
+    <string name="connection_retry">Retry cellular connection</string>
+    <string name="connection_skip">Skip for now</string>
+    <string name="connection_cell_retry_text">"Connection failed!
+ In order to complete set up you need a data connection.
+
+ Please press the \"Retry\" button when you get back into network coverage."</string>
+    <string name="error_saving_credentials">Error saving credentials</string>
+    <string name="vzw_backup_assistant">Backup Assistant</string>
+    <string name="header_blur_accounts">MOTOBLUR Accounts</string>
+    <string name="header_other_accounts">Other Accounts</string>
+    <string name="email_account_list_sync_over_wifi_title">Sync over WLAN</string>
+    <string name="email_account_list_sync_over_wifi_text">You can elect to save even more data by setting email accounts to only sync while connected to a WLAN network</string>
+    <string name="simswap_signin_instruction">"SIM card is removed or changed.
+Log in to your MOTOBLUR account to unlock."</string>
+    <string name="checking_progress_text">Checking…</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="error_need_email_and_password_to_signin">Please enter your MOTOBLUR account and password to log in</string>
+    <string name="error_reset_password">Reset Password Failure!</string>
+    <string name="snaccount_info_text">To fully integrate {0} into your mobile experience, click Add Account.</string>
+    <string name="asaccount_info_text">Use this account type to setup your work e-mail, contacts and calendar with MOTOBLUR.</string>
+    <string name="emailaccount_info_text">Use this account type to include your Hotmail, Gmail, Yahoo!, POP3, IMAP, or other e-mail accounts in your Universal Inbox.</string>
+    <string name="emailaccount_info_text_german_region">Use this account type to include your Hotmail, Google Mail, Yahoo!, POP3, IMAP, or other e-mail accounts in your Universal Inbox.</string>
+    <string name="photoaccount_info_text">If you routinely upload photos to {0} and would like to do so easily, click Add Account.</string>
+    <string name="yahooaccount_info_text">To fully integrate {0} into your mobile experience, click Add Account.</string>
+    <string name="googleacount_info_text">Sign in with your Google credentials to get access to Google Mail, Google Contacts, Google Calendar, The Market, PicassaWeb, and other other Google services.</string>
+    <string name="email_pref_title">Email \"{0}\"</string>
+    <string name="email_pref_title_general">Email \"{0}\": General settings</string>
+    <string name="email_pref_title_incoming">Email \"{0}\": Incoming server</string>
+    <string name="email_pref_title_incoming_advanced">Incoming server: Advanced settings</string>
+    <string name="email_pref_title_outgoing">Email \"{0}\": Outgoing server</string>
+    <string name="email_pref_title_other">Email \"{0}\": Other settings</string>
+    <string name="email_pref_title_outgoing_advanced">Outgoing server: Advanced settings</string>
+    <string name="yahoo_name">Yahoo!</string>
+    <string name="setup_info_text">" MOTOBLUR is a free service that makes your device come alive by connecting you to your friends in social networks, sending you the latest news and keeping your contacts list up to date.
+ 
+ It also gives you access to the MOTOBLUR portal where you can:
+ 
+ - Locate your phone
+ - Remotely erase the content of your phone if it is lost or stolen
+ 
+ Press \"Setup\" to begin setting up your MOTOBLUR account.
+"</string>
+    <string name="do_not_forget_to_note">"Don't forget to make a note of your Motorola Service ID!"</string>
+    <string name="you_need_this_info">You will need this information if you ever lock yourself out of the device.</string>
+    <string name="delete_email_accounts_msg">Loading an existing MOTOBLUR account will remove all Email accounts from your device and replace them with the accounts stored in your MOTOBLUR profile.</string>
+    <string name="delete_email_accounts_continue_btn">Proceed</string>
+    <string name="moto_required">Motorola account required</string>
+    <string name="moto_required_info">"\"System update\" is not available without a Motorola service account.
+
+Would you like to setup an account now?"</string>
+    <string name="sn_required">Social Networking account required</string>
+    <string name="blur_sn_required_info">"\"{0}\" is not available without a social networking account.
+To create a new account or log into an existing one, click \"Setup\" button"</string>
+    <string name="sn_required_info">"\"{0}\" is not available without a social networking account.
+To create a new account, click \"Setup\" button."</string>
+    <string name="connection_failed_textinfo">"In order to complete setup, you need a data connection.
+
+You have the following choices:"</string>
+    <string name="setup_wifi">Setup a WLAN connection</string>
+    <string name="retry_cellular">Retry with current connection</string>
+    <string name="skip_for_now">Skip setup for now</string>
+    <string name="account_creation_timeout_title">This is taking longer than expected</string>
+    <string name="account_creation_timeout_content">We will continue to try in the background.</string>
+    <string name="communicating_with_server">"Communicating with server.
+Please wait"</string>
+    <string name="notification_title">Account Setup</string>
+    <string name="notification_text">Please input captcha</string>
+    <string name="vvm">Visual Voice Mail</string>
+    <string name="domain_colon">Domain:</string>
+    <string name="domain_optional">Domain (optional)</string>
+    <string name="error_no_autodiscover">Please enter the server name manually.</string>
+    <string name="error_no_autodiscover_title">Could not auto-detect server</string>
+    <string name="username_optional">Enter username</string>
+    <string name="blur_account_setup">Blur Account Setup</string>
+    <string name="unsupported_account_type">Unsupported account type</string>
+    <string name="no_authenticators">There is no authenticator for %s</string>
+    <string name="add_accounts">Add Accounts</string>
+    <string name="wrap_up">Wrap up</string>
+    <string name="loading">Loading...</string>
+    <string name="quick_upload">Quick upload</string>
+    <string name="quick_upload_pictures">Quick upload for pictures</string>
+    <string name="quick_upload_videos">Quick upload for videos</string>
+    <string name="uploading_pictures">Uploading pictures to %1$s</string>
+    <string name="uploading_videos">Uploading videos to %1$s</string>
+    <string name="uploading_pictures_and_videos">Uploading pictures and videos to %1$s</string>
+    <string name="quick_upload_pics_not_setup_text">The default quick upload account for pictures is not setup. Would you like to setup the default quick upload account now and continue this upload?</string>
+    <string name="quick_upload_videos_not_setup_text">The default quick upload account for videos is not setup. Would you like to setup the default quick upload account now and continue this upload?</string>
+    <string name="web_setting">Yes</string>
+    <string name="web_cancel_upload">Cancel</string>
+    <string name="web_cancel">No</string>
+    <string name="useEmailAddress">Use email address</string>
+    <string name="toast_BlurFailed">Blur Not Installed!</string>
+    <string name="online_album_email_addr_title">Enter email address</string>
+    <string name="online_album_caption">Uploaded by MOTOBLUR™</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="saveEmailAddr">Save</string>
+    <string name="add_account_dot">Add account...</string>
+    <string name="btn_ok">Ok</string>
+    <string name="data_saver_enabled">Data saver enabled</string>
+    <string name="data_saver_text">This upload will be queued for transfer when WLAN becomes available. To upload immediately, go to settings to disable data saver.</string>
+    <string name="delayed_toast">%1$s will be queued for upload when WLAN becomes available. Check progress in the notification window.</string>
+    <string name="n_items">%1$d items</string>
+    <string name="choose_a_service">Please choose a service for your upload</string>
+    <string name="formatted_pretty_name">%1$s (%2$s)</string>
+    <string name="large_upload">Large upload</string>
+    <string name="large_upload_text">Uploading over the network may take longer than using a WLAN network.</string>
+    <string name="upload_via_wifi">Upload via WLAN</string>
+    <string name="upload_now">Upload now</string>
+    <string name="factory_data_reset">Factory Data Reset</string>
+    <string name="having_problems_logging">Having problems logging in?</string>
+    <string name="flat_rate">Data plan Active</string>
+    <string name="skip_setup">Skip setup for now</string>
+    <string name="nonflat_rate">No Data plan</string>
+    <string name="Connection_subcription">The phone settings will be adapted to the data plan you have subscribed.</string>
+    <string name="dataseting">Data Settings</string>
+    <string name="connection_needed">Connection needed</string>
+    <string name="connection_needed_discription">In order to complete setup you need a data connection.You have the following Choices:</string>
+    <string name="me">Me</string>
+    <string name="alert_title">Network traffic alert</string>
+    <string name="warning_message">"The %1$s is more like a computer than a phone, with many features, such as software updates, GPS ephemeris updates, weather forecasts, email, chat software, and many more, that will require data costs. In order to ensure that you get the most out of your phone, we recommend that you apply for a data package from your network service provider. If you applied for a time based data package, you may want to set your %1$s to \"default data network\" to temporarily disable the data features and avoid unnecessary costs when you aren't using the data services"</string>
+</resources>

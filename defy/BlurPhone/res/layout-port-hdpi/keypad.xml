@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/keypad" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dtmf_background" android:paddingTop="@dimen/KeypadPaddingTop" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View style="@style/hDivSideSpaceDialPad" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View style="@style/vDivSideSpaceDialPadLand" />
+            <include android:id="@id/one" layout="@layout/button_keypad_1" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/two" layout="@layout/button_keypad" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/three" layout="@layout/button_keypad" />
+            <View style="@style/vDivSideSpaceDialPadLand" />
+        </LinearLayout>
+        <View style="@style/hDivSpaceDialPad" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View style="@style/vDivSideSpaceDialPadLand" />
+            <include android:id="@id/four" layout="@layout/button_keypad" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/five" layout="@layout/button_keypad" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/six" layout="@layout/button_keypad" />
+            <View style="@style/vDivSideSpaceDialPadLand" />
+        </LinearLayout>
+        <View style="@style/hDivSpaceDialPad" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View style="@style/vDivSideSpaceDialPadLand" />
+            <include android:id="@id/seven" layout="@layout/button_keypad" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/eight" layout="@layout/button_keypad" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/nine" layout="@layout/button_keypad" />
+            <View style="@style/vDivSideSpaceDialPadLand" />
+        </LinearLayout>
+        <View style="@style/hDivSpaceDialPad" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View style="@style/vDivSideSpaceDialPadLand" />
+            <include android:id="@id/star" layout="@layout/button_keypad" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/zero" layout="@layout/button_keypad" />
+            <View style="@style/vDivSpaceDialPad" />
+            <include android:id="@id/pound" layout="@layout/button_keypad" />
+            <View style="@style/vDivSideSpaceDialPadLand" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

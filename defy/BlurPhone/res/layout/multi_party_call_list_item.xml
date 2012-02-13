@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/multiPartyCallAdapterHandle" android:background="@drawable/transparentBg" android:paddingLeft="3.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/callerDetail" android:background="@android:drawable/list_selector_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.9">
+        <QuickContactBadge android:layout_gravity="center_vertical" android:id="@id/multiPartyCallerPhoto" style="@*android:style/Widget.QuickContactBadge.WindowSmall" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/multiPartyCallerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" style="@style/Contacts.TxtListItemA.SingleLine" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:id="@id/multiPartyCallerNumberType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" style="@style/Contacts.TxtListItemB.SingleLine" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/multiPartyCallerNumber" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/multiPartyCallerSeparate" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ic_button_conference_private" android:scaleType="center" />
+    </LinearLayout>
+    <ImageView android:layout_width="2.0px" android:layout_height="55.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip" android:src="@blur.res:drawable/divider_vertical_list_item" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:id="@id/callContact" android:background="@android:drawable/list_selector_background" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:gravity="center_vertical" android:id="@id/call_icon" android:paddingLeft="10.0dip" android:paddingRight="5.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_button_conference_end" />
+    </LinearLayout>
+</LinearLayout>

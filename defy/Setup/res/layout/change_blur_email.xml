@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/fsba_brand_nologo" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/edit_account_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@blur.res:dimen/content_area_top_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:paddingBottom="@blur.res:dimen/content_area_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:paddingBottom="@dimen/h2_spacing" android:text="@string/motoblur_id_colon" style="@style/ListItemTxtB" />
+            <EditText android:layout_gravity="center_horizontal" android:id="@id/change_blur_email_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h1_spacing" android:hint="@string/enter_new_email" android:singleLine="true" android:inputType="textEmailAddress">
+                <requestFocus />
+            </EditText>
+            <TextView android:paddingBottom="@blur.res:dimen/formitem_vspacing" android:text="@string/change_blur_email_text" style="@style/ListItemTxtB" />
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

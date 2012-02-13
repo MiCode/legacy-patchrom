@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AccSet_topSpacing">7.0dip</dimen>
+    <dimen name="AccSet_vspacing">7.0dip</dimen>
+</resources>

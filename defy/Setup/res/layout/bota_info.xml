@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <TextView android:layout_gravity="center" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_height="wrap_content" android:layout_marginTop="@dimen/AccSet_vspacing" android:layout_marginBottom="@dimen/AccSet_vspacing" android:text="@string/downloading_updates" style="@style/AccSetTextView" />
+    <ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="12.0dip" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

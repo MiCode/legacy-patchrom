@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/agenda_appwidget" android:background="@blur.res:drawable/base_2x2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_event_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="-14.0px" android:layout_marginTop="8.0px" android:layout_marginRight="-6.0px" android:layout_toRightOf="@id/top_widget">
+        <FrameLayout android:id="@id/layout_1_event" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="102.0px" layout="@layout/event1_side_view" />
+        </FrameLayout>
+        <ImageView android:id="@id/divider_1" android:layout_marginTop="-2.0px" style="@style/DividerImage" />
+        <FrameLayout android:id="@id/layout_2_event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0px">
+            <include android:layout_width="fill_parent" android:layout_height="101.0px" layout="@layout/event2_side_view" />
+        </FrameLayout>
+        <ImageView android:id="@id/divider_2" android:visibility="gone" android:layout_marginTop="-2.0px" style="@style/DividerImage" />
+        <FrameLayout android:id="@id/layout_3_event" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0px">
+            <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="101.0px" layout="@layout/event3_side_view" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/info_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="4.0px" android:layout_marginBottom="2.0px" android:layout_toRightOf="@id/top_widget">
+        <include layout="@layout/info_page_medium" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/top_widget" android:background="@drawable/sleeve_2x2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <include layout="@layout/sleeve_side_view" />
+    </RelativeLayout>
+</RelativeLayout>

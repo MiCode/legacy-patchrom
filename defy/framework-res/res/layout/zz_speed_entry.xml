@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cWid" android:background="#88000000" android:focusable="true" android:layout_width="220.0px" android:layout_height="60.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cWidLL" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/shuffleHandle" android:clickable="true" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginRight="6.0dip" android:src="@drawable/zz_moto_ic_list_reorder" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/image1" android:layout_width="57.0px" android:layout_height="57.0px" android:layout_marginLeft="6.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/cWidCLL" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?textAppearanceLarge" android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:singleLine="true" />
+            <TextView android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:singleLine="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cWidCCLL" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textAppearance="?textAppearanceSmall" android:id="@id/line3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/deleteHandle" android:clickable="true" android:layout_width="40.0px" android:layout_height="40.0px" android:layout_marginRight="6.0dip" android:src="@drawable/zz_moto_ic_control_remove" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    </LinearLayout>
+</FrameLayout>

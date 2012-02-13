@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0" android:layout_above="@id/button_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_pane_motoblur" />
+            <TextView android:paddingLeft="@dimen/AccSet_hspacing" android:paddingRight="@dimen/AccSet_hspacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" android:text="@string/skip_setup_text" android:singleLine="false" style="@style/FormItemTxt.A" />
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

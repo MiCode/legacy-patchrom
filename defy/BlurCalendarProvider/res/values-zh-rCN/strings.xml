@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">日历存储</string>
+    <string name="gadget_title">日历</string>
+    <string name="no_title_label">（无主题）</string>
+    <string name="calendar_default_name">默认</string>
+    <string name="gadget_no_events">近期没有活动</string>
+    <string name="add_calendar_events">创建活动.</string>
+    <string name="calendar_next_event">下一个活动:</string>
+    <string name="calendar_widget_label">日历小部件</string>
+    <string name="setting_description">选择在小部件中显示活动的日历</string>
+    <string name="no_calendars_selected">选择日历</string>
+    <string name="settings_all_calendars">所有日历</string>
+    <string name="loading_agenda">正在加载日程</string>
+    <string name="no_meeting_this_week">无即将举行的会议</string>
+    <string name="no_meeting_today">今天无会议.</string>
+    <string name="no_calendars_synchronized">"添加一个
+日历帐户"</string>
+    <string name="provider_label">日历</string>
+    <string name="widget_description">近期日历活动</string>
+    <string name="account_type_name">日历本地帐户</string>
+    <string name="local_calendar_display_name">默认日历</string>
+    <string name="scratch_calendar_display_name">临时日历</string>
+    <string name="year">年</string>
+    <string name="create_event">创建活动</string>
+    <string name="settings_local_calendar">手机日历</string>
+</resources>

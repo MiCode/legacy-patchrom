@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/settings_header_raw" android:dither="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

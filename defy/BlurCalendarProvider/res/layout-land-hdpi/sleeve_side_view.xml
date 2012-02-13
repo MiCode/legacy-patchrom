@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="74.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/navyblue_sleeve_horiz" android:scaleType="fitXY" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:gravity="left" android:id="@id/day_of_month" android:layout_marginLeft="10.0px" android:layout_alignParentTop="true" style="@style/DayOfMonthText.SideView.hdpi" />
+        <TextView android:gravity="left" android:id="@id/day_of_week" android:visibility="gone" android:layout_marginLeft="3.0px" android:layout_marginTop="-23.0px" android:layout_below="@id/day_of_month" android:layout_alignLeft="@id/day_of_month" style="@style/DayOfWeekText.SideView.hdpi" />
+        <TextView android:gravity="left" android:id="@id/day_of_week_abbrev" android:layout_marginLeft="3.0px" android:layout_marginTop="-23.0px" android:maxLength="5" android:layout_below="@id/day_of_month" android:layout_alignLeft="@id/day_of_month" style="@style/DayOfWeekText.SideView.hdpi" />
+        <TextView android:gravity="left" android:id="@id/month" android:visibility="gone" android:layout_marginLeft="4.0px" android:layout_marginTop="-12.0px" android:layout_below="@id/day_of_week" android:layout_alignLeft="@id/day_of_month" style="@style/MonthText.SideView.hdpi" />
+        <TextView android:gravity="left" android:id="@id/month_abbrev" android:layout_marginLeft="4.0px" android:layout_marginTop="-12.0px" android:maxLength="5" android:layout_below="@id/day_of_week_abbrev" android:layout_alignLeft="@id/day_of_month" style="@style/MonthText.SideView.hdpi" />
+        <TextView android:id="@id/lunar_month_abbrev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/month_abbrev" style="@style/MonthText.TopView.hdpi" />
+        <TextView android:id="@id/lunar_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/month" style="@style/MonthText.TopView.hdpi" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/day_of_month" style="@style/DayOfMonthText.TopView" />
+    <TextView android:id="@id/day_of_week" android:layout_alignTop="@id/day_of_month" style="@style/DayOfWeekText.TopView" />
+    <TextView android:id="@id/year" android:layout_below="@id/day_of_week" android:layout_alignRight="@id/day_of_week" style="@style/YearText" />
+    <TextView android:id="@id/month" android:layout_toLeftOf="@id/year" android:layout_below="@id/day_of_week" style="@style/MonthText" />
+</RelativeLayout>

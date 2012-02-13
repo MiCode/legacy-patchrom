@@ -1,0 +1,3 @@
+version: 1.4.3
+apkFileName: framework-res.apk
+isFrameworkApk: true

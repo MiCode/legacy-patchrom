@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OnScreenActionIcon">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/menu_bg_land</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">1.0dip</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:drawablePadding">3.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="OnScreenVideoActionIcon">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/menu_bg_land</item>
+        <item name="android:paddingLeft">2.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">2.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">1.0dip</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:drawablePadding">3.0dip</item>
+    </style>
+    <style name="OnScreenControllerRightSetButton">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/menu_bg_land</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">0.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="OnScreenControllerModesTitle">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/menu_cam_popup_header</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">1.0dip</item>
+        <item name="android:layout_marginRight">1.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="OnScreenControllerModesButton">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/dialog_menu_bg</item>
+        <item name="android:paddingLeft">20.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingRight">20.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OnScreenControllerLeftSetButton">
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2.0px</item>
+        <item name="android:layout_marginBottom">5.0px</item>
+    </style>
+    <style name="OnScreenControllerTopSetButton">
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">30.0px</item>
+        <item name="android:layout_height">30.0px</item>
+        <item name="android:layout_marginLeft">5.0px</item>
+        <item name="android:layout_marginTop">5.0px</item>
+    </style>
+    <style name="OnScreenRemainText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">top|right|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">13.0px</item>
+        <item name="android:layout_marginTop">13.0px</item>
+        <item name="android:layout_marginRight">13.0px</item>
+        <item name="android:shadowColor">#c0000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="OnScreenPanShots">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">top|right|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">13.0px</item>
+        <item name="android:layout_marginTop">13.0px</item>
+        <item name="android:layout_marginRight">13.0px</item>
+        <item name="android:shadowColor">#c0000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="HardKeyMenuButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff0f0f0f</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/hardkeymenubg</item>
+        <item name="android:paddingTop">2.0px</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">1.0px</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">3.0px</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="settingImageView">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">5.0px</item>
+        <item name="android:paddingTop">5.0px</item>
+        <item name="android:paddingRight">5.0px</item>
+        <item name="android:paddingBottom">5.0px</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0.0px</item>
+        <item name="android:layout_marginBottom">0.0px</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">2.0px</item>
+    </style>
+    <style name="shutterKeyView">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0px</item>
+        <item name="android:layout_marginRight">45.0px</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="Theme.CameraTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/camera_loading_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.CamcorderTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@drawable/camcorder_loading_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

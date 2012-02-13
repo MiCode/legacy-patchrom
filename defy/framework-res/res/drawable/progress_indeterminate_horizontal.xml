@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/progressbar_indeterminate1" />
+    <item android:duration="200" android:drawable="@drawable/progressbar_indeterminate2" />
+    <item android:duration="200" android:drawable="@drawable/progressbar_indeterminate3" />
+</animation-list>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tos_layout" android:background="@drawable/welcome_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.motorola.blur.setup.ProgressBadge android:id="@id/progress_badge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:step="0" app:text="@string/blur_account_setup" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@dimen/AccSet_topSpacing" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/moto_logo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/moto_logo" />
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tos_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/AccSet_topSpacing" android:text="@string/moto_service_agreement" style="@style/AccSetTextView" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/tos_text2" android:text="@string/moto_service_review_the_above" style="@style/TxtInstructional" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

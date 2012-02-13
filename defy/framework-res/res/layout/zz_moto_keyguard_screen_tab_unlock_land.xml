@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/root" android:background="#70000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tabunlock="http://schemas.android.com/apk/res/com.android.tabunlock">
+    <RelativeLayout android:gravity="left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="?textAppearanceMedium" android:ellipsize="marquee" android:gravity="bottom|right|center" android:id="@id/carrier" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" android:layout_alignParentTop="true" />
+        <com.android.internal.widget.DigitalClock android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="1.0dip" android:layout_below="@id/carrier">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="55.0sp" android:gravity="bottom" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="22.0sp" android:gravity="bottom" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginBottom="-6.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+        </com.android.internal.widget.DigitalClock>
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_below="@id/time" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:drawablePadding="4.0dip" android:layout_below="@id/date" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/status2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:drawablePadding="4.0dip" android:layout_below="@id/status1" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:gravity="center_vertical" android:id="@id/screenLocked" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/status2" />
+        <Button android:id="@id/emergencyCallButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" android:layout_below="@id/screenLocked" style="@style/Widget.Button.Transparent" />
+        <Button android:id="@id/pukUnlockButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/lockscreen_sim_puk_locked_button_text" android:drawablePadding="8.0dip" android:layout_below="@id/emergencyCallButton" />
+        <TableLayout android:id="@id/music_widget" android:background="@drawable/rounded_rectangle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="85.0dip" android:stretchColumns="0,1,2" android:layout_below="@id/screenLocked"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TableRow>
+                <TextView android:textAppearance="?textAppearanceMedium" android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="none" android:gravity="left|center" android:id="@id/music_title" android:fadingEdge="horizontal" android:fadingEdgeLength="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_span="3" android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <TextView android:textAppearance="?textAppearanceMedium" android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="none" android:gravity="left|center" android:id="@id/music_artist" android:paddingLeft="38.0px" android:fadingEdge="horizontal" android:fadingEdgeLength="10.0dip" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_span="3" android:singleLine="true" />
+            </TableRow>
+            <TableRow>
+                <ImageButton android:id="@id/music_control_prev" android:background="@drawable/appwidget_button_left" android:layout_width="0.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_appwidget_music_prev" android:scaleType="fitStart" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/music_control_play" android:background="@drawable/appwidget_button_center" android:layout_width="0.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_appwidget_music_play" android:scaleType="center" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/music_control_next" android:background="@drawable/appwidget_button_right" android:layout_width="0.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_appwidget_music_next" android:scaleType="fitEnd" android:layout_weight="1.0" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+    <com.android.internal.widget.SlidingTab android:orientation="vertical" android:id="@id/tab_selector" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="80.0dip" />
+</LinearLayout>

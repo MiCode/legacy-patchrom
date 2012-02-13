@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/buttonKeyPad"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@android:color/white" android:id="@id/BtnA" style="@style/TxtKeyPadBtnA" />
+        <View style="@style/buttonKeyPad_H1" />
+        <TextView android:textColor="@android:color/white" android:id="@id/BtnB" style="@style/TxtKeyPadBtnB" />
+    </LinearLayout>
+</LinearLayout>

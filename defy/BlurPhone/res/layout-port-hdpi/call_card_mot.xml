@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mainCallCard" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mainCallCard1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/titleViewGroup1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/subchrome" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginBottom="5.0dip">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.9">
+                    <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/callTitle1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/titleOnHold" android:singleLine="true" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.1">
+                    <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/elapsedTime1" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+                    <TextView android:gravity="center_vertical" android:id="@id/eri_single_right" style="@blur.res:style/Blur.TxtTitleBar" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/viewGroup1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <View style="@style/Calling_V1" />
+                <TextView android:id="@id/name" style="@style/TxtCallId" />
+                <View style="@style/Calling_V1" />
+                <TextView android:id="@id/phoneNumber" style="@style/TxtNumType" />
+                <View style="@style/Calling_V1" />
+                <TextView android:id="@id/cityid" android:visibility="gone" android:singleLine="true" style="@style/TxtNumType" />
+                <View style="@style/Calling_V1" />
+                <ImageView android:id="@id/photo" style="@style/CallingImgCnt" />
+                <View style="@style/Calling_V1" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/sn_status_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/CallInfo_vspacing">
+                    <ImageView android:id="@id/sn_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/CallInfo_hspacing" />
+                    <TextView android:id="@id/status" android:singleLine="true" style="@style/TxtStatus" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/mood_row" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/mood_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/CallInfo_hspacing" />
+                    <TextView android:id="@id/mood" android:singleLine="true" style="@style/TxtStatus" />
+                </LinearLayout>
+                <View style="@style/Calling_V1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mainCallCard2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="#b2000000" android:foregroundGravity="fill">
+            <LinearLayout android:orientation="vertical" android:id="@id/onHoldArea" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.75">
+                        <TextView android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/activeCallOnHold" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/titleOnHold" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.25">
+                        <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/arrow_up_float" android:scaleType="center" />
+                        <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/arrow_down_float" android:scaleType="center" />
+                    </LinearLayout>
+                </LinearLayout>
+                <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip">
+                    <include layout="@layout/onhold_callinfo_area" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/callSwapButton" android:visibility="gone" android:text="@string/OtherCallSwitchCalls" style="@style/incall_button_state" />
+        </LinearLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@android:drawable/divider_horizontal_dark" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/subchrome" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.8">
+                <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/callTitle2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/titleOnHold" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.2">
+                <TextView android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/elapsedTime2" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+                <TextView android:gravity="center_vertical" android:id="@id/eri_single_right" style="@blur.res:style/Blur.TxtTitleBar" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <include layout="@layout/active_callinfo_area" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

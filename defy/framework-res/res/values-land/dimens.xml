@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="password_keyboard_key_height">47.0dip</dimen>
+    <dimen name="password_keyboard_spacebar_vertical_correction">2.0dip</dimen>
+</resources>

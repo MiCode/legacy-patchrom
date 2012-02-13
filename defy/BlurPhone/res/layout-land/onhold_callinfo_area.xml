@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/other_photo" style="@style/CallingImgCntSmallLand" />
+    <TextView android:id="@id/other_name" style="@style/TxtCallIdSmallLandTwo" />
+    <TextView android:id="@id/other_number" android:visibility="gone" style="@style/TxtCallIdSmallLandTwo" />
+    <View style="@style/Calling_V1" />
+    <TextView android:id="@id/other_cityid" android:visibility="gone" android:singleLine="true" style="@style/TxtNumTypeSmall" />
+    <View style="@style/Calling_V1" />
+</LinearLayout>

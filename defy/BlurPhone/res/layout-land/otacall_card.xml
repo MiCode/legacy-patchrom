@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="233.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/otaBase" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/ccOtaWizardTitle" android:id="@id/otaTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/otaactivate_layout_marginLeft" android:layout_marginTop="20.0dip" android:text="@string/ota_title_activate" />
+            <View android:layout_gravity="center" android:background="@drawable/green_divider" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_marginTop="14.0dip" />
+            <TextView android:textAppearance="@style/ccOtaTextPrimary" android:id="@id/otaActivate" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/otaactivate_layout_marginLeft" android:layout_marginTop="@dimen/otaactivate_layout_marginTop" android:text="@string/ota_touch_activate" />
+            <TextView android:textAppearance="@style/ccOtaTextPrimary" android:id="@id/otaListenProgress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/otaactivate_layout_marginLeft" android:layout_marginTop="@dimen/otalistenprogress_layout_marginTop" />
+            <TextView android:textAppearance="@style/ccOtaTextPrimary" android:id="@id/otaSuccessFailStatus" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/otaactivate_layout_marginLeft" android:layout_marginTop="@dimen/otaactivate_layout_marginTop" />
+            <TextView android:textAppearance="@style/ccOtaTextPrimary" android:id="@id/otaLteSimMissing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/otaactivate_layout_marginLeft" android:layout_marginTop="@dimen/otaactivate_layout_marginTop" android:layout_marginRight="@dimen/otaactivate_layout_marginLeft" android:text="@string/ota_sim_missing_notice" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/otaProgrammingDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip">
+                <ProgressBar android:id="@android:attr/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" style="?android:attr/progressBarStyle" />
+                <TextView android:textSize="17.0sp" android:textColor="?android:textColorPrimary" android:id="@id/otaProgramming" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:text="@string/ota_progress" />
+            </LinearLayout>
+            <com.android.phone.DTMFTwelveKeyDialerView android:orientation="vertical" android:id="@id/otaDtmfDialer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="1.0dip"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:layout_gravity="top" android:layout_width="313.0dip" android:layout_height="fill_parent" android:layout_marginRight="0.0dip">
+                        <include android:layout_gravity="top" layout="@layout/keypad" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="256.0dip" android:layout_height="fill_parent">
+                        <EditText android:id="@id/dtmfDialerField" android:layout_marginLeft="0.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" style="@style/textPopupDialPad" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.android.phone.DTMFTwelveKeyDialerView>
+        </LinearLayout>
+    </ScrollView>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/callCardOtaActivate" android:visibility="gone" style="@style/ccOtaButtonBar">
+        <Button android:id="@id/otaActivateButton" android:text="@string/ota_activate" style="@style/ccOtaNextButton" />
+        <Button android:id="@id/otaCancelButton" android:text="@string/ota_back" style="@style/ccOtaBackButton" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/callCardOtaListenProgress" android:visibility="gone" style="@style/ccOtaButtonBar">
+        <ToggleButton android:id="@id/otaSpeakerButton" android:textOn="@string/ota_speaker" android:textOff="@string/ota_speaker" style="@style/ccOtaNextButton" />
+        <Button android:id="@id/otaEndButton" android:text="@string/ota_call_end" style="@style/ccOtaBackButton" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/callCardOtaFailOrSuccessful" android:visibility="gone" style="@style/ccOtaButtonBar">
+        <Button android:id="@id/otaNextButton" android:visibility="gone" android:text="@string/ota_next" style="@style/ccOtaNextButton" />
+        <Button android:id="@id/otaTryAgainButton" android:visibility="gone" android:text="@string/ota_try_again" style="@style/ccOtaNextButton" />
+        <Button android:id="@id/otaEmcButton" android:visibility="gone" android:text="@string/ota_emergency_call" style="@style/ccOtaBackButton" />
+    </RelativeLayout>
+</LinearLayout>

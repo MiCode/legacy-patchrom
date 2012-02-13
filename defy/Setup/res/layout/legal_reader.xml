@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/legal_reader" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/AccSet_bottomSpacing" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/AccSet">
+            <TextView android:id="@id/legal_reader_title" android:layout_marginBottom="@dimen/AccSet_vspacing" style="@style/AccSetTextView" />
+            <TextView android:id="@id/legal_reader_text" style="@style/TxtInstructional" />
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

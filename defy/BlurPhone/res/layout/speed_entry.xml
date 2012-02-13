@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cWidLL" android:background="#ff000000" android:focusable="true" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shuffleHandle" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="6.0dip" android:src="@blur.res:drawable/ic_list_reorder" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/image1" android:layout_width="57.0dip" android:layout_height="57.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/line1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" style="@style/Contacts.TxtListItemA" />
+        <TextView android:id="@id/line2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" style="@style/Contacts.TxtListItemB.SingleLine" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/line3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:layout_marginBottom="2.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/deleteHandle" android:background="@blur.res:drawable/btn_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@blur.res:drawable/ic_control_remove" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/callIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@android:drawable/sym_action_call" />
+</LinearLayout>

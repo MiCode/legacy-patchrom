@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/menu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/lunch">
+        <RadioButton android:id="@id/network_2g" android:text="@string/network_2g" />
+        <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RadioButton android:id="@id/network_3g" android:text="@string/network_3g" />
+        <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <RadioButton android:id="@id/network_automatic" android:text="@string/network_automatic" />
+        <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </RadioGroup>
+</LinearLayout>

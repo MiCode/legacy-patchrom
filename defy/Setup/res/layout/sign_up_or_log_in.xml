@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/congrats_screen_group" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.motorola.blur.setup.ProgressBadge android:id="@id/progress_badge" android:layout_width="fill_parent" android:layout_height="wrap_content" app:step="0" app:text="@string/blur_account_setup" />
+            <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/sign_up_or_log_in_text" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_marginTop="@dimen/AccSet_vspacing" android:layout_marginBottom="@dimen/radio_button_vspacing" style="@style/AccSetTextViewMedium" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <RadioGroup android:orientation="vertical" android:id="@id/sign_up_or_log_in_radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkedButton="@id/sign_up_or_log_in_sign_up_radio">
+                    <RadioButton android:id="@id/sign_up_or_log_in_sign_up_radio" android:paddingLeft="@dimen/radio_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signup" style="@style/AccSetTextViewMedium" />
+                    <RadioButton android:id="@id/sign_up_or_log_in_log_in_radio" android:paddingLeft="@dimen/radio_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login" style="@style/AccSetTextViewMedium" />
+                </RadioGroup>
+                <View android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/zz_moto_header_bottom" />
+    <item>
+        <bitmap android:gravity="left" android:src="@drawable/zz_moto_header_middle" android:tileMode="repeat" />
+    </item>
+    <item android:drawable="@drawable/zz_moto_header_top" />
+</layer-list>

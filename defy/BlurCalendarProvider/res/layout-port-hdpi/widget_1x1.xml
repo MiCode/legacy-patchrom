@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/agenda_appwidget" android:background="@drawable/widget_1x1" android:visibility="visible" android:clickable="true" android:layout_width="103.0px" android:layout_height="133.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/text_day" android:layout_width="wrap_content" android:layout_height="80.0px" android:layout_marginTop="3.0dip" android:includeFontPadding="false" style="@style/DateDay" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0px">
+        <TextView android:id="@id/day_of_week_abbrev" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LunarMonth" />
+        <TextView android:id="@id/month_abbrev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/LunarMonth" />
+    </LinearLayout>
+</LinearLayout>

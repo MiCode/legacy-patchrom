@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/button_layout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@blur.res:style/Blur.ActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <Button android:id="@id/btn_back" android:layout_width="wrap_content" android:text="@string/back" style="@blur.res:style/Blur.TxtBtnActionBar3" />
+    <Button android:id="@id/btn_next" android:layout_width="wrap_content" android:text="@string/next" style="@blur.res:style/Blur.TxtBtnActionBar3" />
+</LinearLayout>

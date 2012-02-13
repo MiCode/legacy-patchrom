@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/shutter" android:visible="false" android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="10" android:drawable="@drawable/shutter2" />
+    <item android:duration="10" android:drawable="@drawable/shutter3" />
+    <item android:duration="10" android:drawable="@drawable/shutter4" />
+</animation-list>

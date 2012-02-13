@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/online_album_type_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/onlineAlbumEntryImage" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="4.0dip" />
+    <CheckedTextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/onlineAlbumEntryName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:checkMark="@android:drawable/btn_radio" android:maxLines="1" style="?android:attr/spinnerDropDownItemStyle" />
+</LinearLayout>

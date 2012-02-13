@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="provider_icon_width">72.0px</dimen>
+    <dimen name="provider_icon_height">72.0px</dimen>
+    <dimen name="other_provider_icon_width">56.0px</dimen>
+    <dimen name="other_provider_icon_height">56.0px</dimen>
+    <dimen name="h1_spacing">13.0dip</dimen>
+    <dimen name="h2_spacing">7.0dip</dimen>
+    <dimen name="txtSizeA">16.0sp</dimen>
+    <dimen name="txtSizeB">18.0sp</dimen>
+    <dimen name="tos_termsSize">16.0sp</dimen>
+</resources>

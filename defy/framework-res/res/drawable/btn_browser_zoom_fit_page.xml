@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_square_overlay" />
+    <item android:drawable="@drawable/ic_btn_square_browser_zoom_fit_page" />
+</layer-list>

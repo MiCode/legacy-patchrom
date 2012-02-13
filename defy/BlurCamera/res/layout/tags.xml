@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/tagsSetting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tagEditorSet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0px" android:layout_marginRight="5.0px">
+        <TextView android:textSize="20.0sp" android:id="@id/cusTagsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0px" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

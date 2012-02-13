@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/badge_progress_meter_account_setup" android:maxLevel="0" />
+    <item android:drawable="@drawable/badge_progress_meter_add_account" android:maxLevel="1" />
+    <item android:drawable="@drawable/badge_progress_meter_wrap_up" android:maxLevel="2" />
+</level-list>

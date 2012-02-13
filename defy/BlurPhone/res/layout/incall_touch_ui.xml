@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.internal.widget.RotarySelector android:id="@id/incomingCallWidget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="286.0dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/inCallControls" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:id="@id/holdButtonContainer" android:visibility="gone" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" style="@style/InCallRoundButtonContainer">
+            <ImageButton android:id="@id/holdButton" android:src="@drawable/ic_in_call_touch_round_hold" style="@style/InCallRoundTouchButton" />
+            <TextView android:id="@id/holdButtonLabel" style="@style/InCallRoundButtonLabel" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/swapButtonContainer" android:visibility="gone" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" style="@style/InCallRoundButtonContainer">
+            <ImageButton android:id="@id/swapButton" android:src="@drawable/ic_in_call_touch_round_swap" style="@style/InCallRoundTouchButton" />
+            <TextView android:text="@string/onscreenSwapCallsText" style="@style/InCallRoundButtonLabel" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/manageConferenceButtonContainer" android:visibility="gone" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" style="@style/InCallRoundButtonContainer">
+            <TextView android:text="@string/onscreenManageConferenceText" style="@style/InCallRoundButtonLabel" />
+            <ImageButton android:id="@id/manageConferenceButton" android:src="@drawable/ic_in_call_touch_round_manage_conference" style="@style/InCallRoundTouchButton" />
+        </LinearLayout>
+        <include layout="@layout/non_drawer_dialpad" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bottomButtons" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/inCallControlsRow1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0">
+                    <Button android:id="@id/addButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:text="@string/onscreenAddCallText" android:drawableTop="@drawable/ic_in_call_touch_add_call" style="@style/InCallTouchButton" />
+                    <Button android:id="@id/mergeCallButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:text="@string/onscreenAddCallText" android:drawableTop="@drawable/ic_in_call_touch_add_call" style="@style/InCallTouchButton" />
+                    <Button android:id="@id/mergeButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:text="@string/onscreenMergeCallsText" android:drawableTop="@drawable/ic_in_call_touch_merge_call" style="@style/InCallTouchButton" />
+                </FrameLayout>
+                <Button android:textColor="@color/incall_endButtonLabel" android:id="@id/endButton" android:layout_width="1.0dip" android:layout_height="wrap_content" android:text="@string/onscreenEndCallText" android:drawableTop="@drawable/ic_in_call_touch_end" android:layout_weight="1.0" style="@style/InCallTouchButton" />
+                <Button android:id="@id/dialpadButton" android:layout_width="1.0dip" android:layout_height="wrap_content" android:text="@string/onscreenShowDialpadText" android:layout_weight="1.0" style="@style/InCallTouchButton" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/inCallControlsRow2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ToggleButton android:id="@id/bluetoothButton" android:layout_width="1.0dip" android:layout_height="wrap_content" android:textOn="@string/onscreenBluetoothText" android:textOff="@string/onscreenBluetoothText" android:layout_weight="1.0" style="@style/InCallTouchToggleButton" />
+                <ToggleButton android:id="@id/muteButton" android:layout_width="1.0dip" android:layout_height="wrap_content" android:textOn="@string/onscreenMuteText" android:textOff="@string/onscreenMuteText" android:layout_weight="1.0" style="@style/InCallTouchToggleButton" />
+                <ToggleButton android:id="@id/speakerButton" android:layout_width="1.0dip" android:layout_height="wrap_content" android:textOn="@string/onscreenSpeakerText" android:textOff="@string/onscreenSpeakerText" android:layout_weight="1.0" style="@style/InCallTouchToggleButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

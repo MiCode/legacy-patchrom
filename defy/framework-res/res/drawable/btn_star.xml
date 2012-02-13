@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_checked="false" android:drawable="@drawable/btn_star_big_off" />
+    <item android:state_window_focused="false" android:state_checked="true" android:drawable="@drawable/btn_star_big_on" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/btn_star_big_on_disable" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/btn_star_big_off_disable" />
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/btn_star_big_on_pressed" />
+    <item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/btn_star_big_off_pressed" />
+    <item android:state_focused="true" android:state_checked="true" android:drawable="@drawable/btn_star_big_on_selected" />
+    <item android:state_focused="true" android:state_checked="false" android:drawable="@drawable/btn_star_big_off_selected" />
+    <item android:state_focused="true" android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/btn_star_big_on_disable_focused" />
+    <item android:state_focused="false" android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/btn_star_big_on_disable" />
+    <item android:state_focused="true" android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/btn_star_big_off_disable_focused" />
+    <item android:state_focused="false" android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/btn_star_big_off_disable" />
+    <item android:state_checked="false" android:drawable="@drawable/btn_star_big_off" />
+    <item android:state_checked="true" android:drawable="@drawable/btn_star_big_on" />
+</selector>

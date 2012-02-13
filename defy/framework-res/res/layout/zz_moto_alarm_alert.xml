@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/root" android:background="@drawable/zz_moto_bg_poweroff_alarm" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="450.0px" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@id/alertTitle" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceLarge" />
+        <ImageView android:gravity="fill_horizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/dialog_divider_horizontal_light" android:scaleType="fitXY" />
+        <com.android.internal.widget.DigitalClock android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="72.0sp" android:gravity="bottom" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+            <TextView android:textAppearance="?textAppearanceMedium" android:textSize="22.0sp" android:gravity="bottom" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginBottom="-6.0dip" android:singleLine="true" android:shadowColor="#c0000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+        </com.android.internal.widget.DigitalClock>
+        <TextView android:textSize="20.0sp" android:gravity="center" android:id="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/flip_indicator" />
+        <LinearLayout android:id="@id/buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/ButtonBar">
+            <Button android:id="@id/snooze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alarm_power_on" android:layout_weight="3.0" />
+            <View android:layout_gravity="fill_horizontal" android:layout_width="2.0dip" android:layout_height="2.0dip" android:layout_weight="1.0" />
+            <Button android:id="@id/dismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alarm_dissmiss" android:layout_weight="3.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlidingDrawer android:id="@id/dialer_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:allowSingleTap="false" android:handle="@id/dialer_tab" android:content="@id/dtmf_dialer"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <Button android:id="@id/dialer_tab" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.android.phone.DTMFTwelveKeyDialerView android:orientation="vertical" android:id="@id/dtmf_dialer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <include layout="@layout/sg_popup_dialer" />
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </com.android.phone.DTMFTwelveKeyDialerView>
+</SlidingDrawer>

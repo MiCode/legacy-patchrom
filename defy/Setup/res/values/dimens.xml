@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AccSet_hspacing">10.0dip</dimen>
+    <dimen name="AccSet_topSpacing">12.0dip</dimen>
+    <dimen name="AccSet_bottomSpacing">20.0dip</dimen>
+    <dimen name="AccSet_textViewSizeSm">14.0sp</dimen>
+    <dimen name="AccSet_textViewSizeMd">16.0sp</dimen>
+    <dimen name="AccSet_textViewSize">24.0sp</dimen>
+    <dimen name="AccSet_indentSpacing">32.0dip</dimen>
+    <dimen name="AccSet_vspacing">11.0dip</dimen>
+    <dimen name="AccSet_v2spacing">23.0dip</dimen>
+    <dimen name="h_spacing_temp">2.0dip</dimen>
+    <dimen name="radio_button_padding">45.0dip</dimen>
+    <dimen name="radio_button_vspacing">27.0dip</dimen>
+    <dimen name="titel_label_top">22.0dip</dimen>
+    <dimen name="titel_label_bottom">20.0dip</dimen>
+    <dimen name="table_left_padding">5.0dip</dimen>
+    <dimen name="table_right_padding">5.0dip</dimen>
+    <dimen name="AccSet_button_vspacing">20.0dip</dimen>
+    <dimen name="AccSet_button_hspacing">22.0dip</dimen>
+</resources>

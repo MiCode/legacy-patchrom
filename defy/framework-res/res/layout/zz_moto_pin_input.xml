@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pinDisplayGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PinInputLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/pinDisplay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-5.0dip" android:hint="@string/pinHint" style="@style/PinInputField" />
+    <ImageButton android:layout_gravity="right|center" android:id="@id/backspace" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/zz_moto_btn_delete" />
+</FrameLayout>

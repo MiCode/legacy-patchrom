@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_network_display_values">
+        <item>2G uniquement</item>
+        <item>"3G uniquement
+Meilleures performances"</item>
+        <item>"Automatique
+Par défaut"</item>
+    </string-array>
+</resources>

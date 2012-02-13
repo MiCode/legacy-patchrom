@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceScreen android:persistent="false" android:title="@string/fdn" android:key="button_fdn_key" android:summary="@string/sum_fdn">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.FdnSetting" />
+    </PreferenceScreen>
+    <PreferenceCategory android:persistent="false" android:title="@string/voicemail" android:key="button_voicemail_category_key">
+        <ListPreference android:persistent="true" android:title="@string/voicemail_provider" android:key="button_voicemail_provider_key" android:summary="@string/sum_voicemail_choose_provider" />
+        <PreferenceScreen android:persistent="false" android:title="@string/voicemail_settings" android:key="button_voicemail_setting_key">
+            <com.android.phone.EditPhoneNumberPreference android:persistent="false" android:singleLine="true" android:autoText="false" android:title="@string/voicemail" android:key="button_voicemail_key" android:summary="@string/sum_voicemail" android:dialogTitle="@string/voicemail" phone:confirmMode="confirm" />
+        </PreferenceScreen>
+        <ListPreference android:persistent="false" android:entries="@array/entries_voicemail_choose_vmvvm" android:title="@string/title_voicemail_choose_vmvvm" android:key="button_voicemail_selection_key" android:summary="@string/sum_voicemail_choose_vmvvm" android:dialogTitle="@string/title_voicemail_choose_vmvvm" android:entryValues="@array/entry_values_voicemail_choose_vmvvm" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_vvm_roaming_prompt" android:title="@string/title_vvm_roaming_prompt" android:key="button_vvm_roaming_prompt_key" android:summary="@string/sum_vvm_roaming_prompt" android:dialogTitle="@string/title_vvm_roaming_prompt" android:entryValues="@array/entry_values_vvm_roaming_prompt" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/other_settings" android:key="button_misc_category_key" />
+    <PreferenceScreen android:persistent="false" android:title="@string/ad_assisted_dialing" android:key="assisted_dialing_setting" android:summary="@string/ad_assisted_settings_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/caller_id_display_values" android:title="@string/caller_id_title" android:key="button_callerid_key" android:summary="@string/caller_id_sum" android:defaultValue="0" android:dialogTitle="@string/caller_id_title" android:entryValues="@array/caller_id_values" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_retry_mode_title" android:key="button_auto_retry_key" android:summary="@string/auto_retry_mode_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/tty_mode_entries" android:title="@string/tty_mode_option_title" android:key="button_tty_mode_key" android:summary="@string/tty_mode_option_summary" android:entryValues="@array/tty_mode_values" />
+    <ListPreference android:entries="@array/dtmf_tone_entries" android:title="@string/dtmf_tones_title" android:key="button_dtmf_settings" android:summary="@string/dtmf_tones_summary" android:entryValues="@array/dtmf_tone_values" />
+    <PreferenceScreen android:title="@string/automatic_prefix" android:key="button_automatic_prefix_key" android:summary="@string/sum_automatic_prefix">
+        <intent android:targetPackage="com.motorola.EasyPrefix" android:action="android.intent.action.MAIN" android:targetClass="com.motorola.EasyPrefix.EasyPrefix" />
+    </PreferenceScreen>
+    <Preference android:title="@string/VoiceQuality" android:key="button_vq_key" android:summary="@string/vq_summary" />
+    <PreferenceScreen android:persistent="false" android:title="@string/networks" android:key="button_carrier_sel_key" android:summary="@string/sum_carrier_select">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.NetworkSettingENS" />
+    </PreferenceScreen>
+    <ListPreference android:persistent="true" android:entries="@array/voice_quality_flu_entries" android:title="@string/VoiceQualityFlu" android:key="button_vq_flu_key" android:summary="@string/vq_flu_summary" android:defaultValue="1" android:entryValues="@array/voice_quality_flu_values" />
+    <CheckBoxPreference android:title="@string/label_hac" android:key="button_hac_key" android:summary="@string/sum_hac" android:defaultValue="false" />
+    <ListPreference android:persistent="false" android:title="@string/autoanswer_gsm_call_settings" android:key="button_anto_answer_expand_key" />
+    <CheckBoxPreference android:title="@string/label_mos" android:key="button_mos_key" android:summary="@string/sum_mos" android:defaultValue="false" />
+    <PreferenceScreen android:persistent="false" android:title="@string/qsms_root_title" android:key="qsms_root" android:summary="@string/qsms_root_sum">
+        <CheckBoxPreference android:title="@string/qsms_root_title" android:key="qsms_enable_cb" android:summary="@string/qsms_cb_sum" />
+        <PreferenceScreen android:persistent="false" android:title="@string/qsms_edit_title" android:key="quicksms_preference" android:summary="@string/qsms_edit_sum" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCDMAMore" android:key="button_cdma_more_expand_key" android:summary="@string/sum_cdma_call_settings">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CdmaCallOptions" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/show_dp" android:key="button_show_dial_pad_key" android:summary="@string/sum_show_dp" />
+    <EditTextPreference android:singleLine="true" android:title="@string/ip_call_settings_title" android:key="ip_call_settings" android:dialogTitle="@string/ip_prefix_title" android:inputType="number" />
+    <PreferenceScreen android:persistent="false" android:title="@string/number_attribution" android:key="number_attribution" android:summary="@string/sum_location">
+        <CheckBoxPreference android:persistent="false" android:title="@string/show_location" android:key="toggle_location" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/update_location_service" android:key="update_location_service" android:dependency="toggle_location" />
+        <Preference android:persistent="false" android:title="@string/download_location_service" android:key="download_location_service" />
+    </PreferenceScreen>
+    <EditTextPreference android:singleLine="true" android:title="@string/intlroamcb_settings_title" android:key="intlroamcb_settings" android:dialogTitle="@string/intlroamcb_prefix_title" android:inputType="phone" />
+</PreferenceScreen>

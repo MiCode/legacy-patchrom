@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="service_pressed_bg">#ff5bcde4</color>
+    <color name="transparent">#00ff0000</color>
+</resources>

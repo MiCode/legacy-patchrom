@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_in_call" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip">
+        <FrameLayout android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:layout_gravity="center_vertical" android:id="@id/digits" style="@style/editTextDialPad" />
+            <TextView android:textSize="22.0dip" android:textColor="@color/dialer_button_text" android:gravity="center_vertical" android:id="@id/SDmatch" android:background="#ff000000" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:nextFocusRight="@id/backspace" android:layout_width="fill_parent" android:layout_height="75.0dip" android:cursorVisible="false" android:maxLines="1" android:scrollHorizontally="true" android:editable="false" android:freezesText="false" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/hintView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/hintTextView" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/backspace" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:src="@drawable/btn_delete" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="3.0dip" android:layout_weight="1.0">
+        <include layout="@layout/keypad" />
+    </LinearLayout>
+    <LinearLayout android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/dialer_buttons" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/dialer_actionbar" android:visibility="gone" style="@blur.res:style/Blur.ActionBar">
+        <ImageButton android:id="@id/search_contacts" android:src="@drawable/ic_control_contact_search" android:layout_weight="0.5" style="@style/Calling.BtnActionBar" />
+    </LinearLayout>
+</LinearLayout>

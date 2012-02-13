@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_camera" android:id="@id/pictureModes" android:visible="false" android:title="@string/pictureModeTitle" />
+    <item android:icon="@drawable/ic_menu_camcorder" android:id="@id/videoModes" android:visible="false" android:title="@string/videoModeTitle" />
+    <item android:icon="@drawable/ic_menu_cam_video_mms" android:id="@id/SwitchToMMSVideoMode" android:visible="false" android:title="@string/mms" />
+    <item android:icon="@drawable/ic_menu_cam_video" android:id="@id/SwitchToNormalVideoMode" android:visible="false" android:title="@string/normalvideo" />
+    <item android:icon="@drawable/ic_menu_camcorder" android:id="@id/videoModeSwitchOption" android:visible="false" android:title="@string/Menu_ToVideo" />
+    <item android:icon="@drawable/ic_menu_camera" android:id="@id/cameraModeSwitchOption" android:visible="false" android:title="@string/Menu_Camera" />
+    <item android:icon="@drawable/ic_menu_panoramic" android:id="@id/panoramicOption" android:visible="false" android:title="@string/Menu_Panorama" />
+    <item android:icon="@drawable/ic_menu_camera" android:id="@id/cameraOption" android:visible="false" android:title="@string/Menu_Camera" />
+    <item android:icon="@drawable/ic_menu_cam_portrait" android:id="@id/SelfPortraitOption" android:visible="false" android:title="@string/selfPortrait" />
+    <item android:icon="@drawable/ic_menu_cam_multi" android:id="@id/MultiShotOption" android:visible="false" android:title="@string/multishot" />
+    <item android:icon="@drawable/ic_menu_tag" android:id="@id/tagsOption" android:title="@string/Menu_Tags" />
+    <item android:icon="@drawable/ic_menu_preferences" android:id="@id/settingsOption" android:title="@string/Menu_setting" />
+</menu>

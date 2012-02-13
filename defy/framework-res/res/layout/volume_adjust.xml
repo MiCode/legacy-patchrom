@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/panel_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+        <ImageView android:id="@id/other_stream_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" />
+        <TextView android:textAppearance="?textAppearanceMedium" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textAppearance="?textAppearanceSmall" android:id="@id/additional_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/ringer_stream_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+    <ProgressBar android:id="@id/level" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="14.0dip" style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

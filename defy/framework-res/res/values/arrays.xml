@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Work Fax</item>
+        <item>Home Fax</item>
+        <item>Pager</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="noEncrypt">
+        <item>com.android.phone</item>
+        <item>com.google.android.backup</item>
+        <item>com.android.systemui</item>
+        <item>com.android.wallpaper</item>
+        <item>com.android.inputmethod.latin</item>
+        <item>com.android.launcher</item>
+        <item>com.android.providers.userdictionary</item>
+        <item>com.google.android.location</item>
+        <item>com.android.vending</item>
+        <item>com.android.settings</item>
+        <item>com.android.protips</item>
+        <item>com.android.music</item>
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.gsf</item>
+        <item>com.google.android.apps.genie.geniewidget</item>
+        <item>com.android.deskclock</item>
+        <item>com.google.android.apps.uploader</item>
+        <item>com.google.android.gm</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.providers.contacts</item>
+        <item>com.android.contacts</item>
+        <item>com.threelm.dm</item>
+    </string-array>
+    <array name="preloaded_drawables">
+        <item>@drawable/sym_def_app_icon</item>
+        <item>@drawable/arrow_down_float</item>
+        <item>@drawable/btn_check</item>
+        <item>@drawable/btn_check_label_background</item>
+        <item>@drawable/btn_check_off</item>
+        <item>@drawable/btn_check_on</item>
+        <item>@drawable/btn_default</item>
+        <item>@drawable/btn_default_small</item>
+        <item>@drawable/btn_dropdown</item>
+        <item>@drawable/btn_plus</item>
+        <item>@drawable/btn_minus</item>
+        <item>@drawable/btn_radio</item>
+        <item>@drawable/btn_star</item>
+        <item>@drawable/btn_toggle</item>
+        <item>@drawable/ic_emergency</item>
+        <item>@drawable/divider_horizontal_bright</item>
+        <item>@drawable/divider_horizontal_dark</item>
+        <item>@drawable/edit_text</item>
+        <item>@drawable/expander_group</item>
+        <item>@drawable/list_selector_background</item>
+        <item>@drawable/menu_background</item>
+        <item>@drawable/menu_background_fill_parent_width</item>
+        <item>@drawable/menu_selector</item>
+        <item>@drawable/panel_background</item>
+        <item>@drawable/popup_bottom_bright</item>
+        <item>@drawable/popup_bottom_dark</item>
+        <item>@drawable/popup_bottom_medium</item>
+        <item>@drawable/popup_center_bright</item>
+        <item>@drawable/popup_center_dark</item>
+        <item>@drawable/popup_full_dark</item>
+        <item>@drawable/popup_top_bright</item>
+        <item>@drawable/popup_top_dark</item>
+        <item>@drawable/progress_horizontal</item>
+        <item>@drawable/progress_indeterminate_horizontal</item>
+        <item>@drawable/progress_small</item>
+        <item>@drawable/progress_small_titlebar</item>
+        <item>@drawable/screen_background_dark</item>
+        <item>@drawable/screen_background_light</item>
+        <item>@drawable/scrollbar_handle_horizontal</item>
+        <item>@drawable/scrollbar_handle_vertical</item>
+        <item>@drawable/spinner_dropdown_background</item>
+        <item>@drawable/text_select_handle_left</item>
+        <item>@drawable/text_select_handle_middle</item>
+        <item>@drawable/text_select_handle_right</item>
+        <item>@drawable/title_bar</item>
+        <item>@drawable/title_bar_shadow</item>
+        <item>@drawable/indicator_code_lock_drag_direction_green_up</item>
+        <item>@drawable/indicator_code_lock_drag_direction_red_up</item>
+        <item>@drawable/indicator_code_lock_point_area_default</item>
+        <item>@drawable/indicator_code_lock_point_area_green</item>
+        <item>@drawable/indicator_code_lock_point_area_red</item>
+    </array>
+    <array name="preloaded_color_state_lists">
+        <item>@color/hint_foreground_dark</item>
+        <item>@color/hint_foreground_light</item>
+        <item>@color/primary_text_dark</item>
+        <item>@color/primary_text_dark_disable_only</item>
+        <item>@color/primary_text_light</item>
+        <item>@color/primary_text_light_disable_only</item>
+        <item>@color/primary_text_light_nodisable</item>
+        <item>@color/secondary_text_dark</item>
+        <item>@color/secondary_text_light</item>
+        <item>@color/tab_indicator_text</item>
+        <item>@color/tertiary_text_dark</item>
+        <item>@color/tertiary_text_light</item>
+        <item>#ff000000</item>
+        <item>#00000000</item>
+        <item>#ffffffff</item>
+    </array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>36149777</item>
+        <item>-95993398</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>3</item>
+    </integer-array>
+    <string-array name="config_statusBarIcons">
+       <item>headset</item>
+       <item>call_record</item>
+       <item>privacy_mode</item>
+       <item>ime</item>
+       <item>sync_failing</item>
+       <item>sync_active</item>
+       <item>gps</item>
+       <item>bluetooth</item>
+       <item>nfc</item>
+       <item>tty</item>
+       <item>speakerphone</item>
+       <item>mute</item>
+       <item>volume</item>
+       <item>wifi</item>
+       <item>wimax</item>
+       <item>cdma_eri</item>
+       <item>data_connection</item>
+       <item>phone_evdo_signal</item>
+       <item>phone_signal</item>
+       <item>battery</item>
+       <item>alarm_clock</item>
+       <item>secure</item>
+       <item>clock</item>
+    </string-array>
+
+    <string-array name="networkAttributes">
+        <item>wifi,1,1,1</item>
+        <item>mobile,0,0,0</item>
+        <item>mobile_mms,2,0,2</item>
+        <item>mobile_supl,3,0,2</item>
+        <item>mobile_dun,4,0,2</item>
+        <item>mobile_hipri,5,0,3</item>
+        <item>mobile_agps,30,0,2</item>
+        <item>mobile_fota,31,0,2</item>
+    </string-array>
+    <string-array name="radioAttributes">
+        <item>1,1</item>
+        <item>0,1</item>
+    </string-array>
+    <array name="config_tether_usb_regexs" />
+    <string-array name="config_tether_wifi_regexs">
+        <item>wl.*</item>
+        <item>tiwlan.*</item>
+        <item>tiap.*</item>
+    </string-array>
+    <array name="config_tether_dhcp_range" />
+    <string-array name="config_tether_upstream_regexs">
+        <item>ppp.*</item>
+        <item>qmi.*</item>
+        <item>rmnet.*</item>
+    </string-array>
+    <integer-array name="config_longPressVibePattern">
+        <item>0</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="config_virtualKeyVibePattern">
+        <item>0</item>
+        <item>17</item>
+    </integer-array>
+    <integer-array name="config_keyboardTapVibePattern">
+        <item>0</item>
+        <item>17</item>
+    </integer-array>
+    <integer-array name="config_safeModeDisabledVibePattern">
+        <item>0</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="config_safeModeEnabledVibePattern">
+        <item>0</item>
+        <item>20</item>
+        <item>500</item>
+        <item>600</item>
+    </integer-array>
+    <integer-array name="config_scrollBarrierVibePattern">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>30</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>11</item>
+        <item>41</item>
+        <item>91</item>
+        <item>161</item>
+        <item>226</item>
+        <item>321</item>
+        <item>641</item>
+        <item>1281</item>
+        <item>2601</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>25</item>
+        <item>51</item>
+        <item>81</item>
+        <item>112</item>
+        <item>143</item>
+        <item>163</item>
+        <item>186</item>
+        <item>208</item>
+        <item>231</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessButtonBacklightValues">
+        <item>255</item>
+        <item>155</item>
+        <item>105</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessKeyboardBacklightValues">
+        <item>255</item>
+        <item>155</item>
+        <item>105</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <array name="config_twoDigitNumberPattern" />
+    <array name="common_nicknames" />
+    <array name="config_layout" />
+    <string-array name="imAddressTypes">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+        <item>Custom</item>
+    </string-array>
+    <array name="carrier_properties" />
+    <array name="select_text_dialog_items">
+        <item>@string/Share_selected_text</item>
+        <item>@string/Copy</item>
+    </array>
+    <string-array name="default_web_search_providers">
+        <item>com.motorola.android.websearch/.Search.2</item>
+        <item>com.motorola.android.websearch/.Search.3</item>
+    </string-array>
+    <array name="config_grip_suppress_windows" />
+    <array name="config_edge_usability_windows" />
+</resources>

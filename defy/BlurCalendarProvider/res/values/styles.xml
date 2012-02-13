@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BackgroundImage">
+        <item name="android:paddingRight">15.0sp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+    <style name="BackgroundImage.TopView" parent="@style/BackgroundImage">
+        <item name="android:paddingLeft">10.0sp</item>
+    </style>
+    <style name="BackgroundImage.TopView.hdpi" parent="@style/BackgroundImage.TopView">
+        <item name="android:paddingLeft">6.0sp</item>
+    </style>
+    <style name="BackgroundImage.SideView" parent="@style/BackgroundImage" />
+    <style name="BackgroundImage.TopView.ldpi" parent="@style/BackgroundImage.TopView">
+        <item name="android:paddingLeft">7.0sp</item>
+        <item name="android:paddingRight">12.0sp</item>
+    </style>
+    <style name="StatusImage">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="StatusImage.ldpi" parent="@style/StatusImage">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+    <style name="StatusImage.mdpi" parent="@style/StatusImage">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+    </style>
+    <style name="NoEventsText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/appwidget_no_events</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">7.0dip</item>
+    </style>
+    <style name="NoEventsText.ldpi" parent="@style/NoEventsText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="AddCalendarText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/appwidget_add_calendars</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">0.0dip</item>
+    </style>
+    <style name="WhenText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/appwidget_when</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">13.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WhenText.ldpi" parent="@style/WhenText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="WhenText.mdpi" parent="@style/WhenText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="WhenText.hdpi" parent="@style/WhenText" />
+    <style name="WhenText.hdpi.TopView" parent="@style/WhenText.hdpi">
+        <item name="android:layout_marginTop">-3.0px</item>
+    </style>
+    <style name="ConflictText">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/appwidget_conflict</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:gravity">right</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ConflictText.ldpi" parent="@style/ConflictText">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="ConflictText.mdpi" parent="@style/ConflictText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="ConflictText.hdpi" parent="@style/ConflictText">
+        <item name="android:layout_marginTop">-3.0px</item>
+    </style>
+    <style name="TitleText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/appwidget_title</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">13.0dip</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignWithParentIfMissing">true</item>
+    </style>
+    <style name="TitleText.ldpi" parent="@style/TitleText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+    </style>
+    <style name="TitleText.mdpi" parent="@style/TitleText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+    </style>
+    <style name="WhereText">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/appwidget_where</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">13.0dip</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WhereText.ldpi" parent="@style/WhereText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:layout_marginRight">2.0dip</item>
+    </style>
+    <style name="WhereText.mdpi" parent="@style/WhereText">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+    <style name="DividerImage">
+        <item name="android:background">@android:drawable/divider_horizontal_bright</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+    </style>
+    <style name="SettingImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">20.0dip</item>
+        <item name="android:src">@blur.res:drawable/ic_menu_preferences</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="DayOfMonthText">
+        <item name="android:textSize">44.0sp</item>
+        <item name="android:textColor">@color/appwidget_date</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="DayOfMonthText.TopView" parent="@style/DayOfMonthText">
+        <item name="android:layout_marginTop">50.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="DayOfMonthText.TopView.ldpi" parent="@style/DayOfMonthText.TopView">
+        <item name="android:textSize">45.0sp</item>
+        <item name="android:layout_marginLeft">23.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+    <style name="DayOfMonthText.TopView.hdpi" parent="@style/DayOfMonthText.TopView">
+        <item name="android:textSize">48.0sp</item>
+        <item name="android:layout_marginLeft">23.0px</item>
+        <item name="android:layout_marginTop">2.0px</item>
+    </style>
+    <style name="DayOfMonthText.TopView.mdpi" parent="@style/DayOfMonthText.TopView">
+        <item name="android:textSize">40.0sp</item>
+        <item name="android:layout_marginLeft">18.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+    </style>
+    <style name="DayOfMonthText.SideView" parent="@style/DayOfMonthText">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="DayOfMonthText.SideView.hdpi" parent="@style/DayOfMonthText.SideView">
+        <item name="android:textSize">50.0sp</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_centerVertical">false</item>
+    </style>
+    <style name="DayOfMonthText.SideView.mdpi" parent="@style/DayOfMonthText.SideView">
+        <item name="android:textSize">40.0sp</item>
+    </style>
+    <style name="DayOfWeekText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/appwidget_date</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DayOfWeekText.TopView" parent="@style/DayOfWeekText">
+        <item name="android:layout_marginTop">55.0dip</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="DayOfWeekText.TopView.ldpi" parent="@style/DayOfWeekText.TopView">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:layout_marginTop">13.0dip</item>
+    </style>
+    <style name="DayOfWeekText.TopView.hdpi" parent="@style/DayOfWeekText.TopView">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:layout_marginTop">8.0px</item>
+    </style>
+    <style name="DayOfWeekText.TopView.mdpi" parent="@style/DayOfWeekText.TopView">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:layout_marginTop">13.0dip</item>
+    </style>
+    <style name="DayOfWeekText.SideView" parent="@style/DayOfWeekText" />
+    <style name="DayOfWeekText.SideView.mdpi" parent="@style/DayOfWeekText.SideView">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+    <style name="DayOfWeekText.SideView.hdpi" parent="@style/DayOfWeekText.SideView">
+        <item name="android:textSize">24.0sp</item>
+    </style>
+    <style name="YearText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/appwidget_date</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MonthText">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/appwidget_date</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MonthText.TopView" parent="@style/MonthText" />
+    <style name="MonthText.TopView.hdpi" parent="@style/MonthText.TopView">
+        <item name="android:textSize">13.0sp</item>
+    </style>
+    <style name="MonthText.TopView.mdpi" parent="@style/MonthText.TopView">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+    <style name="MonthText.TopView.ldpi" parent="@style/MonthText.TopView">
+        <item name="android:textSize">19.0sp</item>
+    </style>
+    <style name="MonthText.SideView" parent="@style/MonthText" />
+    <style name="MonthText.SideView.hdpi" parent="@style/MonthText.SideView">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="MonthText.SideView.mdpi" parent="@style/MonthText.SideView">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="DayOfWeekText.SideView.mdpi.short" parent="@style/DayOfWeekText.SideView.mdpi">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="DateDay">
+        <item name="android:textSize">42.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="DateDay.small" parent="@style/DateDay">
+        <item name="android:textSize">35.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="DateWeek">
+        <item name="android:textSize">19.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingTop">12.0dip</item>
+    </style>
+    <style name="DateMonth">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="DateMonth.small" parent="@style/DateMonth">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="LunarMonth">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff172a52</item>
+    </style>
+</resources>

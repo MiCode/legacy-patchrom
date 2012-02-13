@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <TextView android:id="@id/setup_blur_device_title" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_marginTop="@dimen/AccSet_vspacing" android:layout_marginBottom="@dimen/AccSet_vspacing" android:text="@string/setup_blur_device_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/AccSetTextView" />
+    <TextView android:id="@id/connection_failed_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@blur.res:dimen/formitem_vspacing" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" android:text="@string/connection_failed_text" android:layout_below="@id/setup_blur_device_title" android:layout_centerHorizontal="true" style="@style/FormItemTxt.B" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/AccSet_hspacing" android:paddingRight="@dimen/AccSet_hspacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/connection_failed_text" android:layout_centerHorizontal="true">
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@blur.res:dimen/formitem_vspacing" android:layout_marginBottom="@blur.res:dimen/formitem_vspacing" android:text="@string/connection_chooser_select" android:singleLine="false" style="@style/FormItemTxt.A" />
+        <Spinner android:layout_gravity="center_horizontal" android:id="@id/connection_chooser_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/AccSet_indentSpacing" android:layout_marginTop="@blur.res:dimen/formitem_vspacing" android:layout_marginRight="@dimen/AccSet_indentSpacing" android:drawSelectorOnTop="true" android:prompt="@string/connection_chooser_type" />
+    </LinearLayout>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

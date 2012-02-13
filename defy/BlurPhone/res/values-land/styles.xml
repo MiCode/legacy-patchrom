@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TxtCallId" parent="@style/_TxtCallId">
+        <item name="android:gravity">left|center</item>
+    </style>
+    <style name="TxtNumType" parent="@style/_TxtNumType">
+        <item name="android:gravity">left|center</item>
+    </style>
+    <style name="CallingImgCnt">
+        <item name="android:layout_width">150.0dip</item>
+        <item name="android:layout_height">150.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+</resources>

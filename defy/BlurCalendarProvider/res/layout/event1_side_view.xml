@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="10.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/backgroundImage" style="@style/BackgroundImage.SideView" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/no_events" style="@style/NoEventsText" />
+        <TextView android:id="@id/when" style="@style/WhenText" />
+        <TextView android:id="@id/title" android:layout_below="@id/when" style="@style/TitleText" />
+        <TextView android:id="@id/where" android:layout_below="@id/title" style="@style/WhereText" />
+        <ImageView android:id="@id/statusImage" android:layout_alignTop="@id/backgroundImage" android:layout_alignBottom="@id/backgroundImage" style="@style/StatusImage" />
+        <TextView android:id="@id/conflict" android:layout_toLeftOf="@id/statusImage" android:layout_toRightOf="@id/when" android:layout_alignTop="@id/when" style="@style/ConflictText" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@blur.res:style/Blur.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@blur.res:style/Blur.ListItemCol2">
+        <ImageView android:id="@id/caller" android:layout_width="@blur.res:dimen/listitem_contact_photo_size" android:layout_height="@blur.res:dimen/listitem_contact_photo_size" android:layout_marginRight="@blur.res:dimen/listitem_photo_hspacing" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_weight="1.0" style="@blur.res:style/Blur.ListItemCol3">
+        <TextView android:textColorHighlight="#ff000000" android:layout_gravity="left" android:id="@id/line1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@blur.res:dimen/listitem_hspacing" style="@style/Contacts.TxtListItemA" />
+    </LinearLayout>
+</LinearLayout>

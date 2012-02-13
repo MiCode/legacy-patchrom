@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d 秒前</item>
+        <item quantity="one">1 秒前</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d 分钟前</item>
+        <item quantity="one">1 分钟前</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d 小时前</item>
+        <item quantity="one">1 小时前</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">过去 %d 天</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">昨天</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">%d 秒后</item>
+        <item quantity="one">1 秒后</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d 分钟后</item>
+        <item quantity="one">1 分钟后</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">%d 小时后</item>
+        <item quantity="one">1 小时后</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">%d 天后</item>
+        <item quantity="one">明天</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d 秒前</item>
+        <item quantity="one">1 秒前</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d 分钟前</item>
+        <item quantity="one">1 分钟前</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d 小时前</item>
+        <item quantity="one">1 小时前</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d 天前</item>
+        <item quantity="one">昨天</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">%d 秒后</item>
+        <item quantity="one">1 秒后</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d 分钟后</item>
+        <item quantity="one">1 分钟后</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">%d 小时后</item>
+        <item quantity="one">1 小时后</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">%d 天后</item>
+        <item quantity="one">明天</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">有可用的 WLAN 网络</item>
+        <item quantity="one">有可用的 WLAN 网络</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">打开可用的 WLAN 网络</item>
+        <item quantity="one">打开可用的 WLAN 网络</item>
+    </plurals>
+</resources>

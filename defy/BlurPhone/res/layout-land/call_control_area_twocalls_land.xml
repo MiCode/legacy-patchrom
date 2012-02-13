@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@blur.res:drawable/action_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/twoCallsFirstLineActionBar" android:background="@color/transparent" android:visibility="gone" style="@blur.res:style/Blur.ActionBar">
+        <Button android:id="@id/callResumeButtonTwoCallsLand" android:visibility="gone" android:text="@string/InCallResumeButtonLabel" style="@style/Calling.TxtBtnActionBar" />
+        <ToggleButton android:id="@id/callMuteButtonTwoCallsLand" android:saveEnabled="false" android:textOn="@string/InCallMuteButtonLabel" android:textOff="@string/InCallMuteButtonLabel" style="@style/ToggleTxtBtnActionBar" />
+        <ToggleButton android:id="@id/callSpeakerButtonTwoCallsLand" android:saveEnabled="false" android:textOn="@string/InCallSpeakerButtonLabel" android:textOff="@string/InCallSpeakerButtonLabel" style="@style/ToggleTxtBtnActionBar" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/transparent" android:paddingTop="11.0dip" style="@blur.res:style/Blur.ActionBar">
+        <Button android:id="@id/resumeButtonTwoCallsLand" android:visibility="gone" android:text="@string/InCallResumeButtonLabel" style="@blur.res:style/Blur.TxtBtnActionBar1" />
+        <ImageButton android:id="@id/twoCallsKeypadButton" android:visibility="gone" android:layout_height="fill_parent" android:src="@drawable/ic_menu_dial_pad" android:layout_weight="0.5" style="@blur.res:style/Blur.BtnActionBar" />
+        <Button android:id="@id/callEndButtonTwoCallsLand" android:background="@drawable/btn_action_end_ignr" android:text="@string/EndCallLabel" style="@style/Calling.TxtBtnActionBar" />
+    </LinearLayout>
+</LinearLayout>

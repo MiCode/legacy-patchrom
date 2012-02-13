@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="green">#ffa1ad28</item>
+    <item type="drawable" name="gray">#88888888</item>
+    <item type="drawable" name="APKTOOL_DUMMY_002e">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_002f">false</item>
+</resources>

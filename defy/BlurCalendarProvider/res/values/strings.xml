@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar Storage</string>
+    <string name="gadget_title">Calendar</string>
+    <string name="no_title_label">(No subject)</string>
+    <string name="calendar_default_name">Default</string>
+    <string name="gadget_no_events">There are no upcoming calendar events</string>
+    <string name="add_calendar_events">Add calendar events.</string>
+    <string name="calendar_next_event">Next event:</string>
+    <string name="calendar_widget_label">Calendar widget</string>
+    <string name="setting_description">Choose which calendars display events in the widget</string>
+    <string name="no_calendars_selected">Select calendars</string>
+    <string name="settings_all_calendars">All calendars</string>
+    <string name="loading_agenda">Loading Agenda...</string>
+    <string name="no_meeting_this_week">No upcoming meetings</string>
+    <string name="no_meeting_today">No meetings today.</string>
+    <string name="no_calendars_synchronized">"Add a 
+ calendar account"</string>
+    <string name="provider_label">Calendar</string>
+    <string name="widget_description">Upcoming calendar events</string>
+    <string name="account_type_name">Calendar Local Account</string>
+    <string name="local_calendar_display_name">Default Calendar</string>
+    <string name="scratch_calendar_display_name">Scratch Calendar</string>
+    <string name="year">年</string>
+    <string name="create_event">Create event</string>
+    <string name="settings_local_calendar">Phone calendar</string>
+    <item type="string" name="APKTOOL_DUMMY_0017">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0018">false</item>
+    <item type="string" name="APKTOOL_DUMMY_0019">false</item>
+    <item type="string" name="APKTOOL_DUMMY_001a">false</item>
+</resources>

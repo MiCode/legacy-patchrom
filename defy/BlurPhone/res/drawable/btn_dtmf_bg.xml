@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:state_pressed="false" android:drawable="@drawable/btn_action_bar_normal" />
+    <item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/btn_action_bar_pressed" />
+    <item android:state_checked="true" android:state_pressed="false" android:drawable="@drawable/btn_dtmf_normal" />
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/btn_dtmf_pressed" />
+    <item android:state_checked="false" android:drawable="@drawable/btn_action_bar_normal" />
+    <item android:state_checked="true" android:drawable="@drawable/btn_dtmf_normal" />
+</selector>

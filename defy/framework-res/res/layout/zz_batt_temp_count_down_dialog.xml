@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/batt_temp_countdown_msg" android:layout_weight="1.0" />
+    <TextView android:textSize="18.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/batt_temp_countdown_warning" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="18.0sp" android:gravity="right" android:id="@id/batt_temp_countdown_t" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/batt_temp_countdown_t" android:layout_weight="1.0" />
+        <TextView android:textSize="18.0sp" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/batt_temp_countdown_seconds" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

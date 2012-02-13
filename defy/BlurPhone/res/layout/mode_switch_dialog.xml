@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/mode_switch_msg" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <CheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/mode_switch_toggle" android:paddingLeft="45.0dip" android:layout_width="wrap_content" android:layout_height="?android:listPreferredItemHeight" android:text="@string/promptAgain" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/fsba_brand_nologo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <ScrollView android:id="@id/edit_account_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@dimen/h2_spacing" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/motoblur_id" android:text="@string/motoblur_id_colon" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/ListItemTxtB" />
+            <Button android:textSize="@dimen/AccSet_textViewSizeMd" android:layout_gravity="right" android:id="@id/change_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <TextView android:id="@id/edit_blur_acnt_motoblurid" android:layout_toLeftOf="@id/change_email" android:layout_below="@id/motoblur_id" android:layout_alignParentLeft="true" style="@style/ListItemTxtB" />
+            <ImageView android:id="@id/line1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/h1_spacing" android:layout_marginBottom="@dimen/h1_spacing" android:src="@blur.res:color/dark_gray" android:layout_below="@id/edit_blur_acnt_motoblurid" />
+            <TextView android:id="@id/password" android:text="@string/password_colon" android:layout_below="@id/line1" android:layout_alignParentLeft="true" style="@style/ListItemTxtB" />
+            <TextView android:id="@id/edit_blur_acnt_moto_password" android:text="@string/dummy_password" android:layout_below="@id/password" android:layout_alignParentLeft="true" style="@style/ListItemTxtB" />
+            <Button android:textSize="@dimen/AccSet_textViewSizeMd" android:id="@id/change_pswd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/change" android:layout_below="@id/change_email" android:layout_alignTop="@id/password" android:layout_alignParentRight="true" />
+            <ImageView android:id="@id/line2" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/h1_spacing" android:layout_marginBottom="@dimen/h1_spacing" android:src="@blur.res:color/dark_gray" android:layout_below="@id/edit_blur_acnt_moto_password" />
+            <Button android:textSize="@dimen/AccSet_textViewSizeMd" android:id="@id/forgot_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/h1_spacing" android:text="@string/forgot_password" android:layout_below="@id/line2" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

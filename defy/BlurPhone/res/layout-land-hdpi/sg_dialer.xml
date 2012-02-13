@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/bg_in_call" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.9">
+        <include layout="@layout/keypad" />
+    </LinearLayout>
+    <View style="@style/vDividerDialPad" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:layout_gravity="center_vertical" android:id="@id/digits" style="@style/editTextDialPad" />
+            <ImageView android:layout_gravity="right|center" android:id="@id/backspace" android:background="@color/transparent" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/btn_delete" />
+        </FrameLayout>
+        <LinearLayout android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <include layout="@layout/dialer_buttons" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/dialer_actionbar" android:visibility="gone" style="@blur.res:style/Blur.ActionBar">
+            <ImageButton android:id="@id/search_contacts" android:src="@drawable/ic_control_contact_search" android:layout_weight="0.5" style="@style/Calling.BtnActionBar" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

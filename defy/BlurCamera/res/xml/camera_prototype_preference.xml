@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.motorola.CameraF.View.SummaryListPreference android:entries="@array/supportedVideoResolutionName" android:title="@string/setting_videoResolution" android:key="@string/setting_videoResolution" android:dialogTitle="@string/setting_videoResolution" android:entryValues="@array/supportedVideoResolutionsValue" />
+    <PreferenceScreen android:title="@string/setting_online_album" android:key="online_album" android:summary="@string/setting_online_album_summary">
+        <intent android:action="com.motorola.Camera.ONLINE_ALBUM_SETTINGS" />
+    </PreferenceScreen>
+</PreferenceScreen>

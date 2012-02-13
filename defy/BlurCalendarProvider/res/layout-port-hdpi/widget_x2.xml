@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/agenda_appwidget" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:layout_below="@id/top_widget">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@blur.res:drawable/base_horiz" android:scaleType="fitXY" android:layout_below="@id/top_widget" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_event_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0px" android:layout_below="@id/top_widget">
+            <FrameLayout android:id="@id/layout_1_event" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="79.0px" layout="@layout/event1_top_view" />
+            </FrameLayout>
+            <ImageView android:id="@id/divider_1" android:layout_marginBottom="1.0px" style="@style/DividerImage" />
+            <FrameLayout android:id="@id/layout_2_event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0px">
+                <include android:layout_width="fill_parent" android:layout_height="79.0px" layout="@layout/event2_top_view" />
+            </FrameLayout>
+            <ImageView android:id="@id/divider_2" android:layout_marginBottom="1.0px" style="@style/DividerImage" />
+            <FrameLayout android:id="@id/layout_3_event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0px">
+                <include android:layout_width="fill_parent" android:layout_height="79.0px" layout="@layout/event3_top_view" />
+            </FrameLayout>
+            <ImageView android:id="@id/divider_3" android:layout_marginTop="-3.0px" style="@style/DividerImage" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/info_page" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="0.0px" android:layout_below="@id/top_widget">
+        <include layout="@layout/info_page_medium" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/top_widget" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <include layout="@layout/sleeve_thin_top_view" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Preferences
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_accounts_title">
+        <TogglePreference android:title="@string/pref_sync_accounts" android:key="pref_key_sync_accounts" android:summary="@string/pref_automatically_sync_accounts" android:defaultValue="true" />
+        <com.motorola.blur.settings.AccountPreference />
+    </PreferenceCategory>
+</Preferences>

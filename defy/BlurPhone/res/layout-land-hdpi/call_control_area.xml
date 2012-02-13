@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/voice_record_view" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:gravity="center" android:id="@id/vabutton" android:background="@drawable/ic_calling_stop_recording_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0px" android:scaleType="fitXY" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/record_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/start_voice_record" android:layout_weight="1.0" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="right|center" android:id="@id/record_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.phone.AlphaButton android:id="@id/switchjoinButton" android:visibility="gone" android:text="@string/OtherCallSwitchCalls" style="@style/incall_button_state" />
+        <Button android:id="@id/callResumeButton" android:visibility="gone" android:text="@string/InCallResumeButtonLabel" style="@style/incall_button_state" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/incall_bkgnd" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="6.0dip" android:paddingTop="9.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip">
+            <com.android.phone.AlphaButton android:id="@id/addButton" android:layout_width="1.0dip" android:layout_height="86.0dip" android:layout_marginRight="3.0dip" android:text="@string/onscreenAddCallText" android:drawableTop="@drawable/ic_in_call_touch_add_call" android:layout_weight="1.0" style="@style/InCallTouchButton" />
+            <com.android.phone.AlphaButton android:id="@id/mergeCallButton" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="86.0dip" android:layout_marginRight="3.0dip" android:text="@string/onscreenMergeCallsText" android:drawableTop="@drawable/ic_in_call_touch_merge_call" android:layout_weight="1.0" style="@style/InCallTouchButton" />
+            <com.android.phone.AlphaButton android:id="@id/callEndButton" android:layout_width="1.0dip" android:layout_height="86.0dip" android:layout_marginRight="3.0dip" android:text="@string/EndCallLabel" android:drawableTop="@drawable/ic_in_call_touch_end" android:layout_weight="1.0" style="@style/InCallTouchButton" />
+            <com.android.phone.AlphaButton android:id="@id/toggleDTMFKeypad" android:layout_width="1.0dip" android:layout_height="86.0dip" android:text="@string/onscreenShowDialpadText" android:drawableTop="@drawable/ic_in_call_touch_dialpad" android:layout_weight="1.0" style="@style/InCallTouchButton" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/firstLineActionBar" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="8.0dip">
+            <com.android.phone.AlphaToggleButton android:id="@id/bluetoothButton" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginRight="3.0dip" android:textOn="@string/onscreenBluetoothText" android:textOff="@string/onscreenBluetoothText" android:layout_weight="1.0" style="@style/InCallTouchToggleButton" />
+            <com.android.phone.AlphaToggleButton android:id="@id/callMuteButton" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginRight="3.0dip" android:textOn="@string/onscreenMuteText" android:textOff="@string/onscreenMuteText" android:layout_weight="1.0" style="@style/InCallTouchToggleButton" />
+            <com.android.phone.AlphaToggleButton android:id="@id/callSpeakerButton" android:saveEnabled="false" android:layout_width="1.0dip" android:layout_height="fill_parent" android:textOn="@string/onscreenSpeakerText" android:textOff="@string/onscreenSpeakerText" android:layout_weight="1.0" style="@style/InCallTouchToggleButton" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/callEndQvgaButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contacts_listitem_vspacing">-5.0dip</dimen>
+    <dimen name="otabase_layout_marginTop">30.0dip</dimen>
+    <dimen name="otabase_minHeight">270.0dip</dimen>
+    <dimen name="otaactivate_layout_marginTop">10.0dip</dimen>
+    <dimen name="otalistenprogress_layout_marginTop">5.0dip</dimen>
+    <dimen name="otasuccessfail_layout_marginTop">10.0dip</dimen>
+    <dimen name="otaactivate_layout_marginLeft">10.0dip</dimen>
+    <dimen name="sizeTxtKeyPadBtnA">30.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB">16.0sp</dimen>
+    <dimen name="sizeTxtKeyPadBtnB.Symbol">20.0sp</dimen>
+    <dimen name="sizeEditTextDialPad">30.0sp</dimen>
+    <dimen name="CallInfo_hspacing">5.0dip</dimen>
+    <dimen name="CallInfo_vspacing">1.0dip</dimen>
+    <dimen name="CallInfo_v2spacing">10.0dip</dimen>
+    <dimen name="CallControl_hspacing">5.0dip</dimen>
+    <dimen name="CallControl_vspacing">10.0dip</dimen>
+    <dimen name="EndCallSliderMovableWidth">200.0dip</dimen>
+    <dimen name="EndCallSliderMovableHeight">40.0dip</dimen>
+    <dimen name="EndCallSliderMovablePaddingTop">5.0dip</dimen>
+    <dimen name="EndCallSliderMovablePaddingLeft">5.0dip</dimen>
+    <dimen name="EndCallSliderMovablePaddingRight">5.0dip</dimen>
+    <dimen name="EndCallSliderHeight">50.0dip</dimen>
+    <dimen name="EndCallTextSize">18.0sp</dimen>
+    <dimen name="DTMFDisplayBottomMargin">0.0dip</dimen>
+    <dimen name="IncomingCallTextSize">16.0sp</dimen>
+    <dimen name="CallingButtonHeight">55.0dip</dimen>
+    <dimen name="AnswerSlideButtonWidth">170.0dip</dimen>
+    <dimen name="KeypadPaddingTop">0.0dip</dimen>
+    <item type="dimen" name="APKTOOL_DUMMY_001c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_001d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_001e">false</item>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="resolutionTitleList8MPW">
+        <item>@string/resolutionTitleWidescreen</item>
+        <item>@string/resolutionTitleLarge8MP</item>
+        <item>@string/resolutionTitleMedium8MP</item>
+        <item>@string/resolutionTitleSmall8MP</item>
+        <item>@string/resolutionTitleVerySmall8MP</item>
+        <item>@string/resolutionTitleTiny8MP</item>
+    </array>
+    <array name="picResolutionSummary8MPW">
+        <item>@string/resolutionSummary10by14</item>
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+        <item>@string/resolutionSummaryTiny</item>
+    </array>
+    <array name="resolutionTitleList8MP">
+        <item>@string/resolutionTitleLarge8MP</item>
+        <item>@string/resolutionTitleMedium8MP</item>
+        <item>@string/resolutionTitleSmall8MP</item>
+        <item>@string/resolutionTitleVerySmall8MP</item>
+        <item>@string/resolutionTitleTiny8MP</item>
+    </array>
+    <array name="picResolutionSummary8MP">
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+        <item>@string/resolutionSummaryTiny</item>
+    </array>
+    <array name="resolutionTitleList5MPW">
+        <item>@string/resolutionTitleWidescreen</item>
+        <item>@string/resolutionTitleLarge5MP</item>
+        <item>@string/resolutionTitleMedium5MP</item>
+        <item>@string/resolutionTitleSmall5MP</item>
+        <item>@string/resolutionTitleVerySmall5MP</item>
+    </array>
+    <array name="picResolutionSummary5MPW">
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+        <item>@string/resolutionSummaryTiny</item>
+    </array>
+    <array name="resolutionTitleList5MP">
+        <item>@string/resolutionTitleLarge5MP</item>
+        <item>@string/resolutionTitleMedium5MP</item>
+        <item>@string/resolutionTitleSmall5MP</item>
+        <item>@string/resolutionTitleVerySmall5MP</item>
+    </array>
+    <array name="picResolutionSummary5MP">
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+    </array>
+    <array name="resolutionTitleList3MP">
+        <item>@string/resolutionTitleLarge3MP</item>
+        <item>@string/resolutionTitleMedium3MP</item>
+        <item>@string/resolutionTitleSmall3MP</item>
+    </array>
+    <array name="picResolutionSummary3MP">
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+    </array>
+    <array name="supportedVideoResolutionName">
+        <item>@string/videoResolutionTitleHDTV</item>
+        <item>@string/videoResolutionTitleNTSC</item>
+        <item>@string/videoResolutionTitleLarge</item>
+        <item>@string/videoResolutionTitleCIF</item>
+        <item>@string/videoResolutionTitleMedium</item>
+        <item>@string/videoResolutionTitleSmall</item>
+    </array>
+    <array name="supportedVideoResolutionsSummary">
+        <item>@string/videoResolutionSummaryWSHDTV</item>
+        <item>@string/videoResolutionSummaryWSNTSC</item>
+        <item>@string/videoResolutionSummaryStandard</item>
+        <item>@string/videoResolutionSummaryStandard</item>
+        <item>@string/videoResolutionSummaryPhone</item>
+        <item>@string/videoResolutionSummaryShare</item>
+    </array>
+    <array name="reviewTime">
+        <item>@string/reviewTime2</item>
+        <item>@string/reviewTime4</item>
+        <item>@string/reviewTime6</item>
+        <item>@string/reviewTime0</item>
+    </array>
+    <array name="ScenesText">
+        <item>@string/sceneAuto</item>
+        <item>@string/scenePortrait</item>
+        <item>@string/sceneLandscape</item>
+        <item>@string/sceneSport</item>
+        <item>@string/sceneNightPortrait</item>
+        <item>@string/sceneSunset</item>
+        <item>@string/sceneMacro</item>
+        <item>@string/sceneSteady</item>
+    </array>
+    <array name="ScenesTextVideo">
+        <item>@string/sceneVideoAuto</item>
+        <item>@string/sceneVideoNight</item>
+    </array>
+    <array name="AudioScenesTextVideo">
+        <item>@string/sceneVideoEveryday</item>
+        <item>@string/sceneVideoOutdoors</item>
+        <item>@string/sceneVideoConcert</item>
+        <item>@string/sceneVideoNarrative</item>
+        <item>@string/sceneVideoSubject</item>
+    </array>
+    <array name="EffectTitleText">
+        <item>@string/effectNormal</item>
+        <item>@string/effectBlackAndWhite</item>
+        <item>@string/effectNegative</item>
+        <item>@string/effectSepia</item>
+        <item>@string/effectSolarize</item>
+        <item>@string/effectRedTint</item>
+        <item>@string/effectGreenTint</item>
+        <item>@string/effectBlueTint</item>
+    </array>
+    <array name="resolutionTitleListVissage5MPW">
+        <item>@string/resolutionTitleWidescreen</item>
+        <item>@string/resolutionTitleLarge5MP</item>
+        <item>@string/resolutionTitleMedium5MP</item>
+        <item>@string/resolutionTitleSmall5MP</item>
+        <item>@string/resolutionTitleVerySmall5MP</item>
+    </array>
+    <array name="resolutionTitleListVissage5MP">
+        <item>@string/resolutionTitleLarge5MP</item>
+        <item>@string/resolutionTitleMedium5MP</item>
+        <item>@string/resolutionTitleSmall5MP</item>
+        <item>@string/resolutionTitleVerySmall5MP</item>
+    </array>
+</resources>

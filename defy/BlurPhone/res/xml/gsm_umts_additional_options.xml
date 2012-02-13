@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/additional_gsm_call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.CLIRListPreference android:persistent="false" android:entries="@array/clir_display_values" android:title="@string/labelCallerId" android:key="button_clir_key" android:defaultValue="DEFAULT" android:dialogTitle="@string/labelCallerId" android:entryValues="@array/clir_values" />
+    <com.android.phone.CallWaitingCheckBoxPreference android:persistent="false" android:title="@string/labelCW" android:key="button_cw_key" android:summaryOn="@string/sum_cw_enabled" android:summaryOff="@string/sum_cw_disabled" />
+</PreferenceScreen>

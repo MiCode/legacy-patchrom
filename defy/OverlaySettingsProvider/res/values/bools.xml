@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="def_dim_screen">true</bool>
+    <bool name="def_airplane_mode_on">false</bool>
+    <bool name="def_auto_time">true</bool>
+    <bool name="def_accelerometer_rotation">true</bool>
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
+    <bool name="def_haptic_feedback">true</bool>
+    <bool name="def_bluetooth_on">false</bool>
+    <bool name="def_install_non_market_apps">false</bool>
+    <bool name="assisted_gps_enabled">true</bool>
+    <bool name="def_usb_mass_storage_enabled">true</bool>
+    <bool name="def_wifi_on">false</bool>
+    <bool name="def_networks_available_notification_on">true</bool>
+    <bool name="def_wifi_networks_secure_available_notification_on">true</bool>
+    <bool name="def_backup_enabled">false</bool>
+    <bool name="def_location_service_on">true</bool>
+    <bool name="def_notification_pulse">true</bool>
+    <bool name="def_mount_play_notification_snd">true</bool>
+    <bool name="def_mount_ums_autostart">false</bool>
+    <bool name="def_mount_ums_prompt">true</bool>
+    <bool name="def_mount_ums_notify_enabled">true</bool>
+    <bool name="def_notifications_use_ring_volume">true</bool>
+    <bool name="def_vibrate_in_silent">true</bool>
+</resources>

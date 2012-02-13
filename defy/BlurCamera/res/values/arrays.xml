@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="resolutionTitleList8MPW">
+        <item>@string/resolutionTitleWidescreen</item>
+        <item>@string/resolutionTitleLarge8MP</item>
+        <item>@string/resolutionTitleMedium8MP</item>
+        <item>@string/resolutionTitleSmall8MP</item>
+        <item>@string/resolutionTitleTiny8MP</item>
+    </array>
+    <string-array name="picResolutionValue8MPW">
+        <item>EightMPW</item>
+        <item>EightMP</item>
+        <item>FiveMP</item>
+        <item>ThreeMP</item>
+        <item>OneMP</item>
+    </string-array>
+    <string-array name="picResolutionImgList8MPW">
+        <item>ic_menu_stat_res_widescreen</item>
+        <item>ic_menu_stat_res_xl</item>
+        <item>ic_menu_stat_res_large</item>
+        <item>ic_menu_stat_res_medium</item>
+        <item>ic_menu_stat_res_xsmall</item>
+    </string-array>
+    <array name="picResolutionSummary8MPW">
+        <item>@string/resolutionSummaryWideScreenTV</item>
+        <item>@string/resolutionSummary11by17</item>
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+    </array>
+    <array name="resolutionTitleList8MP">
+        <item>@string/resolutionTitleLarge8MP</item>
+        <item>@string/resolutionTitleMedium8MP</item>
+        <item>@string/resolutionTitleSmall8MP</item>
+        <item>@string/resolutionTitleVerySmall8MP</item>
+        <item>@string/resolutionTitleTiny8MP</item>
+    </array>
+    <string-array name="picResolutionValue8MP">
+        <item>EightMP</item>
+        <item>FiveMP</item>
+        <item>ThreeMP</item>
+        <item>TwoMP</item>
+        <item>OneMP</item>
+    </string-array>
+    <string-array name="picResolutionImgList8MP">
+        <item>ic_menu_stat_res_large</item>
+        <item>ic_menu_stat_res_medium</item>
+        <item>ic_menu_stat_res_small</item>
+        <item>ic_menu_stat_res_xsmall</item>
+        <item>ic_menu_stat_res_xsmall</item>
+    </string-array>
+    <array name="picResolutionSummary8MP">
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+        <item>@string/resolutionSummaryTiny</item>
+    </array>
+    <array name="resolutionTitleList5MPW">
+        <item>@string/resolutionTitleWidescreen</item>
+        <item>@string/resolutionTitleLarge5MP</item>
+        <item>@string/resolutionTitleMedium5MP</item>
+        <item>@string/resolutionTitleSmall5MP</item>
+        <item>@string/resolutionTitleVerySmall5MP</item>
+    </array>
+    <string-array name="picResolutionValue5MPW">
+        <item>FiveMPW</item>
+        <item>FiveMP</item>
+        <item>ThreeMP</item>
+        <item>TwoMP</item>
+        <item>OneMP</item>
+    </string-array>
+    <string-array name="picResolutionImgList5MPW">
+        <item>ic_menu_stat_res_widescreen</item>
+        <item>ic_menu_stat_res_large</item>
+        <item>ic_menu_stat_res_medium</item>
+        <item>ic_menu_stat_res_small</item>
+        <item>ic_menu_stat_res_xsmall</item>
+    </string-array>
+    <array name="picResolutionSummary5MPW">
+        <item>@string/resolutionSummaryWideScreenTV</item>
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+    </array>
+    <array name="resolutionTitleList5MP">
+        <item>@string/resolutionTitleLarge5MP</item>
+        <item>@string/resolutionTitleMedium5MP</item>
+        <item>@string/resolutionTitleSmall5MP</item>
+        <item>@string/resolutionTitleVerySmall5MP</item>
+    </array>
+    <string-array name="picResolutionValue5MP">
+        <item>FiveMP</item>
+        <item>ThreeMP</item>
+        <item>TwoMP</item>
+        <item>OneMP</item>
+    </string-array>
+    <string-array name="picResolutionImgList5MP">
+        <item>ic_menu_stat_res_large</item>
+        <item>ic_menu_stat_res_medium</item>
+        <item>ic_menu_stat_res_small</item>
+        <item>ic_menu_stat_res_xsmall</item>
+    </string-array>
+    <array name="picResolutionSummary5MP">
+        <item>@string/resolutionSummary8by10</item>
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+    </array>
+    <array name="resolutionTitleList3MP">
+        <item>@string/resolutionTitleLarge3MP</item>
+        <item>@string/resolutionTitleMedium3MP</item>
+        <item>@string/resolutionTitleSmall3MP</item>
+    </array>
+    <string-array name="picResolutionValue3MP">
+        <item>ThreeMP</item>
+        <item>TwoMP</item>
+        <item>OneMP</item>
+    </string-array>
+    <string-array name="picResolutionImgList3MP">
+        <item>ic_menu_stat_res_medium</item>
+        <item>ic_menu_stat_res_small</item>
+        <item>ic_menu_stat_res_xsmall</item>
+    </string-array>
+    <array name="picResolutionSummary3MP">
+        <item>@string/resolutionSummary5by7</item>
+        <item>@string/resolutionSummary4by6</item>
+        <item>@string/resolutionSummaryWallet</item>
+    </array>
+    <string-array name="supportedVideoResolutions">
+        <item>1280x720</item>
+        <item>720x480</item>
+        <item>640x480</item>
+        <item>352x288</item>
+        <item>320x240</item>
+    </string-array>
+    <array name="supportedVideoResolutionName">
+        <item>@string/videoResolutionTitleHD</item>
+        <item>@string/videoResolutionTitleLargeD1</item>
+        <item>@string/videoResolutionTitleLarge</item>
+        <item>@string/videoResolutionTitleCIF</item>
+        <item>@string/videoResolutionTitleMedium</item>
+    </array>
+    <array name="supportedVideoResolutionsSummary">
+        <item>@string/videoResolutionSummaryHD</item>
+        <item>@string/videoResolutionSummaryLargeD1</item>
+        <item>@string/videoResolutionSummaryStandard</item>
+        <item>@string/videoResolutionSummaryStandard</item>
+        <item>@string/videoResolutionSummaryShare</item>
+    </array>
+    <string-array name="supportedVideoResolutionsValue">
+        <item>720p</item>
+        <item>NTSC_D1</item>
+        <item>VGA</item>
+        <item>CIF</item>
+        <item>QVGA</item>
+    </string-array>
+    <string-array name="supportedVideoResolutionsImgs">
+        <item>ic_menu_stat_hd</item>
+        <item>ic_menu_stat_dvd</item>
+        <item>ic_menu_stat_vga</item>
+        <item>ic_menu_stat_cif</item>
+        <item>ic_menu_stat_qvga</item>
+    </string-array>
+    <array name="reviewTime">
+        <item>@string/reviewTime0</item>
+        <item>@string/reviewTime2</item>
+        <item>@string/reviewTime4</item>
+        <item>@string/reviewTime6</item>
+    </array>
+    <string-array name="reviewTimeValue">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="reviewTimeFlexEntries">
+        <item>MOTOCAMSETTING_REVIEW_TIME_0_SEC</item>
+        <item>MOTOCAMSETTING_REVIEW_TIME_2_SEC</item>
+        <item>MOTOCAMSETTING_REVIEW_TIME_4_SEC</item>
+        <item>MOTOCAMSETTING_REVIEW_TIME_6_SEC</item>
+    </string-array>
+    <string-array name="ScenesTitle">
+        <item>Auto</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+        <item>Sport</item>
+        <item>Night Portrait</item>
+        <item>Sunset</item>
+        <item>Macro</item>
+        <item>Steady Shot</item>
+    </string-array>
+    <array name="ScenesTitleText">
+        <item>@string/sceneTitleAuto</item>
+        <item>@string/sceneTitlePortrait</item>
+        <item>@string/sceneTitleLandscape</item>
+        <item>@string/sceneTitleSport</item>
+        <item>@string/sceneTitleNightPortrait</item>
+        <item>@string/sceneTitleSunset</item>
+        <item>@string/sceneTitleMacro</item>
+        <item>@string/sceneTitleSteadyShot</item>
+    </array>
+    <array name="ScenesText">
+        <item>@string/sceneAuto</item>
+        <item>@string/scenePortrait</item>
+        <item>@string/sceneLandscape</item>
+        <item>@string/sceneSport</item>
+        <item>@string/sceneNightPortrait</item>
+        <item>@string/sceneSunset</item>
+        <item>@string/sceneMacro</item>
+        <item>@string/sceneSteady</item>
+    </array>
+    <string-array name="ScenesTitleVideo">
+        <item>Auto</item>
+        <item>Night</item>
+    </string-array>
+    <array name="ScenesTitleVideoText">
+        <item>@string/sceneTitleAuto</item>
+        <item>@string/sceneTitleNight</item>
+    </array>
+    <string-array name="AudioScenesTitleVideo">
+        <item>Normal</item>
+        <item>Outdoors</item>
+        <item>Concert</item>
+        <item>Commentary</item>
+        <item>Subject</item>
+    </string-array>
+    <array name="AudioScenesTitleVideoText">
+        <item>@string/sceneTitleEveryday</item>
+        <item>@string/sceneTitleOutdoors</item>
+        <item>@string/sceneTitleConcert</item>
+        <item>@string/sceneTitleNarrative</item>
+        <item>@string/sceneTitleSubject</item>
+    </array>
+    <array name="ScenesTextVideo">
+        <item>@string/sceneVideoAuto</item>
+        <item>@string/sceneVideoNight</item>
+    </array>
+    <array name="AudioScenesTextVideo">
+        <item>@string/sceneVideoEveryday</item>
+        <item>@string/sceneVideoOutdoors</item>
+        <item>@string/sceneVideoConcert</item>
+        <item>@string/sceneVideoNarrative</item>
+        <item>@string/sceneVideoSubject</item>
+    </array>
+    <string-array name="EffectTitle">
+        <item>Normal</item>
+        <item>Black and White</item>
+        <item>Negative</item>
+        <item>Sepia</item>
+        <item>Solarize</item>
+        <item>Red Tint</item>
+        <item>Green Tint</item>
+        <item>Blue Tint</item>
+    </string-array>
+    <array name="EffectTitleText">
+        <item>@string/effectNormal</item>
+        <item>@string/effectBlackAndWhite</item>
+        <item>@string/effectNegative</item>
+        <item>@string/effectSepia</item>
+        <item>@string/effectSolarize</item>
+        <item>@string/effectRedTint</item>
+        <item>@string/effectGreenTint</item>
+        <item>@string/effectBlueTint</item>
+    </array>
+    <string-array name="ModeTitle">
+        <item>Single Shot</item>
+        <item>Panorama</item>
+        <item>Face Tracking</item>
+        <item>Self Shot</item>
+        <item>MMS Mode</item>
+        <item>Normal Video</item>
+        <item>Fast Motion</item>
+        <item>Slow Motion</item>
+        <item>Video</item>
+    </string-array>
+    <string-array name="IsoValue">
+        <item>auto</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+    </string-array>
+    <string-array name="ExposureValue">
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <array name="shutterAnim">
+        <item>@string/None</item>
+        <item>@string/Circle</item>
+    </array>
+    <string-array name="shutterAnimValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <array name="FlashTitle">
+        <item>@string/flashOff</item>
+        <item>@string/flashOn</item>
+        <item>@string/flashAuto</item>
+    </array>
+    <array name="LightTitle">
+        <item>@string/lightOff</item>
+        <item>@string/lightOn</item>
+        <item>@string/lightAuto</item>
+    </array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="enableButtonText" format="string" />
+    <attr name="disableButtonText" format="string" />
+    <attr name="changeNumButtonText" format="string" />
+    <attr name="confirmMode">
+        <enum name="confirm" value="0" />
+        <enum name="activation" value="1" />
+    </attr>
+    <attr name="slideButtonStyle" format="reference" />
+    <attr name="sliderType">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="sliderAlign">
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+        <enum name="top" value="2" />
+        <enum name="bottom" value="3" />
+    </attr>
+    <attr name="sliderOrientation">
+        <enum name="LeftToRight" value="0" />
+        <enum name="RightToLeft" value="1" />
+    </attr>
+    <attr name="buttonImage" format="reference" />
+    <attr name="buttonImagePaddingLeft" format="dimension" />
+    <attr name="buttonImagePaddingRight" format="dimension" />
+    <attr name="buttonImagePaddingTop" format="dimension" />
+    <attr name="buttonImagePaddingBottom" format="dimension" />
+    <attr name="dataImage" format="reference" />
+    <attr name="dataIcon" format="reference" />
+    <attr name="dataIconX" format="dimension" />
+    <attr name="dataIconY" format="dimension" />
+    <attr name="dataText" format="string" />
+    <attr name="dataTextX" format="dimension" />
+    <attr name="dataTextY" format="dimension" />
+    <attr name="dataSubText" format="string" />
+    <attr name="dataSubTextX" format="dimension" />
+    <attr name="dataSubTextY" format="dimension" />
+    <attr name="buttonText" format="string" />
+    <attr name="buttonImageWidth" format="dimension" />
+    <attr name="buttonImageHeight" format="dimension" />
+    <attr name="serviceClass">
+        <enum name="voice" value="1" />
+        <enum name="data" value="2" />
+    </attr>
+    <attr name="reason">
+        <enum name="unconditional" value="0" />
+        <enum name="busy" value="1" />
+        <enum name="no_reply" value="2" />
+        <enum name="not_reachable" value="3" />
+    </attr>
+</resources>

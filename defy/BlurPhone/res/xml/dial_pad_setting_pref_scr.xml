@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/voicemail_set" android:key="button_voicemail_cb" android:summary="@string/sum_voicemail_set" /> android:persistent="false"/>
+<CheckBoxPreference android:persistent="false" android:title="@string/custom_ph_num" android:key="button_custom_num_cb" />
+    <com.android.phone.CustomNumEditPreference android:persistent="false" android:scrollHorizontally="true" android:singleLine="true" android:maxLength="12" android:digits="0123456789-" android:title="@string/enter_custom_num" android:key="button_custom_num_edit" android:dialogTitle="@string/custom_ph_num" android:inputType="phone" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/all_calls" android:key="button_all_calls_cb" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/callSwapButton" android:background="@drawable/btn_action_dial_ans" android:text="@string/OtherCallSwitchCalls" style="@style/Calling.TxtBtnActionBar" />
+    <include android:id="@id/callCardFooterTwoCallsLand" layout="@layout/call_control_area_twocalls_land" />
+    <Button android:id="@id/switchjoinButton" android:visibility="gone" android:text="@string/InCallResumeButtonLabel" style="@style/Calling.TxtBtnActionBar" />
+    <ImageButton android:id="@id/vm" android:background="@blur.res:drawable/btn_actionbar" android:layout_width="0.0dip" android:layout_height="@dimen/CallingButtonHeight" android:src="@drawable/ic_control_voice_dial" android:layout_weight="1.0" />
+</LinearLayout>

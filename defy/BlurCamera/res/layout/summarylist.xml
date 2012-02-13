@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorPrimaryInverse" android:gravity="center_vertical" android:id="@id/entry_text" android:paddingTop="20.0px" android:paddingBottom="20.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0px" android:layout_marginTop="2.0px" android:layout_marginRight="10.0px" android:checkMark="@android:drawable/btn_radio" android:singleLine="true" />
+</LinearLayout>

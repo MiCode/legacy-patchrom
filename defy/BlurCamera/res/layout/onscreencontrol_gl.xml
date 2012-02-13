@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.motorola.CameraF.View.Control.OnScreenControllerOpengl android:orientation="horizontal" android:id="@id/control" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/thumbnailImageView" android:background="@drawable/thumbnail_tray_bg" android:paddingLeft="4.0dip" android:paddingTop="9.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rightset" android:background="@drawable/menu_cam_landscape_side_nub" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <RelativeLayout android:id="@id/Scenes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentRight="true">
+            <Button android:id="@id/btnScenes" android:text="@string/scenes" style="@style/OnScreenControllerRightSetButton" />
+        </RelativeLayout>
+        <ImageView android:id="@id/premiumRightSetDivider01" android:background="@drawable/divider_horizontal_actionmenu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        <RelativeLayout android:id="@id/Effects" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentRight="true">
+            <Button android:id="@id/btnEffects" android:text="@string/effects" style="@style/OnScreenControllerRightSetButton" />
+        </RelativeLayout>
+        <ImageView android:id="@id/premiumRightSetDivider02" android:background="@drawable/divider_horizontal_actionmenu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        <RelativeLayout android:id="@id/Flash" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentRight="true">
+            <Button android:id="@id/btnFlash" android:text="@string/flash" style="@style/OnScreenControllerRightSetButton" />
+        </RelativeLayout>
+        <ImageView android:id="@id/premiumRightSetDivider03" android:background="@drawable/divider_horizontal_actionmenu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+        <RelativeLayout android:id="@id/Modes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentRight="true">
+            <Button android:id="@id/btnMode" android:text="@string/modes" style="@style/OnScreenControllerRightSetButton" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/leftStatusSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/statusSet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/imgStatusTagEnable" android:paddingRight="5.0dip" android:src="@drawable/ic_menu_stat_tag" style="@style/OnScreenControllerLeftSetButton" />
+            <ImageView android:id="@id/imgStatusLocation" android:paddingRight="5.0dip" android:visibility="gone" android:src="@drawable/ic_menu_stat_gps" style="@style/OnScreenControllerLeftSetButton" />
+            <ImageView android:id="@id/imgStatusMode" android:paddingRight="5.0dip" style="@style/OnScreenControllerLeftSetButton" />
+            <ImageView android:id="@id/imgStatusResolution" android:paddingRight="5.0dip" style="@style/OnScreenControllerLeftSetButton" />
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:id="@id/remain_count" android:paddingRight="5.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff888888" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="1.5" />
+            <TextView android:textSize="20.0dip" android:textStyle="bold" android:id="@id/recording_time" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff888888" android:shadowDx="1.5" android:shadowDy="1.5" android:shadowRadius="1.5" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/tagsTextSet" android:background="@drawable/tag_bg_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:layout_below="@id/statusSet">
+            <TextView android:textSize="16.0dip" android:id="@id/locationTagText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:maxWidth="600.0dip" android:minWidth="50.0dip" android:singleLine="false" />
+            <TextView android:textSize="16.0dip" android:id="@id/keywordsTagText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" android:maxWidth="600.0dip" android:minWidth="50.0dip" android:singleLine="false" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ProgressBar android:id="@id/progress_zoombar" android:visibility="invisible" android:layout_width="140.0dip" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:progress="1" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_horizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/zoomBarSet" android:background="@drawable/btn_zoom_control" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:gravity="center" android:id="@id/zoom_out" android:background="@drawable/zoom_out_bg" android:paddingLeft="9.0dip" android:paddingTop="9.0dip" android:paddingRight="9.0dip" android:paddingBottom="9.0dip" android:clickable="true" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_zoom_out" />
+        <ImageView android:id="@id/zoomBarSetDivider" android:background="@drawable/divider_vertical_bright" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <ImageView android:gravity="center" android:id="@id/zoom_in" android:background="@drawable/zoom_in_bg" android:paddingLeft="9.0dip" android:paddingTop="9.0dip" android:paddingRight="9.0dip" android:paddingBottom="9.0dip" android:clickable="true" android:layout_width="46.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_zoom_in" />
+    </LinearLayout>
+    <ImageView android:id="@id/image_cpature" android:background="@drawable/camera_shutter_bg" android:src="@drawable/ic_cam_shutter" style="@style/shutterKeyView" />
+    <LinearLayout android:orientation="vertical" android:id="@id/right_thin_barimage" android:background="@drawable/menu_cam_landscape_side_nub" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/scenes" android:background="@drawable/mask_landscape" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+</com.motorola.CameraF.View.Control.OnScreenControllerOpengl>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:drawable/list_selector_background" android:paddingLeft="3.0dip" android:paddingTop="4.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:layout_gravity="center_vertical" android:id="@id/caller_photo" style="@*android:style/Widget.QuickContactBadge.WindowSmall" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="top" android:id="@id/conferenceCallerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="2.0dip" style="@style/Contacts.TxtListItemA.SingleLine" />
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0dip" android:layout_marginBottom="5.0dip">
+            <TextView android:id="@id/conferenceCallerNumberType" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Contacts.TxtListItemB.SingleLine" />
+            <TextView android:id="@id/conferenceCallerNumber" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Contacts.TxtListItemB.SingleLine" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:gravity="center_vertical" android:id="@id/conferenceCallerSeparate" android:paddingLeft="10.0dip" android:paddingRight="5.0dip" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_button_conference_private" />
+</LinearLayout>

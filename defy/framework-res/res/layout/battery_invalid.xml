@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/invalidbattery"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="left" android:id="@id/prompt1" android:paddingLeft="23.0dip" android:paddingTop="5.0dip" android:paddingRight="23.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/battery_invalid_prompt1" />
+    <TextView android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="left" android:id="@id/prompt2" android:paddingLeft="23.0dip" android:paddingTop="5.0dip" android:paddingRight="23.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/battery_invalid_prompt2" />
+</LinearLayout>

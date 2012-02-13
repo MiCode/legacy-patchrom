@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tos_layout" android:background="@drawable/welcome_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.motorola.blur.setup">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.motorola.blur.setup.ProgressBadge android:id="@id/progress_badge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:step="0" app:text="@string/blur_account_setup" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@blur.res:dimen/content_area_left_padding" android:paddingTop="@dimen/AccSet_topSpacing" android:paddingRight="@blur.res:dimen/content_area_right_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:gravity="center" android:id="@id/moto_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/moto_logo" />
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tos_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/AccSet_topSpacing" android:text="@string/moto_service_agreement" style="@style/AccSetTextView" />
+                <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/tos_text2" android:text="@string/moto_service_review_the_above" style="@style/TxtInstructional" />
+                <TableLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/tos_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow>
+                        <Button android:textSize="18.0sp" android:gravity="center" android:id="@id/tos_tos_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/AccSet_topSpacing" android:text="@string/motoblur_terms_of_service" />
+                    </TableRow>
+                </TableLayout>
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/tos_text1" android:visibility="gone" android:text="@string/motoblur_review_the_above" style="@style/TxtTerms" />
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tos_check_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/AccSet_topSpacing">
+                    <CheckBox android:layout_gravity="center_horizontal" android:id="@id/tos_check" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/tos_check_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@blur.res:dimen/formitem_hspacing" android:text="@string/terms_of_service_check_caption" style="@style/AccSetTextViewMedium" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.motorola.android.widget.ActionBar android:id="@id/abwidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</LinearLayout>

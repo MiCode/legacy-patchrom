@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" android:layout_above="@id/emergencyCall">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TableLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TableRow>
+                    <TextView android:textAppearance="?textAppearanceMedium" android:gravity="center_vertical" android:id="@id/topHeader" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="4.0dip" android:drawableLeft="@drawable/ic_lock_idle_lock" android:drawablePadding="5.0dip" android:layout_alignParentTop="true" />
+                </TableRow>
+                <TableRow>
+                    <View android:id="@id/spacerTop" android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/topHeader" />
+                    <View android:id="@id/spacerTop2" android:background="@drawable/divider_horizontal_dark" android:layout_width="50.0dip" android:layout_height="1.0dip" />
+                    <View android:id="@id/spacerTop3" android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                </TableRow>
+                <TableRow>
+                    <View android:id="@id/headerTop" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+                    <View android:id="@id/headerTop2" android:background="@drawable/divider_horizontal_dark" android:layout_width="50.0dip" android:layout_height="20.0dip" />
+                    <View android:id="@id/headerTop3" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" />
+    <Button android:layout_gravity="center" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="8.0dip" />
+    <View android:background="@drawable/divider_horizontal_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" />
+    <Button android:layout_gravity="center" android:id="@id/emergencyCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_emergency" android:drawablePadding="8.0dip" />
+</LinearLayout>
