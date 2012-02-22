@@ -6,7 +6,7 @@
   use "make -f makefile_red clean" to clean defy red vision,similarly green vision.
 3.why the camera default position is wrong?
   Because there are different intent name between red and green camera,we need modify "Launcher2/res/xml/default_workspace.xml" as follow:
-  read camera use:
+  red camera use:
     <favorite launcher:className="com.motorola.Camera.Camera" launcher:packageName="com.motorola.Camera" launcher:screen="2" launcher:x="1" launcher:y="2" />
   green camera use:
     <favorite launcher:className="com.motorola.CameraF.Camera" launcher:packageName="com.motorola.CameraF" launcher:screen="2" launcher:x="1" launcher:y="2" />
